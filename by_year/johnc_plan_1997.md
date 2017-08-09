@@ -1,6 +1,6 @@
------------------------------------------
-John Carmack's .plan for Jan 12, 1997
------------------------------------------
+## 1997
+
+### John Carmack's .plan for Jan 12, 1997
 
 We now have someone officially in charge of quake/quakeworld unix ports:
 
@@ -8,30 +8,21 @@ Dave 'Zoid' Kirsch. (zoid@threewave.com)
 
 Direct any correspondance about the linux ports of quake to him.  If any other unix vendors would like to have quake ported to their environments, set up an equipment loan with him.   This is a volenteer position, so don't give him a hard time.
 
-
------------------------------------------
-John Carmack's .plan for Jan 22, 1997
------------------------------------------
+### John Carmack's .plan for Jan 22, 1997
 
 A preliminary release of glquake and the 3dfx driver has been put on our ftp site in the idstuff/unsup directory.
 
 one hour later...
 
-3dfx gave me a new vxd for glquake that fixes crashing problems on some pentium pro systems.  glquake1.zip now contains the current files. 
+3dfx gave me a new vxd for glquake that fixes crashing problems on some pentium pro systems.  glquake1.zip now contains the current files.
 
-
------------------------------------------
-John Carmack's .plan for Jan 25, 1997
------------------------------------------
+### John Carmack's .plan for Jan 25, 1997
 
 I fixed a couple problems in glquake with some addon stuff -- the goats demo actually showed up a crashing problem with 256*256 textures, and the rangers demos showed that players with non-player models and colormaps were all messed up.
 
-I'll make another release when 3dfx has their next driver drop finished. 
+I'll make another release when 3dfx has their next driver drop finished.
 
-
------------------------------------------
-John Carmack's .plan for Jan 31, 1997
------------------------------------------
+### John Carmack's .plan for Jan 31, 1997
 
 I went down to the ferrari dealership today with Ann and American with the intention of buying a new f355 as a "sensible" car (in contrast to my other twin turbo monstrosities).
 
@@ -47,7 +38,7 @@ Yes, I am serious.
 
 DO NOT SEND ME ANY MAIL ABOUT THIS! When we have more to say about it, we will make a formal announcement.  This would be a good time to start a heated debate in the newsgroups about what the fairest tourney rules would be, though.
 
-The specs:  
+The specs:
 
 1987 328 GTS with turbocharged engine.
 Feature in the january, 1994 issue of Turbo magazine.
@@ -55,12 +46,9 @@ Made 360 HP at the rear wheels on a chassis dyno.
 New engine (I melted the first one...), new paint.
 The interior could use a little work.
 
-I plan to also include enough cash to cover tax and insurance. 
+I plan to also include enough cash to cover tax and insurance.
 
-
------------------------------------------
-John Carmack's .plan for Feb 05, 1997
------------------------------------------
+### John Carmack's .plan for Feb 05, 1997
 
 I've been following the ferrari discussion on r.g.c.q, and here are a couple clarifications:
 
@@ -72,10 +60,7 @@ We don't know yet where the final rounds are going to be held, either.  E3? #Qua
 
 I know that whatever we come up with won't be 100% fair to our entire customer base, but it would be really unfortunate if some people got bitter over it.
 
-
------------------------------------------
-John Carmack's .plan for Feb 13, 1997
------------------------------------------
+### John Carmack's .plan for Feb 13, 1997
 
 There will be a new QuakeWorld release soon with a very different interface and several improvements.
 
@@ -89,10 +74,7 @@ It would be an interesting point of differentiation for ISP's or modem manufactu
 
 Comments?
 
-
------------------------------------------
-John Carmack's .plan for Feb 18, 1997
------------------------------------------
+### John Carmack's .plan for Feb 18, 1997
 
 Ferrari update.
 
@@ -106,10 +88,7 @@ Intergraph is willing to pay for travel and accomadations for twelve to sixteen 
 
 We still need to figure out how to select the finalists. The idea is that we can tell all the press types about the event now, and have a last-minute runnoff of some sort the month before E3. That way even people who aren't usually active on the internet can find out about it through a magazine and take a shot at it.
 
-
------------------------------------------
-John Carmack's .plan for Feb 19, 1997
------------------------------------------
+### John Carmack's .plan for Feb 19, 1997
 
 I made significant improvements to the scalability of QuakeWorld.
 
@@ -119,10 +98,7 @@ The next release of QuakeWorld is going to be completely incompatable with the c
 
 I have one more really significant thing to try with the network protocols that I should probably hold up the release for, because it would be yet another incompatable change.
 
-
------------------------------------------
-John Carmack's .plan for Feb 23, 1997
------------------------------------------
+### John Carmack's .plan for Feb 23, 1997
 
 I took an entire day and a half off from work to spend some quality time with my F40 at Texas World Speedway. I had a lovely moment pitching my quarter million dollar car off the track backwards (no harm done), but otherwise I had a great time. Back to work now.
 
@@ -130,10 +106,7 @@ I should have updates of both QuakeWorld and GlQuake within a week. QW is crappi
 
 My next project is to define a new rendering architecture that will clean a bunch of stuff up and allow me to combine regular quake, glquake, and a windows version of vquake into a single executable. I plan on doing the development work with QW, so I won't be stepping on Michael or Cash's toes as I go hacking and slashing through the codebase. If everything goes well, that will become the new guts of Quake 2, and I will probably also release a unified Quake 1 executable.
 
-
------------------------------------------
-John Carmack's .plan for Mar 05, 1997
------------------------------------------
+### John Carmack's .plan for Mar 05, 1997
 
 I have been soooo busy lately. (yes, thats my excuse for not having new glquake and quakeworld release yet)
 
@@ -149,71 +122,55 @@ I have been doing some cleanup work on our map editor, because we may wind up bu
 
 Aaron Seeler from midway is coming down in a few days and we are going to start thrashing out the architecture for Quake on the N64. I'm really looking forward to that -- I have some clever things in mind that should really leverage the N64 hardware and deliver an awesome game. All of our previous cart ports have been just trying (and failing sometimes...) to equal a mid range PC game experience, but Quake on the N64 should be a lot closer to the vquake / glquake versions than the vanilla software version that most people are fammiliar with.
 
-
------------------------------------------
-John Carmack's .plan for Mar 11, 1997
------------------------------------------
+### John Carmack's .plan for Mar 11, 1997
 
 The new glquake is on ftp.idsoftware.com. It should work for both the hipnotic pack and the upcoming rogue pack.
 
 /idstuff/unsup/glq3_11.zip
 
-
------------------------------------------
-John Carmack's .plan for Mar 12, 1997
------------------------------------------
+### John Carmack's .plan for Mar 12, 1997
 
 Ok, this really pisses me off:
 
-[code]Date: Wed, 12 Mar 1997 13:32:43 +0100
-From: "%Peter Lawrenz" <%Lawrenz@bln.de>
-Reply-To: %Lawrenz@bln.de
-X-Mailer: Mozilla 3.01 (Win95; I)
-To: johnc@idsoftware.com
-Subject: Re: E3/Ferrari Event PRESS RELEASE
-
-Will Bryant wrote:
-
-> John Carmack, the co-founder of id Software and creator of
-> the game QUAKE, will give away one of his four Ferraris as
-> the grand prize: a red 1987 Ferrari 328 GTS with a Norwood 
-> Autocraft turbo conversion. According to Carmack, donating 
-> the Ferrari is his way of giving something back to  the game 
-> enthusiasts that have brought him success. "I bought my first
-> Ferrari after the success of Wolfenstein-3D," said Carmack. 
-> "DOOM and QUAKE have bought three more. Four Ferraris is too 
-> many for me. Rather than sell off one of them or stick it in a 
-> warehouse, I'm going to give it back to the gamers that brought 
-> it to me in the first place. The king of this QUAKE deathmatch
-> is going to get a really cool crown." "This is the biggest, 
-> hottest tournament ever for PC gamers, and we encourage all QUAKE
-> players to give it their best shot," said Wade.
-> 
-> Tournament Registration and Contact Information QUAKE players who 
-> want to participate in the tournament can register online at 
-> <mpog.com/e3signup.html>, anytime between March 24 and 
-> May 2, 1997. Participation is limited to US residents 18 years of 
-> age and older, other rules are posted on the Website.
-
-Hi,
-
-the two above statements contradict each other. How many ferraries 
-would you have been able to buy if the sales of your games were limited 
-to U.S. only ? It seems to me that you don't value your oversea 
-customers at all and invite them to pirate future ID software products.
-
-I paid for Doom I, Doom II and Quake and since this press release I am 
-not really sure if I should spend any more money on ID software.
-
-There are other companies that might value their customers for real.
-
------
-_|_ Sometimes you lose, sometimes the others win.
----*--O--*---
-O O X Peter Lawrenz (DFV3772)
-X X Quake + Spaceorb360 = FUN
-X lawrenz@remove.the.%.from.the.reply-to
-FreeFall-> FreeBag-> FreeBeer[/code]
+> Date: Wed, 12 Mar 1997 13:32:43 +0100
+> From: "%Peter Lawrenz" <%Lawrenz@bln.de>
+> To: johnc@idsoftware.com
+> Subject: Re: E3/Ferrari Event PRESS RELEASE
+>
+> Will Bryant wrote:
+>
+> > John Carmack, the co-founder of id Software and creator of
+> > the game QUAKE, will give away one of his four Ferraris as
+> > the grand prize: a red 1987 Ferrari 328 GTS with a Norwood
+> > Autocraft turbo conversion. According to Carmack, donating
+> > the Ferrari is his way of giving something back to  the game
+> > enthusiasts that have brought him success. "I bought my first
+> > Ferrari after the success of Wolfenstein-3D," said Carmack.
+> > "DOOM and QUAKE have bought three more. Four Ferraris is too
+> > many for me. Rather than sell off one of them or stick it in a
+> > warehouse, I'm going to give it back to the gamers that brought
+> > it to me in the first place. The king of this QUAKE deathmatch
+> > is going to get a really cool crown." "This is the biggest,
+> > hottest tournament ever for PC gamers, and we encourage all QUAKE
+> > players to give it their best shot," said Wade.
+> >
+> > Tournament Registration and Contact Information QUAKE players who
+> > want to participate in the tournament can register online at
+> > mpog.com/e3signup.html, anytime between March 24 and
+> > May 2, 1997. Participation is limited to US residents 18 years of
+> > age and older, other rules are posted on the Website.
+>
+> Hi,
+>
+> the two above statements contradict each other. How many ferraries
+> would you have been able to buy if the sales of your games were limited
+> to U.S. only ? It seems to me that you don't value your oversea
+> customers at all and invite them to pirate future ID software products.
+>
+> I paid for Doom I, Doom II and Quake and since this press release I am
+> not really sure if I should spend any more money on ID software.
+>
+> There are other companies that might value their customers for real.
 
 AAAAARRRRGGGHHHH!!! I have gotten a few of these "you suck cuz I can't win your car" type of messages.
 
@@ -223,10 +180,7 @@ I pushed against the "us citizans" clause, asking if it would be reasonable to b
 
 Its just a fact of life that locality is an issue. We can't treat the entire world the same. Go convince another company that "might value their customers for real" to give you a ferrari.
 
-
------------------------------------------
-John Carmack's .plan for Mar 13, 1997
------------------------------------------
+### John Carmack's .plan for Mar 13, 1997
 
 Here is a technical issue to be discussed:
 
@@ -246,10 +200,7 @@ You would actually need a compiler to hack quake. For the serious people, this i
 
 You could debug your patch in a real debugger! Yipee!
 
-
------------------------------------------
-John Carmack's .plan for Mar 18, 1997
------------------------------------------
+### John Carmack's .plan for Mar 18, 1997
 
 I have gotten a significant amount of response on the Quake 2 extension mechanism. I do read everything that comes my way (I can't respond to all of it, though), and I have learned a few things from the mail.
 
@@ -265,53 +216,57 @@ I really do care about portability, but it is just one factor that needs to be b
 
 Speaking of portability, to remove the guesswork that goes on, here are my current opinions on the various platforms:
 
-Win32 
+###### Win32
+
 Win32 rules the world. You are sticking your head in the sand if you think otherwise. The upside is that windows really doesn't suck nowdays. Win 95 / NT 4.0 are pretty decent systems for what they are targeted at. I currently develop mostly on NT, and Quake 2 will almost certainly be delivered on win32 first. Our games should run as well as possible in NT, we won't require any '95 only features.
 
-Dos 
+###### Dos
+
 We are not going to do another dos game. No amount of flaming hate mail is going to change my mind on this (PLEASE don't!). The advantages of good TCP/IP support, dynamic linking, powerfull virtual memory, device drivers, etc, are just too much to overcome. Yes, all of those can be provided under dos in various ways, but it just isn't worth it.
 
-Linux 
+### Linux
+
 I consider linux the second most important platform after win32 for id. From a biz standpoint it would be ludicrous to place it even on par with mac or os/2, but for our types of games that are designed to be hacked, linux has a big plus: the highest hacker to user ratio of any os. I don't personally develop on linux, because I do my unixy things with NEXTSTEP, but I have a lot of technical respect for it.
 
-MacOS 
+### MacOS
+
 From a money making standpoint, the only OS other than win32 that matters, and it doesn't matter all that much. We have professional ports done to MacOS instead of unsupported hack ports, which is a mixed blessing. They come out a lot later (still waiting for quake..), but are more full featured. I have zero respect for the MacOS on a technical basis. They just stood still and let microsoft run right over them from waaay behind. I wouldn't develop on it.
 
-OS/2 
+### OS/2
+
 A native OS/2 port of any of our products is unlikely. We just don't care enough, and we are unwilling to take time away from anything else.
 
-SGI 
+### SGI
+
 I don't particularly care for IRIX as a development environment (compared to NT or NEXTSTEP), but SGI has the coolest hardware to run GL apps on. Safe to assume future IRIX ports, but its not exactly a top priority.
 
-AIX / OSF / HPUX / SOLARIS 
+### AIX / OSF / HPUX / SOLARIS
+
 I wouldn't start a port to any of these, but if a trusted party (Zoid) wanted to do them, I probably wouldn't object.
 
-BeOS 
+### BeOS
+
 I bought a BeBox because I am a solid believer in SMP, and I like clean, from-scratch systems. I was left fairly non plussed by it. Yes, it is lean and mean and does a couple things better than any other OS I have seen, but I just don't see any dramatic advantages to it over, say, NEXTSTEP. Lion (the company doing the mac quake port) has a BeOS port of quake sort of working, and have my full support in releasing it, but it will be strictly an act of charity on their part, so don't expect too much.
 
-Plan9 
+### Plan9
+
 I spent a few months running Plan9. It has an achingly elegent internal structure, but a user interface that has been asleep for the past decade. I had an older version of quake dedicated server running on it (don't ask me for it - I lost it somewhere) and I was writing a civilized window manager for it in my spare time, but my spare time turned out to be only a couple hours a month, and it just got prioritized out of existance.
 
-NEXTSTEP 
+### NEXTSTEP
+
 My faviorite environment. NT and linux both have advantages in some areas, but if they were on equal footing I would choose NEXTSTEP hands down. It has all the power of unix (there are lots of things I miss in NT), the best UI (IMHO, of cource), and it just makes sense on so many more levels than windows. Yes, you can make windows do anything you want to if you have enough time to beat on it, but you can come out of it feeling like you just walked through a sewer.
 
 In the real world, things aren't on equal footing, and I do most of my work on NT now. I hold out hope that it may not stay that way. If apple Does The Right Thing with rhapsody, I will be behind them as much as I can. NEXTSTEP needs a couple things to support games properly (video mode changing and low level sound access). If apple/next will provide them, I will personally port our current win32 products over.
 
 If I can convince apple to do a good hardware accelerated OpenGL in rhapsody, I would be very likely to give my win NT machine the cold shoulder and do future development on rhapsody. (I really don't need Quickdraw3D evangelists preaching to me right now, thank you)
 
-
------------------------------------------
-John Carmack's .plan for Mar 23, 1997
------------------------------------------
+### John Carmack's .plan for Mar 23, 1997
 
 Someone ran into my F40 in the parking lot, then took off. Words cannot do justice to how I feel right now.
 
 If anyone knows a tall white male in the dallas area that now has red paint and carbon fibre on their tan pickup truck, turn the bastard in!
 
-
------------------------------------------
-John Carmack's .plan for Apr 02, 1997
------------------------------------------
+### John Carmack's .plan for Apr 02, 1997
 
 The second generation QuakeWorld is out and live now.
 
@@ -331,19 +286,13 @@ The next major upgrade will be a quakeworld that can run in software and OpenGL 
 
 This combination (QW networking and switchable rendering) will be the base that we move all of our Quake 2 work over to.
 
-
------------------------------------------
-John Carmack's .plan for Apr 04, 1997
------------------------------------------
+### John Carmack's .plan for Apr 04, 1997
 
 Ok, the current OpenGL code no longer scales the status bar and console. You can stop complaining now. The next release will be the consolidated rendering code for quakeworld. I'm not sure when I will be able to make a standalone version.
 
 The consolidated quake will also be available on NT-alpha as well as x86. If you have a powerstorm-T card, glquake works pretty good. Glint and oxygen cards don't work well enough, but the normal quake software version should work fine. We may get a little bit of asm code written for the software version.
 
-
------------------------------------------
-John Carmack's .plan for Apr 08, 1997
------------------------------------------
+### John Carmack's .plan for Apr 08, 1997
 
 Technical note:
 
@@ -353,19 +302,13 @@ Brush models built as part of the world, like doors and plats, will remain  with
 
 Instanced bmodels never were lighted properly, and a lot of code gets simpler  with this decision.
 
-
------------------------------------------
-John Carmack's .plan for Apr 09, 1997
------------------------------------------
+### John Carmack's .plan for Apr 09, 1997
 
 Would anyone complain if I took out lookstrafe and keyboard look modifier? I'm  cleaning up code, and I don't know of anyone that ever uses those features.
 
 update: ok, +klook has it's supporters. Anyone for lookstrafe?
 
-
------------------------------------------
-John Carmack's .plan for Apr 24, 1997
------------------------------------------
+### John Carmack's .plan for Apr 24, 1997
 
 The consolidated QuakeWorld client has been working pretty well. I've been playing deathmatch with it in GL mode for the past week. There are still a number of things to do on it, and I haven't been working on it for a while due to higher priority tasks. A lot of other non-graphics things have changed in the new architecture as well.
 
@@ -383,10 +326,7 @@ I figured out something about CSG / BSP operations that had been kicking around 
 
 I will make another tool release when things calm down, but understandably that is about at the bottom of my priority list.
 
-
------------------------------------------
-John Carmack's .plan for Apr 28, 1997
------------------------------------------
+### John Carmack's .plan for Apr 28, 1997
 
 I'm sure you have all heard about the 3drealms / quake deal by now. It took a long time to get everything nailed down, but it should be worth it.
 
@@ -394,19 +334,13 @@ The "quake 2" terminology is a little confusing. They have all the quake / glqua
 
 I'm quite excited about this - it should be a very complimentary arrangement. We would never have done a game like Duke at id, but there are many valid styles of design that are mutually exclusive. Todd and the rest of the Duke team are hard working developers with a pretty clear vision of what they want. It happens to be different than our vision, but the market is plenty big enough for both of them.
 
-
------------------------------------------
-John Carmack's .plan for May 06, 1997
------------------------------------------
+### John Carmack's .plan for May 06, 1997
 
 Brian Hook has been hired as our new programmer.
 
 Brian wrote the glide API for 3dfx, worked on CosmoGL, and wrote a book on 3d programming that he is now horribly embarrased about.
 
-
------------------------------------------
-John Carmack's .plan for May 12, 1997
------------------------------------------
+### John Carmack's .plan for May 12, 1997
 
 I have gotten several emails speculating that there will now be a native glide port of quake. Here is the straight answer:
 
@@ -416,10 +350,7 @@ On the plus side, it could get a 10%-15% speedup over the OpenGL driver without 
 
 The big drawback is that every codepath that gets added holds back future innovation. Just having software and gl is a lot of work, and I have allready commited to verite support. This is a difficult point for some people to understand, but it is crucially important. The more places I need to rewrite a feature, the less likely I am to put it in. If I only had the opengl version to worry about, Quake 2 would be so much cooler..
 
-
------------------------------------------
-John Carmack's .plan for May 14, 1997
------------------------------------------
+### John Carmack's .plan for May 14, 1997
 
 As some of you may know, a port of Quake was demod at apple's WWDC. Here is the full info:
 
@@ -437,10 +368,7 @@ I am still going to press the OpenGL issue, which is going to be crucial for fut
 
 I am definately going to support Quake 2 on rhapsody. I may make a public release of the QuakeWorld demo, but I will probably wait until we get the full screen api working. Omnigroup has a little qspy-like openstep program that we can use with it.
 
-
------------------------------------------
-John Carmack's .plan for May 22, 1997
------------------------------------------
+### John Carmack's .plan for May 22, 1997
 
 Bad news.
 
@@ -464,10 +392,7 @@ Full color lightmaps for glquake. The "surprise" that I mentioned before was col
 
 If any hard-core add on hackers can present a serious case for additional modifications to the bsp file, now is the time to let me know.
 
-
------------------------------------------
-John Carmack's .plan for Jun 19, 1997
------------------------------------------
+### John Carmack's .plan for Jun 19, 1997
 
 I'm pretty damn pleased with things right now.
 
@@ -515,10 +440,7 @@ We are doing a great product.
 
 Everyone watch out!
 
-
------------------------------------------
-John Carmack's .plan for Jun 22, 1997
------------------------------------------
+### John Carmack's .plan for Jun 22, 1997
 
 Ok, I'm finally updating my .plans at the top like everyone else..
 
@@ -546,10 +468,7 @@ Some notable companies are going to ship longer after us than they are expecting
 
 Ugh. I haven't coded in three days. Withdrawal.
 
-
------------------------------------------
-John Carmack's .plan for Jun 25, 1997
------------------------------------------
+### John Carmack's .plan for Jun 25, 1997
 
 We got the new processors running in our big compute server today.
 
@@ -557,7 +476,7 @@ We are now running 16 180mhz r10000 processors in an origin2000. Six months ago,
 
 Some comparative timings (in seconds):
 
-[code]
+```
 mips = 180 mhz R10000, 1meg secondary cache
 intel = 200 mhz ppro, 512k secondary cache
 alpha = 433 mhz 21164a, 2meg secondary cache
@@ -573,7 +492,7 @@ cpus    mips    intel   alpha
    8      81
   12      57
   16      43
-[/code]
+```
 
 (14 to 1 scalability on 16 cpus, and that's including the IO!)
 
@@ -609,10 +528,7 @@ There is no convenient way to use multiple processors with the hardware accelera
 
 That will probably be an issue that needs to be addressed in the lifespan of the next generation technology. Eventually people are going to start sticking multiple cpus (or multiple thread issue systems sharing resources) on a single chip, and it will become a consumer level item. I'm looking forward to it.
 
-
------------------------------------------
-John Carmack's .plan for Jul 03, 1997
------------------------------------------
+### John Carmack's .plan for Jul 03, 1997
 
 This little note was issued to a lot of magazines by microsoft recently. Just for the record, they have NOT contacted us about any meetings.
 
@@ -643,10 +559,7 @@ If you have any questions or wish to speak with a Microsoft spokesperson, please
 
 Julie Whitehead
 
-
------------------------------------------
-John Carmack's .plan for Jul 07, 1997
------------------------------------------
+### John Carmack's .plan for Jul 07, 1997
 
 The quality of Quake's software has been a topic of some discussion lately. I avoid IRC like the plague, but I usually hear about the big issues.
 
@@ -714,10 +627,7 @@ Sigh.
 
 Sometimes the decisions are REALLY hard, like making head to head modem play suffer to enable persistant internet servers.
 
-
------------------------------------------
-John Carmack's .plan for Jul 11, 1997
------------------------------------------
+### John Carmack's .plan for Jul 11, 1997
 
 Zoid commented that my last .plan update sounded like Fred Brooks "The Mythical Man-Month". He is certainly correct.
 
@@ -733,10 +643,7 @@ It was just as good the second time through, and two more years of development u
 
 If you program (or even work around software development), you should read this book.
 
-
------------------------------------------
-John Carmack's .plan for Jul 25, 1997
------------------------------------------
+### John Carmack's .plan for Jul 25, 1997
 
 Id Software went to the drag strip today.
 
@@ -746,7 +653,7 @@ I made six runs in the 126 to 133 mph range and didn't even burn a spark plug, w
 
 Best times for everyone:
 
-[code]
+```
 Bob Norwood's PCA race car: 10.9 / 133 mph (slicks)
 My turbo testarossa         12.1 / 132
 Adrian's viper              13.5 / 105
@@ -754,18 +661,15 @@ Todd's 'vette               13.9 / 101
 Tim's porsche               14.3 / 96
 Bear's supra:               14.4 / 96
 Cash's M3                   15.2 / 94
-[/code]
+```
 
 My TR is never going to be a good drag car (>4000 lbs!), but when we go back on a cool day this fall and I get my NOS running, it should be good for over 140 in the quarter. 50 mph to 200 mph is it's real sweet spot.
 
 I think Bear is heading for the chip dealer so he can get ahead of Tim :)
 
+### John Carmack's .plan for Jul 30, 1997
 
------------------------------------------
-John Carmack's .plan for Jul 30, 1997
------------------------------------------
-
-quake2 +set maxclients 200
+`quake2 +set maxclients 200`
 
 :)
 
@@ -785,10 +689,7 @@ Everyone should start thinking about interesting rules for huge games. A QuakeAr
 
 Cooperating servers will be possible with modified dlls, but I probably won't include any specific code for it in the default game.dll.
 
-
------------------------------------------
-John Carmack's .plan for Aug 05, 1997
------------------------------------------
+### John Carmack's .plan for Aug 05, 1997
 
 At siggraph
 
@@ -803,10 +704,7 @@ At siggraph
 
 remap maps to share common textures?
 
-
------------------------------------------
-John Carmack's .plan for Aug 06, 1997
------------------------------------------
+### John Carmack's .plan for Aug 06, 1997
 
 * qe4 texture directories
 * fixed vid_restart
@@ -815,9 +713,7 @@ John Carmack's .plan for Aug 06, 1997
 * qe4 surface inspector
 
 
------------------------------------------
-John Carmack's .plan for Aug 07, 1997
------------------------------------------
+### John Carmack's .plan for Aug 07, 1997
 
 + add animation frames to bsp file texinfos
 - make bmodel frames just add to texinfo?
@@ -834,10 +730,7 @@ merge find texture dialog into surface inspector
 fix qdata unix directory stuff
 get rid of mod->skins, use mod->images
 
-
------------------------------------------
-John Carmack's .plan for Aug 08, 1997
------------------------------------------
+### John Carmack's .plan for Aug 08, 1997
 
 * added origin brush support to old bsp for raven
 
@@ -845,9 +738,7 @@ John Carmack's .plan for Aug 08, 1997
 - rate is broken - inventory fix
 
 
------------------------------------------
-John Carmack's .plan for Aug 09, 1997
------------------------------------------
+### John Carmack's .plan for Aug 09, 1997
 
 * combined bsp tools into a single vc project
 * new texture animation solution
@@ -878,10 +769,7 @@ player sounds when moving? (breathing / footsteps / hitting walls)
 rename .bsp to .bs2 ?
 high frame rate run turn chunkiness
 
-
------------------------------------------
-John Carmack's .plan for Aug 10, 1997
------------------------------------------
+### John Carmack's .plan for Aug 10, 1997
 
 I went to siggraph last monday to give a talk about realtime graphics for entertainment.
 
@@ -941,10 +829,7 @@ use nodraw flag
 pitch change when ducking
 qrad light bleeds
 
-
------------------------------------------
-John Carmack's .plan for Aug 11, 1997
------------------------------------------
+### John Carmack's .plan for Aug 11, 1997
 
 * don't set qe4 texture unless notexture
 * don't set qe4 texture on cancel unless changed
@@ -964,10 +849,7 @@ quake as root directory problem
 dir command
 software surface / edge allocation issues
 
-
------------------------------------------
-John Carmack's .plan for Aug 12, 1997
------------------------------------------
+### John Carmack's .plan for Aug 12, 1997
 
 * qe4 project on command line
 * qe4 rshcmd replacement
@@ -985,10 +867,7 @@ no jump on lava floor?
 -game
 16 bit wall textures
 
-
------------------------------------------
-John Carmack's .plan for Aug 13, 1997
------------------------------------------
+### John Carmack's .plan for Aug 13, 1997
 
 * cls.fixedimage support
 * no frame before cinematic fix
@@ -1001,7 +880,7 @@ John Carmack's .plan for Aug 13, 1997
 + killserver needs to kill demos as well
 + must kill cinematic after menu, or restart palette
 + disconnected can be either at a console or running the demo + intro cinematic
-needs to be part of the game
+  needs to be part of the game
 
 force nolerp lag?
 put ip filtering in game dll
@@ -1014,10 +893,7 @@ be consistant with window title bars
 mp3 audio
 qe4: downsample option, nomipmap option
 
-
------------------------------------------
-John Carmack's .plan for Aug 14, 1997
------------------------------------------
+### John Carmack's .plan for Aug 14, 1997
 
 * qe4 project dialog fix
 * intermission spots and movement
@@ -1030,10 +906,7 @@ remove oldorigin
 use static arrays for map elements in renderers?
 unit level statistics
 
-
------------------------------------------
-John Carmack's .plan for Aug 15, 1997
------------------------------------------
+### John Carmack's .plan for Aug 15, 1997
 
 * smart background clear
 * worked around 100% viewsize floating point bug
@@ -1059,10 +932,7 @@ translate cinematic to greyscale instead of blanking?
 remove zombietime?
 are userinfo updates getting sent?
 
-
------------------------------------------
-John Carmack's .plan for Aug 16, 1997
------------------------------------------
+### John Carmack's .plan for Aug 16, 1997
 
 download static screen images?
 + how to change semi-protected variables without killing server?
@@ -1089,10 +959,7 @@ prevent map / demomap changes without killserver
 map demo1.dem during game messes up
 victory freeze
 
-
------------------------------------------
-John Carmack's .plan for Aug 17, 1997
------------------------------------------
+### John Carmack's .plan for Aug 17, 1997
 
 * demo angles
 * fixed initial lightmap cache value
@@ -1105,10 +972,7 @@ never nextserver on finale
 blaster autorepeat problem
 end cinematic loading flicker
 
-
------------------------------------------
-John Carmack's .plan for Aug 18, 1997
------------------------------------------
+### John Carmack's .plan for Aug 18, 1997
 
 I get asked about the DOOM source code every once in a while, so here is a full status update:
 
@@ -1133,19 +997,14 @@ I think I am going to be able to get away with just making all the code public d
 
 the inherent problems of simplicity by complexity
 
-
------------------------------------------
-John Carmack's .plan for Aug 19, 1997
------------------------------------------
+### John Carmack's .plan for Aug 19, 1997
 
 * leaktest
 
 + min clamp extents
 
 
------------------------------------------
-John Carmack's .plan for Aug 23, 1997
------------------------------------------
+### John Carmack's .plan for Aug 23, 1997
 
 * cluster code
 
@@ -1162,10 +1021,7 @@ don't load entire map twice in cmodel and ref!
 show clusterviscount for bsp time optimizations?
 server/client communication for skin overrides
 
-
------------------------------------------
-John Carmack's .plan for Aug 24, 1997
------------------------------------------
+### John Carmack's .plan for Aug 24, 1997
 
 * qe4 slow startup
 * qrad
@@ -1175,10 +1031,7 @@ John Carmack's .plan for Aug 24, 1997
 
 change qdata colormap to not use 0 and 255 for win palette
 
-
------------------------------------------
-John Carmack's .plan for Aug 25, 1997
------------------------------------------
+### John Carmack's .plan for Aug 25, 1997
 
 I want to apologize for some of the posturing that has taken place in .plan files.
 
@@ -1214,10 +1067,7 @@ qe4: seperate "make current texture" from "make and set all"
 currentmodel name problem in gl_model
 userinfo changes
 
-
------------------------------------------
-John Carmack's .plan for Aug 26, 1997
------------------------------------------
+### John Carmack's .plan for Aug 26, 1997
 
 * debuggraph on top
 * better bobtime / bobcycle
@@ -1229,10 +1079,7 @@ John Carmack's .plan for Aug 26, 1997
 
 qe4: view menu checkboxes are wrong
 
-
------------------------------------------
-John Carmack's .plan for Aug 27, 1997
------------------------------------------
+### John Carmack's .plan for Aug 27, 1997
 
 * fixed off-by-one cluster count
 * fixed surf/content bit mismatch
@@ -1256,10 +1103,7 @@ don't forget to set SURF_NOSUBDIV on warps and sky!
 freeze map just sets a HUD of the victory screen
 server scoreboard
 
-
------------------------------------------
-John Carmack's .plan for Aug 28, 1997
------------------------------------------
+### John Carmack's .plan for Aug 28, 1997
 
 * fixed entity culling on gl
 * sorted axial and edge bevels on all brushes
@@ -1283,17 +1127,11 @@ animating textures
 QE4: use gentextures
 QE4: flush all textures option
 
-
------------------------------------------
-John Carmack's .plan for Aug 29, 1997
------------------------------------------
+### John Carmack's .plan for Aug 29, 1997
 
 sick
 
-
------------------------------------------
-John Carmack's .plan for Aug 30, 1997
------------------------------------------
+### John Carmack's .plan for Aug 30, 1997
 
 * changed snapnormal
 * fixed BUTTON_ANY
@@ -1311,10 +1149,7 @@ jittered texel centers?
 trinity: continuous textures, surface cache on all
 make net, pause, and drawcenterstring HUDs
 
-
------------------------------------------
-John Carmack's .plan for Aug 31, 1997
------------------------------------------
+### John Carmack's .plan for Aug 31, 1997
 
 * fixed trigger_always
 * game dll by search path
@@ -1336,10 +1171,7 @@ somehow don't resend big deltas (scoreboard hud) until ack?
 client side feedback
 glgentextures
 
-
------------------------------------------
-John Carmack's .plan for Sep 01, 1997
------------------------------------------
+### John Carmack's .plan for Sep 01, 1997
 
 * QE4: bug with texture attributes on non-visible surfaces
 * stack bug for initial light maps
@@ -1359,10 +1191,7 @@ trinity: proper biped walking
 increase range of mouse slider
 gun shock based on damage source
 
-
------------------------------------------
-John Carmack's .plan for Sep 02, 1997
------------------------------------------
+### John Carmack's .plan for Sep 02, 1997
 
 * serveronly semeaphor close check
 * error during initialization messagebox check
@@ -1394,10 +1223,7 @@ merge net_udp and net_wins
 slippery slopes
 learned something: upload mip levels backwards
 
-
------------------------------------------
-John Carmack's .plan for Sep 03, 1997
------------------------------------------
+### John Carmack's .plan for Sep 03, 1997
 
 * fixed scalloc size 0
 * box on planeside fix
@@ -1450,10 +1276,7 @@ forward / backwards airlocks
 better button representations
 brighter primary colors
 
-
------------------------------------------
-John Carmack's .plan for Sep 04, 1997
------------------------------------------
+### John Carmack's .plan for Sep 04, 1997
 
 * mcd alphatest workaround
 * gl_finish
@@ -1473,20 +1296,14 @@ segment skies up more to get better caching?
 circle monsters pvs
 are gl sprites double bright?
 
-
------------------------------------------
-John Carmack's .plan for Sep 05, 1997
------------------------------------------
+### John Carmack's .plan for Sep 05, 1997
 
 * fixed all angle clamping issues
 * allow look up / down to exactly 90 degrees
 
 red numbers on status bar
 
-
------------------------------------------
-John Carmack's .plan for Sep 07, 1997
------------------------------------------
+### John Carmack's .plan for Sep 07, 1997
 
 * timedemo attract flag bug
 * multiple model entities
@@ -1507,10 +1324,7 @@ don't send player entity to owner in most cases
 client quit dropping prints extra messages?
 trinity: track and field style extra fast running?
 
-
------------------------------------------
-John Carmack's .plan for Sep 08, 1997
------------------------------------------
+### John Carmack's .plan for Sep 08, 1997
 
 * fixed time clamping issue
 * removed win32isms from snd_mix.c and snd_dma.c
@@ -1528,10 +1342,7 @@ reload textures only on context recreation
 do a stereo gl implementation on intergraph?
 item using...
 
-
------------------------------------------
-John Carmack's .plan for Sep 09, 1997
------------------------------------------
+### John Carmack's .plan for Sep 09, 1997
 
 * freed textures on gl shutdown
 * fixed pitch bounds check merge bug
@@ -1552,10 +1363,7 @@ get all texture extension numbers into gl_image
 vis decompression overrun
 window doesn't offset in non-fullscreen modes
 
-
------------------------------------------
-John Carmack's .plan for Sep 10, 1997
------------------------------------------
+### John Carmack's .plan for Sep 10, 1997
 
 * don't precache player model in single player games
 * dynamically change maxplayers
@@ -1570,10 +1378,7 @@ allow minimize?
 win95 memory paging
 still have some tjunctions
 
-
------------------------------------------
-John Carmack's .plan for Sep 11, 1997
------------------------------------------
+### John Carmack's .plan for Sep 11, 1997
 
 * cddir
 
@@ -1584,10 +1389,7 @@ is changing skill/etc going to be a problem while demos are running?
 demos in pak file
 don't use virtual alloc!
 
-
------------------------------------------
-John Carmack's .plan for Sep 12, 1997
------------------------------------------
+### John Carmack's .plan for Sep 12, 1997
 
 + tag_game, tag_level
 + new game must clear
@@ -1608,10 +1410,7 @@ track deaths as well as fregs?
 directmouse?
 view shaking from explosions?
 
-
------------------------------------------
-John Carmack's .plan for Sep 13, 1997
------------------------------------------
+### John Carmack's .plan for Sep 13, 1997
 
 + skill levels need to be archived with server state!
 + angle clamp on server is broke again
@@ -1647,10 +1446,7 @@ fix svs / sv to be more game/level oriented
 make coop games allways four player?
 wav lag seems worse
 
-
------------------------------------------
-John Carmack's .plan for Sep 14, 1997
------------------------------------------
+### John Carmack's .plan for Sep 14, 1997
 
 * qdata grab alias numeric suffix
 * menu architecture
@@ -1697,10 +1493,7 @@ menu_move, menu_down, menu_up, menu_change, menu_slide
 
 trinity: software trilinear with second pass? only works if vertex lighting
 
-
------------------------------------------
-John Carmack's .plan for Sep 15, 1997
------------------------------------------
+### John Carmack's .plan for Sep 15, 1997
 
 + cinematic paking!
 + r_dspeeds should include translucent time
@@ -1712,10 +1505,7 @@ scissor triangles
 faster z clip
 make autoexec.cfg work differently because of demos
 
-
------------------------------------------
-John Carmack's .plan for Sep 16, 1997
------------------------------------------
+### John Carmack's .plan for Sep 16, 1997
 
 * finished box sweeping code
 * fix the automenu key problem on bad cinematic
@@ -1729,10 +1519,7 @@ John Carmack's .plan for Sep 16, 1997
 
 drop stair climb in air height
 
-
------------------------------------------
-John Carmack's .plan for Sep 17, 1997
------------------------------------------
+### John Carmack's .plan for Sep 17, 1997
 
 * fixed qe4 texturepath bug
 * qe4: show in use textures even when showing a wad
@@ -1744,10 +1531,7 @@ clone detail brushes should remove detail flag
 make timedemo a server connect thing
 ktest.reg bad model
 
-
------------------------------------------
-John Carmack's .plan for Sep 18, 1997
------------------------------------------
+### John Carmack's .plan for Sep 18, 1997
 
 * finished code dump
 * dedicated server
@@ -1772,10 +1556,7 @@ local client is allways connected
 clients are only kicked when the entire server is shut down
 or they connect to a remote server
 
-
------------------------------------------
-John Carmack's .plan for Sep 19, 1997
------------------------------------------
+### John Carmack's .plan for Sep 19, 1997
 
 * basedir / cddir exec problem
 * moved edict allocation into game
@@ -1795,17 +1576,11 @@ QE4: fix the idle redraw problem
 vis decompress overrun
 get rid of zombie state?
 
-
------------------------------------------
-John Carmack's .plan for Sep 20, 1997
------------------------------------------
+### John Carmack's .plan for Sep 20, 1997
 
 dead air conditioning
 
-
------------------------------------------
-John Carmack's .plan for Sep 21, 1997
------------------------------------------
+### John Carmack's .plan for Sep 21, 1997
 
 * areaportals!!!
 * model contents for moving water
@@ -1815,10 +1590,7 @@ John Carmack's .plan for Sep 21, 1997
 
 get rid of fat pvs completely?
 
-
------------------------------------------
-John Carmack's .plan for Sep 22, 1997
------------------------------------------
+### John Carmack's .plan for Sep 22, 1997
 
 * fullsend headnode done properly
 
@@ -1829,10 +1601,7 @@ John Carmack's .plan for Sep 22, 1997
 more dramatic railgun spray
 check all the trace flags to see if they are still needed
 
-
------------------------------------------
-John Carmack's .plan for Sep 23, 1997
------------------------------------------
+### John Carmack's .plan for Sep 23, 1997
 
 * fixed bmodel cluster overload
 * double areas for doors
@@ -1857,10 +1626,7 @@ snap stuck view when dead?
 set_ex command to set info status
 game dll version number?
 
-
------------------------------------------
-John Carmack's .plan for Sep 24, 1997
------------------------------------------
+### John Carmack's .plan for Sep 24, 1997
 
 A significant new feature for map development sneaked into Quake 2 this week.
 
@@ -1892,7 +1658,7 @@ I chose not to make it an automatic feature of doors for a few reasons:
 
 I think this was the very last data file change for quake II, so here is the current external files header for the curious: (4 character tabs)
 
-[code]
+```
 //
 // qfiles.h: quake file formats
 // This file must be identical in the quake and utils directories
@@ -1921,7 +1687,7 @@ typedef struct
     short   t;
 } dstvert_t;
 
-typedef struct 
+typedef struct
 {
     short   index_xyz[3];
     short   index_st[3];
@@ -1977,7 +1743,7 @@ typedef struct
     int         ofs_st;         // byte offset from start for stverts
     int         ofs_tris;       // offset for dtriangles
     int         ofs_frames;     // offset for first frame
-    int         ofs_glcmds; 
+    int         ofs_glcmds;
     int         ofs_end;        // end of file
 
 } dmdl_t;
@@ -2106,7 +1872,7 @@ typedef struct
 typedef struct
 {
     int         ident;
-    int         version;    
+    int         version;
     lump_t      lumps[HEADER_LUMPS];
 } dheader_t;
 
@@ -2231,7 +1997,7 @@ typedef struct
     short       side;
 
     int         firstedge;      // we must support > 64k edges
-    short       numedges;   
+    short       numedges;
     short       texinfo;
 
 // lighting info
@@ -2298,7 +2064,7 @@ typedef struct
     int     numareaportals;
     int     firstareaportal;
 } darea_t;
-[/code]
+```
 
 * fixed area bug for headnoded entities
 * fixed noclip outside world view with areas
@@ -2336,9 +2102,7 @@ manual mipmapping on skins?
 
 
 
------------------------------------------
-John Carmack's .plan for Sep 25, 1997
------------------------------------------
+### John Carmack's .plan for Sep 25, 1997
 
 + should loadgame allways unload and re-init game dll?
 + load level with spawnpoint is different than load game
@@ -2355,19 +2119,13 @@ userinfo visible to progs
 too many edicts in an area for sv_world?
 spawn flashes are still wrong
 
-
------------------------------------------
-John Carmack's .plan for Sep 28, 1997
------------------------------------------
+### John Carmack's .plan for Sep 28, 1997
 
 + pain sounds?
 
 window crunching on win95, due to order of DX operation?
 
-
------------------------------------------
-John Carmack's .plan for Sep 29, 1997
------------------------------------------
+### John Carmack's .plan for Sep 29, 1997
 
 * texpaint: backup files
 * texpaint: size dialog on new skin
@@ -2404,10 +2162,7 @@ jail4a iris door problem
 MOTD console variable
 QE4: scrub out partial detail brushes
 
-
------------------------------------------
-John Carmack's .plan for Sep 30, 1997
------------------------------------------
+### John Carmack's .plan for Sep 30, 1997
 
 * better host_speeds
 * fixed bsp slowdown bug
@@ -2453,10 +2208,7 @@ jump / crouch key placement
 auto view centering
 more edge on mipmapping in software?
 
-
------------------------------------------
-John Carmack's .plan for Oct 01, 1997
------------------------------------------
+### John Carmack's .plan for Oct 01, 1997
 
 * EF_ANIM
 * got rid of precache_
@@ -2502,10 +2254,7 @@ weird bmodel edge stream problem
 increase numstacksurfs / numstackedges
 clear sound buffer on loading plaque
 
-
------------------------------------------
-John Carmack's .plan for Oct 02, 1997
------------------------------------------
+### John Carmack's .plan for Oct 02, 1997
 
 * don't lerp blends
 * sum damages for end of frame
@@ -2536,10 +2285,7 @@ rotate with textures option in QE4 for crates
 do mynoise entities leak on level transitions?
 crouch strafe is still full speed
 
-
------------------------------------------
-John Carmack's .plan for Oct 03, 1997
------------------------------------------
+### John Carmack's .plan for Oct 03, 1997
 
 * game pause
 * pain sounds
@@ -2589,10 +2335,7 @@ nver let server be connected without local client
 !!! possound needs to also take an entity number !!!
 slow water wading
 
-
------------------------------------------
-John Carmack's .plan for Oct 04, 1997
------------------------------------------
+### John Carmack's .plan for Oct 04, 1997
 
 * map_noareas
 * target_speaker
@@ -2608,10 +2351,7 @@ sync camera pain motion to sound length?
 give all sounds a max volume area isntead of instant diminish
 quakeworld style shotgun handling
 
-
------------------------------------------
-John Carmack's .plan for Oct 05, 1997
------------------------------------------
+### John Carmack's .plan for Oct 05, 1997
 
 Developing for windows is not fun. We are having a lot of trouble getting good solid compatability across all the systems we are testing on.
 
@@ -2630,10 +2370,7 @@ print version number on console bottom
 select a different cd track if all goals accomplished
 get rid of alphalight
 
-
------------------------------------------
-John Carmack's .plan for Oct 06, 1997
------------------------------------------
+### John Carmack's .plan for Oct 06, 1997
 
 * larger bsp token length
 
@@ -2651,10 +2388,7 @@ save configstrings in level to get lightstyles
 better armor feedback
 armor sounnd?
 
-
------------------------------------------
-John Carmack's .plan for Oct 07, 1997
------------------------------------------
+### John Carmack's .plan for Oct 07, 1997
 
 * pitch snap clamping
 * clamp at 89
@@ -2692,10 +2426,7 @@ rotating sky in software
 color 0 on NT
 transparent water insides
 
-
------------------------------------------
-John Carmack's .plan for Oct 08, 1997
------------------------------------------
+### John Carmack's .plan for Oct 08, 1997
 
 * fixed entity numbers 512-1024
 * combined baselines and oldorgs
@@ -2741,10 +2472,7 @@ more blood
 
 areaportals in software - bad sort keys?
 
-
------------------------------------------
-John Carmack's .plan for Oct 09, 1997
------------------------------------------
+### John Carmack's .plan for Oct 09, 1997
 
 * removed MAX_PACKET_ENTITIES limit
 * used areas for beam culling
@@ -2778,18 +2506,15 @@ intermissions
 flickery lights
 free mouse when paused
 
-
------------------------------------------
-John Carmack's .plan for Oct 17, 1997
------------------------------------------
+### John Carmack's .plan for Oct 17, 1997
 
 Somehow we managed to convince the mesquite city services and police department to let us take our cars down to the municipal airport and run them down the runway to get radar speed numbers. Is that cool, or what?
 
 So, how fast can we go on a 6000 ft runway and still stop before running off the end?
 
-John Cash's M3 just barely hit the 135 mph speed governer. 
-Bear's turbo supro hit 144 
-My F40 hit 165 
+John Cash's M3 just barely hit the 135 mph speed governer.
+Bear's turbo supro hit 144
+My F40 hit 165
 My TR's left turbo exploded at 160 mph :(
 
 Adrian, Todd and Paul couldn't make it, so we didn't get viper, vette or porsche numbers.
@@ -2800,10 +2525,7 @@ We have a bunch of video and sound footage that we are going to digitize eventua
 
 The F40 is a very, very durable car. I made six runs around 160 mph, and it didn't even fade. Same thing on a racetrack. Lap after lap without any changes. My TR makes 1100 hp for twenty seconds, then explodes..
 
-
------------------------------------------
-John Carmack's .plan for Oct 19, 1997
------------------------------------------
+### John Carmack's .plan for Oct 19, 1997
 
 I hope everyone is enjoying the quake 2 test.
 
@@ -2817,10 +2539,7 @@ Don't worry - just because the test doesn't have multiplayer in it, it doesn't m
 
 The biggest changes to Quake 2 are internal. Anyone doing modification work on Quake is going to be ecstatic when they get to work with quake2. The game dll source code and all the utilities (including the OpenGl map editor) will be released shortly after the game hits store shelves.
 
-
------------------------------------------
-John Carmack's .plan for Oct 20, 1997
------------------------------------------
+### John Carmack's .plan for Oct 20, 1997
 
 Many of the comments about the Quake 2 test are already being addressed. We expected quite a few of them, but the test has served its purpose of bringing in some good feedback that we couldn't have predicted.
 
@@ -2844,10 +2563,7 @@ I personally learned a lot from Michael's early articles, and I was proud to con
 
 http://www.amazon.com/exec/obidos/ISBN=1576101746/3226-6070174-877180
 
-
------------------------------------------
-John Carmack's .plan for Nov 01, 1997
------------------------------------------
+### John Carmack's .plan for Nov 01, 1997
 
 * interpolate prediction error
 * fixed farthest respawn
@@ -2908,10 +2624,7 @@ clear powerups on death
 don't hold a grenade when none left
 l_health item precache?
 
-
------------------------------------------
-John Carmack's .plan for Nov 02, 1997
------------------------------------------
+### John Carmack's .plan for Nov 02, 1997
 
 * fixed pitch clamping
 * Com_PageInMemory
@@ -2938,10 +2651,7 @@ smooth step up
 remove rand1k
 fire func_explosive targets when starting in deathmatch
 
-
------------------------------------------
-John Carmack's .plan for Nov 03, 1997
------------------------------------------
+### John Carmack's .plan for Nov 03, 1997
 
 * fixed divide by zero in kickback
 * fixed overflow
@@ -2992,10 +2702,7 @@ test ping on serial port to serial port connection on win95
 console prog commands
 lower the scoreboard readout so you can read the obituary bessage
 
-
------------------------------------------
-John Carmack's .plan for Nov 04, 1997
------------------------------------------
+### John Carmack's .plan for Nov 04, 1997
 
 * allowed bad sky textures
 * cinematic tweaks in gl
@@ -3039,10 +2746,7 @@ skill values!
 loadgame from console
 input based demos for profiling
 
-
------------------------------------------
-John Carmack's .plan for Nov 05, 1997
------------------------------------------
+### John Carmack's .plan for Nov 05, 1997
 
 * fixed sink into plat bug
 * fixed scoreboard display between deathmatch levels
@@ -3054,10 +2758,7 @@ clear angles on loadgame
 check client entering during intermission
 seperate headers for monsters and players
 
-
------------------------------------------
-John Carmack's .plan for Nov 06, 1997
------------------------------------------
+### John Carmack's .plan for Nov 06, 1997
 
 * s_testsound 1
 * fixed streaming sound on 95
@@ -3079,10 +2780,7 @@ no mouse cursor when fullscreen
 die with grenades needs to stop ticking sound
 high quality sound directories
 
-
------------------------------------------
-John Carmack's .plan for Nov 07, 1997
------------------------------------------
+### John Carmack's .plan for Nov 07, 1997
 
 * flag reorg
 * teleporters
@@ -3105,10 +2803,7 @@ all sound channels as extra events?
 
 trinity: objects should have enabler inputs as well as multiple impulse targets
 
-
------------------------------------------
-John Carmack's .plan for Nov 08, 1997
------------------------------------------
+### John Carmack's .plan for Nov 08, 1997
 
 * make random respawn option default and work
 * don't drop empty weapons
@@ -3132,10 +2827,7 @@ deal with old_origin properly
 delay cdtrack play until connected
 can't escape out of loadgame menu when dead?
 
-
------------------------------------------
-John Carmack's .plan for Nov 09, 1997
------------------------------------------
+### John Carmack's .plan for Nov 09, 1997
 
 * no client pmove at all with prediction off
 * railgun crashes
@@ -3158,7 +2850,7 @@ master servers
 dm respawn isn't clearing pitch?
 teamed teleport destinations
 teleport angles
-# form for kicking players
+\# form for kicking players
 make showinventory a stat bit, like layout
 unify all data file references for easy downloading?
 how to handle different quality versions?
@@ -3172,10 +2864,7 @@ trinity: coarse radiosity source lattice for dynamic lights?
 oldorigin issues
 replace with a previous state send?
 
-
------------------------------------------
-John Carmack's .plan for Nov 10, 1997
------------------------------------------
+### John Carmack's .plan for Nov 10, 1997
 
 * qe4 bad class parse bug
 * grenade bounce generates two sounds
@@ -3186,10 +2875,7 @@ check the replace mode alpha bug
 replace all muzzle flashes with events
 lower railgun
 
-
------------------------------------------
-John Carmack's .plan for Nov 11, 1997
------------------------------------------
+### John Carmack's .plan for Nov 11, 1997
 
 * cinematic playback at variable sound rates
 * qdata multiple video in single file fix
@@ -3234,17 +2920,14 @@ option to make picking up items not select
 change stretch-raw to a dedicated full screen blit for better performance?
 
 bsp to do:
-=========
+\=========
 robustness
 water problems
 increase MAX_MAP_ENTSTRNG
 allow any number of light styles
 MAX_MAP_AREAS when leaking?
 
-
------------------------------------------
-John Carmack's .plan for Dec 01, 1997
------------------------------------------
+### John Carmack's .plan for Dec 01, 1997
 
 Quake 2 has mastered.
 
@@ -3264,23 +2947,23 @@ The server code and network protocol should be able to support ultra-large playe
 
 It is likely that the point release may have incompatable network protocols and savegames. Fair warning.
 
-Q2 Demo.
+###### Q2 Demo.
 
 After the point release, we will be making a new demo release. If you experienced compatability problems with q2test, or were unsatisfied with the quality in some way, you should look at the demo. The final product is much improved.
 
-Q2 Ports.
+###### Q2 Ports.
 
 We are commited to Win32 Alpha, Linux, irix, and rhapsody in that order. It is likely that a bunch of other ports will come later, but no promises. The presence of hardware-accelerated OpenGL on a platform will improve it's odds a lot. Zoid will probably prioritize Q2 CTF over other ports, so hold off on bugging him about ports for a while.
 
-Development tool release.
+###### Development tool release.
 
 I will basically be making publicly available a subset of the directory tree that we will deliver to our licensees. All the utility source code, the game dll source code, and probably some example source media - .map files, artwork, model source, etc.
 
-Q2 mission pack.
+###### Q2 mission pack.
 
 Most of the company will be working on a mission pack while Brian and I write tools and technology for trinity.
 
-Trinity.
+###### Trinity.
 
 I am going to rapidly wean myself off of working with quake so I can concentrate fully on new directions. The evolution of the Q2 codebase will be left to John Cash (until the mission pack ships) and Zoid.
 
@@ -3288,10 +2971,7 @@ Everyone should keep in mind that any next-generation game that we produce is a 
 
 For the curious, it does look like java is going to start playing a significant role in our future projects. All of the lightweight utilities will be java applications (some requiring OpenGL bindings). The heavy duty number crunching utilities will probably stay in C. It is still unclear how much of the game framework and the level editor we can get away with doing in java.
 
-
------------------------------------------
-John Carmack's .plan for Dec 02, 1997
------------------------------------------
+### John Carmack's .plan for Dec 02, 1997
 
 A couple things I forgot to mention:
 
@@ -3319,10 +2999,7 @@ Anyone claiming to be me on IRC is lying. I have never been on IRC, and if I eve
 
 If you get an unsolicited email from "John Carmack", the odds are high that it was spoofed. Every couple days, I get a mail bounce from someone who messed up on a spoofed mail, and I often get confused responses from people that I have never mailed.
 
-
------------------------------------------
-John Carmack's .plan for Dec 09, 1997
------------------------------------------
+### John Carmack's .plan for Dec 09, 1997
 
 BIG BUG IN Q2 NETWORKING!
 
@@ -3358,10 +3035,7 @@ This isn't the real point release - there are no new features or bugfixes. I jus
 
 Btw, all bug reports should go to Christian (xian@idsoftware.com), NOT to me, Brian, or Cash! We need a central point to funnel things through. Hopefully we can set up a web page or something to make public what we know about, so we can cut down on email traffic.
 
-
------------------------------------------
-John Carmack's .plan for Dec 11, 1997
------------------------------------------
+### John Carmack's .plan for Dec 11, 1997
 
 The Quake 2 public code release is up at:
 
@@ -3371,10 +3045,7 @@ This source code distribution is only for hard-core people that are going to spe
 
 This should keep a bunch of you busy for a while. :)
 
-
------------------------------------------
-John Carmack's .plan for Dec 23, 1997
------------------------------------------
+### John Carmack's .plan for Dec 23, 1997
 
 The DOOM source is up.
 
@@ -3382,7 +3053,7 @@ Merry christmas!
 
 ftp://ftp.idsoftware.com/idstuff/source/doomsrc.zip
 
----- contents of README.TXT -----
+###### ---- contents of README.TXT -----
 
 Here it is, at long last. The DOOM source code is released for your non-profit use. You still need real DOOM data to work with this code. If you don't actually own a real copy of one of the DOOMs, you should still be able to find them at software stores.
 
@@ -3418,10 +3089,7 @@ Have fun.
 
 John Carmack 12-23-97
 
-
------------------------------------------
-John Carmack's .plan for Dec 25, 1997
------------------------------------------
+### John Carmack's .plan for Dec 25, 1997
 
 We are going to release a new quake 2 executable that fixes the malicious server crashing problems Real Soon Now. It also fixes a ton of other problems that have been reported, so we are going to have to give it some good testing before releasing it.
 
@@ -3487,9 +3155,7 @@ My fixes:
 * show weapon icon if fov > 90
 
 
------------------------------------------
-John Carmack's .plan for Dec 27, 1997
------------------------------------------
+### John Carmack's .plan for Dec 27, 1997
 
 The 1.07 patch is out:
 
@@ -3503,12 +3169,9 @@ Christian will go through and update the bug page when he gets back from vacatio
 
 This release does not fix all known problems. We intend to have another release in a few weeks.
 
+### John Carmack's .plan for Dec 28, 1997
 
------------------------------------------
-John Carmack's .plan for Dec 28, 1997
------------------------------------------
-
-** Dec 28, 2:55 AM CST **
+###### ** Dec 28, 2:55 AM CST **
 
 There were a few problems with the 1.07 patch:
 
@@ -3518,8 +3181,7 @@ I have the first two fixed, and I hope the third. The four servers at Id are run
 
 If the servers don't crash in the next hour or two, I'll put another release out.
 
-
-** Dec 28, 5:00 AM CST **
+###### ** Dec 28, 5:00 AM CST **
 
 Ok, two hours without a crash on four servers.
 
@@ -3529,8 +3191,7 @@ ftp://ftp.idsoftware.com/idstuff/quake2/patch_08.zip
 
 3.07 and 3.08 can interoperate fine. All servers should upgrade to 3.08, but if you gravved the 3.07 earlier today and only play as a client and don't need timedemo, you don't nned to upgrade.
 
-
-** Dec 28, 5:00 PM CST **
+###### ** Dec 28, 5:00 PM CST **
 
 No crashes on any of the servers!
 
@@ -3542,8 +3203,7 @@ Old savegames will NOT work with the patch. Just cheat yourself to aproximately 
 
 I think several people are failing to get the gamex86.dll into the baseq2 directory. if "fov 120" doesn't change your field of view, the server doesn't have the right gamex86.dll.
 
-
-** Dec 28, 9:30 PM CST **
+###### ** Dec 28, 9:30 PM CST **
 
 If Quake2 is crashing on you after upgrading, it is probably because you still have the gamex86.dll from q2test in your quake2 directory. The latest quake2.exe just started looking in the exe directory as well as the game directory to make debugging easier, and it brought out this problem. You should only have gamex86.dll in baseq2 unless you are doing specific development.
 
@@ -3571,12 +3231,9 @@ Check back in the morning for a new version...
 
 BTW, we will release the new gamex86 source code after we are convinced that we aren't going to be making another patch for a couple weeks.
 
+### John Carmack's .plan for Dec 29, 1997
 
------------------------------------------
-John Carmack's .plan for Dec 29, 1997
------------------------------------------
-
-** Dec 29, 2:25 AM CST **
+###### ** Dec 29, 2:25 AM CST **
 
 new version:
 
@@ -3584,8 +3241,7 @@ ftp://ftp.idsoftware.com/idstuff/quake2/q2-309.exe
 
 This one has an install that makes sure things get where they need to...
 
-
-** Dec 29: 2:30 PM CST **
+###### ** Dec 29: 2:30 PM CST **
 
 The only widely reported problem with 3.09 is that the video playback is choppy. The fix for the modem connections reduced video playback to 10 fps. Its a one line fix, but I'll hold off on another version until a few more things accumulate.
 
@@ -3601,8 +3257,7 @@ What finally helped me get to the bottom of some things was just getting people 
 
 BTW, does anyone know why Quake 2 became a hacker target? I can keep fighting attacks, but spending my time there doesn't help anyones game, and there are a bunch of things that fundamentally can't be stopped if people really set their mind to messing up the servers.
 
-
-** Dec 29: 8:00 PM CST **
+###### ** Dec 29: 8:00 PM CST **
 
 Please cool it a bit with the email to me unless it is really important. I'll never get trinity done with the email pouring in the way it is right now...
 
@@ -3614,24 +3269,19 @@ ftp://ftp.idsoftware.com/idstuff/quake2/q2-309-2.exe
 
 
 
------------------------------------------
-John Carmack's .plan for Dec 30, 1997
------------------------------------------
+### John Carmack's .plan for Dec 30, 1997
 
 Until we release the new gamex86 source code, if you want to make mods work with 3.09, change GAME_API_VERSION to:
 
-#define GAME_API_VERSION 2
+```#define GAME_API_VERSION 2```
 
 and recompile the mod.
 
 This will let it run with the 3.09 servers. The API didn't actually change, I just had to bump that version number so that we could detect the old q2test dlls still hanging around.
 
+### John Carmack's .plan for Dec 31, 1997
 
------------------------------------------
-John Carmack's .plan for Dec 31, 1997
------------------------------------------
-
-** Dec 31: 4:40 AM: **
+###### ** Dec 31: 4:40 AM: **
 
 A user just reported having their net quake problems go away when they killed ICQ. I suppose it has never been stated directly, so here goes:
 
@@ -3639,8 +3289,7 @@ Quake needs all the bandwidth that a modem connection provides to play well. Any
 
 So quit IRC, ICQ, email, and web browsers before setting out for serious net play unless you have ISDN or better.
 
-
-** Dec 31: 12:41 PM CST: **
+###### ** Dec 31: 12:41 PM CST: **
 
 I just spent a few hours working with a quake player that still couldn't net quake with 3.09.
 
@@ -3679,5 +3328,4 @@ I am probably going to add the extra bytes to every packet. Being automatically 
 If there is some magic range of port values that I can use to make these routers act better, let me know.
 
 These changes will break the connection protocol again, so I am going to hold off on the patch for a while.
-
 

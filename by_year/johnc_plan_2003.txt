@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Jan 29, 2003
------------------------------------------
+### John Carmack's .plan for Jan 29, 2003
 
 NV30 vs R300, current developments, etc
 
@@ -57,9 +55,7 @@ Floating point framebuffers and complex fragment shaders will also allow much be
 John Carmack
 
 
------------------------------------------
-John Carmack's .plan for Feb 07, 2003
------------------------------------------
+### John Carmack's .plan for Feb 07, 2003
 
 The machinima music video that Fountainhead Entertainment (my wife's company) produced with Quake based tools is available for viewing and voting on at: http://www.mtv.com/music/viewers_pick/ ("In the waiting line")
 

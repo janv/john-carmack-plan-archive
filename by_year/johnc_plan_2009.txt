@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Mar 26, 2009
------------------------------------------
+### John Carmack's .plan for Mar 26, 2009
 
 iPhone development: Wolfenstein 3D Classic
 
@@ -156,9 +154,7 @@ I'm going back to Rage for a while, but I do expect Classic Doom to come fairly 
 
 
 
------------------------------------------
-John Carmack's .plan for May 27, 2009
------------------------------------------
+### John Carmack's .plan for May 27, 2009
 
 iPhone development: Doom Classic Progress Report
 
@@ -198,9 +194,7 @@ I will probably have another update later with more technical details about the 
 
 
 
------------------------------------------
-John Carmack's .plan for Nov 03, 2009
------------------------------------------
+### John Carmack's .plan for Nov 03, 2009
 
 iPhone development: Doom Classic
 

@@ -1,6 +1,6 @@
------------------------------------------
-John Carmack's .plan for Jan 01, 1998
------------------------------------------
+# John Carmack's .plan for 1998
+
+### John Carmack's .plan for Jan 01, 1998
 
 Some of the things I have changed recently:
 
@@ -27,10 +27,7 @@ My new years resolution is to improve my coding style by bracing all single line
 
 Actually, I am currently trying on the full sun coding style, but I'm not so sure about some of the comment conventions: don't use multiple lines of // comments, and don't use rows of seperating characters in comments. I'm not convinced those are good guidelines.
 
-
------------------------------------------
-John Carmack's .plan for Jan 02, 1998
------------------------------------------
+### John Carmack's .plan for Jan 02, 1998
 
 Wired magazine does something that almost no other print magazine we have dealt with does.
 
@@ -54,10 +51,7 @@ The Linux Expo is looking for:
 
 Either one should give a write to ddt@crack.com.
 
-
------------------------------------------
-John Carmack's .plan for Jan 03, 1998
------------------------------------------
+### John Carmack's .plan for Jan 03, 1998
 
 New stuff fixed:
 
@@ -90,10 +84,7 @@ Challenge on connection. A connection request to a server is now a two stage pro
 
 Client packet checksumming. The packets are encoded in a way that will prevent proxies that muck with the packet contents, like the stoogebot, from working.
 
-
------------------------------------------
-John Carmack's .plan for Jan 04, 1998
------------------------------------------
+### John Carmack's .plan for Jan 04, 1998
 
 Version 3.10 patch is now out.
 
@@ -126,10 +117,7 @@ I know that some people are still having problems with vanilla systems, though. 
 
 Something that has shown to help with some 3dfx problems is to set "cl_maxfps 31", which will keep the console between level changes from rendering too fast, which has caused some cards to hang the system.
 
-
------------------------------------------
-John Carmack's .plan for Jan 09, 1998
------------------------------------------
+### John Carmack's .plan for Jan 09, 1998
 
 We got 70 people on a base100 server, and it died after it wedged at 100% utilization for a while. Tomorrow we will find exactly what overflowed, and do some profiling.
 
@@ -141,10 +129,7 @@ My goal is to be able to host stable 100 player games in a single map.
 
 I just added a "players" command that will dump the total number of players in the game, and as many frags/names as it can fit in a packet (around 50, I think).
 
-
------------------------------------------
-John Carmack's .plan for Jan 11, 1998
------------------------------------------
+### John Carmack's .plan for Jan 11, 1998
 
 I AM GOING OUT OF TOWN NEXT WEEK, DON'T SEND ME ANY MAIL!
 
@@ -180,10 +165,7 @@ We are not going to pursue either of these optimizations right now, but they wil
 
 All this optimizing of the single server is pushing the tail end of a paradigm. I expect trinity to be able to seamlessly hand off between clustered servers without the client even knowing it happened.
 
-
------------------------------------------
-John Carmack's .plan for Feb 04, 1998
------------------------------------------
+### John Carmack's .plan for Feb 04, 1998
 
 Ok, I'm overdue for an update.
 
@@ -215,10 +197,7 @@ I think that the upcoming development cycle for trinity is going to be at least 
 
 There should also be a killer game at the end of it. :)
 
-
------------------------------------------
-John Carmack's .plan for Feb 09, 1998
------------------------------------------
+### John Carmack's .plan for Feb 09, 1998
 
 Just got back from the Q2 wrap party in vegas that Activision threw for us.
 
@@ -230,20 +209,15 @@ I play a basic high/low count, but I scale my bets widely - up to 20 to 1 in som
 
 I won $20,000 at the tables, which I am donating to the Free Software Foundation. I have been meaning to do something for the FSF for a long time. Quake was deployed on a dos port of FSF software, and both DOOM and Quake were developed on NEXTSTEP, which uses many FSF based tools. I don't subscribe to all the FSF dogma, but I have clearly benefited from their efforts.
 
-
------------------------------------------
-John Carmack's .plan for Feb 12, 1998
------------------------------------------
+### John Carmack's .plan for Feb 12, 1998
 
 I have been getting a lot of mail with questions about the intel i740 today, so here is a general update on the state of 3D cards as they relate to quake engine games.
 
-ATI rage pro
-----
+### ATI rage pro
 On paper, this chip looks like it should run almost decently - about the performance of a permedia II, but with per-pixel mip mapping and colored lighting. With the currently shipping MCD GL driver on NT, it just doesn't run well at all. The performance is well below acceptable, and there are some strange mip map selection errors. We have been hearing for quite some time that ATI is working on an OpenGL ICD for both '95 and NT, but we haven't seen it yet. The rage pro supposedly has multitexture capability, which would help out quite a bit if they implement the multitexture extension. If they do a very good driver, the rage pro may get up to the performance of the rendition cards. Supports up to 16MB, which would make it good for development work if the rest of it was up to par.
 
 
-3DLabs permedia II
-------
+### 3DLabs permedia II
 Good throughput, poor fillrate, fair quality, fair features.
 
 No colored lighting blend mode, currently no mip mapping at all.
@@ -257,8 +231,7 @@ If 3dlabs implemented per-polygon mip mapping, they would get both a quality and
 Drivers available for WinNT on the DEC Alpha (but the alpha drivers are very flaky).
 
 
-Power VR PCX2
------
+### Power VR PCX2
 Poor throughput, good fillrate, fair quality, poor features, low price.
 
 No WinNT support.
@@ -272,8 +245,7 @@ They could implement the point parameters extension for a significant boost in t
 Their opengl minidriver is already a fairly heroic effort - the current PVR takes a lot of beating about the head to make it act like an OpenGL accelerator.
 
 
-Rendition v2100 / v2200
---------
+### Rendition v2100 / v2200
 Good throughput, good fillrate, very good quality, good features.
 
 A good all around chip. Not quite voodoo1 performance, but close.
@@ -287,8 +259,7 @@ Can do 3D on the desktop.
 Rendition should be shipping a full ICD OpenGL, which will make an 8mb v2200 a very good board for people doing 3D development work.
 
 
-NVidia Riva 128
------
+### NVidia Riva 128
 Very good throughput, very good fillrate, fair quality, fair features.
 
 The fastest fill rate currently shipping, but it varies quite a bit based on texture size. On large textures it is slightly slower than voodoo, but on smaller textures it is over twice as fast.
@@ -306,8 +277,7 @@ Nvidia is serious and committed to OpenGL. I am confident that their driver will
 While they can do good 3D in a window, they are limited to a max of 4MB of framebuffer, which means that they can't run at a high enough resolution to do serious work.
 
 
-3DFX Voodoo 1
------
+### 3DFX Voodoo 1
 The benchmark against which everything else is measured.
 
 Good throughput, good fillrate, good quality, good features.
@@ -319,8 +289,7 @@ Because of the slow texture swapping, anyone buying a voodoo should get a six mb
 Highly tuned minidriver. They have a full ICD in alpha, but they are being slow about moving it into production. Because of the add-in board nature of the 3dfx, the ICD won't be useful for things like running level editors, but it would at least guarantee that any new features added to quake engine games won't require revving the minidriver to add new functionality.
 
 
-3DFX Voodoo 2
------
+### 3DFX Voodoo 2
 Not shipping yet, but we were given permission to talk about the benchmarks on their preproduction boards.
 
 Excellent throughput, excellent fillrate, good quality, excellent features.
@@ -336,8 +305,7 @@ Lack of 24 bit rendering is the only visual negative.
 As with any voodoo solution, you also give up the ability to run 3D applications on your desktop. For pure gamers, that isn't an issue, but for hobbyists that may be interested in using 3D tools it may have some weight.
 
 
-Intel i740
-----
+### Intel i740
 Good throughput, good fillrate, good quality, good features.
 
 A very competent chip. I wish intel great success with the 740. I think that it firmly establishes the baseline that other companies (especially the ones that didn't even make this list) will be forced to come up to.
@@ -352,10 +320,7 @@ It is worth mentioning that of all the drivers we have tested, intel's MCD was t
 
 An 8mb i740 will be a very good setup for 3D development work.
 
-
------------------------------------------
-John Carmack's .plan for Feb 16, 1998
------------------------------------------
+### John Carmack's .plan for Feb 16, 1998
 
 8 mb or 12 mb voodoo 2?
 
@@ -367,10 +332,7 @@ A game that uses multitexture and 16 bit textures for everything will stress a 4
 
 The differences probably won't show as significant on timedemo numbers, but they will be felt as little one frame hitches here and there.
 
-
------------------------------------------
-John Carmack's .plan for Feb 17, 1998
------------------------------------------
+### John Carmack's .plan for Feb 17, 1998
 
 I just read the Wired article about all the Doom spawn.
 
@@ -382,10 +344,7 @@ The topic of "is microsoft going to crush you now that they are in the game biz"
 
 I honestly wish the best to everyone pursuing new engine development.
 
-
------------------------------------------
-John Carmack's .plan for Feb 22, 1998
------------------------------------------
+### John Carmack's .plan for Feb 22, 1998
 
 Don't send any bug reports on the 3.12 release to me, I just forward them over to jcash. He is going to be managing all future work on the Quake 2 codebase through the mission packs. I'm working on trinity.
 
@@ -399,19 +358,13 @@ The first several patches were forced due to security weaknesses. Lesson learned
 
 The cause for the upcoming 3.13 patch is the same thing that has caused us a fair amount of trouble through Q2's development - instability in the gamex86 code due to its decending from QC code in Q1. It turns out that there were lots of bugs in the original QC code, but because of its safe interpreted nature (specifically having a null entity reference the world) they never really bothered anyone. We basically just ported the QC code to regular C for Q2 (it shows in the code) and fixed crash bugs as they popped up. We should have taken the time to redesign more for C's strengths and weaknesses.
 
-
------------------------------------------
-John Carmack's .plan for Mar 12, 1998
------------------------------------------
+### John Carmack's .plan for Mar 12, 1998
 
 American McGee has been let go from Id.
 
 His past contributions include work in three of the all time great games (DOOM 2, Quake, Quake 2), but we were not seeing what we wanted.
 
-
------------------------------------------
-John Carmack's .plan for Mar 13, 1998
------------------------------------------
+### John Carmack's .plan for Mar 13, 1998
 
 The Old Plan:
 
@@ -463,10 +416,7 @@ RIVA 128 Riva puts us in a bad position. They are very fast, but they don't supp
 
 Naturally, the best cards are yet to come (I won't comment on unreleased cards). The graphics engine is being designed to be scalable over the next few YEARS, so it might look like we are shooting a bit high for the first release, but by the time it actually ships, there will be a lot of people with brand new accelerators that won't be properly exploited by any other game.
 
-
------------------------------------------
-John Carmack's .plan for Mar 20, 1998
------------------------------------------
+### John Carmack's .plan for Mar 20, 1998
 
 Robert Duffy, the maintainer of Radiant QE4 is now "officially" in charge of further development of the editor codebase. He joins Zoid as a (part time) contractor for us.
 
@@ -474,10 +424,7 @@ A modified version of Radiant will be the level editor for Quake 3. The primary 
 
 The other major effort is to get Radiant working properly on all of the 3D cards that are fielding full OpenGL ICDs. If you want to do level development, you should probably get an 8mb video card. Permedia II cards have been the mainstay for developers that can't afford intergraph systems, but 8mb rendition v2200 (thriller 3D) cards are probably a better bet as soon as their ICD gets all the bugs worked out.
 
-
------------------------------------------
-John Carmack's .plan for Mar 21, 1998
------------------------------------------
+### John Carmack's .plan for Mar 21, 1998
 
 I just shut down the last of the NEXTSTEP systems running at id.
 
@@ -495,8 +442,7 @@ I had high hopes for rhapsody, but even on a top of the line PPC, it felt painfu
 
 Its kind of funny, but even through all the D3D/OpenGL animosity, I think Windows NT is the best place to do 3D graphics development.
 
-All gone!
---------------
+### All gone!
 
 Paul Magyar gets the last (slightly broken) one.
 
@@ -507,8 +453,7 @@ Philip Kizer gets the second one.
 Kyle Bousquet gets the first one.
 
 
-3/21 pt 2
----------
+### 3/21 pt 2
 I haven't given up on rhapsody yet. I will certainly be experimenting with the release version when it ships, but I have had a number of discouraging things happen. Twice I was going to go do meetings at apple with all relevent people, but the people setting it up would get laid off before the meetings happened. Several times I would hear encouraging rumors about various things, but they never panned out. We had some biz discussions with apple about rhapsody, but they were so incredibly cautious about targeting rhapsody for consumer apps at the expense of macos that I doubted their resolve.
 
 I WANT to help. Maybe post-E3 we can put something together.
@@ -517,10 +462,7 @@ The SGI/microsoft deal fucked up a lot of the 3D options. The codebase that ever
 
 That is one of the things I stress over -- The Right Thing is clear, but its not going to happen because of biz moves. It would be great if ATI, which has video drivers for win, rhapsody, linux, and BeOS, could run the same ICD on all those platforms.
 
-
------------------------------------------
-John Carmack's .plan for Mar 26, 1998
------------------------------------------
+### John Carmack's .plan for Mar 26, 1998
 
 I haven't even seen the "BeOS port of Quake". Stop emailing me about aproving it. I told one of the Lion developers he could port it to BeOS in his spare time, but I haven't seen any results from it.
 
@@ -540,10 +482,7 @@ We hack where necessary, but I am much more willing to spend my time on an elega
 
 We have our own ideas about game play features, so we may just disagree with you. Even if you-and-all-your-friends are SURE that your suggestions will make the game a ton better, we may not think it fits with our overall direction. We aren't going to be all things to all people, and we don't design by committee.
 
-
------------------------------------------
-John Carmack's .plan for Apr 02, 1998
------------------------------------------
+### John Carmack's .plan for Apr 02, 1998
 
 Drag strip day!
 
@@ -551,6 +490,7 @@ Most of the id guys, John Romero from ION, and George and Alan from 3drealms hea
 
 Nobody broke down, and some good times were posted.
 
+```
 11.9 @ 122 John Carmack F40
 12.2 @ 122 George Broussard custom turbo 911
 12.4 @ 116 Brian Hook Viper GTS
@@ -566,13 +506,11 @@ Nobody broke down, and some good times were posted.
 16.1 @ 89 Ms. Donna Mustang GT
 17.4 @ 82 Anna (Carmack's Chick) Honda Accord
 18.1 @ 75 Jennifer (Jim Molinets' Chick) Saturn
+```
 
 We had three significant no-shows for various reasons: my TR, Adrian's viper, and Cash's supercharged M3 were all in the shop.
 
-
------------------------------------------
-John Carmack's .plan for Apr 08, 1998
------------------------------------------
+### John Carmack's .plan for Apr 08, 1998
 
 Things are progressing reasonably well on the Quake 3 engine.
 
@@ -602,17 +540,11 @@ Any quakers feeling nostalgic should browse around:
 
 http://www.doomworld.com/
 
-
------------------------------------------
-John Carmack's .plan for Apr 16, 1998
------------------------------------------
+### John Carmack's .plan for Apr 16, 1998
 
 F40 + $465,000 = F50
 
-
------------------------------------------
-John Carmack's .plan for Apr 17, 1998
------------------------------------------
+### John Carmack's .plan for Apr 17, 1998
 
 Yes, I bought an F50. No, I don't want a McLaren.
 
@@ -634,7 +566,7 @@ The new architecture is turning out very elegent. Not having to support software
 
 My C coding style has changed for Quake 3, which is going to give me a nice way of telling at a glance which code I have or haven't touched since Quake 2. In fact, there have been enough evolutions in my style that you can usually tell what year I wrote a piece of code by just looking at a single function:
 
-[code]
+```
 /*
 =============
 =
@@ -664,12 +596,9 @@ for (testnum=0 ; testnum<4 ; testnum++)
 for (testNumber = 0 ; testNumber < 4 ; testNumber++) {
     // quake 3 coding style
 }
-[/code]
+```
 
-
------------------------------------------
-John Carmack's .plan for Apr 22, 1998
------------------------------------------
+### John Carmack's .plan for Apr 22, 1998
 
 F50 pros and cons vs F40:
 
@@ -699,10 +628,7 @@ I'm thinking that a mild twin-turbo job will do the trick. Six pounds of boost s
 
 I may put that in line after my GTO gets finished.
 
-
------------------------------------------
-John Carmack's .plan for May 02, 1998
------------------------------------------
+### John Carmack's .plan for May 02, 1998
 
 The rcon backdoor was added to help the development of QuakeWorld (It is not present in Quake 1). At the time, attacking Quake servers with spoofed packets was not the popular sport it seems to have become with Quake 2, so I didn't think much about the potential for exploitation.
 
@@ -712,10 +638,7 @@ It was a convenient feature for us, but it turned out to be irresponsible. Sorry
 
 There will be new releases of QuakeWorld and Quake 2 soon.
 
-
------------------------------------------
-John Carmack's .plan for May 04, 1998
------------------------------------------
+### John Carmack's .plan for May 04, 1998
 
 Here are some notes on a few of the technologies that I researched in preparing for the Quake3/trinity engine. I got a couple months of pretty much wide open research done at the start, but it turned out that none of the early research actually had any bearing on the directions I finally decided on. Ah well, I learned a lot, and it will probably pay off at some later time.
 
@@ -755,10 +678,7 @@ Finite element radiosity vs photon tracing.
 
 etc.
 
-
------------------------------------------
-John Carmack's .plan for May 17, 1998
------------------------------------------
+### John Carmack's .plan for May 17, 1998
 
 Here is an example of some bad programming in quake:
 
@@ -770,13 +690,11 @@ A similar cleanup of the text printing hapened when Cash implemented general col
 
 Amidst all the high end graphics work, sometimes it is nice to just fix up something elementary.
 
-
------------------------------------------
-John Carmack's .plan for May 19, 1998
------------------------------------------
+### John Carmack's .plan for May 19, 1998
 
 A 94 degree day at the dragstrip today. Several 3drealms and Norwood Autocraft folk also showed up to run. We got to weigh most of the cars on the track scales, which gives us a few more data points.
 
+```
 11.6 @ 125 Bob Norwood's ferrari P4 race car (2200 lbs)
 11.9 @ 139 John Carmack's twin turbo testarossa (3815 lbs)
 11.9 @ 117 Paul Steed's YZF600R bike
@@ -786,6 +704,7 @@ A 94 degree day at the dragstrip today. Several 3drealms and Norwood Autocraft f
 14.0 @ 96 Scott Miller's lexus GS400
 15.0 @ ??? Someone's volkswagon GTI
 15.1 @ ??? Christian's boxter (with Tim driving)
+```
 
 Weight is the key for good ETs. The TR has considerably better power to weight ratio than the P4, but it can't effectively use most of the power until it gets into third gear. The viper is actually making more power than the F50, (Brian got a big kick out of that after his dyno run) but 350 lbs more than compensated for it.
 
@@ -803,17 +722,11 @@ George Broussard had his newly hopped up 911 turbo, but it broke the trans on it
 
 We probably won't run again until either I get the F50 souped up, or my GTO gets finished.
 
-
------------------------------------------
-John Carmack's .plan for May 22, 1998
------------------------------------------
+### John Carmack's .plan for May 22, 1998
 
 Congratulations to Epic, Unreal looks very good.
 
-
------------------------------------------
-John Carmack's .plan for Jun 08, 1998
------------------------------------------
+### John Carmack's .plan for Jun 08, 1998
 
 I spent quite a while investigating the limits of input under windows recently. I foudn out a few interesting things:
 
@@ -849,10 +762,7 @@ Its tempting to try to roll the new changes back into Quake 2, but a lot of them
 
 (Yes, we made some direction changes in Quake 3 since the original announcement when it was to be based on the Quake 2 game and networking with just a new graphics engine)
 
-
------------------------------------------
-John Carmack's .plan for Jun 16, 1998
------------------------------------------
+### John Carmack's .plan for Jun 16, 1998
 
 My last two .plan updates have described efforts that were not in our original plan for quake 3, which was "quake 2 game and network technology with a new graphics engine".
 
@@ -870,10 +780,7 @@ There is a definite effect on graphics technology decisions. Much of the positiv
 
 The graphics engine will still be OpenGL only, with significant new features not seen anywhere before, but it will also have fallback modes to render at roughly Quake-2 quality and speed.
 
-
------------------------------------------
-John Carmack's .plan for Jul 04, 1998
------------------------------------------
+### John Carmack's .plan for Jul 04, 1998
 
 Here is the real story on the movement physics changes.
 
@@ -895,10 +802,7 @@ Quake 2 cannot be allowed to evolve in a way that detracts from the commercial s
 
 The old style movement should not be referred to as "real world physics". None of the quake physics are remotely close to real world physics, so I don't think one way is significantly more "real" than the other. In Q2, you accelerate from 0 to 27 mph in 1/30 of a second, which just as unrealistic as being able to accelerate in midair..
 
-
------------------------------------------
-John Carmack's .plan for Jul 05, 1998
------------------------------------------
+### John Carmack's .plan for Jul 05, 1998
 
 I am not opposed to adding a flag to control the movement styles. I was rather expecting it to be made optional in 3.17, but I haven't been directly involved in the last few releases.
 
@@ -906,10 +810,7 @@ The way this played out in public is a bit unfortunate. Everyone at Id is busy f
 
 It is a bit amusing how after the QuakeArena anouncement, I got flamed by lots of people for abandoning single player play (even though we aren't, really) but after I say that Quake 2 can't forget that it is a single player game, I get flamed by a different set of people who think it is stupid to care about single player anymore when all "everyone" plays is multiplayer. The joy of having a wide audience that knows your email address.
 
-
------------------------------------------
-John Carmack's .plan for Jul 16, 1998
------------------------------------------
+### John Carmack's .plan for Jul 16, 1998
 
 I have spent the last two days working with Apple's Rhapsody DR2, and I like it a lot.
 
@@ -939,10 +840,7 @@ In other operating system news, Be has glquake running hardware accelerated on t
 
 Any X server vendors working on hardware accelerated OpenGL should get in touch with Zoid about interfacing and tuning with the Id OpenGL games on linux.
 
-
------------------------------------------
-John Carmack's .plan for Jul 29, 1998
------------------------------------------
+### John Carmack's .plan for Jul 29, 1998
 
 My F50 took some twin turbo vitamins.
 
@@ -954,10 +852,7 @@ There will be an article in Turbo magazine about it, and several other car magaz
 
 Brian is getting a nitrous kit installed in his viper, and Cash just got his suspension beefed up, so we will be off to the dragstrip again next month to sort everything out again.
 
-
------------------------------------------
-John Carmack's .plan for Aug 17, 1998
------------------------------------------
+### John Carmack's .plan for Aug 17, 1998
 
 I added support for HDTV style wide screen displays in QuakeArena, so 24" and 28" monitors can now cover the entire screen with game graphics.
 
@@ -987,10 +882,7 @@ I'm getting some racing tires on the F50 before I go back. It sucked watching a 
 
 I think ESPN took some footage at the event.
 
-
------------------------------------------
-John Carmack's .plan for Sep 08, 1998
------------------------------------------
+### John Carmack's .plan for Sep 08, 1998
 
 I just got a production TNT board installed in my Dolch today.
 
@@ -1026,10 +918,7 @@ Ah well, I guess my blackjack days are over. I was actually down a bit for the d
 
 I knew I would get kicked out sooner or later, because I don't play "safely". I sit at the same table for several hours, and I range my bets around 10 to 1.
 
-
------------------------------------------
-John Carmack's .plan for Sep 10, 1998
------------------------------------------
+### John Carmack's .plan for Sep 10, 1998
 
 I recently set out to start implementing the dual-processor acceleration for QA, which I have been planning for a while. The idea is to have one processor doing all the game processing, database traversal, and lighting, while the other processor does absolutely nothing but issue OpenGL calls.
 
@@ -1071,10 +960,7 @@ Too much effort for what looks like a reletively minor speedup. I'm giving up on
 
 Oh well. It was amusing work, and I learned a few things along the way.
 
-
------------------------------------------
-John Carmack's .plan for Oct 14, 1998
------------------------------------------
+### John Carmack's .plan for Oct 14, 1998
 
 It has been difficult to write .plan updates lately. Every time I start writing something, I realize that I'm not going to be able to cover it satisfactorily in the time I can spend on it. I have found that terse little comments either get misinterpreted, or I get deluged by email from people wanting me to expand upon it.
 
@@ -1104,10 +990,7 @@ In fact, I was probably blinded to the obvious because of one of my very first s
 
 Its nice to see a problem clearly in its entirety for the first time, and know exactly how to address it.
 
-
------------------------------------------
-John Carmack's .plan for Nov 03, 1998
------------------------------------------
+### John Carmack's .plan for Nov 03, 1998
 
 This was the most significant thing I talked about at The Frag, so here it is for everyone else.
 
@@ -1147,17 +1030,11 @@ There is also the amusing avenue of writing hand tuned virtual assembly assembly
 
 I think this is The Right Thing.
 
-
------------------------------------------
-John Carmack's .plan for Nov 04, 1998
------------------------------------------
+### John Carmack's .plan for Nov 04, 1998
 
 More extensive comments on the interpreted-C decision later, but a quick note: the plan is to still allow binary dll loading so debuggers can be used, but it should be interchangable with the interpreted code. Client modules can only be debugged if the server is set to allow cheating, but it would be possible to just use the binary interface for server modules if you wanted to sacrifice portability. Most mods will be able to be implemented with just the interpreter, but some mods that want to do extensive file access or out of band network communications could still be implemented just as they are in Q2. I will not endorse any use of binary client modules, though.
 
-
------------------------------------------
-John Carmack's .plan for Dec 29, 1998
------------------------------------------
+### John Carmack's .plan for Dec 29, 1998
 
 I am considering taking a shortcut with my virtual machine implementation that would make the integration a bit easier, but I'm not sure that it doesn't compromise the integrity of the base system.
 
@@ -1177,13 +1054,9 @@ A client game module with a bug could cause a bus error, which would not be poss
 
 I can't think of any exploitable security problems that read only access to the entire address space opens, but if anyone thinks of something, let me know.
 
-
------------------------------------------
-John Carmack's .plan for Dec 30, 1998
------------------------------------------
+### John Carmack's .plan for Dec 30, 1998
 
 I got several vague comments about being able to read "stuff" from shared memory, but no concrete examples of security problems.
 
 However, Gregory Maxwell pointed out that it wouldn't work cross platform with 64 bit pointer environments like linux alpha. That is a killer, so I will be forced to do everything the hard way. Its probably for the best, from a design standpoint anyway, but it will take a little more effort.
-
 

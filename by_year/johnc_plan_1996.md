@@ -1,6 +1,6 @@
------------------------------------------
-John Carmack's .plan for Feb 18, 1996
------------------------------------------
+# 1996
+
+## John Carmack's .plan for Feb 18, 1996
 
 *	page flip crap
 *	stretch console
@@ -13,76 +13,70 @@ John Carmack's .plan for Feb 18, 1996
 *	nail gun lag
 *	dedicated server quit at game end
 
-+ scoreboard
-+ optional full size
-+ view centering key
-+ vid mode 15 crap
-+ change ammo box on sbar
-+ allow "restart" after a program error
-+ respawn blood trail?
-+ -1 ammo value on rockets
-+ light up characters
+\+ scoreboard  
+\+ optional full size  
+\+ view centering key  
+\+ vid mode 15 crap  
+\+ change ammo box on sbar  
+\+ allow "restart" after a program error  
+\+ respawn blood trail?  
+\+ -1 ammo value on rockets  
+\+ light up characters  
 
 vsync on high framerates
 
 
------------------------------------------
-John Carmack's .plan for Feb 19, 1996
------------------------------------------
+## John Carmack's .plan for Feb 19, 1996
 
 *	fixed vanished bmodels at startup
 *	fixed getting stuck problem
 *	fixed the sound out of range problem
 *	hack patched the dissapearing under water
 
-+ remove look spring
-+ fix radius damage
-+ too many people on status bar
-+ invis in water
-+ multiple pain sounds started
-+ shift jumps while in console
-+ less blood time
-+ gone armor icon
-+ look up/down keyboard modifier
+\+ remove look spring  
+\+ fix radius damage  
+\+ too many people on status bar  
+\+ invis in water  
+\+ multiple pain sounds started  
+\+ shift jumps while in console  
+\+ less blood time  
+\+ gone armor icon  
+\+ look up/down keyboard modifier
 
-clamp velocity on respawn
-clear damage flash on respawn
-bad changeup 
-bob speed kept on restart
-no puffs in sky volumes
-id copyright seal
+clamp velocity on respawn  
+clear damage flash on respawn  
+bad changeup   
+bob speed kept on restart  
+no puffs in sky volumes  
+id copyright seal  
 teleport screen warp
 
 
------------------------------------------
-John Carmack's .plan for Feb 20, 1996
------------------------------------------
+## John Carmack's .plan for Feb 20, 1996
 
 *	rewrote sound packet communication
 *	fixed multiple pains from a single shotgun
-*	qcc -copy option for sounds and models
+*	qcc `-copy` option for sounds and models
 *	fixed up pak file support
-*	removed .rc files
+*	removed `.rc` files
 *	screen size over status bar
 
-+ monsters need to be pushed into teleporters
-+ blue frag pieces
-+ NaN impact time is a crasher
-+ looking down on weapon bounces away from bottom
-+ timing preventing attacks at startup
+\+ monsters need to be pushed into teleporters  
+\+ blue frag pieces  
+\+ NaN impact time is a crasher  
+\+ looking down on weapon bounces away from bottom  
+\+ timing preventing attacks at startup  
 
-fix hardwired vid_uopdate
-remove redundant death sounds
-teleport warp
-torches
-cpuid?
-monsterblock entity
-multiple sky textures in a level
+fix hardwired `vid_uopdate`  
+remove redundant death sounds  
+teleport warp  
+torches  
+cpuid?  
+monsterblock entity  
+multiple sky textures in a level  
 
 
------------------------------------------
-John Carmack's .plan for Feb 21, 1996
------------------------------------------
+## John Carmack's .plan for Feb 21, 1996
 
 *	frag bar
 *	start profile on late frame
@@ -93,37 +87,35 @@ John Carmack's .plan for Feb 21, 1996
 *	drop pain flash again and bound
 *	tweak armor and spike damages
 
-+ don't pick up equal armor
-+ ceiling doors don't cause damage
-+ demons crash when jumping
-+ monsters need to use bsp clipping
-+ need to save memory...
-+ Fatal error: NaN impact time from entity
-+ change armor damage
-+ drop weapons
-+ face to face with nailgun does no damage
-+ +pointfile from cmdline doesn't work
-+ conglomerate hunk printing
-+ shoot triggers
-+ missing a Z update on rockets sometimes?
-+ firing after net games
-+ negative scores on frag bar and frag board
-+ world backpack and armor model
-+ weapon bounce down
-+ center look key
-+ check change levels in high res mode
+\+ don't pick up equal armor  
+\+ ceiling doors don't cause damage  
+\+ demons crash when jumping  
+\+ monsters need to use bsp clipping  
+\+ need to save memory...  
+\+ Fatal error: NaN impact time from entity  
+\+ change armor damage  
+\+ drop weapons  
+\+ face to face with nailgun does no damage  
+\+ `+pointfile` from cmdline doesn't work  
+\+ conglomerate hunk printing  
+\+ shoot triggers  
+\+ missing a Z update on rockets sometimes?  
+\+ firing after net games  
+\+ negative scores on frag bar and frag board  
+\+ world backpack and armor model  
+\+ weapon bounce down  
+\+ center look key  
+\+ check change levels in high res mode
 
-show ammo counts in single player frag screen
-radius damage should open secret doors
-five point font on kills
-rocket poke into walls
-shoot open connected doors
-gib bounce sound
+show ammo counts in single player frag screen  
+radius damage should open secret doors  
+five point font on kills  
+rocket poke into walls  
+shoot open connected doors  
+gib bounce sound  
 
 
------------------------------------------
-John Carmack's .plan for Feb 22, 1996
------------------------------------------
+## John Carmack's .plan for Feb 22, 1996
 
 *	fix incorrectly updated origin bug
 *	added alias backpack and armor
@@ -134,21 +126,19 @@ John Carmack's .plan for Feb 22, 1996
 *	fixed "not shooting" bug
 *	changed sound back to origin based instead of entity based
 
-+ swimming directions
-+ quit scores are wrong
-+ screen flicker crap
-+ radius damage sight check
-+ crushing issues
-+ bodies stopping in midair 
+\+ swimming directions  
+\+ quit scores are wrong  
+\+ screen flicker crap  
+\+ radius damage sight check  
+\+ crushing issues  
+\+ bodies stopping in midair   
 
-dimmed out weapons
-follow killer
-spin head inside gib
+dimmed out weapons  
+follow killer  
+spin head inside gib  
 
 
------------------------------------------
-John Carmack's .plan for Feb 23, 1996
------------------------------------------
+## John Carmack's .plan for Feb 23, 1996
 
 *	fixed sound origins again
 *	fixed crushing stuff
@@ -159,28 +149,26 @@ John Carmack's .plan for Feb 23, 1996
 *	changed "unnamed" to "player"
 *	fixed skinnum clearing
 
-+ gibbs need to fall after trap doored
-+ ambient
-+ make bubble sound while swimming forward
-+ server speed
-+ case insensitive on key names
-+ hunk alloc
-+ nans
-+ better notify scrolling
-+ final score dumping
-+ negative frags
-+ reconnect problems
+\+ gibbs need to fall after trap doored  
+\+ ambient  
+\+ make bubble sound while swimming forward  
+\+ server speed  
+\+ case insensitive on key names  
+\+ hunk alloc  
+\+ nans  
+\+ better notify scrolling  
+\+ final score dumping  
+\+ negative frags  
+\+ reconnect problems  
 
-backpack dropping underlava
-"hostname" makes gane think it is a server
-swimming models
-weapon cycling
-dedicated server stuffcmds
+backpack dropping underlava  
+"hostname" makes gane think it is a server  
+swimming models  
+weapon cycling  
+dedicated server stuffcmds  
 
 
------------------------------------------
-John Carmack's .plan for Feb 24, 1996
------------------------------------------
+## John Carmack's .plan for Feb 24, 1996
 
 *	added case insensitive key names
 *	skipped license check on dedicated servers
@@ -188,177 +176,156 @@ John Carmack's .plan for Feb 24, 1996
 *	took out autofire
 *	fixed negative frags
 *	cleaned up connection management
-*	fixed hunk_alloc
+*	fixed `hunk_alloc`
 *	no sutch alias frame problem when leaving server
 *	"map test1" on system with enough memory
 *	flickering side crap when level restarting 
 *	added base directory to path
 *	changed heads to tosstop
 
-****** RELEASE QTEST1 ******
+\*\*\*\*\*\* RELEASE QTEST1 \*\*\*\*\*\*
 
-+ unupdated Z problem is still in there
-+ flickering weapon icon
-+ blood trail to respawn
+\+ unupdated Z problem is still in there  
+\+ flickering weapon icon  
+\+ blood trail to respawn  
 
 
------------------------------------------
-John Carmack's .plan for Feb 25, 1996
------------------------------------------
+## John Carmack's .plan for Feb 25, 1996
 
 *	emit bsp files
 
-+ idle loop on disconnect
-+ key sticking
-+ fix noclip in the water
-+ modelgen scale option
-+ run a single level for a long time, then connect hangs
-+ grenade radius check
+\+ idle loop on disconnect  
+\+ key sticking  
+\+ fix noclip in the water  
+\+ modelgen scale option  
+\+ run a single level for a long time, then connect hangs  
+\+ grenade radius check  
 
-gibs stuck in walls in low G
-flash blinding
-turbulent texture direction
-space in smiley talk message
-talk sounds
-full chat mode
+gibs stuck in walls in low G  
+flash blinding  
+turbulent texture direction  
+space in smiley talk message  
+talk sounds  
+full chat mode  
 
 
------------------------------------------
-John Carmack's .plan for Feb 26, 1996
------------------------------------------
+## John Carmack's .plan for Feb 26, 1996
 
 *	ogre sounds
 *	made 180 turns go left for better ogre dragging
 *	error checked and extended qbsp
 
-+ drop green slime percentage
-+ ram chip overlapps turtle
-+ do DEC quote
-+ nolerp update
+\+ drop green slime percentage  
+\+ ram chip overlapps turtle  
+\+ do DEC quote  
+\+ nolerp update  
 
-caps-lock = full speed
-no particle effects on sky
+caps-lock = full speed  
+no particle effects on sky  
 
 
------------------------------------------
-John Carmack's .plan for Feb 27, 1996
------------------------------------------
+## John Carmack's .plan for Feb 27, 1996
 
 *	expand qbsp to 32 bit values for edges and faces. sigh.
 *	fixed key sticking problem
 
-seperate mouse sscaling values to allow negative up/down reversal
-frag bar shows first two digits, not last two when >= 100
-randomize head direction
-slime less damage
-drop to knees when crunched
-check deathmatch flags before precaching
+seperate mouse sscaling values to allow negative up/down reversal  
+frag bar shows first two digits, not last two when >= 100  
+randomize head direction  
+slime less damage  
+drop to knees when crunched  
+check deathmatch flags before precaching  
 
 
------------------------------------------
-John Carmack's .plan for Feb 28, 1996
------------------------------------------
+## John Carmack's .plan for Feb 28, 1996
 
-+ upper health bound 
-+ keyboard freelook 
-+ more air acceleration
+\+ upper health bound   
+\+ keyboard freelook   
+\+ more air acceleration  
 
 can a hostile monster hit it's movetarget and turn away? check scirk and smotte don't cache player model in single player "fair" mode with syncronous clients kill timers on all spawned objects
 
 
------------------------------------------
-John Carmack's .plan for Feb 29, 1996
------------------------------------------
+## John Carmack's .plan for Feb 29, 1996
 
 *	increased air acceleration
 
-+ don't allow up/down move at all without noclip
-+ weird fall out of level in sbad
+\+ don't allow up/down move at all without noclip  
+\+ weird fall out of level in sbad  
 
 
------------------------------------------
-John Carmack's .plan for Mar 01, 1996
------------------------------------------
+## John Carmack's .plan for Mar 01, 1996
 
 *	added ping command
 *	fixed time warp from overloaded dedicated servers
 *	rotate binaries
 *	respawning items
 
-+ clean model flags on remove
-+ tim's color
-+ weapon ammo not redrawn sometimes
-+ no sutch alias frame after gibbing
-+ give more feedback during the connection process
-+ set absolute screen size command
+\+ clean model flags on remove  
+\+ tim's color  
+\+ weapon ammo not redrawn sometimes  
+\+ no sutch alias frame after gibbing  
+\+ give more feedback during the connection process  
+\+ set absolute screen size command  
 
-safe allocation failures from vid / zbuffer
-send full pathnames from server to client, not findfile
-make all commands remote if priveledged
-unique names
-inquire about server rules (teamplay, fraglimit, timelimit, 
-         maxspeed, gravity, ticrate)
-is vid still flushing the entire screen?
-empty path causes error in quake?
-don't need to update frame of target entity
+safe allocation failures from vid / zbuffer  
+send full pathnames from server to client, not findfile  
+make all commands remote if priveledged  
+unique names  
+inquire about server rules (teamplay, fraglimit, timelimit, maxspeed, gravity, ticrate)  
+is vid still flushing the entire screen?  
+empty path causes error in quake?  
+don't need to update frame of target entity  
 
 
------------------------------------------
-John Carmack's .plan for Mar 02, 1996
------------------------------------------
+## John Carmack's .plan for Mar 02, 1996
 
 * wrote sgi test demo
 
 
------------------------------------------
-John Carmack's .plan for Mar 03, 1996
------------------------------------------
+## John Carmack's .plan for Mar 03, 1996
 
 * added precache_file qcc option for -copy files
 * capped health at 250
 
-+ solid, invisible brushes
-+ don't send linear entities in signon message
-+ write a message trace printing mode
-+ is 256 angle quantization from client hurting us?
-+ sky animations use the wrong time base
-+ centralize the connection process
+\+ solid, invisible brushes  
+\+ don't send linear entities in signon message  
+\+ write a message trace printing mode  
+\+ is 256 angle quantization from client hurting us?  
+\+ sky animations use the wrong time base  
+\+ centralize the connection process  
 
-weapon switching is wrong
-no twitch in god mode
-if a linear update entity doesn't get an update in a packet, remove it
-bound upper client message sends properly
-RELEASE: bump protocol version numbers just before releasing
+weapon switching is wrong  
+no twitch in god mode  
+if a linear update entity doesn't get an update in a packet, remove it  
+bound upper client message sends properly  
+RELEASE: bump protocol version numbers just before releasing  
 
 
------------------------------------------
-John Carmack's .plan for Mar 04, 1996
------------------------------------------
+## John Carmack's .plan for Mar 04, 1996
 
 * got new internet code running
 * server protocol number
 * stopped printing name change message for first message
 * put usleep back in
 
-+ an entity model is being cleared out from underneath it
-+ rotating body parts
-+ binary bit fields
-+ damage in datagrams
-+ push back at edges when moving slow?
-+ twirling gibs
-+ bit fields for binary objects
-+ never reuse binary object slots
-+ fix connect to a bad map
-+ noticed water to dm only clipping prob in tim13
-+ no sutch alias frame problem
+\+ an entity model is being cleared out from underneath it  
+\+ rotating body parts  
+\+ binary bit fields  
+\+ damage in datagrams  
+\+ push back at edges when moving slow?  
+\+ twirling gibs  
+\+ bit fields for binary objects  
+\+ never reuse binary object slots  
+\+ fix connect to a bad map  
+\+ noticed water to dm only clipping prob in tim13  
+\+ no sutch alias frame problem  
 
-magic8ball.rogue-ent.com = 38.252.190.8
-ability to make custom plat activation triggers
+magic8ball.rogue-ent.com = 38.252.190.8  
+ability to make custom plat activation triggers  
 
 
------------------------------------------
-John Carmack's .plan for Mar 05, 1996
------------------------------------------
+## John Carmack's .plan for Mar 05, 1996
 
 * basic zombie actions
 * added dog
@@ -366,17 +333,15 @@ John Carmack's .plan for Mar 05, 1996
 * changed health stat to a short to fix negative numbers
 * added binary object bit update
 
-+ zonbies need to change size when down
-+ secret doors need to crush damage, and return to open
+\+ zonbies need to change size when down  
+\+ secret doors need to crush damage, and return to open  
 
-negative health
-fish have problems
-cycle general updates in wasted badnwidth
+negative health  
+fish have problems  
+cycle general updates in wasted badnwidth  
 
 
------------------------------------------
-John Carmack's .plan for Mar 06, 1996
------------------------------------------
+## John Carmack's .plan for Mar 06, 1996
 
 * fixed all network play issues
 * better monster combat
@@ -386,44 +351,40 @@ John Carmack's .plan for Mar 06, 1996
 * soldier standing frames
 * monster use function makes them hostile towards activator
 
-+ drop ammo
-+ monsters see farther
-+ negative ammo
-+ extra friction near edges
-+ fracs aren't right in single player
-+ use monsters = wake up
+\+ drop ammo  
+\+ monsters see farther  
+\+ negative ammo  
+\+ extra friction near edges  
+\+ fracs aren't right in single player  
+\+ use monsters = wake up  
 
-set ideal yaw upon first sighting
-temp object updates
-check size on teleport destinations
-player only teleporters
-puff of smoke when shooters fire
-weird high look up on romero's level
-step on grenades
-flyers look down
-eagle eye checkbox
-monsters not trigger plat
-flying change height
-monster jumping
-make tents for shotgun puffs
-leave level running too long problem
-shambler range
+set ideal yaw upon first sighting  
+temp object updates  
+check size on teleport destinations  
+player only teleporters  
+puff of smoke when shooters fire  
+weird high look up on romero's level  
+step on grenades  
+flyers look down  
+eagle eye checkbox  
+monsters not trigger plat  
+flying change height  
+monster jumping  
+make tents for shotgun puffs  
+leave level running too long problem  
+shambler range  
 
 
------------------------------------------
-John Carmack's .plan for Mar 07, 1996
------------------------------------------
+## John Carmack's .plan for Mar 07, 1996
 
 * increased max portals on edge in bsper
 * NT gl testing
 * fixed path walking
 
-+ clear static objects for restarts
+\+ clear static objects for restarts  
 
 
------------------------------------------
-John Carmack's .plan for Mar 08, 1996
------------------------------------------
+## John Carmack's .plan for Mar 08, 1996
 
 * dropping ammo
 * zombie gib non-solid
@@ -434,27 +395,25 @@ John Carmack's .plan for Mar 08, 1996
 * increased monster sight distance
 * fixed noclip in water
 
-+ fix sound code
-+ item only in dm flags
-+ shoot through complex bmodels
-+ NaN stuff
-+ change impulse over to impule # instead of impulse1
-+ dog frames
-+ demos!
+\+ fix sound code  
+\+ item only in dm flags  
+\+ shoot through complex bmodels  
+\+ NaN stuff  
+\+ change impulse over to impule # instead of impulse1  
+\+ dog frames  
+\+ demos!  
 
-fix noclip underwater
-all zombie pain issues
-duplicate impulse events
-status bar art needs work
-jrbase3 teleporter can be hit behind dmonly
-do pain well on all monsters
-don't blit the entire screen when sized down!
-clean up headers
+fix noclip underwater  
+all zombie pain issues  
+duplicate impulse events  
+status bar art needs work  
+jrbase3 teleporter can be hit behind dmonly  
+do pain well on all monsters  
+don't blit the entire screen when sized down!  
+clean up headers  
 
 
------------------------------------------
-John Carmack's .plan for Mar 09, 1996
------------------------------------------
+## John Carmack's .plan for Mar 09, 1996
 
 * wrote cl_shownet 2 dump
 * rebuilt qcc to take $scale parm
@@ -466,31 +425,29 @@ John Carmack's .plan for Mar 09, 1996
 * finaly gave dec quote
 * spread monster thinking times
 
-+ fix angle on spike shooters
-+ pick up super nailgun == illegible server message?
-+ damaging trains
-+ sandy: sally, don't put all the weapons on it, and help the PVS at start
-+ get rid of surface->drawnframe now?
+\+ fix angle on spike shooters  
+\+ pick up super nailgun == illegible server message?  
+\+ damaging trains  
+\+ sandy: sally, don't put all the weapons on it, and help the PVS at start  
+\+ get rid of surface->drawnframe now?  
 
-fix weapon switching
-fix sound mixing
-climb out of water
-weapon pickup can overmax ammo
-staticly define sound arrays
-lightning client entity
-fly move to goal
-checkbox
-stop repeat jump
-check DAMAGE_YES on dead bodies
-func_oscilating
-teleport warp
-is  surface->texmultab[MIPLEVELS] worth the space?
-combine surface->texture and ofs into texinfo?
+fix weapon switching  
+fix sound mixing  
+climb out of water  
+weapon pickup can overmax ammo  
+staticly define sound arrays  
+lightning client entity  
+fly move to goal  
+checkbox  
+stop repeat jump  
+check DAMAGE_YES on dead bodies  
+func_oscilating  
+teleport warp  
+is  surface->texmultab[MIPLEVELS] worth the space?  
+combine surface->texture and ofs into texinfo?  
 
 
------------------------------------------
-John Carmack's .plan for Mar 10, 1996
------------------------------------------
+## John Carmack's .plan for Mar 10, 1996
 
 * fixed static object update bomb
 * fixed crazy speed guys
@@ -498,59 +455,53 @@ John Carmack's .plan for Mar 10, 1996
 * fixed bug with restarting droped out of world messages
 * spread standing frames more for groups
 
-+ remove precache_item
-+ ogres that won't wake up
-+ spawn flags
+\+ remove precache_item  
+\+ ogres that won't wake up  
+\+ spawn flags  
 
-pause turn speed
-army guys don't wake up by touch?
-jump velocity shouldn't make head bob
+pause turn speed  
+army guys don't wake up by touch?  
+jump velocity shouldn't make head bob  
 
 
------------------------------------------
-John Carmack's .plan for Mar 11, 1996
------------------------------------------
+## John Carmack's .plan for Mar 11, 1996
 
 * fixed backpack dropping in deathmatch
 * fixed monster sighting PVS problem
 
-+ fix dos qcc
-+ demon landing frame
-+ trigger activated train
-+ enforcer
-+ dog
-+ -1 ammo, 1 ammo on super shotgun, etc
-+ invisible brushes for clip hull
-+ grenade launcher shouldn't aim move
+\+ fix dos qcc  
+\+ demon landing frame  
+\+ trigger activated train  
+\+ enforcer  
+\+ dog  
+\+ -1 ammo, 1 ammo on super shotgun, etc  
+\+ invisible brushes for clip hull  
+\+ grenade launcher shouldn't aim move  
 
-update ammo when picked up grenade launcher with rocket running
-damage value on trains and secret doors
-player stayed on console after leaving
-jctest1 door fuckups
-grenade open secret doors
+update ammo when picked up grenade launcher with rocket running  
+damage value on trains and secret doors  
+player stayed on console after leaving  
+jctest1 door fuckups  
+grenade open secret doors  
 
 
------------------------------------------
-John Carmack's .plan for Mar 12, 1996
------------------------------------------
+## John Carmack's .plan for Mar 12, 1996
 
 * got new alias stuff sort of working
 
-+ pause message needs to stay up
-+ change level trigger
-+ knight bodies are solid
+\+ pause message needs to stay up  
+\+ change level trigger  
+\+ knight bodies are solid  
 
-lighting hidden objects
-level loading pacifier
-weapon switch button
-doors that stay shut on some multi levels?
-mouse button stuck down
-monster shouldn't get key door messages
+lighting hidden objects  
+level loading pacifier  
+weapon switch button  
+doors that stay shut on some multi levels?  
+mouse button stuck down  
+monster shouldn't get key door messages  
 
 
------------------------------------------
-John Carmack's .plan for Mar 13, 1996
------------------------------------------
+## John Carmack's .plan for Mar 13, 1996
 
 * got new alias stuff (mostly) debugged
 * optimized BoxOnPlaneSide
@@ -560,55 +511,49 @@ John Carmack's .plan for Mar 13, 1996
 * crunched progs.dat file structure
 * culled unused edict fields
 
-+ shoot trigger
-+ alias clipping still isn't right
-+ reverse dmonly / not_dm?  combine with spawn only flags?
-+ work on sound code!
-+ fixed secret doors stop working
-+ make objects fall when floor is removed
+\+ shoot trigger  
+\+ alias clipping still isn't right  
+\+ reverse dmonly / not_dm?  combine with spawn only flags?  
+\+ work on sound code!  
+\+ fixed secret doors stop working  
+\+ make objects fall when floor is removed  
 
-make #ifdef PARANOID checks
-lightweight entities to save space?
-grenade / rocket damage to triggers
+make #ifdef PARANOID checks  
+lightweight entities to save space?  
+grenade / rocket damage to triggers  
 
 
------------------------------------------
-John Carmack's .plan for Mar 14, 1996
------------------------------------------
+## John Carmack's .plan for Mar 14, 1996
 
 * new trigger code with delay
 
-+ jrbase3 spawn problem
+\+ jrbase3 spawn problem  
 
-jump triggers
-dragon path
-uncache player on single player
-monster missile checking for race relations
-gib pack
-wizard partical trail
-multiple sky maps
-non-bleeding takedamage
+jump triggers  
+dragon path  
+uncache player on single player  
+monster missile checking for race relations  
+gib pack  
+wizard partical trail  
+multiple sky maps  
+non-bleeding takedamage  
 
 
------------------------------------------
-John Carmack's .plan for Mar 15, 1996
------------------------------------------
+## John Carmack's .plan for Mar 15, 1996
 
 * made an execution stack for progs 
 * spawn flags
 
-+ fix NaNs!
-+ proper level changing
+\+ fix NaNs!  
+\+ proper level changing  
 
-door no backup option
-PVS for net update
-check entity relinking for excess
-good tempents.
+door no backup option  
+PVS for net update  
+check entity relinking for excess  
+good tempents.  
 
 
------------------------------------------
-John Carmack's .plan for Mar 16, 1996
------------------------------------------
+## John Carmack's .plan for Mar 16, 1996
 
 * made -1 wait doors not return when blocked
 * made secret doors and trains do damage
@@ -617,40 +562,36 @@ John Carmack's .plan for Mar 16, 1996
 * loading pacifiers
 * split out some of the physics code
 
-+ do from-the-beginning demos
-+ why are NeXT fullbright colors still bad?
-+ not starting up at american's house?
-+ move the if(deathmatch) remove (self) statements before monster
-precaches
-+ trigger start trains
+\+ do from-the-beginning demos  
+\+ why are NeXT fullbright colors still bad?  
+\+ not starting up at american's house?  
+\+ move the if(deathmatch) remove (self) statements before monster  
+precaches  
+\+ trigger start trains  
 
-shambler and wizard need idle frames
-bump all version numbers before final release, so no maps work with
-qtests!
-general sound objects?
-mouse button sticking
-win95 startup with map
-eliminate MAX_FACES from qbsp? (johncm1.map)
+shambler and wizard need idle frames  
+bump all version numbers before final release, so no maps work with  
+qtests!  
+general sound objects?  
+mouse button sticking  
+win95 startup with map  
+eliminate MAX_FACES from qbsp? (johncm1.map)  
 
 
------------------------------------------
-John Carmack's .plan for Mar 17, 1996
------------------------------------------
+## John Carmack's .plan for Mar 17, 1996
 
 * triggered trains
 * began work on sound code
 
-+ edge friction jumping
-+ edge friction in air?
+\+ edge friction jumping  
+\+ edge friction in air?  
 
-ambush guards
-temp ent precache
-does pacifier not work on net games?
+ambush guards  
+temp ent precache  
+does pacifier not work on net games?  
 
 
------------------------------------------
-John Carmack's .plan for Mar 18, 1996
------------------------------------------
+## John Carmack's .plan for Mar 18, 1996
 
 * fuxed button triggered delays
 * added classname to light error message
@@ -658,97 +599,89 @@ John Carmack's .plan for Mar 18, 1996
 * sounder objects
 * light_switchable
 
-+ grenade proximity explosions
-+ fix jumping off edges
-+ wizard fast shots
-+ target lights for controling them
-+ plat hit on head bug
-+ ambient light
+\+ grenade proximity explosions  
+\+ fix jumping off edges  
+\+ wizard fast shots  
+\+ target lights for controling them  
+\+ plat hit on head bug  
+\+ ambient light  
 
-spiral the view when gibbed
-level based gravity
+spiral the view when gibbed  
+level based gravity  
 
 
------------------------------------------
-John Carmack's .plan for Mar 19, 1996
------------------------------------------
+## John Carmack's .plan for Mar 19, 1996
 
 * switchable lights
 
-+ changed light program to unique switchable styles
-+ target usable monsters
-+ toggleable doors
-+ leaf lighting
-+ F2 reload crashes
-+ grenade radius
-+ spikeshooter directions
-+ sound cache shouldn't be cleared all the times
-+ demon jumping
-+ demon death frames
-+ chain activators for monster deaths
-+ crawl out of water
-+ ambient from map
+\+ changed light program to unique switchable styles  
+\+ target usable monsters  
+\+ toggleable doors  
+\+ leaf lighting  
+\+ F2 reload crashes  
+\+ grenade radius  
+\+ spikeshooter directions  
+\+ sound cache shouldn't be cleared all the times  
+\+ demon jumping  
+\+ demon death frames  
+\+ chain activators for monster deaths  
+\+ crawl out of water  
+\+ ambient from map  
 
-autosavemap?
-different teleport flash
-linked doors still have problems
-work on swimming
-control triggers for player only, or with monsters
-better knight code
-turn off regular shooters when used?
-once trigger on door_start_up?
-ctrl-alt-delete reset?
-remove r_fullbright in deathmatch
-sound streaming
-fix "couldn't allocate Z buffer" error
-reduce sound latency
+autosavemap?  
+different teleport flash  
+linked doors still have problems  
+work on swimming  
+control triggers for player only, or with monsters  
+better knight code  
+turn off regular shooters when used?  
+once trigger on door_start_up?  
+ctrl-alt-delete reset?  
+remove r_fullbright in deathmatch  
+sound streaming  
+fix "couldn't allocate Z buffer" error  
+reduce sound latency  
 
 
------------------------------------------
-John Carmack's .plan for Mar 20, 1996
------------------------------------------
+## John Carmack's .plan for Mar 20, 1996
 
 * deathmatch onyl spawn doesn't work
 * drowning damage
-* changed QuakeEd to get progs from id1_
+* changed QuakeEd to get progs from `id1_`
 * added colors to QuakeEd entities
 * got rid of /lquake, moved QuakeEd caches to /qcache
 
-+ don't take datagrams until acked second message
-+ not-dm is intangible
-+ sally torches not spawning
-+ client called twice?
-+ combine damage messages from super shotguns
-+ gib zombies lying down?
-+ more water friction
-+ swimming bubble noise
-+ light the weapons differently in bright areas
-+ keyboard freelook
-+ move QuakeEd start position to playerstart
+\+ don't take datagrams until acked second message  
+\+ not-dm is intangible  
+\+ sally torches not spawning  
+\+ client called twice?  
+\+ combine damage messages from super shotguns  
+\+ gib zombies lying down?  
+\+ more water friction  
+\+ swimming bubble noise  
+\+ light the weapons differently in bright areas  
+\+ keyboard freelook  
+\+ move QuakeEd start position to playerstart  
 
-stop wall climbing
-sleeping pause
-raise rocket launcher with 0 ammo
+stop wall climbing  
+sleeping pause  
+raise rocket launcher with 0 ammo  
 
 
------------------------------------------
-John Carmack's .plan for Mar 21, 1996
------------------------------------------
+## John Carmack's .plan for Mar 21, 1996
 
 * fixed quakeed bug to allow carrying selection to new map
 * fixed updated static bug
 
-+ demons that fall through world
-+ "wait" exec command
-+ end of line exec bug
+\+ demons that fall through world  
+\+ "wait" exec command  
+\+ end of line exec bug  
 
-do style lighting for alias models
-for release: Id Trademark graphic
+do style lighting for alias models  
+for release: Id Trademark graphic  
 
 
------------------------------------------
-John Carmack's .plan for Mar 22, 1996
------------------------------------------
+## John Carmack's .plan for Mar 22, 1996
 
 * fixed bug with "alias" command that failed to add a newline
 * fixed bug in command execution that sometimes mashed commands together
@@ -760,73 +693,67 @@ John Carmack's .plan for Mar 22, 1996
 	bind g "impulse 5 ; +attack ; wait ; -attack ; impulse 2"
 * got demos mostly working
 
-+ worry about shutting down listen servers before connect / demo playback
-+ remove item precache
-+ finish switching lights
-+ keyboard freelook
-+ do clients need keepalives?
+\+ worry about shutting down listen servers before connect / demo playback  
+\+ remove item precache  
+\+ finish switching lights  
+\+ keyboard freelook  
+\+ do clients need keepalives?  
 
-spikes coming through walls
-explosive nails
-change thresholding on trimapper in higher res!!!!!
-muzzle flashes
+spikes coming through walls  
+explosive nails  
+change thresholding on trimapper in higher res!!!!!  
+muzzle flashes  
 
 
------------------------------------------
-John Carmack's .plan for Mar 23, 1996
------------------------------------------
+## John Carmack's .plan for Mar 23, 1996
 
-* lots of cleanup in cl_ code
+* lots of cleanup in `cl_` code
 * killed looping sounds at disconnect
 * faded palette back down at disconnect
 * fixed bobj miscount and added bobj count error check
 * interpolated angles and velocities for low update connections
 * finished demo code
 
-+ sound caching....
-+ looping sound still doesn't work on my system
-+ can't throw out spawned sounds too far away, because of teleporters
-+ ammo box on sbar doesn't allways update after death
-+ two state door
-+ allocate translations on the hunk to save single player memory
+\+ sound caching....  
+\+ looping sound still doesn't work on my system  
+\+ can't throw out spawned sounds too far away, because of teleporters  
+\+ ammo box on sbar doesn't allways update after death  
+\+ two state door  
+\+ allocate translations on the hunk to save single player memory  
 
-remove headless / legless death frames
-swimming frames
-server viewpos problem
-relinking by size still isn't right
-explosion core
-precache_auxsound for non-essential
-don't cache player model in single player
+remove headless / legless death frames  
+swimming frames  
+server viewpos problem  
+relinking by size still isn't right  
+explosion core  
+precache_auxsound for non-essential  
+don't cache player model in single player  
 
 
------------------------------------------
-John Carmack's .plan for Mar 24, 1996
------------------------------------------
+## John Carmack's .plan for Mar 24, 1996
 
 * level to level transitions
 * finished light modifications for switchables
 * fixed bug that caused some entities to not appear
 
-+ weird field trashing bug
-+ don't clear sound precache on non-progrestart
-+ stuff not showing up in jccode
-+ savegames
-+ nail angles are wrong
-+ cought on buttons in johnc99
-+ is anything confused by sv.active on clients during a net game?
+\+ weird field trashing bug  
+\+ don't clear sound precache on non-progrestart  
+\+ stuff not showing up in jccode  
+\+ savegames  
+\+ nail angles are wrong  
+\+ cought on buttons in johnc99  
+\+ is anything confused by sv.active on clients during a net game?  
 
-stereo positioning is wrong
-nograv
-handle coop games
-make lightning a tent
-worry about security risks with pathnames for demos and savegames
-need to save lightstyles in savegames
-non-convex bsp output
+stereo positioning is wrong  
+nograv  
+handle coop games  
+make lightning a tent  
+worry about security risks with pathnames for demos and savegames  
+need to save lightstyles in savegames  
+non-convex bsp output  
 
 
------------------------------------------
-John Carmack's .plan for Mar 27, 1996
------------------------------------------
+## John Carmack's .plan for Mar 27, 1996
 
 * fixed soundlist
 * explosion through walls doesn't damage
@@ -835,22 +762,20 @@ John Carmack's .plan for Mar 27, 1996
 * changed signon messages to more client requests, removed buffers
 * invisible clip solids
 
-+ wake up monsters through walls
-+ is vid palette setting fixed?
-+ remove up/down movement from non-noclip 
-+ entity bsp clipping for shots and monster moves
-+ make QuakeEd center on start position
-+ climb out of water
-+ light switches?
+\+ wake up monsters through walls  
+\+ is vid palette setting fixed?  
+\+ remove up/down movement from non-noclip   
+\+ entity bsp clipping for shots and monster moves  
+\+ make QuakeEd center on start position  
+\+ climb out of water  
+\+ light switches?  
 
-bsp sticking point
-no aim key
-don't include trigger and clip mip textures in files?
+bsp sticking point  
+no aim key  
+don't include trigger and clip mip textures in files?  
 
 
------------------------------------------
-John Carmack's .plan for Mar 28, 1996
------------------------------------------
+## John Carmack's .plan for Mar 28, 1996
 
 * fixed efrag allocation on restart (really)
 * fixed static sprite placement
@@ -859,38 +784,34 @@ John Carmack's .plan for Mar 28, 1996
 * fixed savegame and multi player baseline object startup
 * made QuakeEd go to info_playerstart at level load
 
-+ fix damage trace through entities
-+ keyboard freelook
+\+ fix damage trace through entities  
+\+ keyboard freelook  
 
-spinning gibs on floor
-very high framerates mess up
-extra back attack damage
-buffered IO problem on romero's machine
-stereo still isn't right
-partical puffs
-
-
------------------------------------------
-John Carmack's .plan for Mar 30, 1996
------------------------------------------
-
-+ dynamic lights....
-+ grenade activation size
-+ entnum optimization
-+ make progs use pointers for edicts?
-+ sideways spikes
-
-esc = floating menus, with console option
-remove avelocity?
-track down the _SCR_UpdateScreen <cycle 2> [23] from profile
-clean up search path syntax
-fix style lighting on alias models
-more #ifdef PARANOID
+spinning gibs on floor  
+very high framerates mess up  
+extra back attack damage  
+buffered IO problem on romero's machine  
+stereo still isn't right  
+partical puffs  
 
 
------------------------------------------
-John Carmack's .plan for Mar 31, 1996
------------------------------------------
+## John Carmack's .plan for Mar 30, 1996
+
+\+ dynamic lights....  
+\+ grenade activation size  
+\+ entnum optimization  
+\+ make progs use pointers for edicts?  
+\+ sideways spikes  
+
+esc = floating menus, with console option  
+remove avelocity?  
+track down the `_SCR_UpdateScreen <cycle 2> [23]` from profile  
+clean up search path syntax  
+fix style lighting on alias models  
+more #ifdef PARANOID  
+
+
+## John Carmack's .plan for Mar 31, 1996
 
 * changed edicts from indexes to pointers
 * fixed byte order problem in qcc
@@ -899,55 +820,51 @@ John Carmack's .plan for Mar 31, 1996
 * cleared rotate flag on CL_SetModelFlags
 * made items move with pushers
 
-+ animating textures
-+ vis problems out of water in jrbase2
-+ get trail characteristics from model name? (now a model flag)
-+ switched lights don't work right after restart
-+ aiming at fast moving entities
-+ center view key
+\+ animating textures  
+\+ vis problems out of water in jrbase2  
+\+ get trail characteristics from model name? (now a model flag)  
+\+ switched lights don't work right after restart  
+\+ aiming at fast moving entities  
+\+ center view key  
 
-light filter in quakeed is broken
-per-entity ambient light value
-don't play door trigger sounds if full up
-shoot over fallen zombies
-no changeup to grenades
-add targets to doors
-auto pause when console
-player gib packages
-null bobjmodel in singleplayer
-wizard bombs through walls
-drowning time?
-shambler lightning
-hang when starting a mistyped level (time based?)
-old deathmatch rules?
-lockup overnight
-don't hook keyboard on dos dedicated server
-cycle edict allocation so spikes aren't reused frequently
-make spikes rotate
+light filter in quakeed is broken  
+per-entity ambient light value  
+don't play door trigger sounds if full up  
+shoot over fallen zombies  
+no changeup to grenades  
+add targets to doors  
+auto pause when console  
+player gib packages  
+null bobjmodel in singleplayer  
+wizard bombs through walls  
+drowning time?  
+shambler lightning  
+hang when starting a mistyped level (time based?)  
+old deathmatch rules?  
+lockup overnight  
+don't hook keyboard on dos dedicated server  
+cycle edict allocation so spikes aren't reused frequently  
+make spikes rotate  
 
 
------------------------------------------
-John Carmack's .plan for Apr 01, 1996
------------------------------------------
+## John Carmack's .plan for Apr 01, 1996
 
 * added $flags to models for client side stuff (rotations, trails)
 * allowed coop play
 * started using Host_Error for client errors
 * lint
 
-+ animating textures
-+ NULL connect
-+ connect while in a game crashes
+\+ animating textures  
+\+ NULL connect  
+\+ connect while in a game crashes  
 
-different sfx cache size for client only?
-frame chnaging while paused?
-item targets
-respawn in coop
+different sfx cache size for client only?  
+frame chnaging while paused?  
+item targets  
+respawn in coop  
 
 
------------------------------------------
-John Carmack's .plan for Apr 02, 1996
------------------------------------------
+## John Carmack's .plan for Apr 02, 1996
 
 * exploded wizard bombs on death
 * server optimization
@@ -955,97 +872,84 @@ John Carmack's .plan for Apr 02, 1996
 * average monster velocity for aiming
 * made wizard fall properly
 
-+ running into nails
-+ can still get shot out of the world
-+ dynamically allocate color translation tables
-+ pause work
-+ backpack dropping
+\+ running into nails  
+\+ can still get shot out of the world  
+\+ dynamically allocate color translation tables  
+\+ pause work  
+\+ backpack dropping  
 
-water stair climbing
-check door linking , regarding the partial closing
-restart level spawn parms
-dead player save que
-quakeed magnified texture view
-ambient + gravity attributes
-load fames
-restart without killing server
-no-aim option
+water stair climbing  
+check door linking , regarding the partial closing  
+restart level spawn parms  
+dead player save que  
+quakeed magnified texture view  
+ambient + gravity attributes  
+load fames  
+restart without killing server  
+no-aim option  
 
 
------------------------------------------
-John Carmack's .plan for Apr 03, 1996
------------------------------------------
+## John Carmack's .plan for Apr 03, 1996
 
 * made func_wall and removed the dm_only / not_dm
 
-+ sky fuckups
-+ single pixel movement quantization?
-+ falling out of world
+\+ sky fuckups  
+\+ single pixel movement quantization?  
+\+ falling out of world  
 
-auto aiming sucks
-remove superscaling
-s->relasecount error
-.cfg default for exec
-frame too fast bug causing lockups
-last request/reply
-registration trademark!!!
-explosion cores
-check side to side movement for big attacks like the shamblers?
-change backpack content messages
-combine model and sound cache!
-better PVS with more leafs?
-
-
------------------------------------------
-John Carmack's .plan for Apr 04, 1996
------------------------------------------
-
-+ teleport flash is broken
-+ order of monster fall to ground
-
-multiple input drivers (hard coded)
-save cfg
-bounce head gib?
-wall scaling is step up?
+auto aiming sucks  
+remove superscaling  
+s->relasecount error  
+.cfg default for exec  
+frame too fast bug causing lockups  
+last request/reply  
+registration trademark!!!  
+explosion cores  
+check side to side movement for big attacks like the shamblers?  
+change backpack content messages  
+combine model and sound cache!  
+better PVS with more leafs?  
 
 
------------------------------------------
-John Carmack's .plan for Apr 05, 1996
------------------------------------------
+## John Carmack's .plan for Apr 04, 1996
 
-+ sound loop points
+\+ teleport flash is broken  
+\+ order of monster fall to ground  
 
-multi life / level demos
-precache_sound return string value
-make jump buffered edge triggered
-clipping hull lips
-hang after sitting overnight on dos
+multiple input drivers (hard coded)  
+save cfg  
+bounce head gib?  
+wall scaling is step up?  
 
 
------------------------------------------
-John Carmack's .plan for Apr 06, 1996
------------------------------------------
+## John Carmack's .plan for Apr 05, 1996
 
-use PVS to speed line of sight checks?  Is that any faster than doing
-	the line check, because it involves two point checks?
-swooping ai movement by checking distance to impact with forward trace?
-make minimum frame time a cvar, so you could clamp to 10fps
-runmove() builtin for progs?
-draw triggers debugging option (z buffer it)?
-look towards killer when dead
+\+ sound loop points  
+
+multi life / level demos  
+precache_sound return string value  
+make jump buffered edge triggered  
+clipping hull lips  
+hang after sitting overnight on dos  
 
 
------------------------------------------
-John Carmack's .plan for Apr 07, 1996
------------------------------------------
+## John Carmack's .plan for Apr 06, 1996
+
+use PVS to speed line of sight checks?  Is that any faster than doing the line check, because it involves two point checks?  
+swooping ai movement by checking distance to impact with forward trace?  
+make minimum frame time a cvar, so you could clamp to 10fps  
+runmove() builtin for progs?  
+draw triggers debugging option (z buffer it)?  
+look towards killer when dead  
+
+
+## John Carmack's .plan for Apr 07, 1996
 
 * fixed tfog
 * fixed removal of entities over net
 
 
------------------------------------------
-John Carmack's .plan for Apr 08, 1996
------------------------------------------
+## John Carmack's .plan for Apr 08, 1996
 
 * fixed stray rocket trails
 * fixed coordinate integralization problem
@@ -1053,33 +957,31 @@ John Carmack's .plan for Apr 08, 1996
 * fixed smooth step up
 * got new clipping code running
 
-+ sound looping prob is due to decimation
-+ expand numtextures to a word from a byte
-+ remove FL_ONGROUND after being pushed
-+ still damage through walls
-+ counting trigger
-+ paused graphic
-+ demon freeze jump
+\+ sound looping prob is due to decimation  
+\+ expand numtextures to a word from a byte  
+\+ remove FL_ONGROUND after being pushed  
+\+ still damage through walls  
+\+ counting trigger  
+\+ paused graphic  
+\+ demon freeze jump  
 
-add s and t vectors to the plane description in .map files
-remove the pad around bmodels bounds
-make pushmove area check instead of linear search
-server pass full pathnames to client
-dos crashes overnight (timing wraparound bug?)
-quake logo screen needs filtering
-shoot all the way through walls with objects
-wizard fireball
-plat problem in tim17
-shambler lightning
-weird grenade launch spot
-auto pause on console
-hold "other" on delay triggers
-gib stuff
+add s and t vectors to the plane description in .map files  
+remove the pad around bmodels bounds  
+make pushmove area check instead of linear search  
+server pass full pathnames to client  
+dos crashes overnight (timing wraparound bug?)  
+quake logo screen needs filtering  
+shoot all the way through walls with objects  
+wizard fireball  
+plat problem in tim17  
+shambler lightning  
+weird grenade launch spot  
+auto pause on console  
+hold "other" on delay triggers  
+gib stuff  
 
 
------------------------------------------
-John Carmack's .plan for Apr 09, 1996
------------------------------------------
+## John Carmack's .plan for Apr 09, 1996
 
 * fixed crash when -NXHost on quake
 * added +precache 0 option to speed up WAN loading
@@ -1087,115 +989,104 @@ John Carmack's .plan for Apr 09, 1996
 * added loop lengths to sound loading
 * increased MAX_MAP_ENTSTING
 
-+ quakeEd filter brushes
-+ 16 bit looping sounds hang the dos game
+\+ quakeEd filter brushes  
+\+ 16 bit looping sounds hang the dos game  
 
-QuakeEd showed "Helvetica-Bold" in entity comment field.  Scary.
-maake treading water better
-trigger to turn off spikeshooters
-save the entity string memory
-blocked bmodels are conveyors?
+QuakeEd showed "Helvetica-Bold" in entity comment field.  Scary.  
+maake treading water better  
+trigger to turn off spikeshooters  
+save the entity string memory  
+blocked bmodels are conveyors?  
 
 
------------------------------------------
-John Carmack's .plan for Apr 10, 1996
------------------------------------------
+## John Carmack's .plan for Apr 10, 1996
 
 * made no-light levels auto fullbright
 * finished second clipping hull
 
-+ zombies on the ground can't be gibbed
-+ listen servers not working?
+\+ zombies on the ground can't be gibbed  
+\+ listen servers not working?  
 
-error check all strcpy in QuakeEd
-slow slide clipping with ogre hull?
-grenades should trigger shootable triggers / objects
-looping sound that didn't stop
+error check all strcpy in QuakeEd  
+slow slide clipping with ogre hull?  
+grenades should trigger shootable triggers / objects  
+looping sound that didn't stop  
 
 
------------------------------------------
-John Carmack's .plan for Apr 11, 1996
------------------------------------------
+## John Carmack's .plan for Apr 11, 1996
 
 * fixed damage through walls
 * fixed gibbing downed zombies
 
-+ KEY_SEMICOLON
+\+ KEY_SEMICOLON  
 
-pointing?
-ten second max looping sound?
-integral sound stepping?
-the damage byte stream is what is causing packet overflows
-debounce jump
-is there a mouse call to find the number of buttons?
-fix palette after vid change...
-too many vid_palette calls
-DON'T FLUSH THE ENTIRE DAMN SCREEN!
-fix snd_next to be snd_none
-change sys_loadfile to com_loadfile
-"system is little endien" message as optional verbose debug
-sometimes shotgun sound doesn't play
-double doors independantly closing
-server speed went back up
-fix auto aiming
-no gun aiming
-no change to grenade launcher
-ogre grenades
-zombie gibs
-r_ambient
-fixed angle for grenades when stopped
-client side shambler lightning
-gravity on corpses pushed into blocking positions
-slime darkness value
-sky time problem
-integrate dirpack with qcc
-check precedence of test directories and pak files
-rocket auto aiming is not working right
-amtele2 teleport problem
-no save when dead
-memory fail to console, not dos
-still overrun nails
-
-
------------------------------------------
-John Carmack's .plan for Apr 12, 1996
------------------------------------------
-
-<at raven>
+pointing?  
+ten second max looping sound?  
+integral sound stepping?  
+the damage byte stream is what is causing packet overflows  
+debounce jump  
+is there a mouse call to find the number of buttons?  
+fix palette after vid change...  
+too many vid_palette calls  
+DON'T FLUSH THE ENTIRE DAMN SCREEN!  
+fix snd_next to be snd_none  
+change sys_loadfile to com_loadfile  
+"system is little endien" message as optional verbose debug  
+sometimes shotgun sound doesn't play  
+double doors independantly closing  
+server speed went back up  
+fix auto aiming  
+no gun aiming  
+no change to grenade launcher  
+ogre grenades  
+zombie gibs  
+r_ambient  
+fixed angle for grenades when stopped  
+client side shambler lightning  
+gravity on corpses pushed into blocking positions  
+slime darkness value  
+sky time problem  
+integrate dirpack with qcc  
+check precedence of test directories and pak files  
+rocket auto aiming is not working right  
+amtele2 teleport problem  
+no save when dead  
+memory fail to console, not dos  
+still overrun nails  
 
 
------------------------------------------
-John Carmack's .plan for Apr 13, 1996
------------------------------------------
+## John Carmack's .plan for Apr 12, 1996
 
-<at raven>
+\<at raven\>
 
 
------------------------------------------
-John Carmack's .plan for Apr 14, 1996
------------------------------------------
+## John Carmack's .plan for Apr 13, 1996
+
+\<at raven\>
+
+
+## John Carmack's .plan for Apr 14, 1996
 
 * fix 8 bit palette in NS
 * modified modelgen to allow multiple models in one file
 * fixed qbsp to detect cases of no entities placed and skip fill outside
 * new wizard spike attacks
-fix corrected palette at mode change
-make dos utility tree
-make QuakeEd's menu commands variable length
-debounce console
-debounce jump
-remote slist
-slist with user names
-fall out of world when dead
-s_releasesound: s->refcount < 0
-sound cache parameters
-clear pause on restart
-check pak file overriding
+
+fix corrected palette at mode change  
+make dos utility tree  
+make QuakeEd's menu commands variable length  
+debounce console  
+debounce jump  
+remote slist  
+slist with user names  
+fall out of world when dead  
+s_releasesound: s->refcount < 0  
+sound cache parameters  
+clear pause on restart  
+check pak file overriding  
 
 
------------------------------------------
-John Carmack's .plan for Apr 15, 1996
------------------------------------------
+## John Carmack's .plan for Apr 15, 1996
 
 * lowered slime cshift
 * wizard slide move
@@ -1209,31 +1100,29 @@ John Carmack's .plan for Apr 15, 1996
 * fixed forking bug that trashed pointfiles
 * fixed sky fuckup
 
-+ fix demon pop jump
-+ zombie get up inside other
-+ zombie gib throwing
-+ lose onfloor when pushed
-+ animating textures
-+ schurch weirdness
+\+ fix demon pop jump  
+\+ zombie get up inside other  
+\+ zombie gib throwing  
+\+ lose onfloor when pushed  
+\+ animating textures  
+\+ schurch weirdness  
 
-make light styles global prog vars
-base4 entrance door sucks
-back attack damage
-fix dynamic light values of players
-aim up at nearby monsters
-load pcxs in lbmlib
-text triggers
-swim slow straight up?
-temp entities
-client sound calls
-zombie heads bouncing
-bouncing monsters out of the world
-gib bodies between pushers
+make light styles global prog vars  
+base4 entrance door sucks  
+back attack damage  
+fix dynamic light values of players  
+aim up at nearby monsters  
+load pcxs in lbmlib  
+text triggers  
+swim slow straight up?  
+temp entities  
+client sound calls  
+zombie heads bouncing  
+bouncing monsters out of the world  
+gib bodies between pushers  
 
 
------------------------------------------
-John Carmack's .plan for Apr 16, 1996
------------------------------------------
+## John Carmack's .plan for Apr 16, 1996
 
 * reduced bodies to points on squash
 * turned off onground when pushed
@@ -1241,94 +1130,90 @@ John Carmack's .plan for Apr 16, 1996
 * fixed zombie stand ups
 * fixed zombie standing off floor
 * fixed uninitialized vector in movestep
-* fixed scr_ofs cheat
+* fixed `scr_ofs` cheat
 * fixed upjump cheat
-* _field names are ignored by quake
+* `_field` names are ignored by quake
 * fixed bottom checking
 * fixed up fov
 * moved icons into view screen
 * added pause icon and showpause cvar
-* renamed SOLID_EDGE to SOLID_TRIGGER
+* renamed `SOLID_EDGE` to `SOLID_TRIGGER`
 * delayed monster drop to floor
 
-+ mbug.map texture toastage
-+ save / loadgame start view angle
-+ fix demon popjump
-+ flickering ammo box on restart
-+ weapons not following to next level?
-+ knights not coming off paths when angered
-+ load / save games are broken
-+ pause veloicty spin
-+ reset lightstyles on level load
+\+ mbug.map texture toastage  
+\+ save / loadgame start view angle  
+\+ fix demon popjump  
+\+ flickering ammo box on restart  
+\+ weapons not following to next level?  
+\+ knights not coming off paths when angered  
+\+ load / save games are broken  
+\+ pause veloicty spin  
+\+ reset lightstyles on level load  
 
-more screen turbulent warps
-default fields in /*QuakeEd header
-is draworder working in deathmatch?
-enforcer no melee attack, side step
-triangle transition size
-open secret doors with area effects
-alias model racing stripe
-shoot over grounded zombies
-activatable trigger
-wizard altitude changes
-enforcers need to drop ammo
-player torso gib shouldn't be used for most monsters
-teleportation issues
-some keyboard keys make it in while changing levels
-make a base directory variable for all util scripts?
-invisibility (remove weapon)
-flyjumping up slopes
-better polygon lighting
-track killer when dead
-allocate cl_entities on the hunk
-start dead zombies
-cvar changing buttons
-invulnerability powerup
-raise / lower weapons
-is qc pausetime needed?
-delay item drop to floor?
-run first second of game before entering player
+more screen turbulent warps  
+default fields in `/*QuakeEd` header  
+is draworder working in deathmatch?  
+enforcer no melee attack, side step  
+triangle transition size  
+open secret doors with area effects  
+alias model racing stripe  
+shoot over grounded zombies  
+activatable trigger  
+wizard altitude changes  
+enforcers need to drop ammo  
+player torso gib shouldn't be used for most monsters  
+teleportation issues  
+some keyboard keys make it in while changing levels  
+make a base directory variable for all util scripts?  
+invisibility (remove weapon)  
+flyjumping up slopes  
+better polygon lighting  
+track killer when dead  
+allocate `cl_entities` on the hunk  
+start dead zombies  
+cvar changing buttons  
+invulnerability powerup  
+raise / lower weapons  
+is qc pausetime needed?  
+delay item drop to floor?  
+run first second of game before entering player  
 
 
------------------------------------------
-John Carmack's .plan for Apr 18, 1996
------------------------------------------
+## John Carmack's .plan for Apr 18, 1996
 
 * finished new bsp portalization process: 20% faster, 1/5 the memory
 * fixed monster repeat teleport
 * klook and mlook
 * fixed monster stepping up into mid air
-* what breaks switchable lights is a bsp->entities without running light
+* what breaks switchable lights is a `bsp->entities` without running light
 * changed network startup to use signon ready flags
 * added extra face-on wall friction
 
-+ fix ammo between levels
-+ dark knight
-+ message wasn't a nop
-+ schurch zombie graves
-+ sandy's bug1
-+ slow drifting spikes
-+ kill wizard spikes after their death
-+ s_refcount bug still exists
-+ wizard spike starters spawn inside walls
-+ plat dmg fields
-+ longer pause for ogre first shot
+\+ fix ammo between levels  
+\+ dark knight  
+\+ message wasn't a nop  
+\+ schurch zombie graves  
+\+ sandy's bug1  
+\+ slow drifting spikes  
+\+ kill wizard spikes after their death  
+\+ `s_refcount` bug still exists  
+\+ wizard spike starters spawn inside walls  
+\+ plat dmg fields  
+\+ longer pause for ogre first shot  
 
-should demons step up before leaping?
-shooting spikes out of rockets
-need mouse configuration in the menus
-try removing bounding pad on bmodels
-add fadable light switches
-ability to bind specifically to key up / down ?
-bound ammo on weapon pickup
-lava damage for monsters
-error check add to reliable messages
-less accurate ogre tossing
+should demons step up before leaping?  
+shooting spikes out of rockets  
+need mouse configuration in the menus  
+try removing bounding pad on bmodels  
+add fadable light switches  
+ability to bind specifically to key up / down ?  
+bound ammo on weapon pickup  
+lava damage for monsters  
+error check add to reliable messages  
+less accurate ogre tossing  
 
 
------------------------------------------
-John Carmack's .plan for Apr 19, 1996
------------------------------------------
+## John Carmack's .plan for Apr 19, 1996
 
 * fixed world/entity clear allsolid flag bug
 * tracked down problem with zombies popping out of graves
@@ -1336,33 +1221,31 @@ John Carmack's .plan for Apr 19, 1996
 * fixed standing on top of monster stuck bug
 * animating textures
 
-+ don't report surface cache size when caching sounds
-+ pick up items multiple times when on dropping plat
-+ pause continues across restarts, but plaque doesn't
-+ overnight lockups
-+ debounce jump
-+ wizard spikes start in walls
+\+ don't report surface cache size when caching sounds  
+\+ pick up items multiple times when on dropping plat  
+\+ pause continues across restarts, but plaque doesn't  
+\+ overnight lockups  
+\+ debounce jump  
+\+ wizard spikes start in walls  
 
-overbright light palettes?
-slope auto pitch needs work
-secret area counters
-don't slide on slopes
-zombies need to be gibed by pushers
-monsters trigger plats
-trigger_notouch
-warnings on coplanar brushes in bsp?
-only disable auto center when head is under water, not feet
-debounce escape
-lightstyles in savegames
-sticky bsp corners
-wizard partical centers
-make triggers use BSP models?
-better sky management
+overbright light palettes?  
+slope auto pitch needs work  
+secret area counters  
+don't slide on slopes  
+zombies need to be gibed by pushers  
+monsters trigger plats  
+trigger_notouch  
+warnings on coplanar brushes in bsp?  
+only disable auto center when head is under water, not feet  
+debounce escape  
+lightstyles in savegames  
+sticky bsp corners  
+wizard partical centers  
+make triggers use BSP models?  
+better sky management  
 
 
------------------------------------------
-John Carmack's .plan for Apr 20, 1996
------------------------------------------
+## John Carmack's .plan for Apr 20, 1996
 
 * added hell knight
 * Hunk_ReportSurfaceCache() instead of automatic
@@ -1373,32 +1256,30 @@ John Carmack's .plan for Apr 20, 1996
 * dynamic lights!
 * special wide box for missiles against monsters
 
-+ larger rocket radius
-+ slow motion screwups
-+ nailgun stops rotating when riding a plat
-+ stuck roll angle
+\+ larger rocket radius  
+\+ slow motion screwups  
+\+ nailgun stops rotating when riding a plat  
+\+ stuck roll angle  
 
-use knight kneeling frames
-zombie crucified frames
-looping sound while invisible
-make running direction changes smoother
-error check all file opens?
-load temp file on stack if possible?
-remove SOLID_SLIDEBOX
-put auto aiming back in?
-move rule checking to end of frame
-quicksave / quickload
-dissallow spawn parms on deathmatch
-make connect to server send version number
-make temp entities auto remove
-no body que?
-water up swim speed
-tim was getting stuck in deathmatch
+use knight kneeling frames  
+zombie crucified frames  
+looping sound while invisible  
+make running direction changes smoother  
+error check all file opens?  
+load temp file on stack if possible?  
+remove SOLID_SLIDEBOX  
+put auto aiming back in?  
+move rule checking to end of frame  
+quicksave / quickload  
+dissallow spawn parms on deathmatch  
+make connect to server send version number  
+make temp entities auto remove  
+no body que?  
+water up swim speed  
+tim was getting stuck in deathmatch  
 
 
------------------------------------------
-John Carmack's .plan for Apr 21, 1996
------------------------------------------
+## John Carmack's .plan for Apr 21, 1996
 
 * fixed texture animation cycling roundoff bug
 * fixed up missile clipping
@@ -1407,28 +1288,26 @@ John Carmack's .plan for Apr 21, 1996
 * jump out of water
 * debounced jump
 
-+ check extranious messages on connect
-+ continuous looping sounds
-+ button texture changing
-+ state textures for buttons?
-+ remove the legless / headless player death frames
+\+ check extranious messages on connect  
+\+ continuous looping sounds  
+\+ button texture changing  
+\+ state textures for buttons?  
+\+ remove the legless / headless player death frames  
 
-why is shambler lightning funny colors under NS?
-extra point radius shoots through walls
-big sound cache for deathmatch
-abort load command?
-is max_health ever used in progs?
-don't go to frag scoreboard when single player dies
-clipping against surfaces causes multiple slime damages in multiplayer
-only?
-treading water less bouncy
-jetpack model is saved wrong
-super size boss
+why is shambler lightning funny colors under NS?  
+extra point radius shoots through walls  
+big sound cache for deathmatch  
+abort load command?  
+is max_health ever used in progs?  
+don't go to frag scoreboard when single player dies  
+clipping against surfaces causes multiple slime damages in multiplayer  
+only?  
+treading water less bouncy  
+jetpack model is saved wrong  
+super size boss  
 
 
------------------------------------------
-John Carmack's .plan for Apr 23, 1996
------------------------------------------
+## John Carmack's .plan for Apr 23, 1996
 
 * changed network update to client PVS specific
 * fixed broadcast svc_setangle on player connect
@@ -1438,29 +1317,24 @@ John Carmack's .plan for Apr 23, 1996
 * effects passing from server
 * invincibility
 
-+ self.modified is no longer needed with PVS updates
-+ empty space back fill Z buffer bug
+\+ self.modified is no longer needed with PVS updates  
+\+ empty space back fill Z buffer bug  
 
-vertical aiming sometimes shoots at a farther object
-over long latency lines, should shots come from the position the player
-was
-        viewing, or the true position?
-combine client->active and client->spawned into a client->state
-backpack message should include weapon gainsed
-throw monsters around from explosions
-drop wizard by half gravity
-make tri subdividing rasterizer based on screen size! (huge models go
-slow)
-american got a prog to crash
-allow listen servers to have a sys_ticrate?
-cut back on use of global host_client
-new teleport surface warp
-body que is broken
+vertical aiming sometimes shoots at a farther object  
+over long latency lines, should shots come from the position the player was viewing, or the true position?  
+combine client->active and client->spawned into a client->state  
+backpack message should include weapon gainsed  
+throw monsters around from explosions  
+drop wizard by half gravity  
+make tri subdividing rasterizer based on screen size! (huge models go slow)  
+american got a prog to crash  
+allow listen servers to have a sys_ticrate?  
+cut back on use of global host_client  
+new teleport surface warp  
+body que is broken  
 
 
------------------------------------------
-John Carmack's .plan for Apr 24, 1996
------------------------------------------
+## John Carmack's .plan for Apr 24, 1996
 
 * muzzle flashes
 * eat keys between levels
@@ -1475,45 +1349,43 @@ John Carmack's .plan for Apr 24, 1996
 * vid_size for nextstep
 * determined the hang is in the sound mixing loop never exiting
 
-+ auto pause with console
-+ more time for ogres before launching grenades
-+ is restart doing a progrestart?
-+ fix gib head bbox
-+ head outside level
-+ backpacks don't drop when floor is pulled out
-+ movetype_missiles need to be intangible against owners
-+ gib dogs
-+ teleport flashes aren't in the pvs
-+ soldier3 new pain frames
-+ fix high framerate bug
+\+ auto pause with console  
+\+ more time for ogres before launching grenades  
+\+ is restart doing a progrestart?  
+\+ fix gib head bbox  
+\+ head outside level  
+\+ backpacks don't drop when floor is pulled out  
+\+ movetype_missiles need to be intangible against owners  
+\+ gib dogs  
+\+ teleport flashes aren't in the pvs  
+\+ soldier3 new pain frames  
+\+ fix high framerate bug  
 
-minimum ambient light field for bmodels
-make it easier to jump out of water
-default water treading
-better discrimination of slime and water
-need to cycle allocations of temporary entities to prevent false reuse
-repeating bounce sound on dropping plats
-crush monsters extremely by plats
-about to drown warning noise
-load last savegame by default
-monsters burn in lava
-float particals from tport pads
-don't switch to frag bar on single player death
-slope lookup
-got stuck in a downed zombie
-make an error message in qcc for function calls inside a parm list
-polygon torches
-need to make impulses reliable, or looping sounds may not be killed
-restart game with entrance spawn parms
-allways test demos and savegames after a net change!
-option to match ping times for fair deathmatches?
-get bonus items on top of doors spawning deterministically
-selective cheat for testing
+minimum ambient light field for bmodels  
+make it easier to jump out of water  
+default water treading  
+better discrimination of slime and water  
+need to cycle allocations of temporary entities to prevent false reuse  
+repeating bounce sound on dropping plats  
+crush monsters extremely by plats  
+about to drown warning noise  
+load last savegame by default  
+monsters burn in lava  
+float particals from tport pads  
+don't switch to frag bar on single player death  
+slope lookup  
+got stuck in a downed zombie  
+make an error message in qcc for function calls inside a parm list  
+polygon torches  
+need to make impulses reliable, or looping sounds may not be killed  
+restart game with entrance spawn parms  
+allways test demos and savegames after a net change!  
+option to match ping times for fair deathmatches?  
+get bonus items on top of doors spawning deterministically  
+selective cheat for testing  
 
 
------------------------------------------
-John Carmack's .plan for Apr 25, 1996
------------------------------------------
+## John Carmack's .plan for Apr 25, 1996
 
 * increased spread on super shotgun
 * rewrote sound loading and mixing
@@ -1521,17 +1393,15 @@ John Carmack's .plan for Apr 25, 1996
 * fixed sound not playing bug
 * fixed sound hanging bug
 
-+ axe
+\+ axe  
 
-colored lighting sample
-lightning gun
-light bmodels
-don't let the view model go full dark
+colored lighting sample  
+lightning gun  
+light bmodels  
+don't let the view model go full dark  
 
 
------------------------------------------
-John Carmack's .plan for Apr 26, 1996
------------------------------------------
+## John Carmack's .plan for Apr 26, 1996
 
 * bringing down console auto pauses in single player
 * fixed ultra-slow motion console movement bug on bad bat file startup
@@ -1543,54 +1413,50 @@ John Carmack's .plan for Apr 26, 1996
 * new enforcer pain frames / code
 * added alternate animation sequences for textures
 
-+ still running into spikes
-+ fix host_framerate
-+ drop backpacks when floor removed
+\+ still running into spikes  
+\+ fix host_framerate  
+\+ drop backpacks when floor removed  
 
-bound ammo maxs on weapon pickup as well as ammo
-diminish sounds through walls
-partical puff and light flash from spike shooters
-do a disk icon when caching
-proper alias model bbox efrags
-allow monster hearing at farther distances
-animating texture speed control
-slipgate lightning sprite
-winking out door in tim6
-pusher problem on smotte (climbing out of water on a bmodel)
-need to allocate as large a sound cache as possible
-wizards die on top of spikes in mid air?
-doors shouldn't start move sound if blocked open
-don't slide down slopes
-cache alias models
+bound ammo maxs on weapon pickup as well as ammo  
+diminish sounds through walls  
+partical puff and light flash from spike shooters  
+do a disk icon when caching  
+proper alias model bbox efrags  
+allow monster hearing at farther distances  
+animating texture speed control  
+slipgate lightning sprite  
+winking out door in tim6  
+pusher problem on smotte (climbing out of water on a bmodel)  
+need to allocate as large a sound cache as possible  
+wizards die on top of spikes in mid air?  
+doors shouldn't start move sound if blocked open  
+don't slide down slopes  
+cache alias models  
 
 
------------------------------------------
-John Carmack's .plan for Apr 27, 1996
------------------------------------------
+## John Carmack's .plan for Apr 27, 1996
 
 * alternate texture animation sequences for depressed buttons
 * dropped knight and ogre melee damage
 * arbitrary texture axis on surfaces through all the utilities
 
-+ remove .modified
-+ need to make qbsp do 256 subdivision based on texture axis
-+ monsters still hit pathcorners when hostile
-+ demon jumps don't do damage
+\+ remove .modified  
+\+ need to make qbsp do 256 subdivision based on texture axis  
+\+ monsters still hit pathcorners when hostile  
+\+ demon jumps don't do damage  
 
-triggering an open door still makes a noise
-allow turning off styled lights
-QuakeEd texture x size field is clamping at 64 min
-faster mouse forward/backward?
-is it jumping higher when running?
-gun puffs still hit sky
-get all visible entities into the low 256 or 128 edicts
-force low quality sounds on low memory machines
-still have some light edge blobs
+triggering an open door still makes a noise  
+allow turning off styled lights  
+QuakeEd texture x size field is clamping at 64 min  
+faster mouse forward/backward?  
+is it jumping higher when running?  
+gun puffs still hit sky  
+get all visible entities into the low 256 or 128 edicts  
+force low quality sounds on low memory machines  
+still have some light edge blobs  
 
 
------------------------------------------
-John Carmack's .plan for Apr 29, 1996
------------------------------------------
+## John Carmack's .plan for Apr 29, 1996
 
 * fixed light sample determination for all rotations and scales
 * pulled wizard shot starts inside bounding box
@@ -1609,25 +1475,23 @@ John Carmack's .plan for Apr 29, 1996
 * make wizard drop altitude
 * better stereo seperation
 
-+ check message triggers
+\+ check message triggers  
 
-alpha qlumpy still has wrong type numbers
-help screen?
-auto reload savegame
-add pak building to qcc
-let doors target other items
-guys gibbed by boxes go to no such frame?
-is axe view skipping frames?
-do player pain frames cause weapon frame skipping?
-highlight current weapon in status bar
-dynamically light bmodels
-swimming motion
-explosions need to reveal secrets
+alpha qlumpy still has wrong type numbers  
+help screen?  
+auto reload savegame  
+add pak building to qcc  
+let doors target other items  
+guys gibbed by boxes go to no such frame?  
+is axe view skipping frames?  
+do player pain frames cause weapon frame skipping?  
+highlight current weapon in status bar  
+dynamically light bmodels  
+swimming motion  
+explosions need to reveal secrets  
 
 
------------------------------------------
-John Carmack's .plan for Apr 30, 1996
------------------------------------------
+## John Carmack's .plan for Apr 30, 1996
 
 * clamp health and ammo on level changes
 * removed modified field from edicts
@@ -1643,54 +1507,52 @@ John Carmack's .plan for Apr 30, 1996
 * changed sizedown aspect ration to mimic full screen instead of status
 bar
 
-fix progrestart
-sound streaming
-klook is broken
-don't slide on slopes
-optimize server code more
-get fakeplayer spots working again as monster targets
-longer pause for ogre first shot
-knights run up ramp on tim7 and stand in air
-style light alias models
-ogre only fall down when surprise pain
-monsters should get angry at each other more often
-increment sound channels so items never collide
-powerups
-vomitus
-hell knight
-blobs
-work on dogs
-monsters sim up/down
-jump triggers
-low grav aiming ogres
-throw monsters with explosions
-per level-gravity setting
-explosion cores
-monsters take damage in lava
-turn towards killer when dead
-slope lookup needs to match stairs
-no monster pain frames in ultra-hard mode
-monster moves after killing player
-disk icon during savegame
-smooth center instead of snap center
-sometimes multiple death sounds don't start
-don't use stdio lib from savegame
-"player switches to " messages
-info bar in single player: current secrets, kills, level name, etc
-load game unpauses
-pick up own grenades without explosions?
-monsters fight each other after player death
-allways switch to picked up weapons
-switch to super weapons automatically?
-light styles in savegame
-prog access uninitialized edict field causes bus error
-get 64 bit clean (progs overlay pointers and floats)
-allow multiple pack files
+fix progrestart  
+sound streaming  
+klook is broken  
+don't slide on slopes  
+optimize server code more  
+get fakeplayer spots working again as monster targets  
+longer pause for ogre first shot  
+knights run up ramp on tim7 and stand in air  
+style light alias models  
+ogre only fall down when surprise pain  
+monsters should get angry at each other more often  
+increment sound channels so items never collide  
+powerups  
+vomitus  
+hell knight  
+blobs  
+work on dogs  
+monsters sim up/down  
+jump triggers  
+low grav aiming ogres  
+throw monsters with explosions  
+per level-gravity setting  
+explosion cores  
+monsters take damage in lava  
+turn towards killer when dead  
+slope lookup needs to match stairs  
+no monster pain frames in ultra-hard mode  
+monster moves after killing player  
+disk icon during savegame  
+smooth center instead of snap center  
+sometimes multiple death sounds don't start  
+don't use stdio lib from savegame  
+"player switches to " messages  
+info bar in single player: current secrets, kills, level name, etc  
+load game unpauses  
+pick up own grenades without explosions?  
+monsters fight each other after player death  
+allways switch to picked up weapons  
+switch to super weapons automatically?  
+light styles in savegame  
+prog access uninitialized edict field causes bus error  
+get 64 bit clean (progs overlay pointers and floats)  
+allow multiple pack files  
 
 
------------------------------------------
-John Carmack's .plan for May 01, 1996
------------------------------------------
+## John Carmack's .plan for May 01, 1996
 
 * background noise track code
 * fixed swimming nan bug
@@ -1702,27 +1564,25 @@ John Carmack's .plan for May 01, 1996
 * qcc is now fully recursive
 * buttons only pressable by player
 
-+ the explosion cores are still MOVETYPE_TOSS, not MOVETYPE_NONE
-+ set gravity on secret level
-+ host_framerate cvar is broken
-+ shootable buttons
-+ wizards on paths go to wrong heights
-+ make knights not move when in melee range
-+ light styles in savegames
-+ QuakeEd: filter world
-+ QuakeEd: remove check for filtered brush
+\+ the explosion cores are still MOVETYPE_TOSS, not MOVETYPE_NONE  
+\+ set gravity on secret level  
+\+ host_framerate cvar is broken  
+\+ shootable buttons  
+\+ wizards on paths go to wrong heights  
+\+ make knights not move when in melee range  
+\+ light styles in savegames  
+\+ QuakeEd: filter world  
+\+ QuakeEd: remove check for filtered brush  
 
-fish fly out of water
-make door triggers not box sized
-check respawning on tim5 armor that drops down
-make an end of frame call for each player
-allow sprites to have a faked forward Z value?  allways?
-key alias models
+fish fly out of water  
+make door triggers not box sized  
+check respawning on tim5 armor that drops down  
+make an end of frame call for each player  
+allow sprites to have a faked forward Z value?  allways?  
+key alias models  
 
 
------------------------------------------
-John Carmack's .plan for May 02, 1996
------------------------------------------
+## John Carmack's .plan for May 02, 1996
 
 * changed grenade cores to MOVETYPE_NONE
 * set gravity in worldspawn
@@ -1735,96 +1595,92 @@ John Carmack's .plan for May 02, 1996
 * checked console resize in vid mode set, so size messages never get lost
 * shootable buttons
 
-+ edge light seams
-+ increase max packet size during development?
-+ rotate dogs slower?
-+ monsters drop to floor after teleport
-+ need very obvious sound for sequence completion
-+ model viewer inside quake
-+ cache alias models, if only to help level to level change speeds
-+ cache heap compaction
-+ remove bsp->leaktest from QuakeEd
-+ dog leaping
-+ sight sound on monster use
-+ allways switch to picked up weapons
-+ blink weapon icons on status bar when picked up
-+ climb out of water bug
-+ water warp option in all vid modes
-+ make qcc 64 bit clean by using doubles instead of floats on 64 bit
-archs?
+\+ edge light seams  
+\+ increase max packet size during development?  
+\+ rotate dogs slower?  
+\+ monsters drop to floor after teleport  
+\+ need very obvious sound for sequence completion  
+\+ model viewer inside quake  
+\+ cache alias models, if only to help level to level change speeds  
+\+ cache heap compaction  
+\+ remove bsp->leaktest from QuakeEd  
+\+ dog leaping  
+\+ sight sound on monster use  
+\+ allways switch to picked up weapons  
+\+ blink weapon icons on status bar when picked up  
+\+ climb out of water bug  
+\+ water warp option in all vid modes  
+\+ make qcc 64 bit clean by using doubles instead of floats on 64 bit  
+archs?  
 
-intermission levels
-spritegen has funny pathname determination
-demo fast forward
-seperate impact from damage
-combine some of the state flags in both client_t and server_t
-ambient light option on bmodels
-palette should be reset whenever console goes full creen
-should all +- binding have the keyname prepended to avoid the multiple
-downs?
-seperate mouse scaling for turning and moving
-make a "soundshot" option fortesting soundcode in ansi spec makefile?
-raise / lower weapons
-change weapon after firing last round
-flying fish
-change entity flags to effects
-should host_error try to cleanup aborted servers and clients?
-how many hunk allocs are there?  save memory by combining?
-QuakeEd: filter based on skill levels
-check trigger firing when spawned inside one
-remove input line completely when not accepting input
-data checksums for remote servers
-shrink net packet sizes
+intermission levels  
+spritegen has funny pathname determination  
+demo fast forward  
+seperate impact from damage  
+combine some of the state flags in both client_t and server_t  
+ambient light option on bmodels  
+palette should be reset whenever console goes full creen  
+should all +- binding have the keyname prepended to avoid the multiple  
+downs?  
+seperate mouse scaling for turning and moving  
+make a "soundshot" option fortesting soundcode in ansi spec makefile?  
+raise / lower weapons  
+change weapon after firing last round  
+flying fish  
+change entity flags to effects  
+should host_error try to cleanup aborted servers and clients?  
+how many hunk allocs are there?  save memory by combining?  
+QuakeEd: filter based on skill levels  
+check trigger firing when spawned inside one  
+remove input line completely when not accepting input  
+data checksums for remote servers  
+shrink net packet sizes  
 
 
------------------------------------------
-John Carmack's .plan for May 03, 1996
------------------------------------------
+## John Carmack's .plan for May 03, 1996
 
 * reduced rocket refire rate
 * removed ogre wait after awake
 * added shambler pain finished time
 * new caching code
 
-+ staircase rail on tim6 needs to be taller
-+ normal server disconnect is reported as a host_error
-+ jrbase1 up arrow out of slime is near a step
-+ bad changeup to green armor from yellow? level transition?
-+ are demo playback speeds correct?
-+ stair walking underwater
-+ ogre explosions need cores
-+ teleporting monsters left a statues
-+ shootable buttons don't anger monters properly
-+ cycle weapon command
-+ pain channel is same as weapon channel
-- cut swimming speed some
-- go through more get up frames on zombie before failing
-+ got stuck in a dropping zombie
-+ wizads on paths drop to ground
-+ torch models
-+ remove keys on use
-- different keys on status bar for different levels
-+ all items in inventory need to blink on pickup
-+ soldiers seeing into water on tim6?
+\+ staircase rail on tim6 needs to be taller  
+\+ normal server disconnect is reported as a host_error  
+\+ jrbase1 up arrow out of slime is near a step  
+\+ bad changeup to green armor from yellow? level transition?  
+\+ are demo playback speeds correct?  
+\+ stair walking underwater  
+\+ ogre explosions need cores  
+\+ teleporting monsters left a statues  
+\+ shootable buttons don't anger monters properly  
+\+ cycle weapon command  
+\+ pain channel is same as weapon channel  
+- cut swimming speed some  
+- go through more get up frames on zombie before failing  
+\+ got stuck in a dropping zombie  
+\+ wizads on paths drop to ground  
+\+ torch models  
+\+ remove keys on use  
+- different keys on status bar for different levels  
+\+ all items in inventory need to blink on pickup  
+\+ soldiers seeing into water on tim6?  
 
-savegames cause enemy items...
-different color console fonts
-monsters need to hear from farther away
-think about patch / update plan
-precache_ambient
-alternate surface warp
-killing ogre while on falling platform left him in the air
-better treading water
-better search path handling
-make a progs / models test directory for kevin
-blink key icons on doors
-default.cfg allways goes to knwon state
-animate key icon on doors when failing to open
+savegames cause enemy items...  
+different color console fonts  
+monsters need to hear from farther away  
+think about patch / update plan  
+precache_ambient  
+alternate surface warp  
+killing ogre while on falling platform left him in the air  
+better treading water  
+better search path handling  
+make a progs / models test directory for kevin  
+blink key icons on doors  
+default.cfg allways goes to knwon state  
+animate key icon on doors when failing to open  
 
 
------------------------------------------
-John Carmack's .plan for May 04, 1996
------------------------------------------
+## John Carmack's .plan for May 04, 1996
 
 * allow "quake f:\quake\id1" for better ISDN development
 * dynamic caching of alias models
@@ -1838,26 +1694,24 @@ John Carmack's .plan for May 04, 1996
 * fixed fired button activator handling
 * fixed wizard path following
 
-+ alias model torches...
-+ don't spawn triggers for key doors, just use touch
-+ make sound channel 0 never match
-+ jrbase1: don't put guard inside ammo box, superhealth at end is no good,
-        bridge delay is wrong, can still fall into slime
-+ debug the stdio library problems!
+\+ alias model torches...  
+\+ don't spawn triggers for key doors, just use touch  
+\+ make sound channel 0 never match  
+\+ jrbase1: don't put guard inside ammo box, superhealth at end is no good,  
+        bridge delay is wrong, can still fall into slime  
+\+ debug the stdio library problems!  
 
-tim5 armor drop on ogre fucks up
-remove UPDATE_BINARY and pushmove
-make +_ key commands pass source as second parameter
-cace console background?
-more alert monsters?
-demo cycling breaks netgames
-automatic treading water
-squish to bloody paste on interference
+tim5 armor drop on ogre fucks up  
+remove UPDATE_BINARY and pushmove  
+make +_ key commands pass source as second parameter  
+cace console background?  
+more alert monsters?  
+demo cycling breaks netgames  
+automatic treading water  
+squish to bloody paste on interference  
 
 
------------------------------------------
-John Carmack's .plan for May 05, 1996
------------------------------------------
+## John Carmack's .plan for May 05, 1996
 
 * removed player entity from own entity set
 * fixed memory trash bug from not flushing surface cache before
@@ -1869,18 +1723,16 @@ changelevel
 + fix wall jump scaling
 + better backpack messages
 
-QuakeEd is doing something over the net on NXPings
-bloody face health indicator?
-crosshair?
-don't pass angles, frame, etc on viewentity
-rockets spawn past point blank
-Single player names on qsockets are backwards
-make dead player still solid to monsters to prevent seeing inside models?
+QuakeEd is doing something over the net on NXPings  
+bloody face health indicator?  
+crosshair?  
+don't pass angles, frame, etc on viewentity  
+rockets spawn past point blank  
+Single player names on qsockets are backwards  
+make dead player still solid to monsters to prevent seeing inside models?  
 
 
------------------------------------------
-John Carmack's .plan for May 06, 1996
------------------------------------------
+## John Carmack's .plan for May 06, 1996
 
 * removed MOUSE1, MOUSE2, MOUSE3, added K_MOUSE1, etc for binding
 * check for spurious mouse buttons
@@ -1892,32 +1744,30 @@ John Carmack's .plan for May 06, 1996
 * idle view motion
 * monsters get mad at each other on any damage
 
-+ cache movement on hunk allocs
-+ hi res modes with new code are broken
-+ dead guy still firing / pushed into floor
-+ fake pause causes problems when map from console
-+ zombie shouldn't go into pain frame when down
-+ change weapon command
-+ is DMA left enambled in sound code?
+\+ cache movement on hunk allocs  
+\+ hi res modes with new code are broken  
+\+ dead guy still firing / pushed into floor  
+\+ fake pause causes problems when map from console  
+\+ zombie shouldn't go into pain frame when down  
+\+ change weapon command  
+\+ is DMA left enambled in sound code?  
 
-respawning of items that dropped down with a plat
-rocket points block plats
-don't clear text on vid mode change
-grenade bounced off ogre
-bind # option for weird controllers
-key sticking
-investigate the vis problems
-make monsters head for their spawn points after they kill the player
-camera follow killer
-destroy backpacks when doors close on them
-lightning gun model
-lightning gun no damage to shambler
-does shambler bolt hurt monsters?
+respawning of items that dropped down with a plat  
+rocket points block plats  
+don't clear text on vid mode change  
+grenade bounced off ogre  
+bind # option for weird controllers  
+key sticking  
+investigate the vis problems  
+make monsters head for their spawn points after they kill the player  
+camera follow killer  
+destroy backpacks when doors close on them  
+lightning gun model  
+lightning gun no damage to shambler  
+does shambler bolt hurt monsters?  
 
 
------------------------------------------
-John Carmack's .plan for May 07, 1996
------------------------------------------
+## John Carmack's .plan for May 07, 1996
 
 * fixed point / point missile interactions
 * don't change weapons on pickup in deathmatch
@@ -1931,39 +1781,37 @@ John Carmack's .plan for May 07, 1996
 * cache movement
 * fixed shambler pain frame
 
-+ stair climbing clipping against walls is messed up a bit
-+ monsters need to drop to floor after teleport
-+ menu01
-+ loading on stack causes errors on dos
-+ flashing disk icon
-+ make caching perfect
-+ monsters not fight each other if not seen player yet
-+ make lighting gun consume cells
-+ falling into floor bug
-+ zombie clipping
-+ cycling channel allocation
-+ no Host_Error: for valid disconnect
-+ body que isn't working
+\+ stair climbing clipping against walls is messed up a bit  
+\+ monsters need to drop to floor after teleport  
+\+ menu01  
+\+ loading on stack causes errors on dos  
+\+ flashing disk icon  
+\+ make caching perfect  
+\+ monsters not fight each other if not seen player yet  
+\+ make lighting gun consume cells  
+\+ falling into floor bug  
+\+ zombie clipping  
+\+ cycling channel allocation  
+\+ no Host_Error: for valid disconnect  
+\+ body que isn't working  
 
-shooting rockets at point blank
-deathmatch switch to better weapon again
-lightning needs to pitch
-control animating texture speed
-need to cut the update message size
-sfx volume option
-player only checkbox for doors and triggers
-launch lightning from exact spots
-finalize HMD interface
-repeating grenade bounce on some slopes
-jump out of water automatically when swim up to an edge, no need to jump
-new ground explosions
-auto pitch went into look down for no reason
-gib velocity reletive to damage?
+shooting rockets at point blank  
+deathmatch switch to better weapon again  
+lightning needs to pitch  
+control animating texture speed  
+need to cut the update message size  
+sfx volume option  
+player only checkbox for doors and triggers  
+launch lightning from exact spots  
+finalize HMD interface  
+repeating grenade bounce on some slopes  
+jump out of water automatically when swim up to an edge, no need to jump  
+new ground explosions  
+auto pitch went into look down for no reason  
+gib velocity reletive to damage?  
 
 
------------------------------------------
-John Carmack's .plan for May 08, 1996
------------------------------------------
+## John Carmack's .plan for May 08, 1996
 
 * fixed crash on machines with no sound card
 * made texmake grab new palette
@@ -1982,39 +1830,37 @@ John Carmack's .plan for May 08, 1996
 * fixed checkattacks crossing water
 * new bit coding on entity updates
 
-+ lightstyles in savegames
-+ broke multiple message triggers
-+ key door sounds
-+ messages on double doors
-+ messages on secret doors
-+ 3 digit frag bar
-+ light edges
-+ change weapon command
-+ center print messages
-+ hell knight slice
-+ more wizard death frames
-+ underwater noise
+\+ lightstyles in savegames  
+\+ broke multiple message triggers  
+\+ key door sounds  
+\+ messages on double doors  
+\+ messages on secret doors  
+\+ 3 digit frag bar  
+\+ light edges  
+\+ change weapon command  
+\+ center print messages  
+\+ hell knight slice  
+\+ more wizard death frames  
+\+ underwater noise  
 
-make gib entity rotation client side only
-ambient level on doors
-decouple weapon animations from pain, etc
-light bmodels
-point blank rockets
-look at killer monster
-swing weapons down
-turn view when axe fighting
-grenade destroy bodies
-lightning/rocket shooter
-swimming frames
-teleport warping
-teleporter surface warp
-blow up corpses
-get all visible enttites into low 128 or 256
+make gib entity rotation client side only  
+ambient level on doors  
+decouple weapon animations from pain, etc  
+light bmodels  
+point blank rockets  
+look at killer monster  
+swing weapons down  
+turn view when axe fighting  
+grenade destroy bodies  
+lightning/rocket shooter  
+swimming frames  
+teleport warping  
+teleporter surface warp  
+blow up corpses  
+get all visible enttites into low 128 or 256  
 
 
------------------------------------------
-John Carmack's .plan for May 09, 1996
------------------------------------------
+## John Carmack's .plan for May 09, 1996
 
 * fixed door linking / messages / targeting
 * remove onground after teleport
@@ -2024,34 +1870,32 @@ John Carmack's .plan for May 09, 1996
 * fixed point blank rocket bug
 * new light sample point determination
 
-+ no host_error on proper disconnect
-+ change weapon
-+ powerups
-+ cell packs
-+ fix pausing on menu / console
-+ make key doors touch activated instead of triggered
-+ lightning gun use ammo
-+ word wrap consoke
-+ monster jump triggers
-- blob spit attack
+\+ no host_error on proper disconnect  
+\+ change weapon  
+\+ powerups  
+\+ cell packs  
+\+ fix pausing on menu / console  
+\+ make key doors touch activated instead of triggered  
+\+ lightning gun use ammo  
+\+ word wrap consoke  
+\+ monster jump triggers  
+- blob spit attack  
 
-is turning not happening when in contact with monsters?
-client side lightning
-lightning gun
-enforcer bolt
-more pain feedback
-setting up the vid mode then changing levels can cause out of memory
-give a spike when hit by spikeshooter
-monsters burning in slime
-hknight throw a spike occasionally when charging
-demon jump down from higher
-higher demon jumps
-enforcers still see underwater
+is turning not happening when in contact with monsters?  
+client side lightning  
+lightning gun  
+enforcer bolt  
+more pain feedback  
+setting up the vid mode then changing levels can cause out of memory  
+give a spike when hit by spikeshooter  
+monsters burning in slime  
+hknight throw a spike occasionally when charging  
+demon jump down from higher  
+higher demon jumps  
+enforcers still see underwater  
 
 
------------------------------------------
-John Carmack's .plan for May 10, 1996
------------------------------------------
+## John Carmack's .plan for May 10, 1996
 
 * fixed undead demon bug
 * new main menu
@@ -2065,30 +1909,28 @@ John Carmack's .plan for May 10, 1996
 * monster jump triggers
 * cache optimizations in edge refresh
 
-+ cycle new allocation numbers
-+ make qcc do pack files to a destination
-+ dog leaping
-+ wizard death frames
-+ death popping
-+ step up wall clipping
-+ crucified zombie
-+ nudge weapons with sized down screens
-+ 64 bit clean qcc
+\+ cycle new allocation numbers  
+\+ make qcc do pack files to a destination  
+\+ dog leaping  
+\+ wizard death frames  
+\+ death popping  
+\+ step up wall clipping  
+\+ crucified zombie  
+\+ nudge weapons with sized down screens  
+\+ 64 bit clean qcc  
 
-remove drop to floor?
-make Quit go back to demos and reset controls for E3
-lots of demos
-slime damage for all monsters
-pass PVS list to refresh instead of passing efrags
-remap stupid entities (item_weapon)
-sound for all monsters hitting ground
-reset the bonus items in monsters
-refix the rocket stuff after demo
+remove drop to floor?  
+make Quit go back to demos and reset controls for E3  
+lots of demos  
+slime damage for all monsters  
+pass PVS list to refresh instead of passing efrags  
+remap stupid entities (item_weapon)  
+sound for all monsters hitting ground  
+reset the bonus items in monsters  
+refix the rocket stuff after demo  
 
 
------------------------------------------
-John Carmack's .plan for May 11, 1996
------------------------------------------
+## John Carmack's .plan for May 11, 1996
 
 * wizard death frames
 * dog leaping
@@ -2098,32 +1940,30 @@ John Carmack's .plan for May 11, 1996
 * crucified zombies
 * cemter printing
 
-+ tally monster deaths at end instead of counting at kills (monster on
-monster)
-+ parse \n out of messages
-+ status bar feedback
-+ klook
+\+ tally monster deaths at end instead of counting at kills (monster on  
+monster)  
+\+ parse \n out of messages  
+\+ status bar feedback  
+\+ klook  
 
-weapon dropping
-weapon jumping
-mess with configuration screen
-move all messages into a language qc file
-fix frag bar
-some side velocity on death
-check monster full turn before firing
-check exit hang on beta machine
-puff+light for spike shooters
-tim5 armor fall on ogre bug
-view track killer
-enforcer bolts
-less monster alertness when high or low
-blob spawn ceiling
-fix coop
+weapon dropping  
+weapon jumping  
+mess with configuration screen  
+move all messages into a language qc file  
+fix frag bar  
+some side velocity on death  
+check monster full turn before firing  
+check exit hang on beta machine  
+puff+light for spike shooters  
+tim5 armor fall on ogre bug  
+view track killer  
+enforcer bolts  
+less monster alertness when high or low  
+blob spawn ceiling  
+fix coop  
 
 
------------------------------------------
-John Carmack's .plan for May 12, 1996
------------------------------------------
+## John Carmack's .plan for May 12, 1996
 
 * catch overbackoff in movement sliding code
 * extended key/value size in utils
@@ -2135,26 +1975,24 @@ John Carmack's .plan for May 12, 1996
 * fixed soundinfo exploded on a no sound card system
 * optimized snd paint and transfer
 
-+ change weapon
-+ jrstart: no fall in water by medium
-+ demo loops
-+ player stats on frag bar
-+ nail gun alternating
-+ cycle edict allocations
-+ jrstart: light up black corners
-+ clear center print when console drops
+\+ change weapon  
+\+ jrstart: no fall in water by medium  
+\+ demo loops  
+\+ player stats on frag bar  
+\+ nail gun alternating  
+\+ cycle edict allocations  
+\+ jrstart: light up black corners  
+\+ clear center print when console drops  
 
-axe view tilt
-better underwater bubble control
-track killer
-kick monsters off edges in pain/death
-jump landing frames
-new explosions
+axe view tilt  
+better underwater bubble control  
+track killer  
+kick monsters off edges in pain/death  
+jump landing frames  
+new explosions  
 
 
------------------------------------------
-John Carmack's .plan for May 13, 1996
------------------------------------------
+## John Carmack's .plan for May 13, 1996
 
 * weapon cuycling command
 * trapped bug with maps without textures
@@ -2173,52 +2011,50 @@ John Carmack's .plan for May 13, 1996
 * fopen demos inside packfile
 * automatic ambient sounds
 
-+ bad recursive explobox?
-+ ambient sounder tents
-+ tab stats
-+ center print sequence stuff
-+ demo files in packfiles
-+ powerups
-+ underwater looping sound
-+ pass source as parm for +defs
+\+ bad recursive explobox?  
+\+ ambient sounder tents  
+\+ tab stats  
+\+ center print sequence stuff  
+\+ demo files in packfiles  
+\+ powerups  
+\+ underwater looping sound  
+\+ pass source as parm for +defs  
 
-coop start spot
-don't accept mouse view when paused
-"you got # shells" for item messags
-precache_ambient
-visbug.map
-seperate impact from damage
-create pak files with search path?
-tim5 drop item on monster bug
-texture animation speeds
-squash to paste
-doubled "clearing memory"
-parse /* */ comments in config files
-explosion has bad colors in it
-proof of purchase
-lightning gun
-treading water
-looking down towards ground bug
-deathmatch level transitions
-better lava balls
-is zbuffer precision maximized?
-alias subdivider used wrongly in zoomin mode
-permanently shifted view angle on restart
-optimized single channel ambient mixing
-are 0 volume sounds hanging around?
-jrbase3 old bsp explosion
-auto jump out of water
-demo file version numbers
+coop start spot  
+don't accept mouse view when paused  
+"you got # shells" for item messags  
+precache_ambient  
+visbug.map  
+seperate impact from damage  
+create pak files with search path?  
+tim5 drop item on monster bug  
+texture animation speeds  
+squash to paste  
+doubled "clearing memory"  
+parse /* */ comments in config files  
+explosion has bad colors in it  
+proof of purchase  
+lightning gun  
+treading water  
+looking down towards ground bug  
+deathmatch level transitions  
+better lava balls  
+is zbuffer precision maximized?  
+alias subdivider used wrongly in zoomin mode  
+permanently shifted view angle on restart  
+optimized single channel ambient mixing  
+are 0 volume sounds hanging around?  
+jrbase3 old bsp explosion  
+auto jump out of water  
+demo file version numbers  
 
 
------------------------------------------
-John Carmack's .plan for May 14, 1996
------------------------------------------
+## John Carmack's .plan for May 14, 1996
 
 * fixed recursive barrel death
 * new characters
 * better ambient name parsing
-* con_dpritnf for developer messages
+* `con_dpritnf` for developer messages
 * start messages out of maps
 * directional touch triggers
 * remove qtest license stuff
@@ -2228,40 +2064,38 @@ John Carmack's .plan for May 14, 1996
 * moved all non-refresh vid.buffer access into draw.c
 * removed alphalumpy -- use qlumpy
 * automatic extension and dest file creation for qbsp
-* merged id1 and id1_ development hierarchies
+* merged `id1` and `id1_` development hierarchies
 * Made QuakeEd projects directory independent
 
-+ raven's bug map
-+ static point ambients
-+ hell knight smash
-+ flameb1 - 11
-+ explodes on manually going to bad map
-+ play humm1 for teleport textures
-+ parms for all + commands to identify source
+\+ raven's bug map  
+\+ static point ambients  
+\+ hell knight smash  
+\+ flameb1 - 11  
+\+ explodes on manually going to bad map  
+\+ play humm1 for teleport textures  
+\+ parms for all + commands to identify source  
 
-blood/chunk spray direction from claw attacks
-shootable base texture needs an off frame
-lint the utilities
-cache console background
-make all jump trigger targets have a land sound
-center menu in high res
-slipgate animations
-loading plaque, no console between levels
-supress input line
-fix timedemo with cycling demos
-gun jerking
-!cl.worldmodel is no longer valid?
-mike signon messages stay in notify lines
-break off anger at another monster if can't reach in ten seconds
-debounce all keys?
-center print level messages
-still dropping pack in single player?
-debug alpha modelgen
+blood/chunk spray direction from claw attacks  
+shootable base texture needs an off frame  
+lint the utilities  
+cache console background  
+make all jump trigger targets have a land sound  
+center menu in high res  
+slipgate animations  
+loading plaque, no console between levels  
+supress input line  
+fix timedemo with cycling demos  
+gun jerking  
+!cl.worldmodel is no longer valid?  
+mike signon messages stay in notify lines  
+break off anger at another monster if can't reach in ten seconds  
+debounce all keys?  
+center print level messages  
+still dropping pack in single player?  
+debug alpha modelgen  
 
 
------------------------------------------
-John Carmack's .plan for May 15, 1996
------------------------------------------
+## John Carmack's .plan for May 15, 1996
 
 * fixed bug with cl.disconnect not clearing worldmodel
 * linted and asnified qbsp/light/vis
@@ -2272,41 +2106,39 @@ John Carmack's .plan for May 15, 1996
 * solo console
 * blob fly1-4
 
-+ QuakeEd: don't allow retexture in wireframe mode
-+ QuakeEd: clear wad on bad load
-+ unfork qbsp
-+ body que
+\+ QuakeEd: don't allow retexture in wireframe mode  
+\+ QuakeEd: clear wad on bad load  
+\+ unfork qbsp  
+\+ body que  
 
-remove any remaining static limits in qbsp
-split client state into level - game - invocation
-eyes on status bar for invisibility
-accumulate damages so quad dmg shotgun can gib
-fix spit.map
-optional FOV cull for modem?
-super armor number
-server send prog checksum to clients
-fix hard coded location of status bar numbers in wad
-Cash's teleporter issue
-fake some angles to hide latency on movement
-faster mouse forward/backward
-+ QuakeEd: clear brush heights on new level
-more edicts
-+strafelook
-toughen up shambler
-no demon/demon blob/blob violence
-hell knight anims
-dopg death frames
-outside level plays all ambient sounds
-cl.active isn't good anymore
-demo loops crew multiplayer
-give for powerups
-make clip brush only models work
-fix bug_numpoints_on_hp.map
+remove any remaining static limits in qbsp  
+split client state into level - game - invocation  
+eyes on status bar for invisibility  
+accumulate damages so quad dmg shotgun can gib  
+fix spit.map  
+optional FOV cull for modem?  
+super armor number  
+server send prog checksum to clients  
+fix hard coded location of status bar numbers in wad  
+Cash's teleporter issue  
+fake some angles to hide latency on movement  
+faster mouse forward/backward  
+\+ QuakeEd: clear brush heights on new level  
+more edicts  
+\+strafelook  
+toughen up shambler  
+no demon/demon blob/blob violence  
+hell knight anims  
+dopg death frames  
+outside level plays all ambient sounds  
+cl.active isn't good anymore  
+demo loops crew multiplayer  
+give for powerups  
+make clip brush only models work  
+fix bug_numpoints_on_hp.map  
 
 
------------------------------------------
-John Carmack's .plan for May 18, 1996
------------------------------------------
+## John Carmack's .plan for May 18, 1996
 
 * make func_wall toggle frame on use
 * QuakeEd: remove bsp->leaktest
@@ -2316,23 +2148,21 @@ John Carmack's .plan for May 18, 1996
 * QuakeEd: new brush heights are now snapped to grid
 * default .bsp extension to bspinfo
 
-+ enforcer bolts
-+ sound for all monsters hitting ground
-+ 64 bit clean qcc
-+ parms for all + commands to identify source
-+ body que isn't working
+\+ enforcer bolts  
+\+ sound for all monsters hitting ground  
+\+ 64 bit clean qcc  
+\+ parms for all + commands to identify source  
+\+ body que isn't working  
 
-teleport effect
-global sfx volume option
-frag bar highlight
-permanently shifted view angle on restart
-goddamn dos \r text shit in output from NT tools messes up NeXT tools
-check for small area polygons and portals
+teleport effect  
+global sfx volume option  
+frag bar highlight  
+permanently shifted view angle on restart  
+goddamn dos \r text shit in output from NT tools messes up NeXT tools  
+check for small area polygons and portals  
 
 
------------------------------------------
-John Carmack's .plan for May 20, 1996
------------------------------------------
+## John Carmack's .plan for May 20, 1996
 
 * server sounds parameter specifies soundtrack
 * fixed cursor bug when clearing input line on console raise
@@ -2349,29 +2179,27 @@ John Carmack's .plan for May 20, 1996
 * don't drop backpack in single player
 * wrote unpack utility
 
-+ teleport static sound
-+ refix rocket point blank
-+ make fire animations non-syncronous
+\+ teleport static sound  
+\+ refix rocket point blank  
+\+ make fire animations non-syncronous  
 
-make MAX_PACKNAME define and error check against it
-dissable qcache for release?
-death/restart from loadgame
-should mouse forward/backwards cause an auto-center?
-unpackdir
-load/save should not take full paths
-ambient val on bmodels
-dynamic lights on bmodels
-finale
-fix demo cycle problems
-player corner clipping can take too long
-option to report any unfilled pixels (jrmed2)
-QuakeEd: goto point in command window
-monsters shooting you underwater
+make MAX_PACKNAME define and error check against it  
+dissable qcache for release?  
+death/restart from loadgame  
+should mouse forward/backwards cause an auto-center?  
+unpackdir  
+load/save should not take full paths  
+ambient val on bmodels  
+dynamic lights on bmodels  
+finale  
+fix demo cycle problems  
+player corner clipping can take too long  
+option to report any unfilled pixels (jrmed2)  
+QuakeEd: goto point in command window  
+monsters shooting you underwater  
 
 
------------------------------------------
-John Carmack's .plan for May 21, 1996
------------------------------------------
+## John Carmack's .plan for May 21, 1996
 
 * passage research
 * fixed static sound start with -nosound
@@ -2383,27 +2211,25 @@ John Carmack's .plan for May 21, 1996
 * added volume cvar to post scale all sound
 * underscale sound
 
-+ make hell knight only send one dynamic light out
-+ tim6: wordtype typo
-+ bmodel pvs issue in tim6
+\+ make hell knight only send one dynamic light out  
+\+ tim6: wordtype typo  
+\+ bmodel pvs issue in tim6  
 
-shotgun sound has dead time at end
-damage amp in jrbase1 is pointless
-easy to use "is drive readahead" test
-listen server bugs
-menu sounds
-weapon offsets are wrong again
-damage amplifier bug
-check cd removal issues
-tighten muzzle flash
-phantom nail boxes in tim6
-heads get stuck in ceilings sometimes
-is lightning owner set properly? sandy got stuck using the lighting gun
+shotgun sound has dead time at end  
+damage amp in jrbase1 is pointless  
+easy to use "is drive readahead" test  
+listen server bugs  
+menu sounds  
+weapon offsets are wrong again  
+damage amplifier bug  
+check cd removal issues  
+tighten muzzle flash  
+phantom nail boxes in tim6  
+heads get stuck in ceilings sometimes  
+is lightning owner set properly? sandy got stuck using the lighting gun  
 
 
------------------------------------------
-John Carmack's .plan for May 22, 1996
------------------------------------------
+## John Carmack's .plan for May 22, 1996
 
 * complete mouse configuration: m_pitch, m_yaw, m_forward, m_side
 * m_filter sample smoothing option
@@ -2416,31 +2242,29 @@ John Carmack's .plan for May 22, 1996
 * exit game text screen
 * gave name to unconnected clients
 
-+ make torch animation client side!!!
+\+ make torch animation client side!!!  
 
-is near Z clipping of alias models a bad idea?
-allow multiple packfiles to override one another
-better ideal pitch on slopes
-mouse pitch/strafe combo
-look at redbook audio
-restart shouldn't drop console.
-check for reloading the same level.
-noambient flag for low memory systems
-check zone memory allocation for bindings
-differentiate reconnect
-allow up/down in water
-swimming frames
-print bindings option
-more edge friction?
-reletive volumes for each ambient sound
-explicit bindings for key up / key down?
-teamplay totals
-level name in solo scoreboard
+is near Z clipping of alias models a bad idea?  
+allow multiple packfiles to override one another  
+better ideal pitch on slopes  
+mouse pitch/strafe combo  
+look at redbook audio  
+restart shouldn't drop console.  
+check for reloading the same level.  
+noambient flag for low memory systems  
+check zone memory allocation for bindings  
+differentiate reconnect  
+allow up/down in water  
+swimming frames  
+print bindings option  
+more edge friction?  
+reletive volumes for each ambient sound  
+explicit bindings for key up / key down?  
+teamplay totals  
+level name in solo scoreboard  
 
 
------------------------------------------
-John Carmack's .plan for May 23, 1996
------------------------------------------
+## John Carmack's .plan for May 23, 1996
 
 * fixed body que
 * Michael's client side alias animations
@@ -2451,36 +2275,34 @@ John Carmack's .plan for May 23, 1996
 * fix new pitching recenter
 * changed powerup effect to dim light
 
-partial screen updates
-bloody face?
-player induced meat chunks
-seperate soudntrack files into seperate download?
-check sighting into water
-scroll water textures?
-accumulate shotgun damage for powerup gibbing
-override help/sell and finale in registered pak
-victory music
-append sample rate to music filenames to match best
-rename jrstart to start
-rename the last I_ functions to sys_
-cache textures?
-dim out screen when menus are up?
-comment line on menu screens
-del in save field
-scan for all id1*.pak at startup
-reclaim entity string space after spawning
-change mins/maxs from floats to shorts in bspfile
-cut vertex numbers to shorts?
-marksurfaces to shorts?
-remove view model in weird FOVs
-ammo boxes not vanishing after reload
-change dynamic light attenuations for tighter spheres
-prog def for shareware only version?
+partial screen updates  
+bloody face?  
+player induced meat chunks  
+seperate soudntrack files into seperate download?  
+check sighting into water  
+scroll water textures?  
+accumulate shotgun damage for powerup gibbing  
+override help/sell and finale in registered pak  
+victory music  
+append sample rate to music filenames to match best  
+rename jrstart to start  
+rename the last I_ functions to sys_  
+cache textures?  
+dim out screen when menus are up?  
+comment line on menu screens  
+del in save field  
+scan for all id1*.pak at startup  
+reclaim entity string space after spawning  
+change mins/maxs from floats to shorts in bspfile  
+cut vertex numbers to shorts?  
+marksurfaces to shorts?  
+remove view model in weird FOVs  
+ammo boxes not vanishing after reload  
+change dynamic light attenuations for tighter spheres  
+prog def for shareware only version?  
 
 
------------------------------------------
-John Carmack's .plan for May 24, 1996
------------------------------------------
+## John Carmack's .plan for May 24, 1996
 
 * added lookspring back
 * fixed client PVS for checkclient to be from viewofs
@@ -2495,72 +2317,68 @@ error
 * trigger_changelevel fires targets
 * end of level stuff
 
-write a multi-platfirn C shell script for makefiles
-360 jump trigger
-shootable triggers?
-take away all screen effects at completion
-intermission code
-more monster awareness to nearby carnage
-reduce monster accuracy with invisibility
-high res centerings
-remove counters if cheating
-rename cheat codes
-generalize button0 button1 to button 0 - button 7
-dynamically reconfigure listen clients
-weapon movement with screen aspect is broken
-option to not pause the game while console is down?
-longer underwater time in easy skill?
-set registered flag
-menu sound (pause issue?)
-remove shootable invisible triggers?
-go over all the prog code
-gamma in options menu
-allow attack to respawn as well as jump?
-put end screen in gfx
-killed by box restart bug
-video mode set bug
-finish invisibility in deathmatch
-intermission cameras
-QuakeEd view pos button
-save polygons by filling inside of sky volumes
-load / save game
-monster on plat issues
-fish
-shalrath
-good lightning gun
-escape twice to remove console
-centerspeed not used?
-optional center on mlook release
-need bigger surface cache in higher res modes
-run direct from cd working path option
-cull distant sounds / partical effects on the server side?
-change vector view_ofs to scalar viewheight
-is the view model pitching backwards?
-non-thrashing precache?
-rename host_client to sv_client
-check surface cache size performance figures
+write a multi-platfirn C shell script for makefiles  
+360 jump trigger  
+shootable triggers?  
+take away all screen effects at completion  
+intermission code  
+more monster awareness to nearby carnage  
+reduce monster accuracy with invisibility  
+high res centerings  
+remove counters if cheating  
+rename cheat codes  
+generalize button0 button1 to button 0 - button 7  
+dynamically reconfigure listen clients  
+weapon movement with screen aspect is broken  
+option to not pause the game while console is down?  
+longer underwater time in easy skill?  
+set registered flag  
+menu sound (pause issue?)  
+remove shootable invisible triggers?  
+go over all the prog code  
+gamma in options menu  
+allow attack to respawn as well as jump?  
+put end screen in gfx  
+killed by box restart bug  
+video mode set bug  
+finish invisibility in deathmatch  
+intermission cameras  
+QuakeEd view pos button  
+save polygons by filling inside of sky volumes  
+load / save game  
+monster on plat issues  
+fish  
+shalrath  
+good lightning gun  
+escape twice to remove console  
+centerspeed not used?  
+optional center on mlook release  
+need bigger surface cache in higher res modes  
+run direct from cd working path option  
+cull distant sounds / partical effects on the server side?  
+change vector view_ofs to scalar viewheight  
+is the view model pitching backwards?  
+non-thrashing precache?  
+rename host_client to sv_client  
+check surface cache size performance figures  
 
 
------------------------------------------
-John Carmack's .plan for May 25, 1996
------------------------------------------
+## John Carmack's .plan for May 25, 1996
 
 * fixed savegame / phantom box bug
 * fixed underwater
 * allow monsters to sight other just-damaged monsters as clients
 * fixed lookspring
 
-+ secrets and kills are backwards
+\+ secrets and kills are backwards  
 
-tighten dlight radius/attenuation
-copy center prints to console
-the portal bug
-cue music on completion
+tighten dlight radius/attenuation  
+copy center prints to console  
+the portal bug  
+cue music on completion  
 
 
------------------------------------------
-John Carmack's .plan for May 26, 1996
------------------------------------------
+## John Carmack's .plan for May 26, 1996
 
 * flipped secret and kill plaques
 * finish solo scoreboard
@@ -2570,26 +2388,24 @@ John Carmack's .plan for May 26, 1996
 * reduced index sizes in .bsp files
 * flood filled away outside sky fragments in bsp files
 
-+ fix cache dir
+\+ fix cache dir  
 
-demo loop issues
-modify qbsp to allow entities only option to generate new triggers
-randomize intermission spots
-conditional bars in jrstart?
-teleport sprite
-fish
-registration key
-light bmodels
-different quad damage effect
-slipgate animations
-lightning gun
-general "no move" flag for player server C code
-scaled texture lighting still has bugs
+demo loop issues  
+modify qbsp to allow entities only option to generate new triggers  
+randomize intermission spots  
+conditional bars in jrstart?  
+teleport sprite  
+fish  
+registration key  
+light bmodels  
+different quad damage effect  
+slipgate animations  
+lightning gun  
+general "no move" flag for player server C code  
+scaled texture lighting still has bugs  
 
 
------------------------------------------
-John Carmack's .plan for May 27, 1996
------------------------------------------
+## John Carmack's .plan for May 27, 1996
 
 * moved ambient sound calculations to vis program
 * moved file caching option to host_parms
@@ -2603,21 +2419,19 @@ John Carmack's .plan for May 27, 1996
 * angle 0 jump triggers
 * fixed solo map name centering
 
-artifact blinking before removal
-deathmatch invisibility
-blinking cursor for configuration screen
-automatic config saving
-sum quad damage for gibbing
-shrink cl_entities to be cl_update_entities + cl_baselines
-tim5 armor fall through bug
-radius damage opening secret doors
-only surpress autocenter when not on ground, not water check
-clearing memory twice, allow baselevel to move if not connected
+artifact blinking before removal  
+deathmatch invisibility  
+blinking cursor for configuration screen  
+automatic config saving  
+sum quad damage for gibbing  
+shrink cl_entities to be cl_update_entities + cl_baselines  
+tim5 armor fall through bug  
+radius damage opening secret doors  
+only surpress autocenter when not on ground, not water check  
+clearing memory twice, allow baselevel to move if not connected  
 
 
------------------------------------------
-John Carmack's .plan for May 28, 1996
------------------------------------------
+## John Carmack's .plan for May 28, 1996
 
 * QuakeEd: forbid dragging position / direction when textured
 * constrained all file writes to the game directory to close security
@@ -2627,25 +2441,23 @@ path
 * full specification with: -basedir, -game, -cachepath, or -path
 * moved demo list to cls, fixed efrag bug on second demo playback
 
-+ bring up menu on any input during demos
-+ do "loading" plaque from demo to demo
-+ demo transition problem
-+ automatic pak grabbing frame game dir
-+ saving while in a trigger field kills it?
+\+ bring up menu on any input during demos  
+\+ do "loading" plaque from demo to demo  
+\+ demo transition problem  
+\+ automatic pak grabbing frame game dir  
+\+ saving while in a trigger field kills it?  
 
-bump edicts again
-acknowledge all - command line parms as they are accepted?
-QuakeEd: don't explode if /qcache isn't present
-qcc option to re-bsp models and maps
-shambler lightning needs to be exactly positioned
-joysticks
-keybinding saving isn't right
-claim all args from command line, or print warnings?
+bump edicts again  
+acknowledge all - command line parms as they are accepted?  
+QuakeEd: don't explode if /qcache isn't present  
+qcc option to re-bsp models and maps  
+shambler lightning needs to be exactly positioned  
+joysticks  
+keybinding saving isn't right  
+claim all args from command line, or print warnings?  
 
 
------------------------------------------
-John Carmack's .plan for May 29, 1996
------------------------------------------
+## John Carmack's .plan for May 29, 1996
 
 * any key in demos brings up menu
 * demo transitions bring up loading plaque
@@ -2659,32 +2471,30 @@ John Carmack's .plan for May 29, 1996
 * fixed dos savegame crash bug
 * automatic pak0.pak pak1.pak etc loading from game directories
 
-back to start after finishing each episode
-episode finished items
-ogre jumping frames
-load bmodels by lumps for less memory damage?
-does quake.qpr have to be in the root of the development directory?
-crosshair option
-wait on jump triggers?
-drowning warning
-cmd line load
-reformat text on vid mode change
-deathmatch level crossing
-nightmare mode
-death restart needs loading plaque
-map name on savegame comment line
-regular restart after a load game doesn't work
-bound load pointer
-swing up weapons
-lightning gun
-safe edict allocation failure
-remove view model in wide FOV modes
-give 9 faults
+back to start after finishing each episode  
+episode finished items  
+ogre jumping frames  
+load bmodels by lumps for less memory damage?  
+does quake.qpr have to be in the root of the development directory?  
+crosshair option  
+wait on jump triggers?  
+drowning warning  
+cmd line load  
+reformat text on vid mode change  
+deathmatch level crossing  
+nightmare mode  
+death restart needs loading plaque  
+map name on savegame comment line  
+regular restart after a load game doesn't work  
+bound load pointer  
+swing up weapons  
+lightning gun  
+safe edict allocation failure  
+remove view model in wide FOV modes  
+give 9 faults  
 
 
------------------------------------------
-John Carmack's .plan for May 30, 1996
------------------------------------------
+## John Carmack's .plan for May 30, 1996
 
 * automatic setting of the registered cvar
 * demos play from pak file
@@ -2697,36 +2507,34 @@ John Carmack's .plan for May 30, 1996
 * chase network issues
 * colored light gel demo
 
-remove bspleaktest from quake.qpr
-can trigger_changelevel stuff two commands sometimes?
-remove powerup shifts before intermission
-gib code for the big monsters
-give wizards (hknights?) need a muzzle flash
-last_damage on zombie for cumulative gibs
-new explosion
-check min memory with large number of clients
-better treading water
-escape at a fulls creen console to restart demos?
-allways run checkbox in options
-instructions on configuration screen
-fish attack
-fish not leave water
-finish invisibility
-conditional registration message in jrstart
-monsters die in slime
-longer message triggers in jrstart
-take dogs by ramp out in jrbase1
-easier jump out of water
-remove jsilly rbase1 bonus items
-smotte light at start
-loadgame from pulldown menu
-amlev98 shambler needs red armor on easy level
-for release: don't forget to remove "developer 1" cvar and bound cheats
+remove bspleaktest from quake.qpr  
+can trigger_changelevel stuff two commands sometimes?  
+remove powerup shifts before intermission  
+gib code for the big monsters  
+give wizards (hknights?) need a muzzle flash  
+last_damage on zombie for cumulative gibs  
+new explosion  
+check min memory with large number of clients  
+better treading water  
+escape at a fulls creen console to restart demos?  
+allways run checkbox in options  
+instructions on configuration screen  
+fish attack  
+fish not leave water  
+finish invisibility  
+conditional registration message in jrstart  
+monsters die in slime  
+longer message triggers in jrstart  
+take dogs by ramp out in jrbase1  
+easier jump out of water  
+remove jsilly rbase1 bonus items  
+smotte light at start  
+loadgame from pulldown menu  
+amlev98 shambler needs red armor on easy level  
+for release: don't forget to remove "developer 1" cvar and bound cheats  
 
 
------------------------------------------
-John Carmack's .plan for May 31, 1996
------------------------------------------
+## John Carmack's .plan for May 31, 1996
 
 * based load plaque removal on framecount instead of updates
 * fixed crash bug with zerod notify lines
@@ -2741,30 +2549,28 @@ John Carmack's .plan for May 31, 1996
 * protected against recursive loop when Con_Printf inside
 SCR_UpdateScreen
 
-is model name caching being done correctly for the flushed world model
-name?
-centerprint message delay times
-fade screen behind menus
-gib big monsters
-cl itemgettimes aren't saved.  do they need to be?
-weapon nudges on different view sizes
-slime ambient sounds
-center everything in higher res modes
-got stuck by explosion near zombies
-return to jrstart stuff
-amtest98 needs new teleport textures
-reset defaults option
-reset to defaults option
-track down load failed comments
-why do menu sounds ometimes not work?
-combo look/strafe
-fix lightning
-push trigger directionality wierdness
+is model name caching being done correctly for the flushed world model  
+name?  
+centerprint message delay times  
+fade screen behind menus  
+gib big monsters  
+cl itemgettimes aren't saved.  do they need to be?  
+weapon nudges on different view sizes  
+slime ambient sounds  
+center everything in higher res modes  
+got stuck by explosion near zombies  
+return to jrstart stuff  
+amtest98 needs new teleport textures  
+reset defaults option  
+reset to defaults option  
+track down load failed comments  
+why do menu sounds ometimes not work?  
+combo look/strafe  
+fix lightning  
+push trigger directionality wierdness  
 
 
------------------------------------------
-John Carmack's .plan for Jun 01, 1996
------------------------------------------
+## John Carmack's .plan for Jun 01, 1996
 
 * tracked loadgame problem to stack overflow
 * removed console cursor if key_dest != key_console
@@ -2778,22 +2584,20 @@ clip
 * options menu sliders
 * moved gamma correction out of vid systems into view
 
-+ shambler lightning needs pitch
-- stop demo when menu comes up?
-+ nightmare skill
-+ integrate spritegen with
-+ lookspring checkbox
-+ make sure all menu options get saved
-+ clear notify lines when in menu
+\+ shambler lightning needs pitch  
+- stop demo when menu comes up?  
+\+ nightmare skill  
+\+ integrate spritegen with  
+\+ lookspring checkbox  
+\+ make sure all menu options get saved  
+\+ clear notify lines when in menu  
 
-increase surface cache size?
-do knight swords do meat chunks?
-centerspeed slider
+increase surface cache size?  
+do knight swords do meat chunks?  
+centerspeed slider  
 
 
------------------------------------------
-John Carmack's .plan for Jun 02, 1996
------------------------------------------
+## John Carmack's .plan for Jun 02, 1996
 
 * fish don't leave water
 * merged new CD code
@@ -2803,87 +2607,81 @@ John Carmack's .plan for Jun 02, 1996
 * fixed sliding death/no retart bug
 * muzzle flash for wizards
 
-+ regrab gold/silver keys on sbar
-+ accumulate damage over a frame
-+ dissalow more than two bindings to the same action
+\+ regrab gold/silver keys on sbar  
+\+ accumulate damage over a frame  
+\+ dissalow more than two bindings to the same action  
 
-flymonster in wall test
-jump cause center?
-non-linear mouse movement reponse?
-use 3 frames of gib3
-start using pcx for all utilities
-use slight for shambler setup
-replace all item_weapon
-lava damage on monsters
-transition to intermission
-warning sound on about to drown
-don't end demo when player is in menu
+flymonster in wall test  
+jump cause center?  
+non-linear mouse movement reponse?  
+use 3 frames of gib3  
+start using pcx for all utilities  
+use slight for shambler setup  
+replace all item_weapon  
+lava damage on monsters  
+transition to intermission  
+warning sound on about to drown  
+don't end demo when player is in menu  
 
 
------------------------------------------
-John Carmack's .plan for Jun 03, 1996
------------------------------------------
+## John Carmack's .plan for Jun 03, 1996
 
 * gate_boss, gate_episode
 * item_sigil
 * fixed demo transition forcing console and menu away
 * setup for server transitions with connected clients
 
-+ grab new explosions
-+ console screen isn't coming down in deathmatch
-+ non-pickup nails again
-+ console cursor
-+ check tim21
-+ coop player starts
-+ flip mouse y as a checkbox option
+\+ grab new explosions  
+\+ console screen isn't coming down in deathmatch  
+\+ non-pickup nails again  
+\+ console cursor  
+\+ check tim21  
+\+ coop player starts  
+\+ flip mouse y as a checkbox option  
 
-monsters aren't telefragged?
-aim lighting gun up/down
-connect while demo is running fucks up
-sound for quad damage attack
-accumulate damage
-shoot flying gibs?
-add new gibs
-deathmatch intermission screen
-talk message buffer doesn't erase with sized down screen
+monsters aren't telefragged?  
+aim lighting gun up/down  
+connect while demo is running fucks up  
+sound for quad damage attack  
+accumulate damage  
+shoot flying gibs?  
+add new gibs  
+deathmatch intermission screen  
+talk message buffer doesn't erase with sized down screen  
 
 
------------------------------------------
-John Carmack's .plan for Jun 04, 1996
------------------------------------------
+## John Carmack's .plan for Jun 04, 1996
 
 * allowed host_framerate to explicitly exceed the normal bounds
 * reduced cls.state to ca_dedicated, ca_disconnected, ca_connected
 * got consistant on when memory is dumped -- only at start, not end
 * increaded MAX_VALUE to 1024 for longer text messages in entities
 
-+ dlight bmodels
-+ escape with console down brings up menu in addition to removing the
-console
-+ s_init should not be called on dedicated server
-+ sound channel droppoff when lots going? combine torch sounds?
-+ only allow two bindings to an action from menu
-+ delete in options menu to unbind all
-+ carry serverflags from level to level
-+ make all items fire triggers
-+ coop respawn
+\+ dlight bmodels  
+\+ escape with console down brings up menu in addition to removing the  
+console  
+\+ s_init should not be called on dedicated server  
+\+ sound channel droppoff when lots going? combine torch sounds?  
+\+ only allow two bindings to an action from menu  
+\+ delete in options menu to unbind all  
+\+ carry serverflags from level to level  
+\+ make all items fire triggers  
+\+ coop respawn  
 
-check dedicated, listen, loadgame, recorddemo, restarting, timedemo, and
-demoloops with new server setup
-make hit ground sound entity reletive
-filling sky volumes causes rockets to explode on sky.  fix somehow
-make all teleporters have an "inactive" flag so an event makes them active
-QuakeEd: top trace for shearing is at 2048, increase to 8192
-remove relight for quad damage
-remove leading K_ from keynames
-player swimming frames
-flash ammo counts after picking up bonus items?
-shalrath doesn't attack zombies?
+check dedicated, listen, loadgame, recorddemo, restarting, timedemo, and  
+demoloops with new server setup  
+make hit ground sound entity reletive  
+filling sky volumes causes rockets to explode on sky.  fix somehow  
+make all teleporters have an "inactive" flag so an event makes them active  
+QuakeEd: top trace for shearing is at 2048, increase to 8192  
+remove relight for quad damage  
+remove leading K_ from keynames  
+player swimming frames  
+flash ammo counts after picking up bonus items?  
+shalrath doesn't attack zombies?  
 
 
------------------------------------------
-John Carmack's .plan for Jun 05, 1996
------------------------------------------
+## John Carmack's .plan for Jun 05, 1996
 
 * coop is mostly working
 * made snd_show give a total count
@@ -2901,28 +2699,26 @@ John Carmack's .plan for Jun 05, 1996
 * fixed players 2+ not saving stuff on entering level
 * coop colors follow from level to level
 
-+ backspace / delete to remove bindings in options screen
-+ coop quit doesn't send disconnect
-+ super spike: s_spike
+\+ backspace / delete to remove bindings in options screen  
+\+ coop quit doesn't send disconnect  
+\+ super spike: s_spike  
 
-deathmatch weapon switching rules
-blue sparks for lightning
-check for splash before playing thump
-center or scale menus in hi-res
-change "gamma" to something else because of name clash with new djgpp
-angle jump at demo start
-coop should use solo scoreboard
-alphabetize cvars / commands for tab completion
-look for "backup past 0"
-fix "gravity changed" message
-powerup blinking
-frozen demons?
-timer on monsters mad at other players
+deathmatch weapon switching rules  
+blue sparks for lightning  
+check for splash before playing thump  
+center or scale menus in hi-res  
+change "gamma" to something else because of name clash with new djgpp  
+angle jump at demo start  
+coop should use solo scoreboard  
+alphabetize cvars / commands for tab completion  
+look for "backup past 0"  
+fix "gravity changed" message  
+powerup blinking  
+frozen demons?  
+timer on monsters mad at other players  
 
 
------------------------------------------
-John Carmack's .plan for Jun 06, 1996
------------------------------------------
+## John Carmack's .plan for Jun 06, 1996
 
 * carry serverflags from level to level
 * items fire targets when picked up
@@ -2941,35 +2737,33 @@ John Carmack's .plan for Jun 06, 1996
 * move light entity hack to pogs
 * draw sigils on status bar
 
-+ remove self.running?
-+ portal creation bug
-+ make lightning gun more damaging again
-+ sigil things on status bar
-+ signon1 when at 1
-+ weapon nudges
-+ player faces
-+ put talk.wav back in
-+ wait before allowing intermission exit
-+ teleport ambient sound?
+\+ remove self.running?  
+\+ portal creation bug  
+\+ make lightning gun more damaging again  
+\+ sigil things on status bar  
+\+ signon1 when at 1  
+\+ weapon nudges  
+\+ player faces  
+\+ put talk.wav back in  
+\+ wait before allowing intermission exit  
+\+ teleport ambient sound?  
 
-quad damage liughtning explosion
-menu4.wav for slider
-make a generic signon stream and subdivide svs.signon more
-velocity through levels?
-all projectiles need a t ent
-finish axe up
-pickup weapons while firing bug
-tick sound when pressing an unbound key?
-escape back through menus
-loadgame removes enemy state?
-deathmatch intermission
-texture animation speeds variable
-use different exiting water sound
+quad damage liughtning explosion  
+menu4.wav for slider  
+make a generic signon stream and subdivide svs.signon more  
+velocity through levels?  
+all projectiles need a t ent  
+finish axe up  
+pickup weapons while firing bug  
+tick sound when pressing an unbound key?  
+escape back through menus  
+loadgame removes enemy state?  
+deathmatch intermission  
+texture animation speeds variable  
+use different exiting water sound  
 
 
------------------------------------------
-John Carmack's .plan for Jun 07, 1996
------------------------------------------
+## John Carmack's .plan for Jun 07, 1996
 
 * three levels of gib velocity
 * accumulate damage to allow gibbing with shotguns when powered up
@@ -2993,45 +2787,43 @@ John Carmack's .plan for Jun 07, 1996
 * added svs.changelevel_issued to prevent possible double changelevel
 * changed NaN velocity / origin checks to warnings with clear to 0
 
-+ take away stuff in jrstart
-+ player head gib now has wrong view ofs
-+ the tim5 bug
-+ exactly position enforcer bolt launch
-+ status bar faces
-+ save game with powerups
-+ monster target finding with prespawning is messed up
+\+ take away stuff in jrstart  
+\+ player head gib now has wrong view ofs  
+\+ the tim5 bug  
+\+ exactly position enforcer bolt launch  
+\+ status bar faces  
+\+ save game with powerups  
+\+ monster target finding with prespawning is messed up  
 
-make activator a parm to use functions instead of a global
-write a tool to search all maps for boolean queries on key/value pairs
-reformat console with vid changes
-start past skill select when returning to jrstart
-connect to bad map, then to a good map gives no free clients
-lava damage for monsters
-shambler hand lightning
-fade to intermission?
-meat spray from axe attack
-gamma prob at intermissions
-make a model fullbright flag for torches
-Add -safe for nosound, vidmode 0, exec default -nocdaudio, -nonet
-kill zombies with axe
-teamplay totals
-doesn't auto center if head out of water
-easier jump out of water
-can't record net demos any more
-solo status bar in dark font
-key config names in dark font
-print savegame comment line on save screen
-are you sure?  for quit
-spawn explosion for lightning gun pop
-invis face, invis + invuln face
-monsters aren't allways facing target when firing
-make the message prog functions take a destination: broadcast, static,
-single
+make activator a parm to use functions instead of a global  
+write a tool to search all maps for boolean queries on key/value pairs  
+reformat console with vid changes  
+start past skill select when returning to jrstart  
+connect to bad map, then to a good map gives no free clients  
+lava damage for monsters  
+shambler hand lightning  
+fade to intermission?  
+meat spray from axe attack  
+gamma prob at intermissions  
+make a model fullbright flag for torches  
+Add -safe for nosound, vidmode 0, exec default -nocdaudio, -nonet  
+kill zombies with axe  
+teamplay totals  
+doesn't auto center if head out of water  
+easier jump out of water  
+can't record net demos any more  
+solo status bar in dark font  
+key config names in dark font  
+print savegame comment line on save screen  
+are you sure?  for quit  
+spawn explosion for lightning gun pop  
+invis face, invis + invuln face  
+monsters aren't allways facing target when firing  
+make the message prog functions take a destination: broadcast, static,  
+single  
 
 
------------------------------------------
-John Carmack's .plan for Jun 08, 1996
------------------------------------------
+## John Carmack's .plan for Jun 08, 1996
 
 * teleport triggers UseTqargets
 * fixed once triggers
@@ -3050,39 +2842,37 @@ John Carmack's .plan for Jun 08, 1996
 * head gib eye in floor bug
 * blink cursor after messageboxes
 
-+ everyone goes through the return teleporter in episode 4 jrstart
-+ is bgm volume not working for cd?
-+ make zoom a default configuration?
+\+ everyone goes through the return teleporter in episode 4 jrstart  
+\+ is bgm volume not working for cd?  
+\+ make zoom a default configuration?  
 
-quad damage shotgun doesn't gib zombies
-bonus item flashes
-no menu sounds when disconnected
-teleport ambient sound is no good
-auto center when treading water
-monster drowning
-blaster mismatch warning is misformatted
-axe kill zombies
-new game loading plaque not showing
-change zombie knock down code
-reformat console on vid change
-grenade launcher kicks too much
-surface cache size in weird aspect ratio modes
-prevent vid from allocing a big enough buffer to cause the next load to
-fail
-deathmatch invis eyes
-monster reduced accuracy during invis
-push for red super spikes
-monster death bubbles underwater?
-change name back to quad damage
-disconnect from netgame isn't being sent
-remove coop cheating
-centerprint time reletive to length?
-centerprint "entering ..." on level entry
+quad damage shotgun doesn't gib zombies  
+bonus item flashes  
+no menu sounds when disconnected  
+teleport ambient sound is no good  
+auto center when treading water  
+monster drowning  
+blaster mismatch warning is misformatted  
+axe kill zombies  
+new game loading plaque not showing  
+change zombie knock down code  
+reformat console on vid change  
+grenade launcher kicks too much  
+surface cache size in weird aspect ratio modes  
+prevent vid from allocing a big enough buffer to cause the next load to  
+fail  
+deathmatch invis eyes  
+monster reduced accuracy during invis  
+push for red super spikes  
+monster death bubbles underwater?  
+change name back to quad damage  
+disconnect from netgame isn't being sent  
+remove coop cheating  
+centerprint time reletive to length?  
+centerprint "entering ..." on level entry  
 
 
------------------------------------------
-John Carmack's .plan for Jun 09, 1996
------------------------------------------
+## John Carmack's .plan for Jun 09, 1996
 
 * boss damage only by lightning
 * enforcer bolt positioning
@@ -3099,26 +2889,24 @@ John Carmack's .plan for Jun 09, 1996
 * modified sprgen to allow multiple grabs in a single file
 * grabbed new explosions
 
-+ level 1 gib needs work
-+ is clipping detection for asm sound mixing working right?
-+ items falling through other items bug
-+ item on moving object respawn bug
-+ models aren't checking dlight decay time
-+ fix drop.map
-+ status active/max is reversed
+\+ level 1 gib needs work  
+\+ is clipping detection for asm sound mixing working right?  
+\+ items falling through other items bug  
+\+ item on moving object respawn bug  
+\+ models aren't checking dlight decay time  
+\+ fix drop.map  
+\+ status active/max is reversed  
 
-coop against boss
-make qlumpy parse qc files as source?
-combine particals and temp entities
-fix gib rules
-slime burn down
-check edict return type
-flash weapon icons
+coop against boss  
+make qlumpy parse qc files as source?  
+combine particals and temp entities  
+fix gib rules  
+slime burn down  
+check edict return type  
+flash weapon icons  
 
 
------------------------------------------
-John Carmack's .plan for Jun 10, 1996
------------------------------------------
+## John Carmack's .plan for Jun 10, 1996
 
 * more velocity on level 1 gib
 * no pain sounds when invincible
@@ -3137,44 +2925,42 @@ John Carmack's .plan for Jun 10, 1996
 * floating gibs
 * made beta3 CDs
 
-"restart" in coop game drops to dos
-word wrapping needs to count extra notify lines
-telefrag isn't working sometimes
-put a save plaque up when game is saving
-demon died on top of player, left in air when moved
-door sounds are broken
-registered message shouldn't print at all
-menu hotkeys should return to game on escape, not main menu
-quickload shouldn't drop to console
-quit/end game confirmation
-split door is playing talk wav
-sound looping pop
-weapon frames should be decoupled from pain frames
-door touch
-take the k_ out of configs
-velocity between levels
-fish
-shub
-display key bindings command
-deathmatch intermission
-door messages
-zombie statues
-constant look down pitch bug is multi player related
-permanent head tilt in coop mode
-endscreen
-connect while in demo is a bug
-secret counts aren't broadcast
-half dead player
-frozen demon when dropped on player head
-swimming frames
-map e1m1 from a coop game gives loop qsocket used
-all player model axe frames
-sw version shouldn't allow path changes unless pop
+"restart" in coop game drops to dos  
+word wrapping needs to count extra notify lines  
+telefrag isn't working sometimes  
+put a save plaque up when game is saving  
+demon died on top of player, left in air when moved  
+door sounds are broken  
+registered message shouldn't print at all  
+menu hotkeys should return to game on escape, not main menu  
+quickload shouldn't drop to console  
+quit/end game confirmation  
+split door is playing talk wav  
+sound looping pop  
+weapon frames should be decoupled from pain frames  
+door touch  
+take the k_ out of configs  
+velocity between levels  
+fish  
+shub  
+display key bindings command  
+deathmatch intermission  
+door messages  
+zombie statues  
+constant look down pitch bug is multi player related  
+permanent head tilt in coop mode  
+endscreen  
+connect while in demo is a bug  
+secret counts aren't broadcast  
+half dead player  
+frozen demon when dropped on player head  
+swimming frames  
+map e1m1 from a coop game gives loop qsocket used  
+all player model axe frames  
+sw version shouldn't allow path changes unless pop  
 
 
------------------------------------------
-John Carmack's .plan for Jun 11, 1996
------------------------------------------
+## John Carmack's .plan for Jun 11, 1996
 
 * fixed the vis portalization order problem!
 * allow attack to respawn as well as jump
@@ -3183,24 +2969,22 @@ John Carmack's .plan for Jun 11, 1996
 * new qcc code for damage, should fix statue monsters
 * new zombie pain code
 
-hang on laptop sound init
-boss needs to scan for coop players
-centerprint powerup messages
-change origin offset on fish for more fin
-fish move fail on tcross surface should still allow xy move
-fish should pull treading people underwater
-make good spot for weapon change rules
-8 bit sb output isn't using volume scale
-slider sounds (esp for sound volume)
-is e1m1 nailgun a trigger, or is it duplicated?
-play sound or something after intermission will allow exit?
-systems that translate blit need to update entire screen on palette
-changes
+hang on laptop sound init  
+boss needs to scan for coop players  
+centerprint powerup messages  
+change origin offset on fish for more fin  
+fish move fail on tcross surface should still allow xy move  
+fish should pull treading people underwater  
+make good spot for weapon change rules  
+8 bit sb output isn't using volume scale  
+slider sounds (esp for sound volume)  
+is e1m1 nailgun a trigger, or is it duplicated?  
+play sound or something after intermission will allow exit?  
+systems that translate blit need to update entire screen on palette  
+changes  
 
 
------------------------------------------
-John Carmack's .plan for Jun 12, 1996
------------------------------------------
+## John Carmack's .plan for Jun 12, 1996
 
 * limit sound buffers to 4k, add extra mix points and mix full buffer
 * fixed only registered trigger messages
@@ -3224,35 +3008,33 @@ John Carmack's .plan for Jun 12, 1996
 * drop backpacks in coop
 * got deathmatch invisibility working
 
-clip into sky problem
-demon smashed a player stuck into a sloping wall
-no cheat in coop
-automatic listen 2
-talk message printing code
-door sounds
-check fly/float move code
-check weapon changing while firing
-check messagemode bound keys
-"restart" on a client of a net game crashes
-serverflag only trigger
-gib head positioning
-ability to specify cd track on demo recording
-coop use solo scoreboard
-two presses to exit intermission
-deathmatch intermission screen
-harder nightmare
-name and color should be saved as cvars
-undead players?  fixed with new death code?
-QuakeEd: trigger texture setting should be automatic
-add colors to dm scoreboard
-forward changelevel commands?
-good POP
-add "serial/modem configuration" menu
+clip into sky problem  
+demon smashed a player stuck into a sloping wall  
+no cheat in coop  
+automatic listen 2  
+talk message printing code  
+door sounds  
+check fly/float move code  
+check weapon changing while firing  
+check messagemode bound keys  
+"restart" on a client of a net game crashes  
+serverflag only trigger  
+gib head positioning  
+ability to specify cd track on demo recording  
+coop use solo scoreboard  
+two presses to exit intermission  
+deathmatch intermission screen  
+harder nightmare  
+name and color should be saved as cvars  
+undead players?  fixed with new death code?  
+QuakeEd: trigger texture setting should be automatic  
+add colors to dm scoreboard  
+forward changelevel commands?  
+good POP  
+add "serial/modem configuration" menu  
 
 
------------------------------------------
-John Carmack's .plan for Jun 13, 1996
------------------------------------------
+## John Carmack's .plan for Jun 13, 1996
 
 * slider sounds in menu
 * trigger counter's don't require targets now
@@ -3266,41 +3048,39 @@ John Carmack's .plan for Jun 13, 1996
 * removed K_ from key names
 * bind   with no parms reports the current value
 
-can't give
-try partical effect for teleporters
-remove forward to server commands, use impulse for all?
-old rule deathmatch option in menu
-head in wall again
-no cheat in coop
-connect from demo
-checksum pak directory for shareware version
-shambler, wizard, ogre, voor heads
-allow arrow key repeats?
-item respawn on bmodel bug
-pitch jerk at startup sometimes.
-stuck heads bug
-"no messages" option
-axe weaponframe switch problem
-make "dropped datagram" a developer only printf
-player thump for ogre falling?
-centerprint entering message
-variable ceterprint wait time
-double nightmare attacks
-disallow new game during multiplayer?
-no player crush to point
-sinking into plats
-coop through episode end
-allow typing in savegame comment
-fix talk message display code
-keep commands in doubly linked MRU list to avoid linear scan?
-multiplayer end of episodes hang?
-centerview doesn't work in water
-make sure all menu vars are in default.cfg
+can't give  
+try partical effect for teleporters  
+remove forward to server commands, use impulse for all?  
+old rule deathmatch option in menu  
+head in wall again  
+no cheat in coop  
+connect from demo  
+checksum pak directory for shareware version  
+shambler, wizard, ogre, voor heads  
+allow arrow key repeats?  
+item respawn on bmodel bug  
+pitch jerk at startup sometimes.  
+stuck heads bug  
+"no messages" option  
+axe weaponframe switch problem  
+make "dropped datagram" a developer only printf  
+player thump for ogre falling?  
+centerprint entering message  
+variable ceterprint wait time  
+double nightmare attacks  
+disallow new game during multiplayer?  
+no player crush to point  
+sinking into plats  
+coop through episode end  
+allow typing in savegame comment  
+fix talk message display code  
+keep commands in doubly linked MRU list to avoid linear scan?  
+multiplayer end of episodes hang?  
+centerview doesn't work in water  
+make sure all menu vars are in default.cfg  
 
 
------------------------------------------
-John Carmack's .plan for Jun 14, 1996
------------------------------------------
+## John Carmack's .plan for Jun 14, 1996
 
 * removed all use of ai_dead in progs
 * fixed nailgun fire order
@@ -3314,23 +3094,21 @@ John Carmack's .plan for Jun 14, 1996
 * fixed stuttering on dropped packets
 * set teleport death size properly
 
-easier gib from rockets for players
-check telefrag for multi players stuck
-is sound buffer not being properly cleared?
-menu sounds
-dissallow some server forward messages
-internet reliable messages getting backed up?
-check for hard packet overflows
-flash items on status bar
-stop using gfx.wad?
-pickup rules
-teleport into monsters bug
-change away from axe bug
+easier gib from rockets for players  
+check telefrag for multi players stuck  
+is sound buffer not being properly cleared?  
+menu sounds  
+dissallow some server forward messages  
+internet reliable messages getting backed up?  
+check for hard packet overflows  
+flash items on status bar  
+stop using gfx.wad?  
+pickup rules  
+teleport into monsters bug  
+change away from axe bug  
 
 
------------------------------------------
-John Carmack's .plan for Jun 15, 1996
------------------------------------------
+## John Carmack's .plan for Jun 15, 1996
 
 * handle escape special to prevent unbinding, and pass through to menus
 * allow attack to restart as well as jump
@@ -3349,32 +3127,30 @@ John Carmack's .plan for Jun 15, 1996
 * fixed activated door beeping
 * fixed linked door messages
 
-player crushed on e1m2 bug
-make enter play slide noise on menu item adjustments
-no head bobbing when dead
-gib head look around
-sink into rising plats
-hack check for stuck
-no such frame for gibbed dog head
-bmodel dissapearing problem in e4m6
-gib by damage isntead of negative health
-option for listen servers to send out less packets?
-crank menu3 sound up in volume
-teleported monster flag
-fill sky volumes differently?
-shambler lightning hand frames
-top line of console is not clipped correctly
-door sounds / messages
-weapon change rules
-no gravity when in solid volume
-double shots for monsters in nightmare mode
-use multiple help screens
-swim bubbles on forard move as well as jump
+player crushed on e1m2 bug  
+make enter play slide noise on menu item adjustments  
+no head bobbing when dead  
+gib head look around  
+sink into rising plats  
+hack check for stuck  
+no such frame for gibbed dog head  
+bmodel dissapearing problem in e4m6  
+gib by damage isntead of negative health  
+option for listen servers to send out less packets?  
+crank menu3 sound up in volume  
+teleported monster flag  
+fill sky volumes differently?  
+shambler lightning hand frames  
+top line of console is not clipped correctly  
+door sounds / messages  
+weapon change rules  
+no gravity when in solid volume  
+double shots for monsters in nightmare mode  
+use multiple help screens  
+swim bubbles on forard move as well as jump  
 
 
------------------------------------------
-John Carmack's .plan for Jun 16, 1996
------------------------------------------
+## John Carmack's .plan for Jun 16, 1996
 
 * removed hard coded number order for sbar
 * moved palette and colormap to discrete lumps
@@ -3392,49 +3168,47 @@ snds
 * fixed force retouch bug
 * bodyque objects get movetypes
 
-player lightning source 16+ higher
-check dead player coop transition
-talk message needs to clear background
-dissallow save from intermission
-different default player colors?
-kick clients off if unsent message gets too big
-powerup flashes
-demon and shambler rethink between claws
-make boss face direction of throw
-deathmatch weapon switching
-double shots for monsters in nightmare mode
-hot key menus should return to game with a single escape
-item respawn with no pickup problem
-floating heads
-view center snapping
-deathmatch intermission screen
-directory checks
-no frame bug with eyes
-head floating in air
-reliable broadcast
-no exit option for persistant deathmatch servers
-statue monsters
-change pak files to pakS0 pakR0 
-triggered teleporters aren't working reliably
-play sound when menu goes away
-local sounds die sometimes
-teleport effect
-sounds on locked doors
-pops at end of sound buffer: not mixing entire thing?
-exp.tri spawn explosion frame
-func_episodegate print messages
-teleporter articles
-fix "load failed" message
-coop savegames
-lightning gun on secret doors.
+player lightning source 16+ higher  
+check dead player coop transition  
+talk message needs to clear background  
+dissallow save from intermission  
+different default player colors?  
+kick clients off if unsent message gets too big  
+powerup flashes  
+demon and shambler rethink between claws  
+make boss face direction of throw  
+deathmatch weapon switching  
+double shots for monsters in nightmare mode  
+hot key menus should return to game with a single escape  
+item respawn with no pickup problem  
+floating heads  
+view center snapping  
+deathmatch intermission screen  
+directory checks  
+no frame bug with eyes  
+head floating in air  
+reliable broadcast  
+no exit option for persistant deathmatch servers  
+statue monsters  
+change pak files to pakS0 pakR0   
+triggered teleporters aren't working reliably  
+play sound when menu goes away  
+local sounds die sometimes  
+teleport effect  
+sounds on locked doors  
+pops at end of sound buffer: not mixing entire thing?  
+exp.tri spawn explosion frame  
+func_episodegate print messages  
+teleporter articles  
+fix "load failed" message  
+coop savegames  
+lightning gun on secret doors.  
 
-explain "kill" in manual
-explain dedicated servers for large coop games in manual
+explain "kill" in manual  
+explain dedicated servers for large coop games in manual  
 
 
------------------------------------------
-John Carmack's .plan for Jun 17, 1996
------------------------------------------
+## John Carmack's .plan for Jun 17, 1996
 
 * lighttning gun always activates secrets now
 * fixed coop level to level bug when player is dead
@@ -3459,30 +3233,28 @@ John Carmack's .plan for Jun 17, 1996
 * changed center print position for very long text messages
 * force cd track on demos
 
-+ -14 cells????
+\+ -14 cells????  
 
-new sky filling
-client enter time
-end of e4 text crash
-deathmatch game exits should stay at intermission
-multiplayer boss ai
-axe impact sound
-rock ogre
-stuck spawn
-shambler recheck
-coop savegames
-talk message drawing
-broke teleport sounds
-stuck problem
-water stuck
+new sky filling  
+client enter time  
+end of e4 text crash  
+deathmatch game exits should stay at intermission  
+multiplayer boss ai  
+axe impact sound  
+rock ogre  
+stuck spawn  
+shambler recheck  
+coop savegames  
+talk message drawing  
+broke teleport sounds  
+stuck problem  
+water stuck  
 
-different pak naming structure
-combine mo strip build
+different pak naming structure  
+combine mo strip build  
 
 
------------------------------------------
-John Carmack's .plan for Jun 18, 1996
------------------------------------------
+## John Carmack's .plan for Jun 18, 1996
 
 * fixed cells dropping below 0 with new lightning gun animation
 * tighteneed teleport particals
@@ -3491,16 +3263,14 @@ John Carmack's .plan for Jun 18, 1996
 * unbindall command
 * fixed strip makefile
 
-solo scoreboard not centered
-jump out window while looking down looses auto-centering?
-drop zombie, then crush it = unkillable zombie
-changelevel with a dead server can take away shotgun/axe
-knight first damage is too early
+solo scoreboard not centered  
+jump out window while looking down looses auto-centering?  
+drop zombie, then crush it = unkillable zombie  
+changelevel with a dead server can take away shotgun/axe  
+knight first damage is too early  
 
 
------------------------------------------
-John Carmack's .plan for Jun 19, 1996
------------------------------------------
+## John Carmack's .plan for Jun 19, 1996
 
 * fixed "no such frame" invis bug
 * coop target tradeoff
@@ -3515,49 +3285,45 @@ John Carmack's .plan for Jun 19, 1996
 * notifications for quit and new game
 * created 0.9 SW RC distribution
 
-tilde key doesn't type (unbindall)
-monster counting bug
-net can fuck up with a join
-don't let demos change while in a menu
-menu sounds still don't work in all cases
-play menu sound on escape from menu
-stuck spawn
-disallow angle change during demo
-nail messages say "fell to death"
-rewrite buggy centering code
-rewrite buggy point squashing code
-color coded backpacks
-no finale when deathmatching
-fish
-credits
+tilde key doesn't type (unbindall)  
+monster counting bug  
+net can fuck up with a join  
+don't let demos change while in a menu  
+menu sounds still don't work in all cases  
+play menu sound on escape from menu  
+stuck spawn  
+disallow angle change during demo  
+nail messages say "fell to death"  
+rewrite buggy centering code  
+rewrite buggy point squashing code  
+color coded backpacks  
+no finale when deathmatching  
+fish  
+credits  
 
 
------------------------------------------
-John Carmack's .plan for Jun 20, 1996
------------------------------------------
+## John Carmack's .plan for Jun 20, 1996
 
 (Shareware release, june 20th missing)
 
-* fish do damage
-* fixed lightning prog crash after killing boss
-* added ctrl-alt-del check in key_event
-* found problem with saving com port enabled in config files
-* drop fish hp
-* added samelevel flag for persistant servers
-* auto advance to next level in ruled deathmatch
-* deathmatch rankings show for 5 sec minimum
+* fish do damage  
+* fixed lightning prog crash after killing boss  
+* added ctrl-alt-del check in key_event  
+* found problem with saving com port enabled in config files  
+* drop fish hp  
+* added samelevel flag for persistant servers  
+* auto advance to next level in ruled deathmatch  
+* deathmatch rankings show for 5 sec minimum  
 
-new game should bring up loading plaque
-rewrite buggy screen management
-big t dest
-pain field on shub
-stand in in center
-turn off messages option
+new game should bring up loading plaque  
+rewrite buggy screen management  
+big t dest  
+pain field on shub  
+stand in in center  
+turn off messages option  
 
 
------------------------------------------
-John Carmack's .plan for Jul 01, 1996
------------------------------------------
+## John Carmack's .plan for Jul 01, 1996
 
 Quake is out. Finally.
 
@@ -3567,24 +3333,22 @@ While there will probably not be any about-faces in technical decisions, Quake w
 
 Some work that will be going on in the near future:
 
-Fixing any serious problems with Quake 0.91. 
-Release of tools and source code for user prog coding and level building. 
-Writing a new map editor for win/NT + open GL Porting Quake to native win32 + DirectX 
-Porting Quake on the metal to some 3D accelerator boards. 
-Writing a proper full radiosity replacement for the light utility. 
-Reasonable user suggested improvements 	(keep it in the discussion groups please, I get enough mail as it is) 
-Speed enhancements in the polygon model path. 
-Adding support for various gadgets -- HMDs, controllers, maybe other sound cards, etc.
-And of course...  The Next Generation Technology.  (no, I won't give you a code name to talk about!)
+Fixing any serious problems with Quake 0.91.   
+Release of tools and source code for user prog coding and level building.   
+Writing a new map editor for win/NT + open GL Porting Quake to native win32 + DirectX   
+Porting Quake on the metal to some 3D accelerator boards.   
+Writing a proper full radiosity replacement for the light utility.   
+Reasonable user suggested improvements 	(keep it in the discussion groups please, I get enough mail as it is)   
+Speed enhancements in the polygon model path.   
+Adding support for various gadgets -- HMDs, controllers, maybe other sound cards, etc.  
+And of course...  The Next Generation Technology.  (no, I won't give you a code name to talk about!)  
 
 Vacation?  I don't need a vacation!
 
 John Carmack Id Software
 
 
------------------------------------------
-John Carmack's .plan for Aug 02, 1996
------------------------------------------
+## John Carmack's .plan for Aug 02, 1996
 
 Here is The New Plan:
 
@@ -3659,9 +3423,7 @@ An interesting issue to watch when this gets out is that you won't be able to te
 In a clean sheet of paper redesign, I would try to correct more of the discrepencies, but I think I am going to have a big enough improvement coming out of my current work to make a lot of people very happy.
 
 
------------------------------------------
-John Carmack's .plan for Aug 08, 1996
------------------------------------------
+## John Carmack's .plan for Aug 08, 1996
 
 Romero is now gone from id.
 
@@ -3670,9 +3432,7 @@ There will be no more grandiose statements about our future projects.
 I can tell you what I am thinking, and what I am trying to acomplish,  but all I promise is my best effort.
 
 
------------------------------------------
-John Carmack's .plan for Aug 10, 1996
------------------------------------------
+## John Carmack's .plan for Aug 10, 1996
 
 QuakeWorld structural addendum:
 
@@ -3693,18 +3453,14 @@ It looks like I am going to split the QuakeWorld client into multiple  threads t
 I have been cutting down the message sizes a bit here and there as  well.  On a modem link, every couple bytes I save translates into a  millisecond of latency saved.  I cut an average of 17 bytes from the  server to client and 8 from the client to server today.
 
 
------------------------------------------
-John Carmack's .plan for Aug 12, 1996
------------------------------------------
+## John Carmack's .plan for Aug 12, 1996
 
 Apogee's Prey team (and Duke's Levelord) leave 3drealms to work  with Quake technology as Hipnotic Interactive.
 
 :-)
 
 
------------------------------------------
-John Carmack's .plan for Aug 13, 1996
------------------------------------------
+## John Carmack's .plan for Aug 13, 1996
 
 I am considering increasing the default sv_friction value for  QuakeWorld from 4 to 6 or 8.
 
@@ -3713,9 +3469,7 @@ It might take a little getting used to, but I think it gives more  precise contr
 If anyone wants to run some experiments with different friction  levels on a current Quake server, I would be interested in hearing  some feedback.
 
 
------------------------------------------
-John Carmack's .plan for Aug 17, 1996
------------------------------------------
+## John Carmack's .plan for Aug 17, 1996
 
 The remote server console commands are fully implemented for  QuakeWorld.
 
@@ -3723,7 +3477,9 @@ To allow remote administration, the server must set the "password"  cvar.  By de
 
 On a client, if you set the "password" cvar to the same value,  you can issue "rcon" commands to the remote server :
 
+```
 rcon <server command> <arguments> ...
+```
 
 You can go to different levels, shut the server down, change  cvars, ban people, etc.  The output from the command is redirected  over the net and will be echoed on the remote console.
 
@@ -3734,9 +3490,7 @@ You can also execute commands without even connecting to the  server (if it was 
 My testarossa snapped another input shaft (the third time).   damn dman damn. >1000 HP is bad for your drivetrain.
 
 
------------------------------------------
-John Carmack's .plan for Aug 18, 1996
------------------------------------------
+## John Carmack's .plan for Aug 18, 1996
 
 PACKET FILTERING
 
@@ -3744,7 +3498,9 @@ QuakeWorld supports two types of filtering: IP packet filtering  and user id fil
 
 You can add or remove addresses from the filter list with:
 
+```
 addip <ip> removeip <ip>
+```
 
 The ip address is specified in dot format, and any unspecified  digits will match any value, so you can specify an entire class  C network with "addip 192.246.40".
 
@@ -3752,7 +3508,7 @@ Removeip will only remove an address specified exactly the same way.  You cannot
 
 iplist Prints the current list of filters.
 
-writeip Dumps "addip <ip>" commands to iplist.cfg so it can be execed at  a later date.  The filter lists are not saved and restored by  default, because I beleive it would cause too much confusion.
+writeip Dumps `addip <ip>` commands to iplist.cfg so it can be execed at  a later date.  The filter lists are not saved and restored by  default, because I beleive it would cause too much confusion.
 
 filterban <0 or 1>
 
@@ -3761,9 +3517,7 @@ If 1 (the default), then ip addresses matching the current list  will be prohibi
 If 0, then only addresses matching the list will be allowed.  This  lets you easily set up a private game, or a game that only allows  players from your local network.
 
 
------------------------------------------
-John Carmack's .plan for Aug 22, 1996
------------------------------------------
+## John Carmack's .plan for Aug 22, 1996
 
 The rendition 3d accelerated version of Quake looks very good.
 
@@ -3774,9 +3528,7 @@ It is faster than software even at 320*200, and at 512*384 it is  almost twice a
 We do take a bit of a hit when we have to generate a lot of 16 bit  surfaces, so occasionally the framerate gets a bit uneven, but  overall it is a very solid improvement.
 
 
------------------------------------------
-John Carmack's .plan for Aug 27, 1996
------------------------------------------
+## John Carmack's .plan for Aug 27, 1996
 
 I haven't been working on QuakeWorld for the past week, because Michael has been working on the rendition port, which backburnered the win32 native port, which is a prerequisite for the QuakeWorld release.
 
@@ -3799,9 +3551,7 @@ I will release the source after we have been using it in production for a while,
 I am looking forward to doing a little more work on the other utilities as well.  I want to break qbsp up into three seperate programs, so it will be able to run on machines with <32 megs of memory.  Light can be sped up significantly if the PVS information is taken advantage of the way I did in qrad. I also have some theories on changing the algorithmic order of full vis processing time that I want to look into, especially now that the vis stage is put before production lighting.
 
 
------------------------------------------
-John Carmack's .plan for Sep 03, 1996
------------------------------------------
+## John Carmack's .plan for Sep 03, 1996
 
 I have been cleaning up the utilities for another release (soon) where everything is in Visual C++ project format.  All of the common code is now included from the same place, so adding support for pcx or 3d studio files will only require changes in one file now for all utilities.
 
@@ -3812,23 +3562,21 @@ Qbsp now uses floats instead of doubles by default, which makes it a good deal l
 I am splitting qbsp up into three seperate programs, which will make the memory requirements much smaller than they are now, and will help me be more numerically rigorous.  This is going to take some time, so it won't be in the next code release.
 
 
------------------------------------------
-John Carmack's .plan for Sep 10, 1996
------------------------------------------
+## John Carmack's .plan for Sep 10, 1996
 
 Ok, I'm back on QuakeWorld.
 
-While working on the new chat console, I fixed up a few little things with the regular console:
-The pgup/pgdn keys now autorepeat.
-The display does not pop down to the bottom when a new line is printed.
-If you aren't at the bottom, a few ^ ^ ^ are printed on the last line.
+While working on the new chat console, I fixed up a few little things with the regular console:  
+The pgup/pgdn keys now autorepeat.  
+The display does not pop down to the bottom when a new line is printed.  
+If you aren't at the bottom, a few ^ ^ ^ are printed on the last line.  
 
-There is now a message level you can set to cut down on the number of messages you get from the server (it saves a bit of bandwidth, too).
-Level 0 gives everything.
-Level 1 does not print item pickup messages.
-Level 2 does not print player obituaries.
-Level 3 does not print any messages from the server.
-Level 4 does not print chat messages.
+There is now a message level you can set to cut down on the number of messages you get from the server (it saves a bit of bandwidth, too).  
+Level 0 gives everything.  
+Level 1 does not print item pickup messages.  
+Level 2 does not print player obituaries.  
+Level 3 does not print any messages from the server.  
+Level 4 does not print chat messages.  
 
 Player skin support is much nicer in QuakeWorld. There is a qw\skins directory, where you can just put a .pcx files for each skin. This will scale properly to hundreds of skins if you want to download them all.
 
@@ -3841,9 +3589,7 @@ The other school of thought is that skins are the restricted property of a speci
 We have the ability to delegate specific information setting abilities to clan leaders. To join a clan, you have to get the leader to add the clan field to your user account. It is in the protected masterdata, so you can't edit it yourself.
 
 
------------------------------------------
-John Carmack's .plan for Sep 13, 1996
------------------------------------------
+## John Carmack's .plan for Sep 13, 1996
 
 There is a BETA distribution of 1.05 up on our ftp site.
 
@@ -3858,9 +3604,7 @@ I also uploaded the DOOM ipxsetup / sersetup source code, which we haven't had o
 We are going to begin internal testing of a 1.05 Quake release tomorrow. When we upload for general release, we will also upload the current .qc source. The old qcc.tar.gz file is still present on the ftp site for the original .qc files for now. 
 
 
------------------------------------------
-John Carmack's .plan for Sep 18, 1996
------------------------------------------
+## John Carmack's .plan for Sep 18, 1996
 
 We are now beta testing the first release of QuakeWorld.
 
@@ -3873,9 +3617,7 @@ On an internet connection that provides a stable flow of packets at a reasonably
 The really cool ISPs will run QuakeWorld servers right at their pops, which should give 28.8 modem players 200 ms or less pings, providing a nearly flawless game. 
 
 
------------------------------------------
-John Carmack's .plan for Sep 22, 1996
------------------------------------------
+## John Carmack's .plan for Sep 22, 1996
 
 I had a good time at the New York event -- it was fun to meet a lot of the web and clan guys, and there was some good fierce deathmatch action.
 
@@ -3884,25 +3626,19 @@ The QuakeWorld beta has revved a couple more times. When things work right, its 
 We have at least a week of beating on it before a public release. 
 
 
------------------------------------------
-John Carmack's .plan for Oct 14, 1996
------------------------------------------
+## John Carmack's .plan for Oct 14, 1996
 
 I haven't been able to work on QuakeWorld for a week, and am unlikely to for a couple more days.
 
 I've been working with the utilities and editor most of the time, but there has been a lot of other stuff going on lately that has kept me from being very productive. 
 
 
------------------------------------------
-John Carmack's .plan for Oct 16, 1996
------------------------------------------
+## John Carmack's .plan for Oct 16, 1996
 
 The latest windows drivers from rendition fix the lousy GUI performance I had been complaining about to several people. While it may not be state-of-the-art 2d acceleration, it doesn't get in your way anymore. I do not consider windows performance to be a negative for rendition anymore.
 
 
------------------------------------------
-John Carmack's .plan for Nov 06, 1996
------------------------------------------
+## John Carmack's .plan for Nov 06, 1996
 
 Over the weekend, I ported Quake to open-gl / win32. It is a complete port with all features supported. Its not really practical right now on most consumer level equipment, but it runs ok on my intergraph glz-13t. It will work on the 3dlabs cards with their next driver release, but it really isn't very optimized yet, so don't expect anything really fast.
 
@@ -3919,9 +3655,7 @@ QuakeWorld will actually download a new level for you now if you want to wait fo
 Today I got cornered by the three level designers and an artist and they jumped all over me for working on new research instead of polishing the quake 2 tools. I guess the rest of my week is spoken for...
 
 
------------------------------------------
-John Carmack's .plan for Nov 23, 1996
------------------------------------------
+## John Carmack's .plan for Nov 23, 1996
 
 QuakeWorld: there is one physics problem that is preventing me from releasing: you get stuck sometimes in moving plats. I am having a hard time tracking it down, and I only get to work on it sporadically. I will spend a bit more time this weekend.
 
@@ -3948,9 +3682,7 @@ Quake utilities: I have split qbsp into two programs: qcsg and qbsp2. The proces
 New stuff: The outline of the next generation game engine is beginning to take a bit of shape... I'm applying the lessons learned from quake and I have a long list of new things to try. I want to polish off all the outstanding quake stuff, then just go into hermit mode and work on the future while the other guys do Quake 2.
 
 
------------------------------------------
-John Carmack's .plan for Dec 13, 1996
------------------------------------------
+## John Carmack's .plan for Dec 13, 1996
 
 I need to clear up a little bit of really flagrant misinformation here:
 
@@ -3989,9 +3721,7 @@ Our decision to go intergraph/NT over SGI/IRIX had a lot more to do with the NT 
 As far as the "which video card should I buy?" question from gamers, I'm afraid I can't give you a definitive answer. All of the first generation boards have some problem or another. The second generation, coming out within the next six months or so, will be more solidly positive.
 
 
------------------------------------------
-John Carmack's .plan for Dec 17, 1996
------------------------------------------
+## John Carmack's .plan for Dec 17, 1996
 
 QuakeWorld went up, got to around 4000 users, then the master server exploded.
 
@@ -4000,9 +3730,7 @@ Disrupter and cohorts are working on more robust code now.
 If anyone did it on purpose, how about letting us know... (It wasn't all the people that tried %s as a name)
 
 
------------------------------------------
-John Carmack's .plan for Dec 21, 1996
------------------------------------------
+## John Carmack's .plan for Dec 21, 1996
 
 Wow. Apple bought NeXT. That really brightened my day.
 
@@ -4011,9 +3739,7 @@ I haven't generally been unhappy developing on NT, but I had been carrying a bit
 I wouldn't touch a mac for development right now, but if apple does The Right Thing with NeXT... 
 
 
------------------------------------------
-John Carmack's .plan for Dec 23, 1996
------------------------------------------
+## John Carmack's .plan for Dec 23, 1996
 
 OpenGL vs Direct-3D
 
@@ -4065,17 +3791,18 @@ Ease of use is damn important. If you can program something in half the time, yo
 
 GL's interface is procedural: You perform operations by calling gl functions to pass vertex data and specify primitives.
 
-[code]
+
+```
 glBegin (GL_TRIANGLES);
 glVertex (0,0,0);
 glVertex (1,1,0);
 glVertex (2,0,0);
 glEnd ();
-[/code]
+```
 
 D3D's interface is by execute buffers: You build a structure containing vertex data and commands, and pass the entire thing with a single call. On the surface, this apears to be an efficiency improvement for D3D, because it gets rid of a lot of procedure call overhead. In reality, it is a gigantic pain-in-the-ass.
 
-[code]
+```
 (psuedo code, and incomplete)
 v = &buffer.vertexes[0];
 v->x = 0; v->y = 0; v->z = 0;
@@ -4089,7 +3816,7 @@ c->vertexes[0] = 0;
 c->vertexes[1] = 1;
 c->vertexes[2] = 2;
 IssueExecuteBuffer (buffer);
-[/code]
+```
 
 If I included the complete code to actually lock, build, and issue an execute buffer here, you would think I was choosing some pathologically slanted case to make D3D look bad.
 
@@ -4105,7 +3832,7 @@ With D3D, you have to do everything the painful way from the beginning. Like wri
 
 I am going to be programming with a 3D API every day for many years to come. I want something that helps me, rather than gets in my way.
 
-John Carmack
+John Carmack  
 Id Software
 
 

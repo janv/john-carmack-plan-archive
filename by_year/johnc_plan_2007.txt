@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Nov 02, 2007
------------------------------------------
+### John Carmack's .plan for Nov 02, 2007
 
 Technology and Games
 
@@ -34,9 +32,7 @@ Once the decision was made to go for it, it was my job to figure out what we cou
 Up next: all the technical details
 
 
------------------------------------------
-John Carmack's .plan for Nov 08, 2007
------------------------------------------
+### John Carmack's .plan for Nov 08, 2007
 
 DS Technology
 

@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Oct 26, 2010
------------------------------------------
+### John Carmack's .plan for Oct 26, 2010
 
 RAGE on iPhone/iPad/iPod
 

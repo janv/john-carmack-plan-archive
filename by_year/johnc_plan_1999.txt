@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Jan 10, 1999
------------------------------------------
+### John Carmack's .plan for Jan 10, 1999
 
 Ok, many of you have probably heard that I spoke at the macworld keynote on tuesday. Some information is probably going to get distorted in the spinning and retelling, so here is an info dump straight from me:
 
@@ -101,9 +99,7 @@ MacOS X nails all these problems, but thats still a ways away.
 I did figure one thing out - I was always a little curious why the early BeOS advocates were so enthusiastic. Coming from a NEXTSTEP background, BeOS looked to me like a fairly interesting little system, but nothing special. To a mac developer, it must have looked like the promised land..
 
 
------------------------------------------
-John Carmack's .plan for Jan 29, 1999
------------------------------------------
+### John Carmack's .plan for Jan 29, 1999
 
 The issue of the 8192 unit map dimension limit had been nagging at me for a long time now. The reason for the limit is that coordinates are communicated over the network in 16 bit shorts divided as a sign bit, twelve unit bits, and three fractional bits. There was also another side to the representation problem, but it was rarely visible: if you timescale down, you can actually tell the fractional bit granularity in position and velocity.
 
@@ -130,9 +126,7 @@ The other thing I am investigating is sub-byte delta encoding of floating point 
 So, the bottom line is that the bandwidth won't move much (it might even go down if I cut the integral bits below 15), the maps become unbounded in size to the point of single precision roundoff, and the client doesn't have to care about position jittering (which was visible in Q3 code that will be released).
 
 
------------------------------------------
-John Carmack's .plan for Mar 03, 1999
------------------------------------------
+### John Carmack's .plan for Mar 03, 1999
 
 On the issue of railgun firing rates -- we played with it for a while at the slower speed, but it has been put back to exactly Q2's rate of fire.
 
@@ -145,9 +139,7 @@ Quake 1 had really bad characteristics that way -- Thresh can play extremely tal
 Eliminating health items is probably the clearest way to prevent blowout games, but that has never been popular. Still, we should try to avoid weapon decisions that allow the hyper-skilled to pull even farther away from the rest of the crowd. They will still win, no matter what the weapons are, just not by as wide a margin.
 
 
------------------------------------------
-John Carmack's .plan for Mar 17, 1999
------------------------------------------
+### John Carmack's .plan for Mar 17, 1999
 
 First impressions of the SGI visual workstation 320:
 
@@ -190,9 +182,7 @@ I was very happy with the previous two generations of intergraph workstations, b
 For developers that don't have tons of money, the decision right now is an absolute no-brainer -- buy a TNT and stick it in a cheap system. Its a better "professional" 3D accelerator than you could buy at any price not too long ago.
 
 
------------------------------------------
-John Carmack's .plan for Apr 24, 1999
------------------------------------------
+### John Carmack's .plan for Apr 24, 1999
 
 We are finally closing in on the first release of Q3test.
 
@@ -243,9 +233,7 @@ Gaming is not a reason to buy a mac, but Apple is taking steps so that it may no
 MacOS still sucks.
 
 
------------------------------------------
-John Carmack's .plan for Apr 25, 1999
------------------------------------------
+### John Carmack's .plan for Apr 25, 1999
 
 Some people seem to think that I just make up these performance comparison numbers. I don't. I measure things, and I understand control conditions.
 
@@ -280,9 +268,7 @@ I will be very happy if Apple can produce a desktop system that is faster than a
 My twin turbo F50 can still be outrun at the dragstrip by much cheaper race cars. Many ferrari owners would not dare set foot at a drag strip, because they fear objective measurements that may not show their important possession in the best light. I would rather have the facts, so I can base future decisions on logical grounds.
 
 
------------------------------------------
-John Carmack's .plan for Apr 26, 1999
------------------------------------------
+### John Carmack's .plan for Apr 26, 1999
 
 Interpreting the lagometer (the graph in the lower right corner):
 
@@ -338,9 +324,7 @@ One more addition to net cvars:
 * removed cl_stereo, use glConfig.stereoEnabled
 
 
------------------------------------------
-John Carmack's .plan for Apr 27, 1999
------------------------------------------
+### John Carmack's .plan for Apr 27, 1999
 
 * cgame converted to use local buffer based lerpTag for interpretation
 * cgame converted to use local buffer based argv for interpretation
@@ -358,9 +342,7 @@ John Carmack's .plan for Apr 27, 1999
 * dim out behind floating menus
 
 
------------------------------------------
-John Carmack's .plan for Apr 28, 1999
------------------------------------------
+### John Carmack's .plan for Apr 28, 1999
 
 * converted sound positioning away from callback method
 * increased mac memory zone by 5 megs
@@ -370,9 +352,7 @@ John Carmack's .plan for Apr 28, 1999
 * converted file references to handles and range checked
 
 
------------------------------------------
-John Carmack's .plan for Apr 29, 1999
------------------------------------------
+### John Carmack's .plan for Apr 29, 1999
 
 * rework versioning for architecture tracking
 * use a seperate endpoint for address resolves on mac
@@ -394,9 +374,7 @@ Some people claim to prefer synchronous movement when everyone had a very good p
 However, there is still a reason for using it: recorded demos come out a LOT smoother looking when running with sync. Note that q3test does not allow demo recording and playback, so this is just for future reference...
 
 
------------------------------------------
-John Carmack's .plan for Apr 30, 1999
------------------------------------------
+### John Carmack's .plan for Apr 30, 1999
 
 I put together a document on optimizing OpenGL drivers for Q3 that should be helpfull to the various linux 3D teams.
 
@@ -409,9 +387,7 @@ http://www.quake3arena.com/news/glopt.html
 * protected some potential div by 0 areas in cgame
 
 
------------------------------------------
-John Carmack's .plan for May 04, 1999
------------------------------------------
+### John Carmack's .plan for May 04, 1999
 
 * seeded random numbers differently on tourney restarts
 * fixed events on initial snapshots
@@ -428,18 +404,14 @@ John Carmack's .plan for May 04, 1999
 * use snapped origin from players for linking to prevent slight prediction errors during player collisions
 
 
------------------------------------------
-John Carmack's .plan for May 05, 1999
------------------------------------------
+### John Carmack's .plan for May 05, 1999
 
 * client side predict item pickups. running over items was one of the few remaining locally perceived signs of lag
 * new pont-in-patch test code
 * fixed pathname errors when mac users had slashes in their paths: "B/W mac". sigh.
 
 
------------------------------------------
-John Carmack's .plan for May 07, 1999
------------------------------------------
+### John Carmack's .plan for May 07, 1999
 
 * changed grabbed items to SVF_NOCLIENT instead of EF_NODRAW now that the pickup event is on the player
 * clear event flags with event on reset
@@ -458,9 +430,7 @@ John Carmack's .plan for May 07, 1999
 * fixed too-lax colinear collapse to avoid some cracks
 
 
------------------------------------------
-John Carmack's .plan for May 08, 1999
------------------------------------------
+### John Carmack's .plan for May 08, 1999
 
 There is one must-fix issue and a couple smaller issues remaining before the release candidate build, then we have to do a lot of testing on it. I made a lot of significant changes in the last week, and I'm sure there are some things we still need to sort out before we inflict it on the general public.
 
@@ -484,9 +454,7 @@ The previous release delays for win32 were issues out of our control, but this r
 * don't fire jumppad events if upward velocity
 
 
------------------------------------------
-John Carmack's .plan for May 09, 1999
------------------------------------------
+### John Carmack's .plan for May 09, 1999
 
 We would up making tweaks to both maps today, so the data didn't reach final form until a few hours ago.
 
@@ -517,9 +485,7 @@ There are some cases when a weapon that was picked up with a predicted item and 
 * made turbulent texcoords based off of xyz instead of st
 
 
------------------------------------------
-John Carmack's .plan for May 10, 1999
------------------------------------------
+### John Carmack's .plan for May 10, 1999
 
 A good day of work. I just finished a long test game with all three architectures, and everything looks solid.
 
@@ -541,9 +507,7 @@ Barring problems, we should start rolling the releases out tonight.
 * reenabled corpses sinking into ground
 
 
------------------------------------------
-John Carmack's .plan for May 11, 1999
------------------------------------------
+### John Carmack's .plan for May 11, 1999
 
 I am offering a bounty for server crashing bugs. Q2 had several releases forced out because of malicious attacks on all the public servers, so I want to try and flush out what I can during Q3's testing phase.
 
@@ -630,9 +594,7 @@ You can also turn off all the gibs with "cg_gibs 0".
 * q3map_globaltexture
 
 
------------------------------------------
-John Carmack's .plan for May 12, 1999
------------------------------------------
+### John Carmack's .plan for May 12, 1999
 
 We had to upgrade the crashtest machine to NT sp 5, because some people were attacking it with windows crashers. Those don't count.
 
@@ -668,9 +630,7 @@ I am off to E3 now for a bunch of PR silliness, so if crashtest goes down, it wo
 * precache grenade bounce sounds
 
 
------------------------------------------
-John Carmack's .plan for May 19, 1999
------------------------------------------
+### John Carmack's .plan for May 19, 1999
 
 Now that all the E3 stuff is done with, I can get back to work...
 
@@ -701,9 +661,7 @@ True, only a tiny fraction of our players (probably less than 1%) will be able t
 The top of the benchmark chart should be an SMP system (assuming the NT drivers have all the optimizations of the '98 drivers), and it will also be possible to build a reletively cheap SMP system (say, dual 400's) that outperforms the best single processor system.
 
 
------------------------------------------
-John Carmack's .plan for May 22, 1999
------------------------------------------
+### John Carmack's .plan for May 22, 1999
 
 The SMP support is solid enough to play with now. The only feature that is still broken is light flares.
 
@@ -742,9 +700,7 @@ A good example of not-quite-in-sync issues in the windows mouse performance. A P
 They are also not terribly portable, and a pain in the ass to debug.
 
 
------------------------------------------
-John Carmack's .plan for May 26, 1999
------------------------------------------
+### John Carmack's .plan for May 26, 1999
 
 * basic joystick controls, some work still needed for advanced controlers
 * r_dlightBacksides 0 option
@@ -762,9 +718,7 @@ John Carmack's .plan for May 26, 1999
 * "cg_draw2d 0" removes all 2d
 
 
------------------------------------------
-John Carmack's .plan for May 27, 1999
------------------------------------------
+### John Carmack's .plan for May 27, 1999
 
 * enable scissor test properly
 * archive r_lodBias
@@ -785,9 +739,7 @@ John Carmack's .plan for May 27, 1999
 * show smp on gfxinfo, slight reformat
 
 
------------------------------------------
-John Carmack's .plan for May 30, 1999
------------------------------------------
+### John Carmack's .plan for May 30, 1999
 
 For the past couple of weeks, I have been spending some development time on linux, and for the first time on a non-NEXTSTEP unix platform, I have actually been enjoying it.
 
@@ -835,9 +787,7 @@ Now I know that I was just being an idiot about that for the last three years...
 * fixed dead spectator bug
 
 
------------------------------------------
-John Carmack's .plan for Jun 03, 1999
------------------------------------------
+### John Carmack's .plan for Jun 03, 1999
 
 Whee! Lots of hate mail from strafe-jupers!
 
@@ -888,9 +838,7 @@ quake1, where it was calculated froom the player's origin.
 * removed neck length pivot to prevent view poking into low subdivided curves. Also make aiming when looking up or down more precise.
 
 
------------------------------------------
-John Carmack's .plan for Jun 27, 1999
------------------------------------------
+### John Carmack's .plan for Jun 27, 1999
 
 For the past couple years when talking to chip makers about new 3D features, 3D texture maps would always come up, and I would have to mutter something like: "I think it is a good thing, but I can't give you a really awesome example of using it. 3D Noise functions. Stuff like that."
 
@@ -992,9 +940,7 @@ nomipmap : forces a single level texture, used for console font
 * allow a single "quick jump" without delay
 
 
------------------------------------------
-John Carmack's .plan for Jul 03, 1999
------------------------------------------
+### John Carmack's .plan for Jul 03, 1999
 
 AMD K7 cpus are very fast.
 
@@ -1045,9 +991,7 @@ Architectural cleverness is all well and good, but if AMD can't keep the clock s
 * all pmove results as events for proper demo playback
 
 
------------------------------------------
-John Carmack's .plan for Jul 24, 1999
------------------------------------------
+### John Carmack's .plan for Jul 24, 1999
 
 I was in San Jose for the past week. The original idea was to go into "hermit mode" holed up in a hotel room and get a lot of work done without any phone calls, email, or coworkers to distract me, but I wound up with meetings scheduled every day with various valley companies. Next time I want to try that, I'll pick some state like Montana... :-)
 
@@ -1088,9 +1032,7 @@ Load time compilation from bytecode to native code. This would bloat a lot, espe
 Deal with the performance cost and optimize the renderer some more to compensate.
 
 
------------------------------------------
-John Carmack's .plan for Jul 29, 1999
------------------------------------------
+### John Carmack's .plan for Jul 29, 1999
 
 * log all client transitions, item pickups, and kills
 * changed joystick axis to act just like arrow keys so they can be bound in the controls menu for strafing. Yes, this does remove slow walking from joystick movement, but it makes everything a lot cleaner.
@@ -1112,9 +1054,7 @@ John Carmack's .plan for Jul 29, 1999
 * fixed curve surface flags (no impact when landing on a curve bug)
 
 
------------------------------------------
-John Carmack's .plan for Jul 30, 1999
------------------------------------------
+### John Carmack's .plan for Jul 30, 1999
 
 I apologize for not getting the Mac version released this last time.
 
@@ -1140,9 +1080,7 @@ We will be making proper new releases for all architectures monday night when he
 * release windows cursor when running windowed and the console is down
 
 
------------------------------------------
-John Carmack's .plan for Aug 01, 1999
------------------------------------------
+### John Carmack's .plan for Aug 01, 1999
 
 * changed RF_PORTALSURFACE to an entity type
 * add sprite indexes in strip order
@@ -1156,9 +1094,7 @@ John Carmack's .plan for Aug 01, 1999
 * support add-mode multitexture for skies
 
 
------------------------------------------
-John Carmack's .plan for Aug 16, 1999
------------------------------------------
+### John Carmack's .plan for Aug 16, 1999
 
 As I mentioned at quakecon, I decided to go ahead and try a dynamic code generator to speed up the game interpreters. I was uneasy about it, but the current performance was far enough off of my targets that I didn't see any other way.
 
@@ -1267,9 +1203,7 @@ I am curious to see how the RISC code bulk turns out. The instructions are going
 I don't think I am going to be in any hurry to do MIPS/ALPHA/SPARC code generators. One or two code generators and execution environments is educational, but that will be more than enough for me. If we do port to other architectures, they can still run with the interpreter or binary modules until someone else gets up the inclination to do a code generator.
 
 
------------------------------------------
-John Carmack's .plan for Aug 26, 1999
------------------------------------------
+### John Carmack's .plan for Aug 26, 1999
 
 The current plan is that we will have another test release around the middle of next month. This version will be running game/cgame/ui with the virtual machine, and will include single player play against bots. No new maps.
 
@@ -1352,9 +1286,7 @@ Other stuff that has been done lately:
 * g_logsync option to force a flush after each write must be set at time of log file creation
 
 
------------------------------------------
-John Carmack's .plan for Aug 28, 1999
------------------------------------------
+### John Carmack's .plan for Aug 28, 1999
 
 * spinning machinegun barrel
 * changed q3data -origin option to -offset, defaulted to 0 0 24 for all player grabs
@@ -1377,9 +1309,7 @@ from: G_LogPrintf( "%s say: %s"
 to: G_LogPrintf( "say: %s: %s"
 
 
------------------------------------------
-John Carmack's .plan for Sep 01, 1999
------------------------------------------
+### John Carmack's .plan for Sep 01, 1999
 
 I have been working on our memory footprint for the past couple days. There are two types of paging that occur:
 
@@ -1417,9 +1347,7 @@ I got my task done, so now I just need to force myself to write little perl prog
 
 
 
------------------------------------------
-John Carmack's .plan for Sep 02, 1999
------------------------------------------
+### John Carmack's .plan for Sep 02, 1999
 
 I have been getting a lot of requests for commentary on two subjects lately:
 
@@ -1454,9 +1382,7 @@ After Apple gets all their driver tuning done, it will be interesting to try run
 On a purely technical note, AltiVec is more flexible for computation than intel or AMD's extensions (trinary ops), but intel style write combining is better for filling command buffers than the G4's memory streaming operations.
 
 
------------------------------------------
-John Carmack's .plan for Sep 06, 1999
------------------------------------------
+### John Carmack's .plan for Sep 06, 1999
 
 It looks like we are going to go to a skeletal model system. Jim Dose of Ritual had already started on an exporter from character studio, so we decided to just meet in the middle.
 
@@ -1485,9 +1411,7 @@ Does anyone know if there is an existing msdev syntax coloring file for perl? (n
 * surfaceparm alphashadow - This causes q3map -light to check individual texture pixels on transparant surfaces for light shadowing instead of making the entire surface either cast or not cast shadows
 
 
------------------------------------------
-John Carmack's .plan for Sep 28, 1999
------------------------------------------
+### John Carmack's .plan for Sep 28, 1999
 
 Ok, obviously we didn't get a release out in the middle of the month...
 
@@ -1536,9 +1460,7 @@ We are still hashing out the single player game, so it still isn't immediately i
 * better multitexture collapsing
 
 
------------------------------------------
-John Carmack's .plan for Sep 29, 1999
------------------------------------------
+### John Carmack's .plan for Sep 29, 1999
 
 I wrote this in answer to a question on the mac opengl programming list, but it is of general enough interest to programmers that I am repeating it here.
 
@@ -1565,9 +1487,7 @@ My advice for display lists is to use them for just raw vertex/color/texcoord da
 You want to make the display lists as big as practical, but there is a tradeoff betwen culling tightness and display list size.
 
 
------------------------------------------
-John Carmack's .plan for Oct 01, 1999
------------------------------------------
+### John Carmack's .plan for Oct 01, 1999
 
 * 10 crosshairs to select from (cg_drawCrosshair 1 - 10)
 * cg_crosshairx / cg_crosshairy adjustment. I'm not convinced these are a good thing, because the crosshair is accurate in Q3 at the default position (unlike Q2, which had an offset firing position)
@@ -1598,9 +1518,7 @@ John Carmack's .plan for Oct 01, 1999
 * new options at start of animation.cfg file: footsteps, headoffset
 
 
------------------------------------------
-John Carmack's .plan for Oct 04, 1999
------------------------------------------
+### John Carmack's .plan for Oct 04, 1999
 
 * allow cg_thirdPerson and cg_thirdPersonRange in games
 * added execed .cfg files to journal file
@@ -1618,9 +1536,7 @@ John Carmack's .plan for Oct 04, 1999
 * box cull triangle soup models
 
 
------------------------------------------
-John Carmack's .plan for Oct 05, 1999
------------------------------------------
+### John Carmack's .plan for Oct 05, 1999
 
 * fixed steady snapshot test
 * fixed incorrect 0 ping if past client messages
@@ -1632,9 +1548,7 @@ John Carmack's .plan for Oct 05, 1999
 * print client names on loading screen
 
 
------------------------------------------
-John Carmack's .plan for Oct 07, 1999
------------------------------------------
+### John Carmack's .plan for Oct 07, 1999
 
 * r_primitives 3 path for non-vertex array testing
 * specify sex in model animation.cfg file
@@ -1651,9 +1565,7 @@ John Carmack's .plan for Oct 07, 1999
 * unpause on vid_restart
 
 
------------------------------------------
-John Carmack's .plan for Oct 11, 1999
------------------------------------------
+### John Carmack's .plan for Oct 11, 1999
 
 * handle window close events properly
 * enable r_displayRefresh selection and feedback on mac
@@ -1676,9 +1588,7 @@ John Carmack's .plan for Oct 11, 1999
 * fixed strip order on text quads
 
 
------------------------------------------
-John Carmack's .plan for Oct 14, 1999
------------------------------------------
+### John Carmack's .plan for Oct 14, 1999
 
 * make sure video is shutfown for errors on startup
 * automatic fallback to vm if dll load fails
@@ -1704,9 +1614,7 @@ bot_enable 0
 * fixed improper case sensitivity in S_FindName
 
 
------------------------------------------
-John Carmack's .plan for Oct 17, 1999
------------------------------------------
+### John Carmack's .plan for Oct 17, 1999
 
 The next release will be the full "demo" release for quake 3. It will include bots and a new, simple level that is suitable for complete beginners to play, as well as the existing q3test maps.
 
@@ -1741,9 +1649,7 @@ Another issue with the Apple systems is that Apple 16 bit color is actually 15 b
 * convert all joystick axis to button events (twist is now bindable)
 
 
------------------------------------------
-John Carmack's .plan for Oct 23, 1999
------------------------------------------
+### John Carmack's .plan for Oct 23, 1999
 
 An announcement:
 
@@ -1783,9 +1689,7 @@ All of that added up to more than I was going to be able to do in the time left 
 * removed uneeded reinit of shader system on vid_restart
 
 
------------------------------------------
-John Carmack's .plan for Nov 01, 1999
------------------------------------------
+### John Carmack's .plan for Nov 01, 1999
 
 * play chat sound during votes
 * draw 2D icon for ammo if cg_draw3dicons 0
@@ -1813,9 +1717,7 @@ John Carmack's .plan for Nov 01, 1999
 * fixed items riding on bobbers
 
 
------------------------------------------
-John Carmack's .plan for Nov 02, 1999
------------------------------------------
+### John Carmack's .plan for Nov 02, 1999
 
 * remove grapple from give all
 * fixed pick-up-two-healths-even-if-you-don't-need-the-second bug
@@ -1833,9 +1735,7 @@ don't drop powerups
 * haste smoke puffs
 
 
------------------------------------------
-John Carmack's .plan for Nov 03, 1999
------------------------------------------
+### John Carmack's .plan for Nov 03, 1999
 
 * cd check in single player
 * removed drop shadow on console input line
@@ -1858,9 +1758,7 @@ John Carmack's .plan for Nov 03, 1999
 [/code]
 
 
------------------------------------------
-John Carmack's .plan for Nov 05, 1999
------------------------------------------
+### John Carmack's .plan for Nov 05, 1999
 
 * check for bad weapon number in non-3d ammo icon on death
 * fixed plane catagorization
@@ -1891,9 +1789,7 @@ John Carmack's .plan for Nov 05, 1999
 * PRE_RELEASE_DEMO hack
 
 
------------------------------------------
-John Carmack's .plan for Nov 09, 1999
------------------------------------------
+### John Carmack's .plan for Nov 09, 1999
 
 * fixed spinning barrel on respawn issue
 * clear eflags before intermission
@@ -1914,9 +1810,7 @@ John Carmack's .plan for Nov 09, 1999
 * removed background image from viewlog window
 
 
------------------------------------------
-John Carmack's .plan for Nov 11, 1999
------------------------------------------
+### John Carmack's .plan for Nov 11, 1999
 
 * teamplay menu comment
 * shrank and moved "RECORDING demo:" text
@@ -1931,9 +1825,7 @@ John Carmack's .plan for Nov 11, 1999
 * removed joystick button debug prints
 
 
------------------------------------------
-John Carmack's .plan for Nov 13, 1999
------------------------------------------
+### John Carmack's .plan for Nov 13, 1999
 
 * graphic for defer
 * don't set any systeminfo vars from demos
@@ -1951,9 +1843,7 @@ John Carmack's .plan for Nov 13, 1999
 * fixed global powerup announcements
 
 
------------------------------------------
-John Carmack's .plan for Nov 14, 1999
------------------------------------------
+### John Carmack's .plan for Nov 14, 1999
 
 The demo test is built. It should go up in a couple hours if nothing explodes.
 
@@ -1968,9 +1858,7 @@ Mac and linux builds won't be out tonight.
 * added FS_Flush
 
 
------------------------------------------
-John Carmack's .plan for Nov 15, 1999
------------------------------------------
+### John Carmack's .plan for Nov 15, 1999
 
 The way vertex lighting is working in the existing demos is that only two pass shaders (lightmap * texture) were collapsed to a single pass, all other shaders stayed the same.
 
@@ -2015,9 +1903,7 @@ cg_drawAttacker 0
 * fixed shotgun pellets underwater expending all temp entities
 
 
------------------------------------------
-John Carmack's .plan for Nov 16, 1999
------------------------------------------
+### John Carmack's .plan for Nov 16, 1999
 
 The demo servers have general purpose flood-protection that has caused some confusion.
 
@@ -2048,9 +1934,7 @@ The scoreboard header is up, but it is still a bit easy to miss.
 * better reporting of unused highwater memory
 
 
------------------------------------------
-John Carmack's .plan for Nov 18, 1999
------------------------------------------
+### John Carmack's .plan for Nov 18, 1999
 
 The mac version is out. Go to www.quake3arena.com for links.
 
@@ -2110,9 +1994,7 @@ Its all the same to Id (I like hybrid CD's), and our continued support of linux 
 * fixed custom skin reassignment on all LOD
 
 
------------------------------------------
-John Carmack's .plan for Nov 19, 1999
------------------------------------------
+### John Carmack's .plan for Nov 19, 1999
 
 Linux version isn't going to make it tonight. We got too busy with other things. Sorry. Tomorrow.
 
@@ -2123,9 +2005,7 @@ Linux version isn't going to make it tonight. We got too busy with other things.
 * fixed major slowdown in team games with large numbers of players and location markers
 
 
------------------------------------------
-John Carmack's .plan for Nov 21, 1999
------------------------------------------
+### John Carmack's .plan for Nov 21, 1999
 
 * fixed not-telefragging bug
 * disabled flood protection with local clients
@@ -2141,9 +2021,7 @@ John Carmack's .plan for Nov 21, 1999
 * changed cgame load failure to a drop
 
 
------------------------------------------
-John Carmack's .plan for Nov 22, 1999
------------------------------------------
+### John Carmack's .plan for Nov 22, 1999
 
 d:>mkdir research
 
@@ -2168,9 +2046,7 @@ I am going to explore some possibilities with generalizing 3D game engines into 
 I am going to spend more time on some Free Software projects. I have been stealing a few hours here and there to work on the matrox glx project for a while now, and it has been pretty rewarding. People with an interest in the guts of a 3D driver might want to look at the project archives at http://glx.on.openprojects.net/. The web pages aren't very up to date, but the mailing list covers some good techie information.
 
 
------------------------------------------
-John Carmack's .plan for Dec 12, 1999
------------------------------------------
+### John Carmack's .plan for Dec 12, 1999
 
 WANTED: Independant OpenGL conformance nazi
 
@@ -2209,9 +2085,7 @@ Doing a proper job would require a really good knowledge of the OpenGL specifica
 If someone does wind up developing a good suite of tools and procedures and gives one of the drivers a really good set of feedback, I would be happy to provide extra video cards so they could beat up all the implementations.
 
 
------------------------------------------
-John Carmack's .plan for Dec 15, 1999
------------------------------------------
+### John Carmack's .plan for Dec 15, 1999
 
 Anna Kang left Id a couple weeks ago to found her own company - Fountainhead Entertainment.
 
@@ -2222,9 +2096,7 @@ Now that Q3A has shipped, the official winner of her Id Software figurine chess 
 An honorable mention goes to Reine Hogberg and Peder Hardings for their Q3A Blair Witch Project. They will receive silver Q3A medallions.
 
 
------------------------------------------
-John Carmack's .plan for Dec 21, 1999
------------------------------------------
+### John Carmack's .plan for Dec 21, 1999
 
 The Q3 game source code is getting pushed back a bit because we had to do some rearranging in the current codebase to facilitate the release, and we don't want to release in-progress code before the official binary point release.
 
@@ -2235,9 +2107,7 @@ http://www.idsoftware.com/q1source/
 Happy holidays!
 
 
------------------------------------------
-John Carmack's .plan for Dec 25, 1999
------------------------------------------
+### John Carmack's .plan for Dec 25, 1999
 
 There are a number of people upset about the Quake 1 source code release, because it is allowing cheating in existing games.
 
@@ -2260,9 +2130,7 @@ Nothing in online games is cheat-proof (there is allways the device driver level
 People can start working on this immediately. There is some prior art in various unix games that would probably be helpfull. It would also be a good idea to find some crypto hackers to review proposed proxy communication strategies.
 
 
------------------------------------------
-John Carmack's .plan for Dec 29, 1999
------------------------------------------
+### John Carmack's .plan for Dec 29, 1999
 
 I have been playing a lot of Q3 on a 28.8 modem for the last several days.
 
@@ -2285,9 +2153,7 @@ Don't play in the wide open maps unless there are only a couple other players. F
 I just implemented "sv_minPing" / "sv_maxPing" options so servers can restrict themselves to only low ping or high ping players. This is done based on the ping of the challenge response packet, rather than any in-game pings. There are a few issues with that - a LPB may occasionally get into a HPB server if they happen to get a network hiccup at just the right time, and the number used as a gate will be closer to the number shown in the server list, rather than the number seen in gameplay. I would reccomend "sv_minPing 200" as a reasonable breakpoint.
 
 
------------------------------------------
-John Carmack's .plan for Dec 30, 1999
------------------------------------------
+### John Carmack's .plan for Dec 30, 1999
 
 Several people have mentioned an existing anti-cheat QW proxy that should also be applicable to modified versions:
 

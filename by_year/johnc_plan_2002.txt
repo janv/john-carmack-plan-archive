@@ -1,6 +1,4 @@
------------------------------------------
-John Carmack's .plan for Feb 11, 2002
------------------------------------------
+### John Carmack's .plan for Feb 11, 2002
 
 Last month I wrote the Radeon 8500 support for Doom.
 
@@ -43,18 +41,14 @@ As usual, there will be better cards available from both Nvidia and ATI by the t
 8:50 pm addendum: Mark Kilgard at Nvidia said that the current drivers already support the vertex program option to be invarint with the fixed function path, and that it turned out to be one instruction FASTER, not slower.
 
 
------------------------------------------
-John Carmack's .plan for Mar 15, 2002
------------------------------------------
+### John Carmack's .plan for Mar 15, 2002
 
 Mark Kilgard and Cass Everitt at Nvidia have released a paper on shadow volume rendering with several interesting bits in it. They also include a small document that I wrote a couple years ago about my discovery process during the development of some of the early Doom technology.
 
 http://developer.nvidia.com/view.asp?IO=robust_shadow_volumes
 
 
------------------------------------------
-John Carmack's .plan for Jun 25, 2002
------------------------------------------
+### John Carmack's .plan for Jun 25, 2002
 
 The Matrox Parhelia Report:
 
@@ -75,9 +69,7 @@ Anti aliasing features are nice, but it isn't all that fast in minimum feature m
 Displacement mapping. Sigh. I am disappointed that the industry is still pursuing any quad based approaches. Haven't we learned from the stellar success of 3DO, Saturn, and NV1 that quads really suck? In any case, we can't use any geometry amplification scheme (including ATI's truform) in conjunction with stencil shadow volumes.
 
 
------------------------------------------
-John Carmack's .plan for Jun 27, 2002
------------------------------------------
+### John Carmack's .plan for Jun 27, 2002
 
 More graphics card notes:
 
