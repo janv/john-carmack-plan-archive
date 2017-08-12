@@ -1,6 +1,6 @@
-## 1997
+# 1998
 
-### John Carmack's .plan for Jan 12, 1997
+## John Carmack's .plan for Jan 12, 1997
 
 We now have someone officially in charge of quake/quakeworld unix ports:
 
@@ -8,7 +8,7 @@ Dave 'Zoid' Kirsch. (zoid@threewave.com)
 
 Direct any correspondance about the linux ports of quake to him.  If any other unix vendors would like to have quake ported to their environments, set up an equipment loan with him.   This is a volenteer position, so don't give him a hard time.
 
-### John Carmack's .plan for Jan 22, 1997
+## John Carmack's .plan for Jan 22, 1997
 
 A preliminary release of glquake and the 3dfx driver has been put on our ftp site in the idstuff/unsup directory.
 
@@ -16,13 +16,13 @@ one hour later...
 
 3dfx gave me a new vxd for glquake that fixes crashing problems on some pentium pro systems.  glquake1.zip now contains the current files.
 
-### John Carmack's .plan for Jan 25, 1997
+## John Carmack's .plan for Jan 25, 1997
 
-I fixed a couple problems in glquake with some addon stuff -- the goats demo actually showed up a crashing problem with 256*256 textures, and the rangers demos showed that players with non-player models and colormaps were all messed up.
+I fixed a couple problems in glquake with some addon stuff -- the goats demo actually showed up a crashing problem with 256\*256 textures, and the rangers demos showed that players with non-player models and colormaps were all messed up.
 
 I'll make another release when 3dfx has their next driver drop finished.
 
-### John Carmack's .plan for Jan 31, 1997
+## John Carmack's .plan for Jan 31, 1997
 
 I went down to the ferrari dealership today with Ann and American with the intention of buying a new f355 as a "sensible" car (in contrast to my other twin turbo monstrosities).
 
@@ -48,7 +48,7 @@ The interior could use a little work.
 
 I plan to also include enough cash to cover tax and insurance.
 
-### John Carmack's .plan for Feb 05, 1997
+## John Carmack's .plan for Feb 05, 1997
 
 I've been following the ferrari discussion on r.g.c.q, and here are a couple clarifications:
 
@@ -60,7 +60,7 @@ We don't know yet where the final rounds are going to be held, either.  E3? #Qua
 
 I know that whatever we come up with won't be 100% fair to our entire customer base, but it would be really unfortunate if some people got bitter over it.
 
-### John Carmack's .plan for Feb 13, 1997
+## John Carmack's .plan for Feb 13, 1997
 
 There will be a new QuakeWorld release soon with a very different interface and several improvements.
 
@@ -74,7 +74,7 @@ It would be an interesting point of differentiation for ISP's or modem manufactu
 
 Comments?
 
-### John Carmack's .plan for Feb 18, 1997
+## John Carmack's .plan for Feb 18, 1997
 
 Ferrari update.
 
@@ -88,7 +88,7 @@ Intergraph is willing to pay for travel and accomadations for twelve to sixteen 
 
 We still need to figure out how to select the finalists. The idea is that we can tell all the press types about the event now, and have a last-minute runnoff of some sort the month before E3. That way even people who aren't usually active on the internet can find out about it through a magazine and take a shot at it.
 
-### John Carmack's .plan for Feb 19, 1997
+## John Carmack's .plan for Feb 19, 1997
 
 I made significant improvements to the scalability of QuakeWorld.
 
@@ -98,7 +98,7 @@ The next release of QuakeWorld is going to be completely incompatable with the c
 
 I have one more really significant thing to try with the network protocols that I should probably hold up the release for, because it would be yet another incompatable change.
 
-### John Carmack's .plan for Feb 23, 1997
+## John Carmack's .plan for Feb 23, 1997
 
 I took an entire day and a half off from work to spend some quality time with my F40 at Texas World Speedway. I had a lovely moment pitching my quarter million dollar car off the track backwards (no harm done), but otherwise I had a great time. Back to work now.
 
@@ -106,7 +106,7 @@ I should have updates of both QuakeWorld and GlQuake within a week. QW is crappi
 
 My next project is to define a new rendering architecture that will clean a bunch of stuff up and allow me to combine regular quake, glquake, and a windows version of vquake into a single executable. I plan on doing the development work with QW, so I won't be stepping on Michael or Cash's toes as I go hacking and slashing through the codebase. If everything goes well, that will become the new guts of Quake 2, and I will probably also release a unified Quake 1 executable.
 
-### John Carmack's .plan for Mar 05, 1997
+## John Carmack's .plan for Mar 05, 1997
 
 I have been soooo busy lately. (yes, thats my excuse for not having new glquake and quakeworld release yet)
 
@@ -122,13 +122,15 @@ I have been doing some cleanup work on our map editor, because we may wind up bu
 
 Aaron Seeler from midway is coming down in a few days and we are going to start thrashing out the architecture for Quake on the N64. I'm really looking forward to that -- I have some clever things in mind that should really leverage the N64 hardware and deliver an awesome game. All of our previous cart ports have been just trying (and failing sometimes...) to equal a mid range PC game experience, but Quake on the N64 should be a lot closer to the vquake / glquake versions than the vanilla software version that most people are fammiliar with.
 
-### John Carmack's .plan for Mar 11, 1997
+## John Carmack's .plan for Mar 11, 1997
 
 The new glquake is on ftp.idsoftware.com. It should work for both the hipnotic pack and the upcoming rogue pack.
 
+```
 /idstuff/unsup/glq3_11.zip
+```
 
-### John Carmack's .plan for Mar 12, 1997
+## John Carmack's .plan for Mar 12, 1997
 
 Ok, this really pisses me off:
 
@@ -180,7 +182,7 @@ I pushed against the "us citizans" clause, asking if it would be reasonable to b
 
 Its just a fact of life that locality is an issue. We can't treat the entire world the same. Go convince another company that "might value their customers for real" to give you a ferrari.
 
-### John Carmack's .plan for Mar 13, 1997
+## John Carmack's .plan for Mar 13, 1997
 
 Here is a technical issue to be discussed:
 
@@ -200,7 +202,7 @@ You would actually need a compiler to hack quake. For the serious people, this i
 
 You could debug your patch in a real debugger! Yipee!
 
-### John Carmack's .plan for Mar 18, 1997
+## John Carmack's .plan for Mar 18, 1997
 
 I have gotten a significant amount of response on the Quake 2 extension mechanism. I do read everything that comes my way (I can't respond to all of it, though), and I have learned a few things from the mail.
 
@@ -216,11 +218,11 @@ I really do care about portability, but it is just one factor that needs to be b
 
 Speaking of portability, to remove the guesswork that goes on, here are my current opinions on the various platforms:
 
-###### Win32
+### Win32
 
 Win32 rules the world. You are sticking your head in the sand if you think otherwise. The upside is that windows really doesn't suck nowdays. Win 95 / NT 4.0 are pretty decent systems for what they are targeted at. I currently develop mostly on NT, and Quake 2 will almost certainly be delivered on win32 first. Our games should run as well as possible in NT, we won't require any '95 only features.
 
-###### Dos
+### Dos
 
 We are not going to do another dos game. No amount of flaming hate mail is going to change my mind on this (PLEASE don't!). The advantages of good TCP/IP support, dynamic linking, powerfull virtual memory, device drivers, etc, are just too much to overcome. Yes, all of those can be provided under dos in various ways, but it just isn't worth it.
 
@@ -260,13 +262,13 @@ In the real world, things aren't on equal footing, and I do most of my work on N
 
 If I can convince apple to do a good hardware accelerated OpenGL in rhapsody, I would be very likely to give my win NT machine the cold shoulder and do future development on rhapsody. (I really don't need Quickdraw3D evangelists preaching to me right now, thank you)
 
-### John Carmack's .plan for Mar 23, 1997
+## John Carmack's .plan for Mar 23, 1997
 
 Someone ran into my F40 in the parking lot, then took off. Words cannot do justice to how I feel right now.
 
 If anyone knows a tall white male in the dallas area that now has red paint and carbon fibre on their tan pickup truck, turn the bastard in!
 
-### John Carmack's .plan for Apr 02, 1997
+## John Carmack's .plan for Apr 02, 1997
 
 The second generation QuakeWorld is out and live now.
 
@@ -286,13 +288,13 @@ The next major upgrade will be a quakeworld that can run in software and OpenGL 
 
 This combination (QW networking and switchable rendering) will be the base that we move all of our Quake 2 work over to.
 
-### John Carmack's .plan for Apr 04, 1997
+## John Carmack's .plan for Apr 04, 1997
 
 Ok, the current OpenGL code no longer scales the status bar and console. You can stop complaining now. The next release will be the consolidated rendering code for quakeworld. I'm not sure when I will be able to make a standalone version.
 
 The consolidated quake will also be available on NT-alpha as well as x86. If you have a powerstorm-T card, glquake works pretty good. Glint and oxygen cards don't work well enough, but the normal quake software version should work fine. We may get a little bit of asm code written for the software version.
 
-### John Carmack's .plan for Apr 08, 1997
+## John Carmack's .plan for Apr 08, 1997
 
 Technical note:
 
@@ -302,13 +304,13 @@ Brush models built as part of the world, like doors and plats, will remain  with
 
 Instanced bmodels never were lighted properly, and a lot of code gets simpler  with this decision.
 
-### John Carmack's .plan for Apr 09, 1997
+## John Carmack's .plan for Apr 09, 1997
 
 Would anyone complain if I took out lookstrafe and keyboard look modifier? I'm  cleaning up code, and I don't know of anyone that ever uses those features.
 
 update: ok, +klook has it's supporters. Anyone for lookstrafe?
 
-### John Carmack's .plan for Apr 24, 1997
+## John Carmack's .plan for Apr 24, 1997
 
 The consolidated QuakeWorld client has been working pretty well. I've been playing deathmatch with it in GL mode for the past week. There are still a number of things to do on it, and I haven't been working on it for a while due to higher priority tasks. A lot of other non-graphics things have changed in the new architecture as well.
 
@@ -326,7 +328,7 @@ I figured out something about CSG / BSP operations that had been kicking around 
 
 I will make another tool release when things calm down, but understandably that is about at the bottom of my priority list.
 
-### John Carmack's .plan for Apr 28, 1997
+## John Carmack's .plan for Apr 28, 1997
 
 I'm sure you have all heard about the 3drealms / quake deal by now. It took a long time to get everything nailed down, but it should be worth it.
 
@@ -334,13 +336,13 @@ The "quake 2" terminology is a little confusing. They have all the quake / glqua
 
 I'm quite excited about this - it should be a very complimentary arrangement. We would never have done a game like Duke at id, but there are many valid styles of design that are mutually exclusive. Todd and the rest of the Duke team are hard working developers with a pretty clear vision of what they want. It happens to be different than our vision, but the market is plenty big enough for both of them.
 
-### John Carmack's .plan for May 06, 1997
+## John Carmack's .plan for May 06, 1997
 
 Brian Hook has been hired as our new programmer.
 
 Brian wrote the glide API for 3dfx, worked on CosmoGL, and wrote a book on 3d programming that he is now horribly embarrased about.
 
-### John Carmack's .plan for May 12, 1997
+## John Carmack's .plan for May 12, 1997
 
 I have gotten several emails speculating that there will now be a native glide port of quake. Here is the straight answer:
 
@@ -350,7 +352,7 @@ On the plus side, it could get a 10%-15% speedup over the OpenGL driver without 
 
 The big drawback is that every codepath that gets added holds back future innovation. Just having software and gl is a lot of work, and I have allready commited to verite support. This is a difficult point for some people to understand, but it is crucially important. The more places I need to rewrite a feature, the less likely I am to put it in. If I only had the opengl version to worry about, Quake 2 would be so much cooler..
 
-### John Carmack's .plan for May 14, 1997
+## John Carmack's .plan for May 14, 1997
 
 As some of you may know, a port of Quake was demod at apple's WWDC. Here is the full info:
 
@@ -368,7 +370,7 @@ I am still going to press the OpenGL issue, which is going to be crucial for fut
 
 I am definately going to support Quake 2 on rhapsody. I may make a public release of the QuakeWorld demo, but I will probably wait until we get the full screen api working. Omnigroup has a little qspy-like openstep program that we can use with it.
 
-### John Carmack's .plan for May 22, 1997
+## John Carmack's .plan for May 22, 1997
 
 Bad news.
 
@@ -392,7 +394,7 @@ Full color lightmaps for glquake. The "surprise" that I mentioned before was col
 
 If any hard-core add on hackers can present a serious case for additional modifications to the bsp file, now is the time to let me know.
 
-### John Carmack's .plan for Jun 19, 1997
+## John Carmack's .plan for Jun 19, 1997
 
 I'm pretty damn pleased with things right now.
 
@@ -440,7 +442,7 @@ We are doing a great product.
 
 Everyone watch out!
 
-### John Carmack's .plan for Jun 22, 1997
+## John Carmack's .plan for Jun 22, 1997
 
 Ok, I'm finally updating my .plans at the top like everyone else..
 
@@ -468,7 +470,7 @@ Some notable companies are going to ship longer after us than they are expecting
 
 Ugh. I haven't coded in three days. Withdrawal.
 
-### John Carmack's .plan for Jun 25, 1997
+## John Carmack's .plan for Jun 25, 1997
 
 We got the new processors running in our big compute server today.
 
@@ -528,7 +530,7 @@ There is no convenient way to use multiple processors with the hardware accelera
 
 That will probably be an issue that needs to be addressed in the lifespan of the next generation technology. Eventually people are going to start sticking multiple cpus (or multiple thread issue systems sharing resources) on a single chip, and it will become a consumer level item. I'm looking forward to it.
 
-### John Carmack's .plan for Jul 03, 1997
+## John Carmack's .plan for Jul 03, 1997
 
 This little note was issued to a lot of magazines by microsoft recently. Just for the record, they have NOT contacted us about any meetings.
 
@@ -559,7 +561,7 @@ If you have any questions or wish to speak with a Microsoft spokesperson, please
 
 Julie Whitehead
 
-### John Carmack's .plan for Jul 07, 1997
+## John Carmack's .plan for Jul 07, 1997
 
 The quality of Quake's software has been a topic of some discussion lately. I avoid IRC like the plague, but I usually hear about the big issues.
 
@@ -627,7 +629,7 @@ Sigh.
 
 Sometimes the decisions are REALLY hard, like making head to head modem play suffer to enable persistant internet servers.
 
-### John Carmack's .plan for Jul 11, 1997
+## John Carmack's .plan for Jul 11, 1997
 
 Zoid commented that my last .plan update sounded like Fred Brooks "The Mythical Man-Month". He is certainly correct.
 
@@ -643,7 +645,7 @@ It was just as good the second time through, and two more years of development u
 
 If you program (or even work around software development), you should read this book.
 
-### John Carmack's .plan for Jul 25, 1997
+## John Carmack's .plan for Jul 25, 1997
 
 Id Software went to the drag strip today.
 
@@ -667,7 +669,7 @@ My TR is never going to be a good drag car (>4000 lbs!), but when we go back on 
 
 I think Bear is heading for the chip dealer so he can get ahead of Tim :)
 
-### John Carmack's .plan for Jul 30, 1997
+## John Carmack's .plan for Jul 30, 1997
 
 `quake2 +set maxclients 200`
 
@@ -689,7 +691,7 @@ Everyone should start thinking about interesting rules for huge games. A QuakeAr
 
 Cooperating servers will be possible with modified dlls, but I probably won't include any specific code for it in the default game.dll.
 
-### John Carmack's .plan for Aug 05, 1997
+## John Carmack's .plan for Aug 05, 1997
 
 At siggraph
 
@@ -697,79 +699,79 @@ At siggraph
 * merged qlumpy into qdata, save seperate files
 * changed quaked to use texture directories
 
-+ fix leaktest option
-+ show texture directory on inspector window
-+ show full texture name somewhere when clicked on
-+ texture info overrides
+\+ fix leaktest option  
+\+ show texture directory on inspector window  
+\+ show full texture name somewhere when clicked on  
+\+ texture info overrides  
 
 remap maps to share common textures?
 
-### John Carmack's .plan for Aug 06, 1997
+## John Carmack's .plan for Aug 06, 1997
 
 * qe4 texture directories
-* fixed vid_restart
-* hacked alpha colors for cards without src*dst
+* fixed vid\_restart
+* hacked alpha colors for cards without src\*dst
 * fixed qdata vc compiler bug in arg parsing
 * qe4 surface inspector
 
 
-### John Carmack's .plan for Aug 07, 1997
+## John Carmack's .plan for Aug 07, 1997
 
-+ add animation frames to bsp file texinfos
-- make bmodel frames just add to texinfo?
-- should msurface flags hold the texinfo flags?
-+ make window content implicit if any surfaces are trans
-+ CONTENTS_ORIGIN flag
-+ nodetail bsp
-+ select face option in qe4
-+ use monsterclips!
-+ gl fullbright textures are still 2x brightness
+\+ add animation frames to bsp file texinfos  
+\- make bmodel frames just add to texinfo?  
+\- should msurface flags hold the texinfo flags?  
+\+ make window content implicit if any surfaces are trans  
+\+ `CONTENTS_ORIGIN` flag  
+\+ nodetail bsp  
+\+ select face option in qe4  
+\+ use monsterclips!  
+\+ gl fullbright textures are still 2x brightness  
 
-moveable alpha surfaces
-merge find texture dialog into surface inspector
-fix qdata unix directory stuff
-get rid of mod->skins, use mod->images
+moveable alpha surfaces  
+merge find texture dialog into surface inspector  
+fix qdata unix directory stuff  
+get rid of mod-\>skins, use mod-\>images  
 
-### John Carmack's .plan for Aug 08, 1997
+## John Carmack's .plan for Aug 08, 1997
 
 * added origin brush support to old bsp for raven
 
-+ add edge planes for brush hulls
-- rate is broken - inventory fix
+\+ add edge planes for brush hulls  
+\- rate is broken - inventory fix  
 
 
-### John Carmack's .plan for Aug 09, 1997
+## John Carmack's .plan for Aug 09, 1997
 
 * combined bsp tools into a single vc project
 * new texture animation solution
-* make any com_error drop the loading plaque
+* make any `com_error` drop the loading plaque
 * tools and quake2 work with new bsp format
 
-+ combine project files of bsp tools
-+ anything translucent is automatically a detail contents
-- duplicate texinfo for animations?
-+ store out contents from trace!
-+ arbitrary visleafs mappings
-+ scanmaps option for pak file building of textures
-+ delta lightstyle controls from server
-+ max moveleafs problem
-+ make r_dowarp a server passed variable?
-+ why is hunk_begin different in software?
+\+ combine project files of bsp tools  
+\+ anything translucent is automatically a detail contents  
+\- duplicate texinfo for animations?  
+\+ store out contents from trace!  
+\+ arbitrary visleafs mappings  
+\+ scanmaps option for pak file building of textures  
+\+ delta lightstyle controls from server  
+\+ max moveleafs problem  
+\+ make `r_dowarp` a server passed variable?  
+\+ why is `hunk_begin` different in software?  
 
-don't forget to set SURF_NOSUBDIV on warps and sky!
-compress ff in visdata as well as 0?
-trinity idea: model light haze around every emiter
-trinity idea: allways model volumetric lights by rendering back sides
-CONTENTS_VOLUME
-do a wavy specular water novelty
-allow arbitrary chained lightmaps on a surface?
-game.dll controlable particles
-get rid of SURF_PLANEBACK
-player sounds when moving? (breathing / footsteps / hitting walls)
-rename .bsp to .bs2 ?
-high frame rate run turn chunkiness
+don't forget to set `SURF_NOSUBDIV` on warps and sky!  
+compress ff in visdata as well as 0?  
+trinity idea: model light haze around every emiter  
+trinity idea: allways model volumetric lights by rendering back sides  
+`CONTENTS_VOLUME`  
+do a wavy specular water novelty  
+allow arbitrary chained lightmaps on a surface?  
+game.dll controlable particles  
+get rid of `SURF_PLANEBACK`  
+player sounds when moving? (breathing / footsteps / hitting walls)  
+rename .bsp to .bs2 ?  
+high frame rate run turn chunkiness  
 
-### John Carmack's .plan for Aug 10, 1997
+## John Carmack's .plan for Aug 10, 1997
 
 I went to siggraph last monday to give a talk about realtime graphics for entertainment.
 
@@ -810,26 +812,26 @@ A detail / structural seperation is also, I believe, key to making a portal rend
 
 * trans33, trans66, flow flags in gl
 * damped warp modulation in gl
-* ref_soft running with new data
+* `ref_soft` running with new data
 
-+ shots are exploding on the sky again
-+ auto set window contents if translucent
-+ don't set qe4 texture unless notexture
-+ try new console background
-+ finish animation cycling
+\+ shots are exploding on the sky again  
+\+ auto set window contents if translucent  
+\+ don't set qe4 texture unless notexture  
+\+ try new console background  
+\+ finish animation cycling  
 
-detail brushes could be extended to be destroyable
-new texture specification by three points?
-check -tmpin -tmpout in bsp utils
-rename texinfo to surfinfo?
-pitch change during jumping
-minimized window notification when a new client joins?
-should origin brushes be included in bsp file for completeness?
-use nodraw flag
-pitch change when ducking
-qrad light bleeds
+detail brushes could be extended to be destroyable  
+new texture specification by three points?  
+check -tmpin -tmpout in bsp utils  
+rename texinfo to surfinfo?  
+pitch change during jumping  
+minimized window notification when a new client joins?  
+should origin brushes be included in bsp file for completeness?  
+use nodraw flag  
+pitch change when ducking  
+qrad light bleeds  
 
-### John Carmack's .plan for Aug 11, 1997
+## John Carmack's .plan for Aug 11, 1997
 
 * don't set qe4 texture unless notexture
 * don't set qe4 texture on cancel unless changed
@@ -838,18 +840,18 @@ qrad light bleeds
 * all software flags
 * mist contents
 
-+ imagelist command in software
+\+ imagelist command in software  
 
-trinity: save out projection outlines from editor for textures
-add a 5th control axis (and 6th?) for spaceorb ducking
-gl: don't keep lightmap blocks around in main memory?
-entities not visible (or only visible) to owners
-look in direction other than motion for hmd
-quake as root directory problem
-dir command
-software surface / edge allocation issues
+trinity: save out projection outlines from editor for textures  
+add a 5th control axis (and 6th?) for spaceorb ducking  
+gl: don't keep lightmap blocks around in main memory?  
+entities not visible (or only visible) to owners  
+look in direction other than motion for hmd  
+quake as root directory problem  
+dir command  
+software surface / edge allocation issues  
 
-### John Carmack's .plan for Aug 12, 1997
+## John Carmack's .plan for Aug 12, 1997
 
 * qe4 project on command line
 * qe4 rshcmd replacement
@@ -859,120 +861,119 @@ software surface / edge allocation issues
 * bindlist command
 * imagelist command in ref_soft
 
-+ leaktest
-+ load game.dll from gamedir
+\+ leaktest  
+\+ load game.dll from gamedir  
 
-pendulum motion
-no jump on lava floor?
--game
-16 bit wall textures
+pendulum motion  
+no jump on lava floor?  
+\-game  
+16 bit wall textures  
 
-### John Carmack's .plan for Aug 13, 1997
+## John Carmack's .plan for Aug 13, 1997
 
 * cls.fixedimage support
 * no frame before cinematic fix
 * menu during cinematic fix
 
-+ ingame cinematic state
-+ indemo cinematic state
-- move fraglogfile into game dll
-+ layout language beyond simple centerprint
-+ killserver needs to kill demos as well
-+ must kill cinematic after menu, or restart palette
-+ disconnected can be either at a console or running the demo + intro cinematic
-  needs to be part of the game
+\+ ingame cinematic state  
+\+ indemo cinematic state  
+\- move fraglogfile into game dll  
+\+ layout language beyond simple centerprint  
+\+ killserver needs to kill demos as well  
+\+ must kill cinematic after menu, or restart palette  
+\+ disconnected can be either at a console or running the demo + intro cinematic needs to be part of the game  
 
-force nolerp lag?
-put ip filtering in game dll
-handle localmodels explicitly, rather than as *num
-don't send heartbeats if not running a network game?
-move viewmodel for all accelerations, including jumping and landing
-fade out centerprints
-design quit screen to allow addons to get credits
-be consistant with window title bars
-mp3 audio
-qe4: downsample option, nomipmap option
+force nolerp lag?  
+put ip filtering in game dll  
+handle localmodels explicitly, rather than as `*num`  
+don't send heartbeats if not running a network game?  
+move viewmodel for all accelerations, including jumping and landing  
+fade out centerprints  
+design quit screen to allow addons to get credits  
+be consistant with window title bars  
+mp3 audio  
+qe4: downsample option, nomipmap option  
 
-### John Carmack's .plan for Aug 14, 1997
+## John Carmack's .plan for Aug 14, 1997
 
 * qe4 project dialog fix
 * intermission spots and movement
 * hud transfer framework
 
-+ micro levels that just play cinematics?
-+ BUTTON_ANY option
+\+ micro levels that just play cinematics?  
+\+ `BUTTON_ANY` option  
 
-remove oldorigin
-use static arrays for map elements in renderers?
-unit level statistics
+remove oldorigin  
+use static arrays for map elements in renderers?  
+unit level statistics  
 
-### John Carmack's .plan for Aug 15, 1997
+## John Carmack's .plan for Aug 15, 1997
 
 * smart background clear
 * worked around 100% viewsize floating point bug
 * increased base surface cache size
 * unified server commands and prog commands
-* fixed same level reload bug in ref_soft
+* fixed same level reload bug in `ref_soft`
 
-+ are lightmaps allways being saved, even if all black?
-+ is notify box used for anything?
-+ toggleconsole when connected to a net game
-+ server needs to be able to send staticpics
-+ draw to front buffer without swapping option
-- can game.dll register commands?
-+ direct sound and keyboard restart so ref can destroy window
-+ loading plaque on local system doesn't wait for hud erase
+\+ are lightmaps allways being saved, even if all black?  
+\+ is notify box used for anything?  
+\+ toggleconsole when connected to a net game  
+\+ server needs to be able to send staticpics  
+\+ draw to front buffer without swapping option  
+\- can game.dll register commands?  
+\+ direct sound and keyboard restart so ref can destroy window  
+\+ loading plaque on local system doesn't wait for hud erase  
 
-frame flicker option for evaluating missed VBL?
-way to add remote commands on client side by scripts?
-check client entering during intermission
-moveable transparant bmodels
-use sneaking in shadows to let players get a good look at more monsters
-translate cinematic to greyscale instead of blanking?
-remove zombietime?
-are userinfo updates getting sent?
+frame flicker option for evaluating missed VBL?  
+way to add remote commands on client side by scripts?  
+check client entering during intermission  
+moveable transparant bmodels  
+use sneaking in shadows to let players get a good look at more monsters  
+translate cinematic to greyscale instead of blanking?  
+remove zombietime?  
+are userinfo updates getting sent?  
 
-### John Carmack's .plan for Aug 16, 1997
+## John Carmack's .plan for Aug 16, 1997
 
-download static screen images?
-+ how to change semi-protected variables without killing server?
-+ how do demo servers progress to the next server?
-+ how does the client distinguish between a demo server? parm to map command?
-+ demo servers have special console behavior and don't warn on game restart
-+ do not allow remote connects to a demo server
-+ no loading plaque if fullcon
-+ cinematic trailing pic for victory
-+ demo view angles?
-+ text before next level after completed
-+ replace draw_beginrawscene with setpalette?
-+ keys should go to game when running cinematic, not console
-+ does the console key serve as a skip-demo key on real servers?
-+ need to flag unit ends for stats, vs simple transfers
-+ pause demos and cinematics while menu is up
+download static screen images?  
+\+ how to change semi-protected variables without killing server?  
+\+ how do demo servers progress to the next server?  
+\+ how does the client distinguish between a demo server? parm to map command?  
+\+ demo servers have special console behavior and don't warn on game restart  
+\+ do not allow remote connects to a demo server  
+\+ no loading plaque if fullcon  
+\+ cinematic trailing pic for victory  
+\+ demo view angles?  
+\+ text before next level after completed  
+\+ replace `draw_beginrawscene` with setpalette?  
+\+ keys should go to game when running cinematic, not console  
+\+ does the console key serve as a skip-demo key on real servers?  
+\+ need to flag unit ends for stats, vs simple transfers  
+\+ pause demos and cinematics while menu is up  
 
-visible que on players when typing and when lagged?
-make sure there is never a server running if client is fullcon
-must force full graphics reload on game change
-don't require full precache of all weapons?
-demo servers won't work for remote connections, because packets can be dropped
-prevent map / demomap changes without killserver
-map demo1.dem during game messes up
-victory freeze
+visible que on players when typing and when lagged?  
+make sure there is never a server running if client is fullcon  
+must force full graphics reload on game change  
+don't require full precache of all weapons?  
+demo servers won't work for remote connections, because packets can be dropped  
+prevent map / demomap changes without killserver  
+map demo1.dem during game messes up  
+victory freeze  
 
-### John Carmack's .plan for Aug 17, 1997
+## John Carmack's .plan for Aug 17, 1997
 
 * demo angles
 * fixed initial lightmap cache value
-* disconnect now does an ERR_DROP to kill server as well
-* button_any support
+* disconnect now does an `ERR_DROP` to kill server as well
+* `button_any` support
 * bad fov problem
 
-aliaslist
-never nextserver on finale
-blaster autorepeat problem
-end cinematic loading flicker
+aliaslist  
+never nextserver on finale  
+blaster autorepeat problem  
+end cinematic loading flicker  
 
-### John Carmack's .plan for Aug 18, 1997
+## John Carmack's .plan for Aug 18, 1997
 
 I get asked about the DOOM source code every once in a while, so here is a full status update:
 
@@ -990,48 +991,48 @@ I think I am going to be able to get away with just making all the code public d
 
 * lightmap building errors
 
-+ qe4: build in detail mode
-+ animating textures
-+ no different quantities on items?
-+ target_secretcounter
+\+ qe4: build in detail mode  
+\+ animating textures  
+\+ no different quantities on items?  
+\+ `target_secretcounter`  
 
 the inherent problems of simplicity by complexity
 
-### John Carmack's .plan for Aug 19, 1997
+## John Carmack's .plan for Aug 19, 1997
 
 * leaktest
 
-+ min clamp extents
+\+ min clamp extents  
 
 
-### John Carmack's .plan for Aug 23, 1997
+## John Carmack's .plan for Aug 23, 1997
 
 * cluster code
 
-- boxcontents?
-+ dump rgb lightmaps for software?
-+ alias model aspect ratios different in software and gl?
+\- boxcontents?  
+\+ dump rgb lightmaps for software?  
+\+ alias model aspect ratios different in software and gl?  
 
-share data between cmodel and ref
-triangulate mightsee on vis?
-malloc all cmodel arrays?
-DONT_PRECACHE flag for player weapons?
-make an ERR_DISCONNECT that doesn't print ERROR: ?
-don't load entire map twice in cmodel and ref!
-show clusterviscount for bsp time optimizations?
-server/client communication for skin overrides
+share data between cmodel and ref  
+triangulate mightsee on vis?  
+malloc all cmodel arrays?  
+`DONT_PRECACHE` flag for player weapons?  
+make an `ERR_DISCONNECT` that doesn't print ERROR: ?  
+don't load entire map twice in cmodel and ref!  
+show clusterviscount for bsp time optimizations?  
+server/client communication for skin overrides  
 
-### John Carmack's .plan for Aug 24, 1997
+## John Carmack's .plan for Aug 24, 1997
 
 * qe4 slow startup
 * qrad
 
-+ detail clip brushes?
-+ extra brush clip planes
+\+ detail clip brushes?  
+\+ extra brush clip planes  
 
 change qdata colormap to not use 0 and 255 for win palette
 
-### John Carmack's .plan for Aug 25, 1997
+## John Carmack's .plan for Aug 25, 1997
 
 I want to apologize for some of the posturing that has taken place in .plan files.
 
@@ -1058,16 +1059,16 @@ Sure, there ARE developers that really do think they are going to wipe us off th
 * weapon turn lagging
 * debug graph
 
-+ screen sizedown is not clearing again
-+ animating textures
-+ weapon change sounds should be server side
-+ QE4: surface inspector apply is slow
+\+ screen sizedown is not clearing again  
+\+ animating textures  
+\+ weapon change sounds should be server side  
+\+ QE4: surface inspector apply is slow  
 
-qe4: seperate "make current texture" from "make and set all"
-currentmodel name problem in gl_model
-userinfo changes
+qe4: seperate "make current texture" from "make and set all"  
+currentmodel name problem in `gl_model`  
+userinfo changes  
 
-### John Carmack's .plan for Aug 26, 1997
+## John Carmack's .plan for Aug 26, 1997
 
 * debuggraph on top
 * better bobtime / bobcycle
@@ -1075,155 +1076,155 @@ userinfo changes
 * fast surface dialog
 * show detail on camera title
 
-+ link commands for playing from the cd
+\+ link commands for playing from the cd  
 
 qe4: view menu checkboxes are wrong
 
-### John Carmack's .plan for Aug 27, 1997
+## John Carmack's .plan for Aug 27, 1997
 
 * fixed off-by-one cluster count
 * fixed surf/content bit mismatch
 * gun bob cycles
 * falling pitch change
 
-- make a fat pvs for rendering?
-+ trace needs to return contents
-+ fix BUTTON_ANY
-+ rendering beams
-+ delta lightstyle controls from server
-+ finish animation cycling
+\- make a fat pvs for rendering?  
+\+ trace needs to return contents  
+\+ fix `BUTTON_ANY`  
+\+ rendering beams  
+\+ delta lightstyle controls from server  
+\+ finish animation cycling  
 
-QE4: deleting brushes doesn't count as modified?
-initial time on spawn Tent
-underwater caustics
-make all bobbing effects cvars
-title on inspector is broken for textures
-moveable alpha surfaces
-don't forget to set SURF_NOSUBDIV on warps and sky!
-freeze map just sets a HUD of the victory screen
-server scoreboard
+QE4: deleting brushes doesn't count as modified?  
+initial time on spawn Tent  
+underwater caustics  
+make all bobbing effects cvars  
+title on inspector is broken for textures  
+moveable alpha surfaces  
+don't forget to set `SURF_NOSUBDIV` on warps and sky!  
+freeze map just sets a HUD of the victory screen  
+server scoreboard  
 
-### John Carmack's .plan for Aug 28, 1997
+## John Carmack's .plan for Aug 28, 1997
 
 * fixed entity culling on gl
 * sorted axial and edge bevels on all brushes
 
-+ entity culling in GL
-+ imagelist should have the downsampled sizes
-+ software should dump rgb lightmap data
+\+ entity culling in GL  
+\+ imagelist should have the downsampled sizes  
+\+ software should dump rgb lightmap data  
 
-an origin brush will never change a texinfo?
-NO! the offsets can change
-are brush numbers messed up because of removed brushes?
-plat push into floor
-use textureisresident in imagelist?
-load mip levels seperately
-duplicate planes
-make set detail not work on entities
-trinity: pivot feet! general atmospherics!
-ray trace: texture+s/t for each sample, hardware reconstructs
-walk up stairs by slope hitches up
-animating textures
-QE4: use gentextures
-QE4: flush all textures option
+an origin brush will never change a texinfo?  
+NO! the offsets can change  
+are brush numbers messed up because of removed brushes?  
+plat push into floor  
+use textureisresident in imagelist?  
+load mip levels seperately  
+duplicate planes  
+make set detail not work on entities  
+trinity: pivot feet! general atmospherics!  
+ray trace: texture+s/t for each sample, hardware reconstructs  
+walk up stairs by slope hitches up  
+animating textures  
+QE4: use gentextures  
+QE4: flush all textures option  
 
-### John Carmack's .plan for Aug 29, 1997
+## John Carmack's .plan for Aug 29, 1997
 
 sick
 
-### John Carmack's .plan for Aug 30, 1997
+## John Carmack's .plan for Aug 30, 1997
 
 * changed snapnormal
-* fixed BUTTON_ANY
+* fixed `BUTTON_ANY`
 * unix makefile
 * pic server
 * runcinematic call
 * console over cinematic fix
 
-+ console key during game cinematics
-+ version number for quake 2?
-+ cinematic set palette needs to clear screen
+\+ console key during game cinematics  
+\+ version number for quake 2?  
+\+ cinematic set palette needs to clear screen  
 
-use cluster level leafs for sound radiosity
-jittered texel centers?
-trinity: continuous textures, surface cache on all
-make net, pause, and drawcenterstring HUDs
+use cluster level leafs for sound radiosity  
+jittered texel centers?  
+trinity: continuous textures, surface cache on all  
+make net, pause, and drawcenterstring HUDs  
 
-### John Carmack's .plan for Aug 31, 1997
+## John Carmack's .plan for Aug 31, 1997
 
 * fixed trigger_always
 * game dll by search path
 * cinematic NULL bug
 * help computer
 
-+ get rid of datablocks?
-+ dll init must clear the persistant data
-- savegame needs to save game.dll name
-+ save directory?
-+ put pcx_t into qfiles.h?
-+ unify all hud work into g_hud.c
+\+ get rid of datablocks?  
+\+ dll init must clear the persistant data  
+\- savegame needs to save game.dll name  
+\+ save directory?  
+\+ put `pcx_t` into qfiles.h?  
+\+ unify all hud work into `g_hud.c`  
 
-set command with flags?
-should "path" be renamed to pathlist?
-trigger_allways should be fixed size
-gameversion
-somehow don't resend big deltas (scoreboard hud) until ack?
-client side feedback
-glgentextures
+set command with flags?  
+should "path" be renamed to pathlist?  
+`trigger_allways` should be fixed size  
+gameversion  
+somehow don't resend big deltas (scoreboard hud) until ack?  
+client side feedback  
+glgentextures  
 
-### John Carmack's .plan for Sep 01, 1997
+## John Carmack's .plan for Sep 01, 1997
 
 * QE4: bug with texture attributes on non-visible surfaces
 * stack bug for initial light maps
 
-+ pink lightmaps?
-+ alt-tab should only minimize if full screen
-+ version as command and var?
+\+ pink lightmaps?  
+\+ alt-tab should only minimize if full screen  
+\+ version as command and var?  
 
-splashing sound when swimming at surface?
-brains make view roll around
-wasted polygons outside maps
-vis decompression overruns?
-INVISIBLE_TO_OWNER INVISIBLE_TO_OTHER
-make * model names visible
-GL_MipMap overwriting?
-trinity: proper biped walking
-increase range of mouse slider
-gun shock based on damage source
+splashing sound when swimming at surface?  
+brains make view roll around  
+wasted polygons outside maps  
+vis decompression overruns?  
+`INVISIBLE_TO_OWNER` `INVISIBLE_TO_OTHER`  
+make * model names visible  
+`GL_MipMap` overwriting?  
+trinity: proper biped walking  
+increase range of mouse slider  
+gun shock based on damage source  
 
-### John Carmack's .plan for Sep 02, 1997
+## John Carmack's .plan for Sep 02, 1997
 
 * serveronly semeaphor close check
 * error during initialization messagebox check
 * software rendering default wall image
 * unify slidestepmove
 
-+ progress bar
-+ roll angles are getting set on rotating models
-+ blinking lights on bonus items
-+ alpha test fix
+\+ progress bar  
+\+ roll angles are getting set on rotating models  
+\+ blinking lights on bonus items  
+\+ alpha test fix  
 
-bug with loading a new map after an errored out map
-qe4: turn region off for new map
+bug with loading a new map after an errored out map  
+qe4: turn region off for new map  
 
-gun should show vertical acceleration on lifts
-view angle turning based on impacts
-muzzle flashes
-trinity: fully compressed textures need to compress the mip levels as well, instead of generating them from the most detailed form.
-trinity: different packing options to layout all the texture blocks. Square, thin, individual, etc.
-trinity: investigate performance of background disk paging and clustering of texture blocks into disk allocation units
-trinity: texture connectivity graph for prepaging?
-trinity: speculatively upload things that might be seen next frame to balance uploading?
-max upload, use lower mip levels if needed?
+gun should show vertical acceleration on lifts  
+view angle turning based on impacts  
+muzzle flashes  
+trinity: fully compressed textures need to compress the mip levels as well, instead of generating them from the most detailed form.  
+trinity: different packing options to layout all the texture blocks. Square, thin, individual, etc.  
+trinity: investigate performance of background disk paging and clustering of texture blocks into disk allocation units  
+trinity: texture connectivity graph for prepaging?  
+trinity: speculatively upload things that might be seen next frame to balance uploading?  
+max upload, use lower mip levels if needed?  
 
-get rid of all the gl lightmaps in main memory!
-allow jump up off bottom of water floor to give more velocity
-merge net_udp and net_wins
+get rid of all the gl lightmaps in main memory!  
+allow jump up off bottom of water floor to give more velocity  
+merge `net_udp` and net_wins  
 
-slippery slopes
-learned something: upload mip levels backwards
+slippery slopes  
+learned something: upload mip levels backwards  
 
-### John Carmack's .plan for Sep 03, 1997
+## John Carmack's .plan for Sep 03, 1997
 
 * fixed scalloc size 0
 * box on planeside fix
@@ -1233,279 +1234,279 @@ learned something: upload mip levels backwards
 * sinking into plats
 * exaggerate stepping when crouched?
 
-+ allow pics off screen (status bar off bottom of screen)
-+ check control configuration
-+ make moveup jump
-+ animating textures
-+ base window not very noticable
-+ any flowing?
-+ fix deltaangle hack in putclientinserver
-+ move copytooldorg to prepworldframe
-+ demos
-+ r_speeds include particles
-+ escape should pause demos
+\+ allow pics off screen (status bar off bottom of screen)  
+\+ check control configuration  
+\+ make moveup jump  
+\+ animating textures  
+\+ base window not very noticable  
+\+ any flowing?  
+\+ fix deltaangle hack in putclientinserver  
+\+ move copytooldorg to prepworldframe  
+\+ demos  
+\+ `r_speeds` include particles  
+\+ escape should pause demos  
 
-reduce acceleration on low grav levels
-moving translucent objects
-timedemo leaves console in attract key mode
+reduce acceleration on low grav levels  
+moving translucent objects  
+timedemo leaves console in attract key mode  
 
-underwater speed is too great
-flex legs intentionally on plats?
-forward when facing an obstruction directly should not slide
-clip brush fragments in base
-exit button clip stuck problem
-no such oldframe -1
-melee attacks out of range
-rename g_client to p_client
-merge cl_fx and cl_tent
-deal with oldorgs better
-software menu black screen flickers
-rethink scrap allocation
-crouchwalk up slopes is fucked up (stair uping)
-r_stats include bind counts
-change lightmaps into images
-make gl_bind() take an image, so it can reference sizes
-script parsing should take /* */ and  line continuation
-reduce skies?
-3dfx opengl: detect thrashing and split the cache?
+underwater speed is too great  
+flex legs intentionally on plats?  
+forward when facing an obstruction directly should not slide  
+clip brush fragments in base  
+exit button clip stuck problem  
+no such oldframe -1  
+melee attacks out of range  
+rename `g_client` to `p_client`  
+merge `cl_fx` and `cl_tent`  
+deal with oldorgs better  
+software menu black screen flickers  
+rethink scrap allocation  
+crouchwalk up slopes is fucked up (stair uping)  
+`r_stats` include bind counts  
+change lightmaps into images  
+make `gl_bind()` take an image, so it can reference sizes  
+script parsing should take /* */ and  line continuation  
+reduce skies?  
+3dfx opengl: detect thrashing and split the cache?  
 
-demos don't read from pak files??????
+demos don't read from pak files??????  
 
-muzzle flashes
-forward / backwards airlocks
-better button representations
-brighter primary colors
+muzzle flashes  
+forward / backwards airlocks  
+better button representations  
+brighter primary colors  
 
-### John Carmack's .plan for Sep 04, 1997
+## John Carmack's .plan for Sep 04, 1997
 
 * mcd alphatest workaround
-* gl_finish
-* gl_dynamic
+* `gl_finish`
+* `gl_dynamic`
 * fixed crash without basedir
 
-+ savegame harness
-+ loading plaque
-+ proper alias bbox in gl
-+ light feedback for server
-+ 3dfx vid_mode problem
-+ remove MAX_SCRAPS
-- arbitrary skin support needed for power armor
+\+ savegame harness  
+\+ loading plaque  
+\+ proper alias bbox in gl  
+\+ light feedback for server  
+\+ 3dfx `vid_mode` problem  
+\+ remove `MAX_SCRAPS`  
+\- arbitrary skin support needed for power armor  
 
-sort entities by texture
-segment skies up more to get better caching?
-circle monsters pvs
-are gl sprites double bright?
+sort entities by texture  
+segment skies up more to get better caching?  
+circle monsters pvs  
+are gl sprites double bright?  
 
-### John Carmack's .plan for Sep 05, 1997
+## John Carmack's .plan for Sep 05, 1997
 
 * fixed all angle clamping issues
 * allow look up / down to exactly 90 degrees
 
 red numbers on status bar
 
-### John Carmack's .plan for Sep 07, 1997
+## John Carmack's .plan for Sep 07, 1997
 
 * timedemo attract flag bug
 * multiple model entities
 * 8/16 bit updates
 * merged delta with baseline
 
-+ destroy windows on each ref start
-+ server time clamping issues
-+ client light level different between refs
-+ remove version command
-+ animating textures
-+ run from cd option
-+ toast mergedemos
+\+ destroy windows on each ref start  
+\+ server time clamping issues  
+\+ client light level different between refs  
+\+ remove version command  
+\+ animating textures  
+\+ run from cd option  
+\+ toast mergedemos  
 
-flags not used in entity-state?
-airborne frames for everything?
-don't send player entity to owner in most cases
-client quit dropping prints extra messages?
-trinity: track and field style extra fast running?
+flags not used in entity-state?  
+airborne frames for everything?  
+don't send player entity to owner in most cases  
+client quit dropping prints extra messages?  
+trinity: track and field style extra fast running?  
 
-### John Carmack's .plan for Sep 08, 1997
+## John Carmack's .plan for Sep 08, 1997
 
 * fixed time clamping issue
-* removed win32isms from snd_mix.c and snd_dma.c
+* removed win32isms from `snd_mix.c` and `snd_dma.c`
 * optimized dsound locks
 
-+ scale texture stats by texture size
-+ not autodetecting PII for mono lightmaps?
-+ put swaps from ref into qshared?
-+ walk backwards when looking straight up?
+\+ scale texture stats by texture size  
+\+ not autodetecting PII for mono lightmaps?  
+\+ put swaps from ref into qshared?  
+\+ walk backwards when looking straight up?  
 
-seperate #define for asm code?
-swim up with jump key
-window close box
-reload textures only on context recreation
-do a stereo gl implementation on intergraph?
-item using...
+seperate `#define` for asm code?  
+swim up with jump key  
+window close box  
+reload textures only on context recreation  
+do a stereo gl implementation on intergraph?  
+item using...  
 
-### John Carmack's .plan for Sep 09, 1997
+## John Carmack's .plan for Sep 09, 1997
 
 * freed textures on gl shutdown
 * fixed pitch bounds check merge bug
 * cleanup sound code
 * cut default maxclients
-* cut update_backup
+* cut `update_backup`
 
-+ soft fullscreen failure on ingr
-+ error not closing window
-+ cds window set on top of taskbar
-+ fullscreen in mode 0, set mode 1 = crash
-+ alt stuck down after alt-tab
+\+ soft fullscreen failure on ingr  
+\+ error not closing window  
+\+ cds window set on top of taskbar  
+\+ fullscreen in mode 0, set mode 1 = crash  
+\+ alt stuck down after alt-tab  
 
-fix vis expansion problem
-trinity: shimmering heat atmospheric effects
-need a remove command builtin for game logic
-get all texture extension numbers into gl_image
-vis decompression overrun
-window doesn't offset in non-fullscreen modes
+fix vis expansion problem  
+trinity: shimmering heat atmospheric effects  
+need a remove command builtin for game logic  
+get all texture extension numbers into `gl_image`  
+vis decompression overrun  
+window doesn't offset in non-fullscreen modes  
 
-### John Carmack's .plan for Sep 10, 1997
+## John Carmack's .plan for Sep 10, 1997
 
 * don't precache player model in single player games
 * dynamically change maxplayers
 
-+ move null files into a seperate directory?
-+ alt sticking
-+ maxmoveleafs error
+\+ move null files into a seperate directory?  
+\+ alt sticking  
+\+ maxmoveleafs error  
 
-teleport in flash is still wrong on second level
-stuck on wall with low grav jumping
-allow minimize?
-win95 memory paging
-still have some tjunctions
+teleport in flash is still wrong on second level  
+stuck on wall with low grav jumping  
+allow minimize?  
+win95 memory paging  
+still have some tjunctions  
 
-### John Carmack's .plan for Sep 11, 1997
+## John Carmack's .plan for Sep 11, 1997
 
 * cddir
 
-+ must save status upon entering a level if it was a new spawn
-- each map has a unit number and a level number
+\+ must save status upon entering a level if it was a new spawn  
+\- each map has a unit number and a level number  
 
-is changing skill/etc going to be a problem while demos are running?
-demos in pak file
-don't use virtual alloc!
+is changing skill/etc going to be a problem while demos are running?  
+demos in pak file  
+don't use virtual alloc!  
 
-### John Carmack's .plan for Sep 12, 1997
+## John Carmack's .plan for Sep 12, 1997
 
-+ tag_game, tag_level
-+ new game must clear
-- need to save game state at last level entered as well as exact current
-+ save level on exit..
-+ spawnpoint to game dll wrong?
-+ collapse sv_phys into something else?
-+ skip all pixelformat stuff on minidrivers?
+\+ `tag_game,` `tag_level`  
+\+ new game must clear  
+\- need to save game state at last level entered as well as exact current  
+\+ save level on exit..  
+\+ spawnpoint to game dll wrong?  
+\+ collapse `sv_phys` into something else?  
+\+ skip all pixelformat stuff on minidrivers?  
 
-get rid of Com_SetServerState() ?
-ERR_DROP?
-status command that prints out server and client state?
-don't allow anything but CRC checked pak file access in a demo
-client userinfo change updates
-worry about cvar info string lengths
-make sure IP is visible to game
-track deaths as well as fregs?
-directmouse?
-view shaking from explosions?
+get rid of `Com_SetServerState()` ?  
+`ERR_DROP?`  
+status command that prints out server and client state?  
+don't allow anything but CRC checked pak file access in a demo  
+client userinfo change updates  
+worry about cvar info string lengths  
+make sure IP is visible to game  
+track deaths as well as fregs?  
+directmouse?  
+view shaking from explosions?  
 
-### John Carmack's .plan for Sep 13, 1997
+## John Carmack's .plan for Sep 13, 1997
 
-+ skill levels need to be archived with server state!
-+ angle clamp on server is broke again
-+ don't shrink status bar with window
-+ make sure all char * in edicts are copies, not just references
-+ difference between reentering a level and reloading it
+\+ skill levels need to be archived with server state!  
+\+ angle clamp on server is broke again  
+\+ don't shrink status bar with window  
+\+ make sure all char * in edicts are copies, not just references  
+\+ difference between reentering a level and reloading it  
 
-check all savegame files for disk space errors.
-current is automatically updated whenever a level is exited
-archive the level being exited if not leaving the unit
-save the map to be entered, SKIPPING ANY CINEMATICS!
-end of game will not have a final map, so don't save
-savegame does NOT update current, the level archive and server
-is written directly to the new directory
+check all savegame files for disk space errors.  
+current is automatically updated whenever a level is exited  
+archive the level being exited if not leaving the unit  
+save the map to be entered, SKIPPING ANY CINEMATICS!  
+end of game will not have a final map, so don't save  
+savegame does NOT update current, the level archive and server  
+is written directly to the new directory  
 
 new game
 
-single player game
-on death + press, bring up loadgame screen
-deathmatch
-on death + press, respawn
-coop
-on death + press, respawn
+single player game  
+on death + press, bring up loadgame screen  
+deathmatch  
+on death + press, respawn  
+coop  
+on death + press, respawn  
 
-need to have the game start up without TCP/IP unless asked for
+need to have the game start up without TCP/IP unless asked for  
 
-dir command with sys_find*
-ping equalization?
-set userinfo->ip on each server connect
-high quality / low quality sound option in menu, create a special sample for
-testing
-fix svs / sv to be more game/level oriented
-make coop games allways four player?
-wav lag seems worse
+dir command with `sys_find*`  
+ping equalization?  
+set userinfo->ip on each server connect  
+high quality / low quality sound option in menu, create a special sample for  
+testing  
+fix svs / sv to be more game/level oriented  
+make coop games allways four player?  
+wav lag seems worse  
 
-### John Carmack's .plan for Sep 14, 1997
+## John Carmack's .plan for Sep 14, 1997
 
 * qdata grab alias numeric suffix
 * menu architecture
 
-+ make a portal entity
-+ connect doors to portal entities
-+ treat portal contents like windows
-+ flood fill leafs, but stop at portals to count areas
-+ if actual leaf with portal contents should chose any area next + to it
-+ each portal brush should have exactly two areas bordering it
-+ server sends over a bit vector of areas visible to player
-+ use area visibility as fast reject for line testing?
+\+ make a portal entity  
+\+ connect doors to portal entities  
+\+ treat portal contents like windows  
+\+ flood fill leafs, but stop at portals to count areas  
+\+ if actual leaf with portal contents should chose any area next + to it  
+\+ each portal brush should have exactly two areas bordering it  
+\+ server sends over a bit vector of areas visible to player  
+\+ use area visibility as fast reject for line testing?  
 
-+ should portal entities remain seperate, or just add a portal + field
-+ to doors?
-+ builtin: SetPortalState (int pnum, qboolean open);
-+ portals MUST go in the structural bsp!
-+ each leaf has an area field
-+ each portal has two areas it connects
-+ all other data can be derived
-+ areas have the list of portals
-+ area * area * 2^portals == too large!
-+ must do dynamic flood fill
-+ most portals will be closed, so flood fill is fast
+\+ should portal entities remain seperate, or just add a portal + field  
+\+ to doors?  
+\+ builtin: SetPortalState (int pnum, qboolean open);  
+\+ portals MUST go in the structural bsp!  
+\+ each leaf has an area field  
+\+ each portal has two areas it connects  
+\+ all other data can be derived  
+\+ areas have the list of portals  
+\+ area * area * 2^portals == too large!  
+\+ must do dynamic flood fill  
+\+ most portals will be closed, so flood fill is fast  
 
-+ game pause
-+ no status bar after death
+\+ game pause  
+\+ no status bar after death  
 
-allow higher precision bmodel angle specification?
-put v_idle back in?
-super crouch jump?
-establish a client connection at startup to avoid localconnects?
-more bright areas in the game for contrast?
-throbbing health status pic
-weapon cycle command
-bigger font?
-allways have visible blood particles by face when hit?
-bounce health status around when hit?
-radius of alias model dlighting is greater than surface dlighting
+allow higher precision bmodel angle specification?  
+put `v_idle` back in?  
+super crouch jump?  
+establish a client connection at startup to avoid localconnects?  
+more bright areas in the game for contrast?  
+throbbing health status pic  
+weapon cycle command  
+bigger font?  
+allways have visible blood particles by face when hit?  
+bounce health status around when hit?  
+radius of alias model dlighting is greater than surface dlighting  
 
-trinity: use mouse curssors for ui stuff?
+trinity: use mouse curssors for ui stuff?  
 
-menu_move, menu_down, menu_up, menu_change, menu_slide
+`menu_move,` `menu_down,` `menu_up,` `menu_change,` `menu_slide`  
 
-trinity: software trilinear with second pass? only works if vertex lighting
+trinity: software trilinear with second pass? only works if vertex lighting  
 
-### John Carmack's .plan for Sep 15, 1997
+## John Carmack's .plan for Sep 15, 1997
 
-+ cinematic paking!
-+ r_dspeeds should include translucent time
-+ alt key stuck donw after alt-enter
-+ bonus flashes
+\+ cinematic paking!  
+\+ `r_dspeeds` should include translucent time  
+\+ alt key stuck donw after alt-enter  
+\+ bonus flashes  
 
-texture releasing from maps isn't uniqued
-scissor triangles
-faster z clip
-make autoexec.cfg work differently because of demos
+texture releasing from maps isn't uniqued  
+scissor triangles  
+faster z clip  
+make autoexec.cfg work differently because of demos  
 
-### John Carmack's .plan for Sep 16, 1997
+## John Carmack's .plan for Sep 16, 1997
 
 * finished box sweeping code
 * fix the automenu key problem on bad cinematic
@@ -1513,120 +1514,120 @@ make autoexec.cfg work differently because of demos
 * send dowarp over from server
 * fixed color 0 grabbing
 * bonus flashes
-* Q_fabs
+* `Q_fabs`
 
-+ dedicated server
+\+ dedicated server  
 
-drop stair climb in air height
+drop stair climb in air height  
 
-### John Carmack's .plan for Sep 17, 1997
+## John Carmack's .plan for Sep 17, 1997
 
 * fixed qe4 texturepath bug
 * qe4: show in use textures even when showing a wad
 * utils: fixed gamedir to allow nested quake2 directories
 * moved env out of gfx, so gfx is all source files
 
-malloc tags for game and level
-clone detail brushes should remove detail flag
-make timedemo a server connect thing
-ktest.reg bad model
+malloc tags for game and level  
+clone detail brushes should remove detail flag  
+make timedemo a server connect thing  
+ktest.reg bad model  
 
-### John Carmack's .plan for Sep 18, 1997
+## John Carmack's .plan for Sep 18, 1997
 
 * finished code dump
 * dedicated server
 * removed all dash parms
 * texture paging research
 
-+ examine ambient sounds
-+ key clear events doesn't clear everything
+\+ examine ambient sounds  
+\+ key clear events doesn't clear everything  
 
-sound streaming
-bsp hint brushes (SURF_NODRAW?)
-autoexec.cfg
-ip cvar for multihomed servers
-ip userinfo for clients
-report dash parms on cmd line?
-menu on top of cinematic leaves crap
-color 0 is still broken on NT
+sound streaming  
+bsp hint brushes (`SURF_NODRAW`?)  
+autoexec.cfg  
+ip cvar for multihomed servers  
+ip userinfo for clients  
+report dash parms on cmd line?  
+menu on top of cinematic leaves crap  
+color 0 is still broken on NT  
 
-allow clients to connect to the server even if it is not
-running a level?
-local client is allways connected
-clients are only kicked when the entire server is shut down
-or they connect to a remote server
+allow clients to connect to the server even if it is not  
+running a level?  
+local client is allways connected  
+clients are only kicked when the entire server is shut down  
+or they connect to a remote server  
 
-### John Carmack's .plan for Sep 19, 1997
+## John Carmack's .plan for Sep 19, 1997
 
 * basedir / cddir exec problem
 * moved edict allocation into game
 
-+ only change yaw on riding bmodels
-+ city3 software crash
-+ odd pause before connecting to map
-+ !!!SV_PointContents needs to check entities!!!
-+ areaportal numbers
-+ move spawn/free into game logic?
+\+ only change yaw on riding bmodels  
+\+ city3 software crash  
+\+ odd pause before connecting to map  
+\+ !!!`SV_PointContents` needs to check entities!!!  
+\+ areaportal numbers  
+\+ move spawn/free into game logic?  
 
-are sound starts lagged by 0.1? only lag offsets?
-get all cvars for game into one place
-send objects only to owner or vs versa flag
-loading plaque from post cinematic "you win!" screen
-QE4: fix the idle redraw problem
-vis decompress overrun
-get rid of zombie state?
+are sound starts lagged by 0.1? only lag offsets?  
+get all cvars for game into one place  
+send objects only to owner or vs versa flag  
+loading plaque from post cinematic "you win!" screen  
+QE4: fix the idle redraw problem  
+vis decompress overrun  
+get rid of zombie state?  
 
-### John Carmack's .plan for Sep 20, 1997
+## John Carmack's .plan for Sep 20, 1997
 
 dead air conditioning
 
-### John Carmack's .plan for Sep 21, 1997
+## John Carmack's .plan for Sep 21, 1997
 
 * areaportals!!!
 * model contents for moving water
 
-+ use different decompression buffers for pvs and phs?
-+ fix headnode issues
+\+ use different decompression buffers for pvs and phs?  
+\+ fix headnode issues  
 
 get rid of fat pvs completely?
 
-### John Carmack's .plan for Sep 22, 1997
+## John Carmack's .plan for Sep 22, 1997
 
 * fullsend headnode done properly
 
-+ animating textures
-+ must check all cluster areas for doors
+\+ animating textures  
+\+ must check all cluster areas for doors  
 
--1 cluster issues?
-more dramatic railgun spray
-check all the trace flags to see if they are still needed
+\-1 cluster issues?  
+more dramatic railgun spray  
+check all the trace flags to see if they are still needed  
 
-### John Carmack's .plan for Sep 23, 1997
+## John Carmack's .plan for Sep 23, 1997
 
 * fixed bmodel cluster overload
 * double areas for doors
 * drawworld 0
 * bmodel sound origins
 
-+ rename "globals" in game to ge?
-+ remove limits on max entities in packet?
-+ better way of tracking static sounds, so they can be turned off?
-+ object looping sounds?
-+ machine sounds in fact2
-+ fix look up / run back bug
-+ add more packet buffers to avoid "dumped packet" warnings?
-+ dll basing information for function pointers
+\+ rename "globals" in game to ge?  
+\+ remove limits on max entities in packet?  
+\+ better way of tracking static sounds, so they can be turned off?  
+\+ object looping sounds?  
+\+ machine sounds in fact2  
+\+ fix look up / run back bug  
+\+ add more packet buffers to avoid "dumped packet" warnings?  
+\+ dll basing information for function pointers  
 
-finish status bar and inventory
-use areas for multicast
-hint brushes
-eliminate baselines by allways tracking client's knowledge of all ents?
-qdata model frame auto-number issues
-snap stuck view when dead?
-set_ex command to set info status
-game dll version number?
+finish status bar and inventory  
+use areas for multicast  
+hint brushes  
+eliminate baselines by allways tracking client's knowledge of all ents?  
+qdata model frame auto-number issues  
+snap stuck view when dead?  
+`set_ex` command to set info status  
+game dll version number?  
 
-### John Carmack's .plan for Sep 24, 1997
+## John Carmack's .plan for Sep 24, 1997
 
 A significant new feature for map development sneaked into Quake 2 this week.
 
@@ -1646,15 +1647,15 @@ Note that the area-reachable test is strictly a topological flood fill, so if th
 
 If your level has a reasonable number of doors, it will often run at a fair speed without any PVS information at all.
 
-To use this feature, you create a thin "func_areaportal" entity that hides completely inside the door, then target the door at it. Qbsp3 does a bunch of work behind your back that you really don't want to know about. Doors have special logic in the game to open or close the areaportal at the apropriate time.
+To use this feature, you create a thin `func_areaportal` entity that hides completely inside the door, then target the door at it. Qbsp3 does a bunch of work behind your back that you really don't want to know about. Doors have special logic in the game to open or close the areaportal at the apropriate time.
 
 I chose not to make it an automatic feature of doors for a few reasons:
 
-1) Teamed double or quad doors would not create a single portal across the entire doorway.
+1. Teamed double or quad doors would not create a single portal across the entire doorway.
 
-2) The areaportal entity can also be used for things like exploding walls. You can even put one just around a corner and trigger it with a field, but it is usually better to just let the PVS take care of corner bends.
+2. The areaportal entity can also be used for things like exploding walls. You can even put one just around a corner and trigger it with a field, but it is usually better to just let the PVS take care of corner bends.
 
-3) Complex doors would have created complex (but invisible) area portal brushes, which would have messed up the bsp a bit.
+3. Complex doors would have created complex (but invisible) area portal brushes, which would have messed up the bsp a bit.
 
 I think this was the very last data file change for quake II, so here is the current external files header for the curious: (4 character tabs)
 
@@ -2068,193 +2069,193 @@ typedef struct
 
 * fixed area bug for headnoded entities
 * fixed noclip outside world view with areas
-* fixed gl_lienar getting stuck
+* fixed `gl_lienar` getting stuck
 
-+ cull sound spatialization by area?
-+ don't save level if going to a new map instead of gamemap
-+ put .pak format into qfiles
-- make chaingun do less damage per bullet than the machinegun?
-+ check entity sound overriding in fact2
-+ software glitches with areaportals
-+ move spawn and free into game
-+ weird blaster trails
-+ make sure doors open / close areas properly reletive to sound starts
+\+ cull sound spatialization by area?  
+\+ don't save level if going to a new map instead of gamemap  
+\+ put .pak format into qfiles  
+\- make chaingun do less damage per bullet than the machinegun?  
+\+ check entity sound overriding in fact2  
+\+ software glitches with areaportals  
+\+ move spawn and free into game  
+\+ weird blaster trails  
+\+ make sure doors open / close areas properly reletive to sound starts  
 
-guarantee string fields are never NULL?
-linksequence
-client userinfo updates
-software skybox rotation
-unlinkentity?
-make -ip work as a cvar
-ip as userinfo
-areaconnected game primitive
+guarantee string fields are never NULL?  
+linksequence  
+client userinfo updates  
+software skybox rotation  
+unlinkentity?  
+make -ip work as a cvar  
+ip as userinfo  
+areaconnected game primitive  
 
-server engine manages
-communication
-connection establishment
-collision detection
-console interface
-map/game transitions
+server engine manages  
+communication  
+connection establishment  
+collision detection  
+console interface  
+map/game transitions  
 
-cache pvs/phs expansion
-falling damage
-manual mipmapping on skins?
+cache pvs/phs expansion  
+falling damage  
+manual mipmapping on skins?  
 
 
 
-### John Carmack's .plan for Sep 25, 1997
+## John Carmack's .plan for Sep 25, 1997
 
-+ should loadgame allways unload and re-init game dll?
-+ load level with spawnpoint is different than load game
-+ good sound control instead of staic sounds
-+ move use / drop into game code
-+ texpaint autosave
-+ noreadlevel cvar?
+\+ should loadgame allways unload and re-init game dll?  
+\+ load level with spawnpoint is different than load game  
+\+ good sound control instead of staic sounds  
+\+ move use / drop into game code  
+\+ texpaint autosave  
+\+ noreadlevel cvar?  
 
-localconnect sometimes needs to be reissued
-non-axial triggers
-rename and g_client to p_*?
-don't nextlevel from "you win"
-userinfo visible to progs
-too many edicts in an area for sv_world?
-spawn flashes are still wrong
+localconnect sometimes needs to be reissued  
+non-axial triggers  
+rename and `g_client` to `p_*`?  
+don't nextlevel from "you win"  
+userinfo visible to progs  
+too many edicts in an area for `sv_world?`  
+spawn flashes are still wrong  
 
-### John Carmack's .plan for Sep 28, 1997
+## John Carmack's .plan for Sep 28, 1997
 
-+ pain sounds?
+\+ pain sounds?  
 
 window crunching on win95, due to order of DX operation?
 
-### John Carmack's .plan for Sep 29, 1997
+## John Carmack's .plan for Sep 29, 1997
 
 * texpaint: backup files
 * texpaint: size dialog on new skin
 * texpaint: auto save
 * normailized translucency level in gl
-* fixed func_group entity miscount
-* fixed target_changelevel use clearing
+* fixed `func_group` entity miscount
+* fixed `target_changelevel` use clearing
 * fixed pointcontents with moving entities
 * fixed spawnpoint storage
 * use areas in multicast
 * removed ambient sound calls
 
-+ >512 entities
-+ view kick even without move kick
-+ blaster spawn point
-- include sky, skyaxis as player_state variables?
-+ transfer player health on each spawn and level exit
+\+ >512 entities  
+\+ view kick even without move kick  
+\+ blaster spawn point  
+\- include sky, skyaxis as `player_state` variables?  
+\+ transfer player health on each spawn and level exit  
 
-set spawntemp strings to "" instead of null?
-alias save sequence number issues in qdata and texpaint
-client userinfo
-different blaster flash against flesh
-rename edict_t to entity_t
-init without IP
-never same pain animation twice in a row?
-map during loading bug
-remove old_origin
-makeuserinfo / makeserverinfo?
-makeclientcommand?
-auto-loop entitystate sounds?
-!!! must include full path of predicted positions in fatpvs !!!
-muzzle flash effect in entity_state?
-jail4a iris door problem
-MOTD console variable
-QE4: scrub out partial detail brushes
+set spawntemp strings to "" instead of null?  
+alias save sequence number issues in qdata and texpaint  
+client userinfo  
+different blaster flash against flesh  
+rename `edict_t` to `entity_t`  
+init without IP  
+never same pain animation twice in a row?  
+map during loading bug  
+remove `old_origin`  
+makeuserinfo / makeserverinfo?  
+makeclientcommand?  
+auto-loop entitystate sounds?  
+!!! must include full path of predicted positions in fatpvs !!!  
+muzzle flash effect in `entity_state`?  
+jail4a iris door problem  
+MOTD console variable  
+QE4: scrub out partial detail brushes  
 
-### John Carmack's .plan for Sep 30, 1997
+## John Carmack's .plan for Sep 30, 1997
 
-* better host_speeds
+* better `host_speeds`
 * fixed bsp slowdown bug
-* made Draw_Pic: bad coords not an error
+* made `Draw_Pic:` bad coords not an error
 * avoided double game init on loadgame
 * moved serverflags into game
 * fixed pause on initial connect from dumped loopback
 * inventory rate bug
 * client view rolling bug on level change
-* RF_GLOW
+* `RF_GLOW`
 * texture animation
 
-+ more barrel explosion damage
-+ archive all sensitive server cvars
-+ fix inventory system
-+ target_goalcounter
-+ get rid of packet_entities_t as a structure
-+ cinematic message name bug
-+ up as jump?
-+ more light!
-+ weapons need to be more obvious in the world. light pulsing?
-+ make first backtrack into an area with known landmarks
+\+ more barrel explosion damage  
+\+ archive all sensitive server cvars  
+\+ fix inventory system  
+\+ `target_goalcounter`  
+\+ get rid of `packet_entities_t` as a structure  
+\+ cinematic message name bug  
+\+ up as jump?  
+\+ more light!  
+\+ weapons need to be more obvious in the world. light pulsing?  
+\+ make first backtrack into an area with known landmarks  
 
-fade center printed text
-still have color 0 problems under NT
-allow game to select a client slot for connections?
-combine g_player with something else
-save view angles in savegame somehow
-more function pointer checks in loadgame
-watch out for different maxclients on loadgames
-increase alias model shading level?
-use userinfo_sequence
-HUD strings need to be tag_game, not level
-make ping time available to game?
-different faces on status bar for male/female characters?
-save health across levels
-stuck in water currents in base2?
-clamp max fly velocity
-fish in ait on base3
-guys shooting through force field sometimes in bunk
-rename gl_mesh to gl_alias? or r_alias to r_mesh?
-jump / crouch key placement
-auto view centering
-more edge on mipmapping in software?
+fade center printed text  
+still have color 0 problems under NT  
+allow game to select a client slot for connections?  
+combine `g_player` with something else  
+save view angles in savegame somehow  
+more function pointer checks in loadgame  
+watch out for different maxclients on loadgames  
+increase alias model shading level?  
+use `userinfo_sequence`  
+HUD strings need to be `tag_game,` not level  
+make ping time available to game?  
+different faces on status bar for male/female characters?  
+save health across levels  
+stuck in water currents in base2?  
+clamp max fly velocity  
+fish in ait on base3  
+guys shooting through force field sometimes in bunk  
+rename `gl_mesh` to `gl_alias`? or `r_alias` to `r_mesh`?  
+jump / crouch key placement  
+auto view centering  
+more edge on mipmapping in software?  
 
-### John Carmack's .plan for Oct 01, 1997
+## John Carmack's .plan for Oct 01, 1997
 
-* EF_ANIM
-* got rid of precache_
-* got rid of SV_Error
+* `EF_ANIM`
+* got rid of `precache_`
+* got rid of `SV_Error`
 * !!! config strings !!!
 
-+ are lightstyle strings being dynamically freed properly?
-+ pause
-+ remove SV_Error?
+\+ are lightstyle strings being dynamically freed properly?  
+\+ pause  
+\+ remove `SV_Error`?  
 
-!!!move timedemo to server
-should setmodel take an index?
-smart precache of weapons?
-long crawls are annoying
-skin reference counting
-does leak test work?
-bad surface extents levels
-make sound and image names include extensions?
-!!! how to download implicit images ??? !!!
-!!! demo recording with deltas needs to wait for full update !!!
-make timeout at least a minute?
-multicast_all_r for configstring should go to connected as well as active
-clients
-string encode SKY_AXIS and SKY_ROTATE in SKY?
-it will be possible to get an index for an item not yet known
-because of reliable / unreliable issues
-block_until_reliable option?
-supress flag on HUDs to allow cheap blinking?
-rename "map" to "start"?
-extra packet dumps still happening on map start
-remove CL_MapEntity
-move baselines into a parallel array?
-don't expose svc_tent / muzzle flash numbers to game?
-dropcommand cvar to restart crashed servers?
-better box top walk jumping
-full death cycle for player
-inventory is persistant, per-client state.
-no high step jump out
-pain and death animations should be based on impact direction and
-total damage in that frame
-check on virtual alloc / commit issues
-weird bmodel edge stream problem
-increase numstacksurfs / numstackedges
-clear sound buffer on loading plaque
+!!!move timedemo to server  
+should setmodel take an index?  
+smart precache of weapons?  
+long crawls are annoying  
+skin reference counting  
+does leak test work?  
+bad surface extents levels  
+make sound and image names include extensions?  
+!!! how to download implicit images ??? !!!  
+!!! demo recording with deltas needs to wait for full update !!!  
+make timeout at least a minute?  
+`multicast_all_r` for configstring should go to connected as well as active  
+clients  
+string encode `SKY_AXIS` and `SKY_ROTATE` in `SKY`?  
+it will be possible to get an index for an item not yet known  
+because of reliable / unreliable issues  
+`block_until_reliable` option?  
+supress flag on HUDs to allow cheap blinking?  
+rename "map" to "start"?  
+extra packet dumps still happening on map start  
+remove `CL_MapEntity`  
+move baselines into a parallel array?  
+don't expose `svc_tent` / muzzle flash numbers to game?  
+dropcommand cvar to restart crashed servers?  
+better box top walk jumping  
+full death cycle for player  
+inventory is persistant, per-client state.  
+no high step jump out  
+pain and death animations should be based on impact direction and  
+total damage in that frame  
+check on virtual alloc / commit issues  
+weird bmodel edge stream problem  
+increase numstacksurfs / numstackedges  
+clear sound buffer on loading plaque  
 
-### John Carmack's .plan for Oct 02, 1997
+## John Carmack's .plan for Oct 02, 1997
 
 * don't lerp blends
 * sum damages for end of frame
@@ -2263,29 +2264,29 @@ clear sound buffer on loading plaque
 * fixed alias model brightness in software
 * equalized light feedback value between refs
 
-different console background
-infantry melee attack?
-still get stuck sometimes
-mono lighting should not color alias models
-put away restart game menu
-rename qmenu and menu.c to something common
-numeric keypad controls?
-monster hearing not right?
-walk into player = allways attack
-are infantry fullbright flashes not working?
-level to level health
-lighting feedback still different in software and gl
-player pain sounds
-animate translucent textures
-better monster sight / hearing
-make sure switches are animating
-echo center prints to console
-PHS or PVS activated guards?
-rotate with textures option in QE4 for crates
-do mynoise entities leak on level transitions?
-crouch strafe is still full speed
+different console background  
+infantry melee attack?  
+still get stuck sometimes  
+mono lighting should not color alias models  
+put away restart game menu  
+rename qmenu and menu.c to something common  
+numeric keypad controls?  
+monster hearing not right?  
+walk into player = allways attack  
+are infantry fullbright flashes not working?  
+level to level health  
+lighting feedback still different in software and gl  
+player pain sounds  
+animate translucent textures  
+better monster sight / hearing  
+make sure switches are animating  
+echo center prints to console  
+PHS or PVS activated guards?  
+rotate with textures option in QE4 for crates  
+do mynoise entities leak on level transitions?  
+crouch strafe is still full speed  
 
-### John Carmack's .plan for Oct 03, 1997
+## John Carmack's .plan for Oct 03, 1997
 
 * game pause
 * pain sounds
@@ -2300,58 +2301,58 @@ crouch strafe is still full speed
 * cleared sound buffer when disabled for loading
 * PHS calculation bug
 
-sound improvements since q1
-respatializing on moving entities
-sub frame start commands
-looped sounds are deterministic
-sounds are removed by area and PHS
-looped sounds sum
+sound improvements since q1  
+respatializing on moving entities  
+sub frame start commands  
+looped sounds are deterministic  
+sounds are removed by area and PHS  
+looped sounds sum  
 
-muzzle flashes!
-bullet impact puffa?
-why can't you fire a single machinegun bullet?
-avoid loading the map file twice for server and refresh
-option for multicast to PVS for effects instead of PHS?
-remove sbar2 sounds
-centralize all communication between client and server sides
-warnings for improperly looped sounds
-multiple speaker entities with the same looped sound
-will just increase the range
-target_speaker checkbox for player locals (voiceovers)
-base1 - base2 - base1 - base2 -death goes to base1
-paused level to level bugs
-yaw towards killer
-monsters not going to ideal yaw when shooting?
-blood jet muzzle flashes
-iventory update on level change
-keepalive messages while precaching
-no red flash on deaths?
-initial and final trail parts
-server quit doesn't get the disconnect message out
-option to have dlights backface cull
-extended sound bytes
-release mouse when paused?
-nver let server be connected without local client
-!!! possound needs to also take an entity number !!!
-slow water wading
+muzzle flashes!  
+bullet impact puffa?  
+why can't you fire a single machinegun bullet?  
+avoid loading the map file twice for server and refresh  
+option for multicast to PVS for effects instead of PHS?  
+remove sbar2 sounds  
+centralize all communication between client and server sides  
+warnings for improperly looped sounds  
+multiple speaker entities with the same looped sound  
+will just increase the range  
+`target_speaker` checkbox for player locals (voiceovers)  
+base1 - base2 - base1 - base2 -death goes to base1  
+paused level to level bugs  
+yaw towards killer  
+monsters not going to ideal yaw when shooting?  
+blood jet muzzle flashes  
+iventory update on level change  
+keepalive messages while precaching  
+no red flash on deaths?  
+initial and final trail parts  
+server quit doesn't get the disconnect message out  
+option to have dlights backface cull  
+extended sound bytes  
+release mouse when paused?  
+nver let server be connected without local client  
+!!! possound needs to also take an entity number !!!  
+slow water wading  
 
-### John Carmack's .plan for Oct 04, 1997
+## John Carmack's .plan for Oct 04, 1997
 
-* map_noareas
-* target_speaker
+* `map_noareas`
+* `target_speaker`
 
-handle bmodel origins on client side, search for good area
-check localsound pos starts
-make the server read the demo configstrings and baselines
-and spit back to the client like normal
-water wading sounds
-sound streaming option
-remove cl_mapentity
-sync camera pain motion to sound length?
-give all sounds a max volume area isntead of instant diminish
-quakeworld style shotgun handling
+handle bmodel origins on client side, search for good area  
+check localsound pos starts  
+make the server read the demo configstrings and baselines  
+and spit back to the client like normal  
+water wading sounds  
+sound streaming option  
+remove `cl_mapentity`  
+sync camera pain motion to sound length?  
+give all sounds a max volume area isntead of instant diminish  
+quakeworld style shotgun handling  
 
-### John Carmack's .plan for Oct 05, 1997
+## John Carmack's .plan for Oct 05, 1997
 
 Developing for windows is not fun. We are having a lot of trouble getting good solid compatability across all the systems we are testing on.
 
@@ -2359,36 +2360,36 @@ When it works right, it just pops right into full screen mode with sound and net
 
 * !!! autolooped entity sounds !!!
 
-make all tools into 5.0 projects
-combine SZ_ and MSG_
-allways mkdir gamedir?
-pause dumps packets?
-clear all background all the time flag
-player physics
-MD4 each map file?
-print version number on console bottom
-select a different cd track if all goals accomplished
-get rid of alphalight
+make all tools into 5.0 projects  
+combine `SZ_` and `MSG_`  
+allways mkdir gamedir?  
+pause dumps packets?  
+clear all background all the time flag  
+player physics  
+MD4 each map file?  
+print version number on console bottom  
+select a different cd track if all goals accomplished  
+get rid of alphalight  
 
-### John Carmack's .plan for Oct 06, 1997
+## John Carmack's .plan for Oct 06, 1997
 
 * larger bsp token length
 
-goal sound, secret sound, help sound
-remove pushmatrix/popmatrix
-less shademodels
-sound mixaheads
-flies should be a sound field
-trinity: two pass texture checking to avoid thrashing?
-lose links and $ macro expansio?
-lose Com_SetServerState
-blinking flags on huds (blink F1)
-!!! rotating object view changes not in yaw !!!
-save configstrings in level to get lightstyles
-better armor feedback
-armor sounnd?
+goal sound, secret sound, help sound  
+remove pushmatrix/popmatrix  
+less shademodels  
+sound mixaheads  
+flies should be a sound field  
+trinity: two pass texture checking to avoid thrashing?  
+lose links and $ macro expansio?  
+lose `Com_SetServerState`  
+blinking flags on huds (blink F1)  
+!!! rotating object view changes not in yaw !!!  
+save configstrings in level to get lightstyles  
+better armor feedback  
+armor sounnd?  
 
-### John Carmack's .plan for Oct 07, 1997
+## John Carmack's .plan for Oct 07, 1997
 
 * pitch snap clamping
 * clamp at 89
@@ -2396,126 +2397,126 @@ armor sounnd?
 * no fov or null pic problem during prep refresh
 * wounded faces
 
-die then bring down console over menu bug
-death
-windows key
-make sprite files text format?
-all explodables and breakables should be pre-broken in dm
-flash stats on change?
-send email to j sturges
-inventory names
-super tank skin
-variable delay on centerprint
-timedemo
-demo tests
-flies as entity sound
-release mouse when paused?
-centerview
-peak to peak view bobbing
-counter items
-infantry skins
+die then bring down console over menu bug  
+death  
+windows key  
+make sprite files text format?  
+all explodables and breakables should be pre-broken in dm  
+flash stats on change?  
+send email to j sturges  
+inventory names  
+super tank skin  
+variable delay on centerprint  
+timedemo  
+demo tests  
+flies as entity sound  
+release mouse when paused?  
+centerview  
+peak to peak view bobbing  
+counter items  
+infantry skins  
 
-menu sounds
-secret sound
-goal sound
+menu sounds  
+secret sound  
+goal sound  
 
-sound when low on health?
-respawn muzzle flash event still wrong
-falling damage
-rotating sky in software
-color 0 on NT
-transparent water insides
+sound when low on health?  
+respawn muzzle flash event still wrong  
+falling damage  
+rotating sky in software  
+color 0 on NT  
+transparent water insides  
 
-### John Carmack's .plan for Oct 08, 1997
+## John Carmack's .plan for Oct 08, 1997
 
 * fixed entity numbers 512-1024
 * combined baselines and oldorgs
 * demos working again
-* MAX_SFX bug
+* `MAX_SFX` bug
 
-spawn invisible allways starts at 256, so visible get bytes?
-check goal counting
-any key puts away help?
-muzzle flashes
-make cl_entities dynamic?
-removed mergedemo on client
-remove all client demo playback
-finish savegame / loadgame UI
-finish cinematic sound
-check demo fopen spawning for cddir
+spawn invisible allways starts at 256, so visible get bytes?  
+check goal counting  
+any key puts away help?  
+muzzle flashes  
+make `cl_entities` dynamic?  
+removed mergedemo on client  
+remove all client demo playback  
+finish savegame / loadgame UI  
+finish cinematic sound  
+check demo fopen spawning for cddir  
 
-weird palette issues?
-more red
+weird palette issues?  
+more red  
 
-minimum health
-infantry muzzle sounds?
-remove blaster hit flashes on flesh
-no savegame when dead
-mine2 dissapearing problems
-use key problems
+minimum health  
+infantry muzzle sounds?  
+remove blaster hit flashes on flesh  
+no savegame when dead  
+mine2 dissapearing problems  
+use key problems  
 
-qrad: infinite styles on face
+qrad: infinite styles on face  
 
-allways have two secrets
-allways select new items
-do demos need a precache command?
-timegraph
+allways have two secrets  
+allways select new items  
+do demos need a precache command?  
+timegraph  
 
-!!!save lightstyles in savegame!!!
-!!!save areaportal state in savegame!!!
+!!!save lightstyles in savegame!!!  
+!!!save areaportal state in savegame!!!  
 
 are loadgames doing 10 second prerun?
 
-move say and say_team into game
-sentity_t gentity_t
-more blood
+move say and `say_team` into game  
+`sentity_t` `gentity_t`  
+more blood  
 
 areaportals in software - bad sort keys?
 
-### John Carmack's .plan for Oct 09, 1997
+## John Carmack's .plan for Oct 09, 1997
 
-* removed MAX_PACKET_ENTITIES limit
+* removed `MAX_PACKET_ENTITIES` limit
 * used areas for beam culling
 * centerprint to non client not error
 * don't rotate roll when pushed by entities
 * areaportal fragments in software
-* F_CLIENT fix
-* KEY_ANY fix
+* `F_CLIENT` fix
+* `KEY_ANY` fix
 * save areaportals
 * save lightstyles
 * fixed secret double counting
 * up as jump
 
-color 0 on NT
-water wading speed
-water jump out
+color 0 on NT  
+water wading speed  
+water jump out  
 
-centerview
-no savegame when dead
-mroe damage blend
-putclient in server shouldn't reference weaponmodel
-userinfo issues
-IP cvar for servers
-IP userinfo for clients
-remove sv.viewpos?
-make max_entitites a noset cvar
-don't use PHS?
-up / down issues
-broadcast centerprint
-intermissions
-flickery lights
-free mouse when paused
+centerview  
+no savegame when dead  
+mroe damage blend  
+putclient in server shouldn't reference weaponmodel  
+userinfo issues  
+IP cvar for servers  
+IP userinfo for clients  
+remove sv.viewpos?  
+make `max_entitites` a noset cvar  
+don't use PHS?  
+up / down issues  
+broadcast centerprint  
+intermissions  
+flickery lights  
+free mouse when paused  
 
-### John Carmack's .plan for Oct 17, 1997
+## John Carmack's .plan for Oct 17, 1997
 
 Somehow we managed to convince the mesquite city services and police department to let us take our cars down to the municipal airport and run them down the runway to get radar speed numbers. Is that cool, or what?
 
 So, how fast can we go on a 6000 ft runway and still stop before running off the end?
 
-John Cash's M3 just barely hit the 135 mph speed governer.
-Bear's turbo supro hit 144
-My F40 hit 165
-My TR's left turbo exploded at 160 mph :(
+John Cash's M3 just barely hit the 135 mph speed governer.  
+Bear's turbo supro hit 144  
+My F40 hit 165  
+My TR's left turbo exploded at 160 mph :(  
 
 Adrian, Todd and Paul couldn't make it, so we didn't get viper, vette or porsche numbers.
 
@@ -2525,7 +2526,7 @@ We have a bunch of video and sound footage that we are going to digitize eventua
 
 The F40 is a very, very durable car. I made six runs around 160 mph, and it didn't even fade. Same thing on a racetrack. Lap after lap without any changes. My TR makes 1100 hp for twenty seconds, then explodes..
 
-### John Carmack's .plan for Oct 19, 1997
+## John Carmack's .plan for Oct 19, 1997
 
 I hope everyone is enjoying the quake 2 test.
 
@@ -2539,7 +2540,7 @@ Don't worry - just because the test doesn't have multiplayer in it, it doesn't m
 
 The biggest changes to Quake 2 are internal. Anyone doing modification work on Quake is going to be ecstatic when they get to work with quake2. The game dll source code and all the utilities (including the OpenGl map editor) will be released shortly after the game hits store shelves.
 
-### John Carmack's .plan for Oct 20, 1997
+## John Carmack's .plan for Oct 20, 1997
 
 Many of the comments about the Quake 2 test are already being addressed. We expected quite a few of them, but the test has served its purpose of bringing in some good feedback that we couldn't have predicted.
 
@@ -2561,9 +2562,11 @@ if you have any interest in programming, you should look at Michael Abrash's Gra
 
 I personally learned a lot from Michael's early articles, and I was proud to contribute to the later ones.
 
+```
 http://www.amazon.com/exec/obidos/ISBN=1576101746/3226-6070174-877180
+```
 
-### John Carmack's .plan for Nov 01, 1997
+## John Carmack's .plan for Nov 01, 1997
 
 * interpolate prediction error
 * fixed farthest respawn
@@ -2572,86 +2575,86 @@ http://www.amazon.com/exec/obidos/ISBN=1576101746/3226-6070174-877180
 * multiple crosshair pics
 * fixed dropping items in wall
 * disabled auto weapon switching in deathmatch
-* respawn_time
+* `respawn_time`
 * mroe precaches
 * removed doubles
 
-+ pitch around bug
-+ ping calculation
-+ are demos broken with prediction?
-+ no footsteps if moving slow?
-+ kill self command
-+ no toss weapons in wall
-+ footstep doubletap
-+ clear gib flag on respawn
-+ faster weapon deop times
+\+ pitch around bug  
+\+ ping calculation  
+\+ are demos broken with prediction?  
+\+ no footsteps if moving slow?  
+\+ kill self command  
+\+ no toss weapons in wall  
+\+ footstep doubletap  
+\+ clear gib flag on respawn  
+\+ faster weapon deop times  
 
-precache talk wav
-qbsp: MAX_MAP_AREAS when leaking?
-flies effect on hyperblaster???
-no slide under staircase
-make blaster bolt move faster
-BECOME_FLASH effect?
-make dedicated server sleep
-connect to other server while playing bug
-bit code net messages?
-win95 joining
-changeweapon work better when out of ammo
-pop in maps?
-highlighted numbers
-sort image_t lists?
-switching rules
-brain effect
-monsters source shots before testing line of sight
-secret doors
-obituaries from monsters
-warp gate effect
-teleporter effect
-increase max switched lights
-max lightstyles bug
-shorter wav latency
-beep beep on pc icon
-blood jets from pain skins
-gibs shoot up out of lava
-savegame in water bug
-font outlines not sharp in gl
-weapons vanishing on toss?
-longer pause after death before respawn
-temp invulnerability after respawn?
-telefrag not always working?
-step up in water?
-clear powerups on death
-don't hold a grenade when none left
-l_health item precache?
+precache talk wav  
+qbsp: `MAX_MAP_AREAS` when leaking?  
+flies effect on hyperblaster???  
+no slide under staircase  
+make blaster bolt move faster  
+`BECOME_FLASH` effect?  
+make dedicated server sleep  
+connect to other server while playing bug  
+bit code net messages?  
+win95 joining  
+changeweapon work better when out of ammo  
+pop in maps?  
+highlighted numbers  
+sort `image_t` lists?  
+switching rules  
+brain effect  
+monsters source shots before testing line of sight  
+secret doors  
+obituaries from monsters  
+warp gate effect  
+teleporter effect  
+increase max switched lights  
+max lightstyles bug  
+shorter wav latency  
+beep beep on pc icon  
+blood jets from pain skins  
+gibs shoot up out of lava  
+savegame in water bug  
+font outlines not sharp in gl  
+weapons vanishing on toss?  
+longer pause after death before respawn  
+temp invulnerability after respawn?  
+telefrag not always working?  
+step up in water?  
+clear powerups on death  
+don't hold a grenade when none left  
+`l_health` item precache?  
 
-### John Carmack's .plan for Nov 02, 1997
+## John Carmack's .plan for Nov 02, 1997
 
 * fixed pitch clamping
-* Com_PageInMemory
+* `Com_PageInMemory`
 * fixed menu cursor time
 * net connect when playing bug
 * custom skins
 * fixed server update without game update bug
 
-+ bump version numbers
-+ don't go to half console until connected
-+ delay before firing bfg
-+ stairup allows wall climbing now
-+ previous frame issues
-+ don't copy all of frame.packetentities
+\+ bump version numbers  
+\+ don't go to half console until connected  
+\+ delay before firing bfg  
+\+ stairup allows wall climbing now  
+\+ previous frame issues  
+\+ don't copy all of frame.packetentities  
 
-no server pause in dm
-normalize skin texture coords for software
-splashing sound when swimming in water
-ipx
-software underwater surfaces
-nopredict option at server
-scroll inventory
-smooth step up
-remove rand1k
-fire func_explosive targets when starting in deathmatch
+no server pause in dm  
+normalize skin texture coords for software  
+splashing sound when swimming in water  
+ipx  
+software underwater surfaces  
+nopredict option at server  
+scroll inventory  
+smooth step up  
+remove rand1k  
+fire `func_explosive` targets when starting in deathmatch  
 
-### John Carmack's .plan for Nov 03, 1997
+## John Carmack's .plan for Nov 03, 1997
 
 * fixed divide by zero in kickback
 * fixed overflow
@@ -2668,99 +2671,99 @@ fire func_explosive targets when starting in deathmatch
 * pumped message loop during caching
 * client persistant data
 
-+ no drop weapons without ammo
-+ no footsteps when walking
-+ saved across kills
-+ saved across levels in single player
-+ client levelstate
-+ clear client times on level change
-+ shouldn't be dumping unreliable messages
-+ palette changes on cinematic
+\+ no drop weapons without ammo  
+\+ no footsteps when walking  
+\+ saved across kills  
+\+ saved across levels in single player  
+\+ client levelstate  
+\+ clear client times on level change  
+\+ shouldn't be dumping unreliable messages  
+\+ palette changes on cinematic  
 
-laod game should throw loading plaque immediately
-not pausing when menu is up!
-"don't need" sound for no pickup?
-min_intermission cvar?
-run key should be a toggle
-dropped items respawn
-auto use items
-powerup sounds
-print sound precache pacifiers
-sendkeyevents during loading?
-better pingservers
-alias models are lit outside ofdlight ball
-sv_shownet
-"killed by" icon on scores?
-don't allow dedicated without deathmatch
-map transitions, but gamemap doesn't?
-intermission spots with deathmatch
-blinking health indicator
-blinking computer indicator
-move swapbuffers and add flush to glquake?
-chaingun sounds off on NT?
-test ping on serial port to serial port connection on win95
-console prog commands
-lower the scoreboard readout so you can read the obituary bessage
+laod game should throw loading plaque immediately  
+not pausing when menu is up!  
+"don't need" sound for no pickup?  
+`min_intermission` cvar?  
+run key should be a toggle  
+dropped items respawn  
+auto use items  
+powerup sounds  
+print sound precache pacifiers  
+sendkeyevents during loading?  
+better pingservers  
+alias models are lit outside ofdlight ball  
+`sv_shownet`  
+"killed by" icon on scores?  
+don't allow dedicated without deathmatch  
+map transitions, but gamemap doesn't?  
+intermission spots with deathmatch  
+blinking health indicator  
+blinking computer indicator  
+move swapbuffers and add flush to glquake?  
+chaingun sounds off on NT?  
+test ping on serial port to serial port connection on win95  
+console prog commands  
+lower the scoreboard readout so you can read the obituary bessage  
 
-### John Carmack's .plan for Nov 04, 1997
+## John Carmack's .plan for Nov 04, 1997
 
 * allowed bad sky textures
 * cinematic tweaks in gl
 * high res skins
 * fixed duck speed issues
 
-+ names are messed up
-+ not disconnecting cleanly?
-+ cinematic GL wrapping problem
-+ cinematic quality issues
-+ cinematic sound
-+ cinematic end frame marker
-+ switch sound to high quality for cinematic
-+ is idlog aborting early on menu?
-+ dropping items makes them respawn in deathmatch
-+ crouch strafe is faster than forward
-+ sink in plats bug
-+ lower paused icon on screen
-+ min firing ammo for dropping weapons
-+ spawn explosions with a random yaw
+\+ names are messed up  
+\+ not disconnecting cleanly?  
+\+ cinematic GL wrapping problem  
+\+ cinematic quality issues  
+\+ cinematic sound  
+\+ cinematic end frame marker  
+\+ switch sound to high quality for cinematic  
+\+ is idlog aborting early on menu?  
+\+ dropping items makes them respawn in deathmatch  
+\+ crouch strafe is faster than forward  
+\+ sink in plats bug  
+\+ lower paused icon on screen  
+\+ min firing ammo for dropping weapons  
+\+ spawn explosions with a random yaw  
 
-gun puff animations wrong?
-no status bar during intermission
-sv_showcmds
-are sky images freed properly?
-wading sound
-use 16 to 8 table is ref_soft for tga loading?
-savegame off pak file
-demo file parsing from pak?
-check replace alpha value for mcd hack
-screen update timer for software opengl?
-instant items
-item sounds
-include texture source size in texinfo so other scaled versions can be made?
-are cinematics using color 0?
-send pak checksum to server?
-fix dedicated_start
-print dm rules on connect?
-blink f1 and play sound
-skill values!
-loadgame from console
-input based demos for profiling
+gun puff animations wrong?  
+no status bar during intermission  
+`sv_showcmds`  
+are sky images freed properly?  
+wading sound  
+use 16 to 8 table is `ref_soft` for tga loading?  
+savegame off pak file  
+demo file parsing from pak?  
+check replace alpha value for mcd hack  
+screen update timer for software opengl?  
+instant items  
+item sounds  
+include texture source size in texinfo so other scaled versions can be made?  
+are cinematics using color 0?  
+send pak checksum to server?  
+fix `dedicated_start`  
+print dm rules on connect?  
+blink f1 and play sound  
+skill values!  
+loadgame from console  
+input based demos for profiling  
 
-### John Carmack's .plan for Nov 05, 1997
+## John Carmack's .plan for Nov 05, 1997
 
 * fixed sink into plat bug
 * fixed scoreboard display between deathmatch levels
 * seperated game dll definitions
 
-+ clamp low cin times
+\+ clamp low cin times  
 
-clear angles on loadgame
-check client entering during intermission
-seperate headers for monsters and players
+clear angles on loadgame  
+check client entering during intermission  
+seperate headers for monsters and players  
 
-### John Carmack's .plan for Nov 06, 1997
+## John Carmack's .plan for Nov 06, 1997
 
-* s_testsound 1
+* `s_testsound 1`
 * fixed streaming sound on 95
 * streaming sound at full volume
 * removed multiply from mixing
@@ -2769,41 +2772,41 @@ seperate headers for monsters and players
 * fixed cinematic from pak streaming
 * don't use primary sound buffer option
 
-+ precache blaster
-+ dropped grenades on death shouldn't respawn there..
+\+ precache blaster  
+\+ dropped grenades on death shouldn't respawn there..  
 
-set hostname by ip hostname
-timegraph not right
-rename map to start
-check entire game without asm code
-no mouse cursor when fullscreen
-die with grenades needs to stop ticking sound
-high quality sound directories
+set hostname by ip hostname  
+timegraph not right  
+rename map to start  
+check entire game without asm code  
+no mouse cursor when fullscreen  
+die with grenades needs to stop ticking sound  
+high quality sound directories  
 
-### John Carmack's .plan for Nov 07, 1997
+## John Carmack's .plan for Nov 07, 1997
 
 * flag reorg
 * teleporters
-* put holdangles into pmove.pm_type
+* put holdangles into `pmove.pm_type`
 
-+ pm.touchents holds duplicates
-+ damage anything flag
-+ precache chat sound
-+ teleporters at player spawn points
-+ remove rocket fragments in dm
+\+ pm.touchents holds duplicates  
+\+ damage anything flag  
+\+ precache chat sound  
+\+ teleporters at player spawn points  
+\+ remove rocket fragments in dm  
 
-rename entity_t to rentity_t ?
-teleport sequence bit to make ef_teleport reliable?
-turn any event into a temp entity? (with or without angles)
-unify sound starting as temp entities?
-is time being over quantized by timegettime?
-order events by priority
-login / logout as events?
-all sound channels as extra events?
+rename `entity_t` to `rentity_t` ?  
+teleport sequence bit to make `ef_teleport` reliable?  
+turn any event into a temp entity? (with or without angles)  
+unify sound starting as temp entities?  
+is time being over quantized by timegettime?  
+order events by priority  
+login / logout as events?  
+all sound channels as extra events?  
 
 trinity: objects should have enabler inputs as well as multiple impulse targets
 
-### John Carmack's .plan for Nov 08, 1997
+## John Carmack's .plan for Nov 08, 1997
 
 * make random respawn option default and work
 * don't drop empty weapons
@@ -2820,62 +2823,62 @@ trinity: objects should have enabler inputs as well as multiple impulse targets
 * client parse entities array
 * no weapon toss in single player
 
-sound dies after several hours?
-scoreboard faces
-show killed by face on scoreboard
-deal with old_origin properly
-delay cdtrack play until connected
-can't escape out of loadgame menu when dead?
+sound dies after several hours?  
+scoreboard faces  
+show killed by face on scoreboard  
+deal with `old_origin` properly  
+delay cdtrack play until connected  
+can't escape out of loadgame menu when dead?  
 
-### John Carmack's .plan for Nov 09, 1997
+## John Carmack's .plan for Nov 09, 1997
 
 * no client pmove at all with prediction off
 * railgun crashes
 * fixed rub stuck bug
 
-+ gravity in pmove
-+ control config is messed up
-+ seperate client event processing from parsing
-+ are baselines not working right?
+\+ gravity in pmove  
+\+ control config is messed up  
+\+ seperate client event processing from parsing  
+\+ are baselines not working right?  
 
-make-item-selected command
-notched look up / down commands
-keyboard look
-map name is messed up on start server
-deathmatch character weapons
-unify uses of ent / client / etc in source?
-no player actions when paused
-check incoming_acknowledged for pings
-master servers
-dm respawn isn't clearing pitch?
-teamed teleport destinations
-teleport angles
-\# form for kicking players
-make showinventory a stat bit, like layout
-unify all data file references for easy downloading?
-how to handle different quality versions?
-if crushed in dm, respawned outszide world?
-shadows
-rename entity_t->flags to renderfx
-checksum client to server messages
-smooth out step up
-does spectator work?
-trinity: coarse radiosity source lattice for dynamic lights?
-oldorigin issues
-replace with a previous state send?
+make-item-selected command  
+notched look up / down commands  
+keyboard look  
+map name is messed up on start server  
+deathmatch character weapons  
+unify uses of ent / client / etc in source?  
+no player actions when paused  
+check `incoming_acknowledged` for pings  
+master servers  
+dm respawn isn't clearing pitch?  
+teamed teleport destinations  
+teleport angles  
+\# form for kicking players  
+make showinventory a stat bit, like layout  
+unify all data file references for easy downloading?  
+how to handle different quality versions?  
+if crushed in dm, respawned outszide world?  
+shadows  
+rename `entity_t->flags` to renderfx  
+checksum client to server messages  
+smooth out step up  
+does spectator work?  
+trinity: coarse radiosity source lattice for dynamic lights?  
+oldorigin issues  
+replace with a previous state send?  
 
-### John Carmack's .plan for Nov 10, 1997
+## John Carmack's .plan for Nov 10, 1997
 
 * qe4 bad class parse bug
 * grenade bounce generates two sounds
 * playerstate delta
 * qdata variable sound rates
 
-check the replace mode alpha bug
-replace all muzzle flashes with events
-lower railgun
+check the replace mode alpha bug  
+replace all muzzle flashes with events  
+lower railgun  
 
-### John Carmack's .plan for Nov 11, 1997
+## John Carmack's .plan for Nov 11, 1997
 
 * cinematic playback at variable sound rates
 * qdata multiple video in single file fix
@@ -2883,37 +2886,37 @@ lower railgun
 * demowaiting
 * allowed individual reliable overflows
 * make all clients invisible at intermission point
-* mask high bits in client_t->name
+* mask high bits in `client_t->name`
 * full delta compression
 
-don't show paused plaque in dm
-check all serverinfo flags (skill, nomonsters)
-crunch the scoreboard data a lot
-dedicated net thread
-random-not-nearest option
-"public" variable
-check the "using previous_origin" notes
-echo chats to console?
-weapon icon when hand is centered
-game skills
-better console keyboard editing
-are demos broken with current delta compression?
-should client string commands be ties to usercmd_t, to fix drops?
-why is ref_gl.dll as large as it is?
-allow round up and >256 textures on gl
-mouse during cin
-echo chats to console
-is the dedicated server sleeping?
-get mins/maxs from pmove
+don't show paused plaque in dm  
+check all serverinfo flags (skill, nomonsters)  
+crunch the scoreboard data a lot  
+dedicated net thread  
+random-not-nearest option  
+"public" variable  
+check the "using `previous_origin`" notes  
+echo chats to console?  
+weapon icon when hand is centered  
+game skills  
+better console keyboard editing  
+are demos broken with current delta compression?  
+should client string commands be ties to `usercmd_t`, to fix drops?  
+why is `ref_gl.dll` as large as it is?  
+allow round up and >256 textures on gl  
+mouse during cin  
+echo chats to console  
+is the dedicated server sleeping?  
+get mins/maxs from pmove  
 
-warn at startup if any spawn point is in a wall
-make teleport pads glow?
-never make water solid for entity cull purposes?
-get sound position needs to check the valid count on entities
-make secondary sound buffers the default?
+warn at startup if any spawn point is in a wall  
+make teleport pads glow?  
+never make water solid for entity cull purposes?  
+get sound position needs to check the valid count on entities  
+make secondary sound buffers the default?  
 
-pak file sorting by traces?
-no colored lighting with mono lightmaps!!!
+pak file sorting by traces?  
+no colored lighting with mono lightmaps!!!  
 
 option to make picking up items not select
 
@@ -2923,11 +2926,11 @@ bsp to do:
 \=========
 robustness
 water problems
-increase MAX_MAP_ENTSTRNG
+increase `MAX_MAP_ENTSTRNG`
 allow any number of light styles
-MAX_MAP_AREAS when leaking?
+`MAX_MAP_AREAS` when leaking?
 
-### John Carmack's .plan for Dec 01, 1997
+## John Carmack's .plan for Dec 01, 1997
 
 Quake 2 has mastered.
 
@@ -2947,23 +2950,23 @@ The server code and network protocol should be able to support ultra-large playe
 
 It is likely that the point release may have incompatable network protocols and savegames. Fair warning.
 
-###### Q2 Demo.
+### Q2 Demo.
 
 After the point release, we will be making a new demo release. If you experienced compatability problems with q2test, or were unsatisfied with the quality in some way, you should look at the demo. The final product is much improved.
 
-###### Q2 Ports.
+### Q2 Ports.
 
 We are commited to Win32 Alpha, Linux, irix, and rhapsody in that order. It is likely that a bunch of other ports will come later, but no promises. The presence of hardware-accelerated OpenGL on a platform will improve it's odds a lot. Zoid will probably prioritize Q2 CTF over other ports, so hold off on bugging him about ports for a while.
 
-###### Development tool release.
+### Development tool release.
 
 I will basically be making publicly available a subset of the directory tree that we will deliver to our licensees. All the utility source code, the game dll source code, and probably some example source media - .map files, artwork, model source, etc.
 
-###### Q2 mission pack.
+### Q2 mission pack.
 
 Most of the company will be working on a mission pack while Brian and I write tools and technology for trinity.
 
-###### Trinity.
+### Trinity.
 
 I am going to rapidly wean myself off of working with quake so I can concentrate fully on new directions. The evolution of the Q2 codebase will be left to John Cash (until the mission pack ships) and Zoid.
 
@@ -2971,7 +2974,7 @@ Everyone should keep in mind that any next-generation game that we produce is a 
 
 For the curious, it does look like java is going to start playing a significant role in our future projects. All of the lightweight utilities will be java applications (some requiring OpenGL bindings). The heavy duty number crunching utilities will probably stay in C. It is still unclear how much of the game framework and the level editor we can get away with doing in java.
 
-### John Carmack's .plan for Dec 02, 1997
+## John Carmack's .plan for Dec 02, 1997
 
 A couple things I forgot to mention:
 
@@ -2979,7 +2982,7 @@ DOOM source. Still planned to be released Real Soon Now, but there is some work 
 
 Our Quake editor. It will be released with the tools, but it really isn't going to be all that usefull to many people. Most people will be better off with one of the actively supported editors designed for normal machines.
 
-There is no documentation (Steve Tietze at Rogue has talked about writing something, though). It is designed to run at 1280*1024 resolution on a fast, fully-compliant OpenGL driver. It was designed for high-end boards like intergraph realizm, 3DPro, and Glint boards, but it also runs ok on 8 mb consumer boards like the permedia II and rendition V2200. It will NOT work with voodoo or powerVR. It is unlikely to work with voodoo rush, because of framebuffer size limits, but it might work at a low screen resolution. It might be workable on RIVA cards if they do some fancy work disposing buffers between window renderings (they are a 4mb card, but the textures can stay in AGP memory, so it will almost be enough). I'll work with them if they want to give it a try.
+There is no documentation (Steve Tietze at Rogue has talked about writing something, though). It is designed to run at 1280\*1024 resolution on a fast, fully-compliant OpenGL driver. It was designed for high-end boards like intergraph realizm, 3DPro, and Glint boards, but it also runs ok on 8 mb consumer boards like the permedia II and rendition V2200. It will NOT work with voodoo or powerVR. It is unlikely to work with voodoo rush, because of framebuffer size limits, but it might work at a low screen resolution. It might be workable on RIVA cards if they do some fancy work disposing buffers between window renderings (they are a 4mb card, but the textures can stay in AGP memory, so it will almost be enough). I'll work with them if they want to give it a try.
 
 Right now, only 3Dlabs has a full opengl driver on win-95 (and it is a little flaky). All the other cards would require you to run NT. Over the next several months, most of the major vendors should be releasing full OpenGL drivers that work in '95, but there are no firm release dates.
 
@@ -2999,13 +3002,15 @@ Anyone claiming to be me on IRC is lying. I have never been on IRC, and if I eve
 
 If you get an unsolicited email from "John Carmack", the odds are high that it was spoofed. Every couple days, I get a mail bounce from someone who messed up on a spoofed mail, and I often get confused responses from people that I have never mailed.
 
-### John Carmack's .plan for Dec 09, 1997
+## John Carmack's .plan for Dec 09, 1997
 
 BIG BUG IN Q2 NETWORKING!
 
 If you run multiplayer servers, download:
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/q2_306.zip
+```
 
 A serious bug got through.. I thought the QuakeWorld master server code was completely disabled, because I was planning on putting a modified architecture in place in the point release. It turns out that the code is still in there, sending heartbeats to a unix machine here at id that isn't even running a master server.
 
@@ -3029,31 +3034,37 @@ However, if there are thousands of network games in progress, that is a LOT of p
 
 So, please download the new executable if you are going to run any servers (even servers started through the menus).
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/q2_306.zip
+```
 
 This isn't the real point release - there are no new features or bugfixes. I just went back to the release codebase and recompiled with one function commented out so we wouldn't have to worry about introducing new bugs with our current untested code.
 
 Btw, all bug reports should go to Christian (xian@idsoftware.com), NOT to me, Brian, or Cash! We need a central point to funnel things through. Hopefully we can set up a web page or something to make public what we know about, so we can cut down on email traffic.
 
-### John Carmack's .plan for Dec 11, 1997
+## John Carmack's .plan for Dec 11, 1997
 
 The Quake 2 public code release is up at:
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/source/q2source_12_11.zip
+```
 
 This source code distribution is only for hard-core people that are going to spend a lot of time pouring over it. This is NOT a how-to-make-levels-for-q2 type dsitribution!
 
 This should keep a bunch of you busy for a while. :)
 
-### John Carmack's .plan for Dec 23, 1997
+## John Carmack's .plan for Dec 23, 1997
 
 The DOOM source is up.
 
 Merry christmas!
 
+```
 ftp://ftp.idsoftware.com/idstuff/source/doomsrc.zip
+```
 
-###### ---- contents of README.TXT -----
+### Contents of README.TXT
 
 Here it is, at long last. The DOOM source code is released for your non-profit use. You still need real DOOM data to work with this code. If you don't actually own a real copy of one of the DOOMs, you should still be able to find them at software stores.
 
@@ -3089,7 +3100,7 @@ Have fun.
 
 John Carmack 12-23-97
 
-### John Carmack's .plan for Dec 25, 1997
+## John Carmack's .plan for Dec 25, 1997
 
 We are going to release a new quake 2 executable that fixes the malicious server crashing problems Real Soon Now. It also fixes a ton of other problems that have been reported, so we are going to have to give it some good testing before releasing it.
 
@@ -3119,7 +3130,7 @@ My fixes:
 * made console "rejected a connection" a developer only message
 * made WSAWOULDBLOCK warning silent
 * max 10 packets/second during connection process
-* set cl_maxfps to 90
+* set `cl_maxfps` to 90
 * increased loading plaque timeout value to 120 seconds
 * paused not default to 1
 * no savegame in deathmatch
@@ -3131,7 +3142,7 @@ My fixes:
 * no ; comment in config files
 * teleporter events
 * lower hyperblaster damage
-* don't use PORT_ANY for clients!
+* don't use `PORT_ANY` for clients!
 * fix the entity number thing here
 * don't re-check CD after the first time
 * auto cddir from cd scan
@@ -3139,9 +3150,9 @@ My fixes:
 * faster rockets
 * less bfg effect damage
 * remove packet command from client
-* strip trailing spaces on cmd_args
+* strip trailing spaces on `cmd_args`
 * added protocol to serverinfo
-* used CMD_BACKUP instead of UPDATE_BACKUP for phone jack
+* used `CMD_BACKUP` instead of `UPDATE_BACKUP` for phone jack
 * don't predict clip into your own missiles
 * good netgraph
 * validate userinfo for semicolons and quotes
@@ -3155,11 +3166,13 @@ My fixes:
 * show weapon icon if fov > 90
 
 
-### John Carmack's .plan for Dec 27, 1997
+## John Carmack's .plan for Dec 27, 1997
 
 The 1.07 patch is out:
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/patch_07.zip
+```
 
 Please mirror and distribute this.
 
@@ -3169,9 +3182,9 @@ Christian will go through and update the bug page when he gets back from vacatio
 
 This release does not fix all known problems. We intend to have another release in a few weeks.
 
-### John Carmack's .plan for Dec 28, 1997
+## John Carmack's .plan for Dec 28, 1997
 
-###### ** Dec 28, 2:55 AM CST **
+### ** Dec 28, 2:55 AM CST **
 
 There were a few problems with the 1.07 patch:
 
@@ -3181,17 +3194,19 @@ I have the first two fixed, and I hope the third. The four servers at Id are run
 
 If the servers don't crash in the next hour or two, I'll put another release out.
 
-###### ** Dec 28, 5:00 AM CST **
+### ** Dec 28, 5:00 AM CST **
 
 Ok, two hours without a crash on four servers.
 
 Here is a new patch:
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/patch_08.zip
+```
 
 3.07 and 3.08 can interoperate fine. All servers should upgrade to 3.08, but if you gravved the 3.07 earlier today and only play as a client and don't need timedemo, you don't nned to upgrade.
 
-###### ** Dec 28, 5:00 PM CST **
+### ** Dec 28, 5:00 PM CST **
 
 No crashes on any of the servers!
 
@@ -3203,7 +3218,7 @@ Old savegames will NOT work with the patch. Just cheat yourself to aproximately 
 
 I think several people are failing to get the gamex86.dll into the baseq2 directory. if "fov 120" doesn't change your field of view, the server doesn't have the right gamex86.dll.
 
-###### ** Dec 28, 9:30 PM CST **
+### ** Dec 28, 9:30 PM CST **
 
 If Quake2 is crashing on you after upgrading, it is probably because you still have the gamex86.dll from q2test in your quake2 directory. The latest quake2.exe just started looking in the exe directory as well as the game directory to make debugging easier, and it brought out this problem. You should only have gamex86.dll in baseq2 unless you are doing specific development.
 
@@ -3231,9 +3246,9 @@ Check back in the morning for a new version...
 
 BTW, we will release the new gamex86 source code after we are convinced that we aren't going to be making another patch for a couple weeks.
 
-### John Carmack's .plan for Dec 29, 1997
+## John Carmack's .plan for Dec 29, 1997
 
-###### ** Dec 29, 2:25 AM CST **
+### ** Dec 29, 2:25 AM CST **
 
 new version:
 
@@ -3241,7 +3256,7 @@ ftp://ftp.idsoftware.com/idstuff/quake2/q2-309.exe
 
 This one has an install that makes sure things get where they need to...
 
-###### ** Dec 29: 2:30 PM CST **
+### ** Dec 29: 2:30 PM CST **
 
 The only widely reported problem with 3.09 is that the video playback is choppy. The fix for the modem connections reduced video playback to 10 fps. Its a one line fix, but I'll hold off on another version until a few more things accumulate.
 
@@ -3257,31 +3272,35 @@ What finally helped me get to the bottom of some things was just getting people 
 
 BTW, does anyone know why Quake 2 became a hacker target? I can keep fighting attacks, but spending my time there doesn't help anyones game, and there are a bunch of things that fundamentally can't be stopped if people really set their mind to messing up the servers.
 
-###### ** Dec 29: 8:00 PM CST **
+### ** Dec 29: 8:00 PM CST **
 
 Please cool it a bit with the email to me unless it is really important. I'll never get trinity done with the email pouring in the way it is right now...
 
 We have rebuilt the 3.09 patch with a new version of the install program. Some people were not able to run the installer because a temp directory wasn't setup correctly. There are NO OTHER CHANGES in this, so if you were able to install the last 3.09, don't bother getting this one.
 
+```
 ftp://ftp.idsoftware.com/idstuff/quake2/q2-309-2.exe
+```
 
 
 
 
 
-### John Carmack's .plan for Dec 30, 1997
+## John Carmack's .plan for Dec 30, 1997
 
-Until we release the new gamex86 source code, if you want to make mods work with 3.09, change GAME_API_VERSION to:
+Until we release the new gamex86 source code, if you want to make mods work with 3.09, change `GAME_API_VERSION` to:
 
-```#define GAME_API_VERSION 2```
+```
+#define GAME_API_VERSION 2
+```
 
 and recompile the mod.
 
 This will let it run with the 3.09 servers. The API didn't actually change, I just had to bump that version number so that we could detect the old q2test dlls still hanging around.
 
-### John Carmack's .plan for Dec 31, 1997
+## John Carmack's .plan for Dec 31, 1997
 
-###### ** Dec 31: 4:40 AM: **
+### Dec 31: 4:40 AM:
 
 A user just reported having their net quake problems go away when they killed ICQ. I suppose it has never been stated directly, so here goes:
 
@@ -3289,7 +3308,7 @@ Quake needs all the bandwidth that a modem connection provides to play well. Any
 
 So quit IRC, ICQ, email, and web browsers before setting out for serious net play unless you have ISDN or better.
 
-###### ** Dec 31: 12:41 PM CST: **
+### Dec 31: 12:41 PM CST:
 
 I just spent a few hours working with a quake player that still couldn't net quake with 3.09.
 
