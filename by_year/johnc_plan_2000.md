@@ -1,6 +1,8 @@
-### John Carmack's .plan for Feb 23, 2000
+# 2000
 
-This is a public statement that is also being sent directly to Slade at QuakeLives regarding http://www.quakelives.com/main/ql.cgi?section=dlagreement&file=qwcl-win32/
+## John Carmack's .plan for Feb 23, 2000
+
+This is a public statement that is also being sent directly to Slade at QuakeLives regarding <http://www.quakelives.com/main/ql.cgi?section=dlagreement&file=qwcl-win32/>
 
 I see both sides of this. Your goals are positive, and I understand the issues and the difficulties that your project has to work under because of the GPL. I have also seen some GPL zealots acting petty and immature towards you very early on (while it is within everyone's rights to DEMAND code under the GPL, it isn't necessarily the best attitude to take), which probably colors some of your views on the subject.
 
@@ -17,14 +19,14 @@ If you can't stand to work under the GPL, you should release the code to your la
 If necessary, I will pay whatever lawyer the Free Software Foundation reccomends to pursue this.
 
 
-### John Carmack's .plan for Feb 24, 2000
+## John Carmack's .plan for Feb 24, 2000
 
 Some people took it upon themselves to remotely wreck Slade's development system. That is no more defensible than breaking into Id and smashing something.
 
 The idea isn't to punish anyone, it is to have them comply with the license and continue to contribute. QuakeLives has quite a few happy users, and it is in everyone's best interest to have development continue. It just has to be by the rules.
 
 
-### John Carmack's .plan for Mar 07, 2000
+## John Carmack's .plan for Mar 07, 2000
 
 Virtualized video card local memory is The Right Thing.
 
@@ -44,14 +46,14 @@ The fixable part is that almost all drivers perform pure LRU (least recently use
 
 If an application makes reasonable effort to group rendering by texture, and there is some degree of coherence in the order of texture references between frames, much better performance can be gotten with a swapping algorithm that changes its behavior instead of going into a full thrash:
 
-[code]
+```
 While ( memory allocation for new texture fails ) 
     Find the least recently used texture.
     If the LRU texture was not needed in the previous frame,
         Free it
     Else
         Free the most recently used texture that isn't bound to an active texture unit
-[/code]
+```
 
 Freeing the MRU texture seems counterintuitive, but what it does is cause the driver to use the last bit of memory as a sort of scratchpad that gets constantly overwritten when there isn't enough space. Pure LRU plows over all the other textures that are very likely going to be needed at the beginning of the next frame, which will then plow over all the textures that were loaded on top of them.
 
@@ -112,11 +114,11 @@ Embedded dram should be a driving force. It is possible to put several megs of e
 The only thing that prevents a geometry processor based card from turning almost any set of commands in a display list into a single static dma buffer is the fact that textures may be swapped in and out, causing the register programming in the buffer to be wrong. With virtual texture addressing, a texture's address never changes, and an arbitrarily complex model can be described in a static dma buffer.
 
 
-### John Carmack's .plan for Mar 27, 2000
+## John Carmack's .plan for Mar 27, 2000
 
 Seumas McNally
 
-Two years ago, Id was contacted by the Startlight Foundation, an organization that tries to grant wishes to seriously ill kids. (www.starlight.org)
+Two years ago, Id was contacted by the Startlight Foundation, an organization that tries to grant wishes to seriously ill kids. (<www.starlight.org>)
 
 There was a young man with Hodgkin's Lymphoma that, instead of wanting to go to Disneyland or other traditional wishes, wanted to visit Id and talk with me about programming.
 
@@ -146,10 +148,10 @@ Seumas died the next week.
 
 I am proud to have been considered an influence in Seumas' work, and I think his story should be a good example for others. Through talent and determination, he took something he loved and made a success out of it in many dimensions.
 
-http://www.gamedev.net/community/memorial/seumas/ for more information.
+<http://www.gamedev.net/community/memorial/seumas/> for more information.
 
 
-### John Carmack's .plan for Apr 06, 2000
+## John Carmack's .plan for Apr 06, 2000
 
 Whenever I start a new graphics engine, I always spend a fair amount of time flipping back through older graphics books. It is always interesting to see how your changed perspective with new experience impacts your appreciation of a given article.
 
@@ -166,7 +168,7 @@ If you laughed, you are a graphics geek.
 My first recollection of a Jim Blinn article many years ago was my skimming over it and thinking "My god, what ridiculously picky minutia." Over the last couple years, I found myself haranguing people over some fairly picky issues, like the LSB errors with cpu vs rasterizer face culling and screen edge clipping with guard band bit tests. After one of those pitches, I quite distinctly thought to myself "My god, I'm turning into Jim Blinn!" :)
 
 
-### John Carmack's .plan for Apr 29, 2000
+## John Carmack's .plan for Apr 29, 2000
 
 We need more bits per color component in our 3D accelerators.
 
@@ -207,19 +209,19 @@ Once I set down and started writing new renderers targeted at GeForce level perf
 64 bit pixels. It is The Right Thing to do. Hardware vendors: don't you be the company that is the last to make the transition.
 
 
-### John Carmack's .plan for May 08, 2000
+## John Carmack's .plan for May 08, 2000
 
-The .qc files for quake1/quakeworld are now available under the GPL in source/qw-qc.tar.gx on out ftp site. This was an oversight on my part in the original release.
+The .qc files for quake1/quakeworld are now available under the GPL in `source/qw-qc.tar.gx` on out ftp site. This was an oversight on my part in the original release.
 
 Thanks to the QuakeForge team for doing the grunt work of the preparation.
 
 
-### John Carmack's .plan for May 09, 2000
+## John Carmack's .plan for May 09, 2000
 
-And the Q1 utilities are now also available under the GPL in source/q1tools_gpl.tgz.
+And the Q1 utilities are now also available under the GPL in `source/q1tools_gpl.tgz.`
 
 
-### John Carmack's .plan for May 14, 2000
+## John Carmack's .plan for May 14, 2000
 
 I stayed a couple days after E3 to attend the SORAC amateur rocket launch. I have provided some sponsorship to two of the teams competing for the CATS (Cheap Access to Space) rocketry prize, and it was a nice opportunity to get out and meet some of the people.
 
@@ -229,12 +231,12 @@ Mere minutes before we absolutely, positively needed to leave to catch our plane
 
 Note to self: pasty-skinned programmers ought not stand out in the Mojave desert for multiple hours.
 
-http://www.space-frontier.org/Events/CATSPRIZE_1/
-http://www.energyrs.com/sorac/sorac.htm
-http://www.jpaerospace.com/
+<http://www.space-frontier.org/Events/CATSPRIZE_1/>  
+<http://www.energyrs.com/sorac/sorac.htm>  
+<http://www.jpaerospace.com/>  
 
 
-### John Carmack's .plan for May 17, 2000
+## John Carmack's .plan for May 17, 2000
 
 I have gotten a lot of requests for comments on the latest crop of video cards, so here is my initial technical evaluation. We have played with some early versions, but this is a paper evaluation. I am not in a position to judge 2D GDI issues or TV/DVD issues, so this is just 3D commentary.
 
@@ -254,13 +256,13 @@ ATI Marketing silliness: "charisma engine" and "pixel tapestry" are silly names 
 
 The Radeon has the best feature set available, with several advantages over GeForce:
 
-A third texture unit per pixel 
-Three dimensional textures 
-Dependent texture reads (bump env map) 
-Greater internal color precision. 
-User clip planes orthogonal to all rasterization modes. 
-More powerful vertex blending operations. 
-The shadow id map support may be useful, but my work with shadow buffers have shown them to have significant limitations for global use in a game.
+* A third texture unit per pixel 
+* Three dimensional textures 
+* Dependent texture reads (bump env map) 
+* Greater internal color precision. 
+* User clip planes orthogonal to all rasterization modes. 
+* More powerful vertex blending operations. 
+* The shadow id map support may be useful, but my work with shadow buffers have shown them to have significant limitations for global use in a game.
 
 On paper, it is better than GeForce in almost every way except that it is limited to a maximum of two pixels per clock while GeForce can do four. This comes into play when the pixels don't do as much memory access, for example when just drawing shadow planes to the depth/stencil buffer, or when drawing in roughly front to back order and many of the later pixels depth fail, avoiding the color buffer writes.
 
@@ -287,7 +289,7 @@ It won't be able to hit Q3 frame rates as high as GeForce, but if you have a hig
 There are two drawbacks: it's expensive, and it won't take advantage of the new rasterization features coming in future games. It probably wouldn't be wise to buy a voodoo5 if you plan on keeping it for two years.
 
 
-### John Carmack's .plan for Jun 01, 2000
+## John Carmack's .plan for Jun 01, 2000
 
 Well, this is going to be an interesting .plan update.
 

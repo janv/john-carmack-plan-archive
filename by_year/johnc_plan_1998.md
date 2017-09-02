@@ -1,6 +1,6 @@
-# John Carmack's .plan for 1998
+# 1998
 
-### John Carmack's .plan for Jan 01, 1998
+## John Carmack's .plan for Jan 01, 1998
 
 Some of the things I have changed recently:
 
@@ -12,22 +12,22 @@ Some of the things I have changed recently:
 * delta compress client usercmds
 * fixed sound quality changing after intermissions
 * fixed PVS problem when head was directly under solid in GL
-* added r_drawflat and cl_testlights to cheats
+* added `r_drawflat` and `cl_testlights` to cheats
 
 There are a few problems that I am still trying to track down:
 
-WSAEADDRNOTAVAIL errors
-Map versions differ error
-Sometimes connecting and seeing messages but not getting in
-Decompression read overrun.
+WSAEADDRNOTAVAIL errors  
+Map versions differ error  
+Sometimes connecting and seeing messages but not getting in  
+Decompression read overrun.  
 
 Of course, we don't actually get any of those errors on any of our systems here, so I am having to work remotely with other users to try and fix them, which is a bit tougher.
 
 My new years resolution is to improve my coding style by bracing all single line statements and consistantly using following caps on multi word variable names.
 
-Actually, I am currently trying on the full sun coding style, but I'm not so sure about some of the comment conventions: don't use multiple lines of // comments, and don't use rows of seperating characters in comments. I'm not convinced those are good guidelines.
+Actually, I am currently trying on the full sun coding style, but I'm not so sure about some of the comment conventions: don't use multiple lines of `//` comments, and don't use rows of seperating characters in comments. I'm not convinced those are good guidelines.
 
-### John Carmack's .plan for Jan 02, 1998
+## John Carmack's .plan for Jan 02, 1998
 
 Wired magazine does something that almost no other print magazine we have dealt with does.
 
@@ -41,7 +41,7 @@ Wired had a few errors in their statements, but it won't get printed that way be
 
 How refreshing.
 
---
+---
 
 A small public announcement:
 
@@ -51,16 +51,16 @@ The Linux Expo is looking for:
 
 Either one should give a write to ddt@crack.com.
 
-### John Carmack's .plan for Jan 03, 1998
+## John Carmack's .plan for Jan 03, 1998
 
 New stuff fixed:
 
 * timeout based non-active packet streams
-* FS_Read with CD off checks
+* `FS_Read` with CD off checks
 * dedicated server not allocate client ports
 * qport proxy checking stuff
 * fixed mouse wheel control
-* forced newlines on several Cbuf_AddText ()
+* forced newlines on several `Cbuf_AddText ()`
 * if no nextmap on a level, just stay on same one
 * chat maximums to prevent user forced overflows
 * limit stringcmds per frame to prevent malicious use
@@ -84,7 +84,7 @@ Challenge on connection. A connection request to a server is now a two stage pro
 
 Client packet checksumming. The packets are encoded in a way that will prevent proxies that muck with the packet contents, like the stoogebot, from working.
 
-### John Carmack's .plan for Jan 04, 1998
+## John Carmack's .plan for Jan 04, 1998
 
 Version 3.10 patch is now out.
 
@@ -95,19 +95,19 @@ A few more minor fixes since yesterday:
 * qhost support
 * made qport more random
 * fixed map reconnecting
-* removed s_sounddir
+* removed `s_sounddir`
 * print out primary / secondary sound buffer status on init
 * abort game after a single net error if not dedicated
 * fixed sound loss when changing sound compatability
 * removed redundant reliable overflow print on servers
-* gl_lockpvs for map development checking
-* made s_primary 0 the default
+* `gl_lockpvs` for map development checking
+* made `s_primary 0` the default
 
 Christian will be updating the bug page tomorrow. So hold of on all reporting for 24 hours, then check the page to make sure the bug is not already known.
 
-http://www.idsoftware.com/cgi-win/bugs.exe
+<http://www.idsoftware.com/cgi-win/bugs.exe>
 
-All bug reports should go to Christian: xian@idsoftware.com.
+All bug reports should go to Christian: <xian@idsoftware.com>.
 
 I have had several cases of people with lockup problems and decompression overreads having their problems fixed after they mentioned that they were overclocking either their CPU, their system bus (to 75mhz), or their 3DFX.
 
@@ -115,9 +115,9 @@ It doesn't matter if "it works for everything else", it still may be the source 
 
 I know that some people are still having problems with vanilla systems, though. I have tried everything I can think of remotely, but if someone from the Dallas area wants to bring a system by our office, I can try some more serious investigations.
 
-Something that has shown to help with some 3dfx problems is to set "cl_maxfps 31", which will keep the console between level changes from rendering too fast, which has caused some cards to hang the system.
+Something that has shown to help with some 3dfx problems is to set `cl_maxfps 31`, which will keep the console between level changes from rendering too fast, which has caused some cards to hang the system.
 
-### John Carmack's .plan for Jan 09, 1998
+## John Carmack's .plan for Jan 09, 1998
 
 We got 70 people on a base100 server, and it died after it wedged at 100% utilization for a while. Tomorrow we will find exactly what overflowed, and do some profiling.
 
@@ -129,7 +129,7 @@ My goal is to be able to host stable 100 player games in a single map.
 
 I just added a "players" command that will dump the total number of players in the game, and as many frags/names as it can fit in a packet (around 50, I think).
 
-### John Carmack's .plan for Jan 11, 1998
+## John Carmack's .plan for Jan 11, 1998
 
 I AM GOING OUT OF TOWN NEXT WEEK, DON'T SEND ME ANY MAIL!
 
@@ -145,9 +145,9 @@ This will be an interesting experiment for me. I have always wondered how much o
 
 ---
 
-The client's IP address is now added to the userinfo before calling ClientConnect(), so any IP filtering / banning rules can now be implemented in the game dll. This will also give some of you crazy types the ability to sync up with multiple programs on the client computers outside of Q2 itself.
+The client's IP address is now added to the userinfo before calling `ClientConnect()`, so any IP filtering / banning rules can now be implemented in the game dll. This will also give some of you crazy types the ability to sync up with multiple programs on the client computers outside of Q2 itself.
 
-A new API entry point has been added to the game dll that gets called whenever an "sv" command is issued on the server console. This is to allow you to create commands for the server operator to type, as opposed to commands that a client would type (which are defined in g_cmds.c).
+A new API entry point has been added to the game dll that gets called whenever an `sv` command is issued on the server console. This is to allow you to create commands for the server operator to type, as opposed to commands that a client would type (which are defined in `g_cmds.c`).
 
 ---
 
@@ -165,7 +165,7 @@ We are not going to pursue either of these optimizations right now, but they wil
 
 All this optimizing of the single server is pushing the tail end of a paradigm. I expect trinity to be able to seamlessly hand off between clustered servers without the client even knowing it happened.
 
-### John Carmack's .plan for Feb 04, 1998
+## John Carmack's .plan for Feb 04, 1998
 
 Ok, I'm overdue for an update.
 
@@ -197,7 +197,7 @@ I think that the upcoming development cycle for trinity is going to be at least 
 
 There should also be a killer game at the end of it. :)
 
-### John Carmack's .plan for Feb 09, 1998
+## John Carmack's .plan for Feb 09, 1998
 
 Just got back from the Q2 wrap party in vegas that Activision threw for us.
 
@@ -209,7 +209,7 @@ I play a basic high/low count, but I scale my bets widely - up to 20 to 1 in som
 
 I won $20,000 at the tables, which I am donating to the Free Software Foundation. I have been meaning to do something for the FSF for a long time. Quake was deployed on a dos port of FSF software, and both DOOM and Quake were developed on NEXTSTEP, which uses many FSF based tools. I don't subscribe to all the FSF dogma, but I have clearly benefited from their efforts.
 
-### John Carmack's .plan for Feb 12, 1998
+## John Carmack's .plan for Feb 12, 1998
 
 I have been getting a lot of mail with questions about the intel i740 today, so here is a general update on the state of 3D cards as they relate to quake engine games.
 
@@ -282,7 +282,7 @@ The benchmark against which everything else is measured.
 
 Good throughput, good fillrate, good quality, good features.
 
-It has a couple faults, but damn few: max texture size limited to 256*256 and 8 to 1 aspect ratio. Slow texture swapping. No 24 bit rendering.
+It has a couple faults, but damn few: max texture size limited to 256\*256 and 8 to 1 aspect ratio. Slow texture swapping. No 24 bit rendering.
 
 Because of the slow texture swapping, anyone buying a voodoo should get a six mb board (e.g. Canopus Pure3D). The extra ram prevents some sizable jerks when textures need to be swapped.
 
@@ -294,7 +294,7 @@ Not shipping yet, but we were given permission to talk about the benchmarks on t
 
 Excellent throughput, excellent fillrate, good quality, excellent features.
 
-The numbers were far and away the best ever recorded, and they are going to get significantly better. On quake 2, voodoo 2 is setup limited, not fill rate limited. Voodoo 2 can do triangle strip and fan setup in hardware, but their opengl can't take advantage of it until the next revision of glide. When that happens, the number of vertexes being sent to the card will drop by HALF. At 640*480, they will probably become fill rate bound again (unless you interleave two boards), but at 512*384, they will probably exceed 100 fps on a timedemo. In practice, that means that you will play the game at 60 fps with hardly ever a dropped frame.
+The numbers were far and away the best ever recorded, and they are going to get significantly better. On quake 2, voodoo 2 is setup limited, not fill rate limited. Voodoo 2 can do triangle strip and fan setup in hardware, but their opengl can't take advantage of it until the next revision of glide. When that happens, the number of vertexes being sent to the card will drop by HALF. At 640\*480, they will probably become fill rate bound again (unless you interleave two boards), but at 512\*384, they will probably exceed 100 fps on a timedemo. In practice, that means that you will play the game at 60 fps with hardly ever a dropped frame.
 
 The texture swapping rate is greatly improved, addressing the only significant problem with voodoo.
 
@@ -320,7 +320,7 @@ It is worth mentioning that of all the drivers we have tested, intel's MCD was t
 
 An 8mb i740 will be a very good setup for 3D development work.
 
-### John Carmack's .plan for Feb 16, 1998
+## John Carmack's .plan for Feb 16, 1998
 
 8 mb or 12 mb voodoo 2?
 
@@ -332,7 +332,7 @@ A game that uses multitexture and 16 bit textures for everything will stress a 4
 
 The differences probably won't show as significant on timedemo numbers, but they will be felt as little one frame hitches here and there.
 
-### John Carmack's .plan for Feb 17, 1998
+## John Carmack's .plan for Feb 17, 1998
 
 I just read the Wired article about all the Doom spawn.
 
@@ -344,7 +344,7 @@ The topic of "is microsoft going to crush you now that they are in the game biz"
 
 I honestly wish the best to everyone pursuing new engine development.
 
-### John Carmack's .plan for Feb 22, 1998
+## John Carmack's .plan for Feb 22, 1998
 
 Don't send any bug reports on the 3.12 release to me, I just forward them over to jcash. He is going to be managing all future work on the Quake 2 codebase through the mission packs. I'm working on trinity.
 
@@ -358,13 +358,13 @@ The first several patches were forced due to security weaknesses. Lesson learned
 
 The cause for the upcoming 3.13 patch is the same thing that has caused us a fair amount of trouble through Q2's development - instability in the gamex86 code due to its decending from QC code in Q1. It turns out that there were lots of bugs in the original QC code, but because of its safe interpreted nature (specifically having a null entity reference the world) they never really bothered anyone. We basically just ported the QC code to regular C for Q2 (it shows in the code) and fixed crash bugs as they popped up. We should have taken the time to redesign more for C's strengths and weaknesses.
 
-### John Carmack's .plan for Mar 12, 1998
+## John Carmack's .plan for Mar 12, 1998
 
 American McGee has been let go from Id.
 
 His past contributions include work in three of the all time great games (DOOM 2, Quake, Quake 2), but we were not seeing what we wanted.
 
-### John Carmack's .plan for Mar 13, 1998
+## John Carmack's .plan for Mar 13, 1998
 
 The Old Plan:
 
@@ -416,7 +416,7 @@ RIVA 128 Riva puts us in a bad position. They are very fast, but they don't supp
 
 Naturally, the best cards are yet to come (I won't comment on unreleased cards). The graphics engine is being designed to be scalable over the next few YEARS, so it might look like we are shooting a bit high for the first release, but by the time it actually ships, there will be a lot of people with brand new accelerators that won't be properly exploited by any other game.
 
-### John Carmack's .plan for Mar 20, 1998
+## John Carmack's .plan for Mar 20, 1998
 
 Robert Duffy, the maintainer of Radiant QE4 is now "officially" in charge of further development of the editor codebase. He joins Zoid as a (part time) contractor for us.
 
@@ -424,7 +424,7 @@ A modified version of Radiant will be the level editor for Quake 3. The primary 
 
 The other major effort is to get Radiant working properly on all of the 3D cards that are fielding full OpenGL ICDs. If you want to do level development, you should probably get an 8mb video card. Permedia II cards have been the mainstay for developers that can't afford intergraph systems, but 8mb rendition v2200 (thriller 3D) cards are probably a better bet as soon as their ICD gets all the bugs worked out.
 
-### John Carmack's .plan for Mar 21, 1998
+## John Carmack's .plan for Mar 21, 1998
 
 I just shut down the last of the NEXTSTEP systems running at id.
 
@@ -462,15 +462,15 @@ The SGI/microsoft deal fucked up a lot of the 3D options. The codebase that ever
 
 That is one of the things I stress over -- The Right Thing is clear, but its not going to happen because of biz moves. It would be great if ATI, which has video drivers for win, rhapsody, linux, and BeOS, could run the same ICD on all those platforms.
 
-### John Carmack's .plan for Mar 26, 1998
+## John Carmack's .plan for Mar 26, 1998
 
 I haven't even seen the "BeOS port of Quake". Stop emailing me about aproving it. I told one of the Lion developers he could port it to BeOS in his spare time, but I haven't seen any results from it.
 
--
+---
 
 There is a public discussion / compilation going on at openquake for suggestions to improve technical aspects of quake 3:
 
-http://www.openquake.org/q3suggest/
+<http://www.openquake.org/q3suggest/>
 
 This is sooo much better than just dropping me an email when a thought hits you. There are many, many thousands of you out there, and there needs to be some filtering process so we can get the information efficiently.
 
@@ -482,7 +482,7 @@ We hack where necessary, but I am much more willing to spend my time on an elega
 
 We have our own ideas about game play features, so we may just disagree with you. Even if you-and-all-your-friends are SURE that your suggestions will make the game a ton better, we may not think it fits with our overall direction. We aren't going to be all things to all people, and we don't design by committee.
 
-### John Carmack's .plan for Apr 02, 1998
+## John Carmack's .plan for Apr 02, 1998
 
 Drag strip day!
 
@@ -510,21 +510,21 @@ Nobody broke down, and some good times were posted.
 
 We had three significant no-shows for various reasons: my TR, Adrian's viper, and Cash's supercharged M3 were all in the shop.
 
-### John Carmack's .plan for Apr 08, 1998
+## John Carmack's .plan for Apr 08, 1998
 
 Things are progressing reasonably well on the Quake 3 engine.
 
-Not being limited to supporting a 320*240 256 color screen is very, very nice, and will make everyone's lives a lot easier.
+Not being limited to supporting a 320\*240 256 color screen is very, very nice, and will make everyone's lives a lot easier.
 
 All of our new source artwork is being done in 24 bit TGA files, but the engine will continue to load .wal files and .pcx files for developer's convenience. Each pcx can have its own palette now though, because it is just converted to 24 bit at load time.
 
-Q3 is going to have a fixed virtual screen coordinate system, independant of resolution. I tried that back in the original glquake, but the fixed coordinate system was only 320*200, which was excessively low. Q2 went with a dynamic layout at different resolutions, which was a pain, and won't scale to the high resolutions that very fast cards will be capable of running at next year.
+Q3 is going to have a fixed virtual screen coordinate system, independant of resolution. I tried that back in the original glquake, but the fixed coordinate system was only 320\*200, which was excessively low. Q2 went with a dynamic layout at different resolutions, which was a pain, and won't scale to the high resolutions that very fast cards will be capable of running at next year.
 
-All screen drawing is now done assuming the screen is 640*480, and everything is just scaled as you go higher or lower. This makes laying out status bars and HUDs a ton easier, and will let us do a lot cooler looking screens.
+All screen drawing is now done assuming the screen is 640\*480, and everything is just scaled as you go higher or lower. This makes laying out status bars and HUDs a ton easier, and will let us do a lot cooler looking screens.
 
 There will be an interface to let game dlls draw whatever they want on the screen, precisely where they want it. You can suck up a lot of network bandwidth doing that though, so some care will be needed.
 
--
+---
 
 Going to the completely opposite end of the hardware spectrum from quake 3..
 
@@ -538,13 +538,13 @@ The two that I have been following closest are Team TNT's BOOM engine project, w
 
 Any quakers feeling nostalgic should browse around:
 
-http://www.doomworld.com/
+<http://www.doomworld.com/>
 
-### John Carmack's .plan for Apr 16, 1998
+## John Carmack's .plan for Apr 16, 1998
 
 F40 + $465,000 = F50
 
-### John Carmack's .plan for Apr 17, 1998
+## John Carmack's .plan for Apr 17, 1998
 
 Yes, I bought an F50. No, I don't want a McLaren.
 
@@ -558,7 +558,7 @@ My project car is somewhat nearing completion. My mechanic says it will be runni
 
 ---
 
-The distance between a cool demo and production code is vast. Two months ago, I had some functional demos of several pieces of the Quake 3 rendering tech, but today it still isn't usable as a full replacement for ref_gl yet.
+The distance between a cool demo and production code is vast. Two months ago, I had some functional demos of several pieces of the Quake 3 rendering tech, but today it still isn't usable as a full replacement for `ref_gl` yet.
 
 Writing a modern game engine is a lot of work.
 
@@ -598,7 +598,7 @@ for (testNumber = 0 ; testNumber < 4 ; testNumber++) {
 }
 ```
 
-### John Carmack's .plan for Apr 22, 1998
+## John Carmack's .plan for Apr 22, 1998
 
 F50 pros and cons vs F40:
 
@@ -628,7 +628,7 @@ I'm thinking that a mild twin-turbo job will do the trick. Six pounds of boost s
 
 I may put that in line after my GTO gets finished.
 
-### John Carmack's .plan for May 02, 1998
+## John Carmack's .plan for May 02, 1998
 
 The rcon backdoor was added to help the development of QuakeWorld (It is not present in Quake 1). At the time, attacking Quake servers with spoofed packets was not the popular sport it seems to have become with Quake 2, so I didn't think much about the potential for exploitation.
 
@@ -638,7 +638,7 @@ It was a convenient feature for us, but it turned out to be irresponsible. Sorry
 
 There will be new releases of QuakeWorld and Quake 2 soon.
 
-### John Carmack's .plan for May 04, 1998
+## John Carmack's .plan for May 04, 1998
 
 Here are some notes on a few of the technologies that I researched in preparing for the Quake3/trinity engine. I got a couple months of pretty much wide open research done at the start, but it turned out that none of the early research actually had any bearing on the directions I finally decided on. Ah well, I learned a lot, and it will probably pay off at some later time.
 
@@ -678,7 +678,7 @@ Finite element radiosity vs photon tracing.
 
 etc.
 
-### John Carmack's .plan for May 17, 1998
+## John Carmack's .plan for May 17, 1998
 
 Here is an example of some bad programming in quake:
 
@@ -690,7 +690,7 @@ A similar cleanup of the text printing hapened when Cash implemented general col
 
 Amidst all the high end graphics work, sometimes it is nice to just fix up something elementary.
 
-### John Carmack's .plan for May 19, 1998
+## John Carmack's .plan for May 19, 1998
 
 A 94 degree day at the dragstrip today. Several 3drealms and Norwood Autocraft folk also showed up to run. We got to weigh most of the cars on the track scales, which gives us a few more data points.
 
@@ -722,11 +722,11 @@ George Broussard had his newly hopped up 911 turbo, but it broke the trans on it
 
 We probably won't run again until either I get the F50 souped up, or my GTO gets finished.
 
-### John Carmack's .plan for May 22, 1998
+## John Carmack's .plan for May 22, 1998
 
 Congratulations to Epic, Unreal looks very good.
 
-### John Carmack's .plan for Jun 08, 1998
+## John Carmack's .plan for Jun 08, 1998
 
 I spent quite a while investigating the limits of input under windows recently. I foudn out a few interesting things:
 
@@ -734,15 +734,15 @@ Mouse sampling on win95 only happens every 25ms. It doesn't matter if you check 
 
 This means that with normal checking, the mouse control will feel slightly stuttery whenever the framerate is over 20 fps, because on some frames you will be getting one input sample, and on other frames you will be getting two. The difference between two samples and three isn't very noticable, so it isn't much of an issue below 20 fps. Above 40 fps it is a HUGE issue, because the frames will be bobbing between one sample and zero samples.
 
-I knew there were some sampling quantization issues early on, so I added the "m_filter 1" variable, but it really wasn't an optimal solution. It averaged together the samples collected at the last two frames, which worked out ok if the framerate stayed consistantly high and you were only averaging together one to three samples, but when the framerate dropped to 10 fps or so, you wound up averaging together a dozen more samples than were really needed, giving the "rubber stick" feel to the mouse control.
+I knew there were some sampling quantization issues early on, so I added the `m_filter 1` variable, but it really wasn't an optimal solution. It averaged together the samples collected at the last two frames, which worked out ok if the framerate stayed consistantly high and you were only averaging together one to three samples, but when the framerate dropped to 10 fps or so, you wound up averaging together a dozen more samples than were really needed, giving the "rubber stick" feel to the mouse control.
 
 I now have three modes of mouse control:
 
-in_mouse 1: Mouse control with standard win-32 cursor calls, just like Quake 2.
+`in_mouse 1`: Mouse control with standard win-32 cursor calls, just like Quake 2.
 
-in_mouse 2: Mouse control using DirectInput to sample the mouse relative counters each frame. This behaves like winquake with -dinput. There isn't a lot of difference between this and 1, but you get a little more precision, and you never run into window clamping issues. If at some point in the future microsoft changes the implementation of DirectInput so that it processes all pending mouse events exactly when the getState call happens, this will be the ideal input mode.
+`in_mouse 2`: Mouse control using DirectInput to sample the mouse relative counters each frame. This behaves like winquake with `-dinput`. There isn't a lot of difference between this and 1, but you get a little more precision, and you never run into window clamping issues. If at some point in the future microsoft changes the implementation of DirectInput so that it processes all pending mouse events exactly when the getState call happens, this will be the ideal input mode.
 
-in_mouse 3: Processes DirectInput mouse movement events, and filters the amount of movement over the next 25 milliseconds. This effectively adds about 12 ms of latency to the mouse control, but the movement is smooth and consistant at any variable frame rate. This will be the default for Quake 3, but some people may want the 12ms faster (but rougher) response time of mode 2.
+`in_mouse 3`: Processes DirectInput mouse movement events, and filters the amount of movement over the next 25 milliseconds. This effectively adds about 12 ms of latency to the mouse control, but the movement is smooth and consistant at any variable frame rate. This will be the default for Quake 3, but some people may want the 12ms faster (but rougher) response time of mode 2.
 
 It takes a pretty intense player to even notice the difference in most cases, but if you have a setup that can run a very consistant 30 fps you will probably apreciate the smoothness. At 60 fps, anyone can tell the difference, but rendering speeds will tend to cause a fair amount of jitter at those rates no matter what the mouse is doing.
 
@@ -752,7 +752,7 @@ Keyboard sampling appears to be millisecond precise on both OS, though.
 
 In doing this testing, it has become a little bit more tempting to try to put in more leveling optimizations to allow 60 hz framerates on the highest end hardware, but I have always shied away from targeting very high framerates as a goal, because when you miss by a tiny little bit, the drop from 60 to 30 ( 1 to 2 vertical retraces ) fps is extremely noticable.
 
--
+---
 
 I have also concluded that the networking architecture for Quake 2 was just not the right thing. The interpolating 10 hz server made a lot of animation easier, which fit with the single player focus, but it just wasn't a good thing for internet play.
 
@@ -762,7 +762,7 @@ Its tempting to try to roll the new changes back into Quake 2, but a lot of them
 
 (Yes, we made some direction changes in Quake 3 since the original announcement when it was to be based on the Quake 2 game and networking with just a new graphics engine)
 
-### John Carmack's .plan for Jun 16, 1998
+## John Carmack's .plan for Jun 16, 1998
 
 My last two .plan updates have described efforts that were not in our original plan for quake 3, which was "quake 2 game and network technology with a new graphics engine".
 
@@ -780,7 +780,7 @@ There is a definite effect on graphics technology decisions. Much of the positiv
 
 The graphics engine will still be OpenGL only, with significant new features not seen anywhere before, but it will also have fallback modes to render at roughly Quake-2 quality and speed.
 
-### John Carmack's .plan for Jul 04, 1998
+## John Carmack's .plan for Jul 04, 1998
 
 Here is the real story on the movement physics changes.
 
@@ -802,7 +802,7 @@ Quake 2 cannot be allowed to evolve in a way that detracts from the commercial s
 
 The old style movement should not be referred to as "real world physics". None of the quake physics are remotely close to real world physics, so I don't think one way is significantly more "real" than the other. In Q2, you accelerate from 0 to 27 mph in 1/30 of a second, which just as unrealistic as being able to accelerate in midair..
 
-### John Carmack's .plan for Jul 05, 1998
+## John Carmack's .plan for Jul 05, 1998
 
 I am not opposed to adding a flag to control the movement styles. I was rather expecting it to be made optional in 3.17, but I haven't been directly involved in the last few releases.
 
@@ -810,7 +810,7 @@ The way this played out in public is a bit unfortunate. Everyone at Id is busy f
 
 It is a bit amusing how after the QuakeArena anouncement, I got flamed by lots of people for abandoning single player play (even though we aren't, really) but after I say that Quake 2 can't forget that it is a single player game, I get flamed by a different set of people who think it is stupid to care about single player anymore when all "everyone" plays is multiplayer. The joy of having a wide audience that knows your email address.
 
-### John Carmack's .plan for Jul 16, 1998
+## John Carmack's .plan for Jul 16, 1998
 
 I have spent the last two days working with Apple's Rhapsody DR2, and I like it a lot.
 
@@ -840,7 +840,7 @@ In other operating system news, Be has glquake running hardware accelerated on t
 
 Any X server vendors working on hardware accelerated OpenGL should get in touch with Zoid about interfacing and tuning with the Id OpenGL games on linux.
 
-### John Carmack's .plan for Jul 29, 1998
+## John Carmack's .plan for Jul 29, 1998
 
 My F50 took some twin turbo vitamins.
 
@@ -852,7 +852,7 @@ There will be an article in Turbo magazine about it, and several other car magaz
 
 Brian is getting a nitrous kit installed in his viper, and Cash just got his suspension beefed up, so we will be off to the dragstrip again next month to sort everything out again.
 
-### John Carmack's .plan for Aug 17, 1998
+## John Carmack's .plan for Aug 17, 1998
 
 I added support for HDTV style wide screen displays in QuakeArena, so 24" and 28" monitors can now cover the entire screen with game graphics.
 
@@ -870,7 +870,7 @@ I presented the OpenGL case directly to Steve Jobs as strongly as possible.
 
 If Apple embraces OpenGL, I will be strongly behind them. I like OpenGL more than I dislike MacOS. :)
 
--
+---
 
 Last friday I got a phone call: "want to make some exhibition runs at the import / domestic drag wars this sunday?". It wasn't particularly good timing, because the TR had a slipping clutch and the F50 still hasn't gotten its computer mapping sorted out, but we got everything functional in time.
 
@@ -882,7 +882,7 @@ I'm getting some racing tires on the F50 before I go back. It sucked watching a 
 
 I think ESPN took some footage at the event.
 
-### John Carmack's .plan for Sep 08, 1998
+## John Carmack's .plan for Sep 08, 1998
 
 I just got a production TNT board installed in my Dolch today.
 
@@ -900,7 +900,7 @@ Stencil buffers. There aren't any apps that use it yet, but stencil allows you t
 
 More texture memory. Even more than it seems (16 vs 8 or 12), because all of the TNT's memory can be used without restrictions. Texture swapping is the voodoo's biggest problem.
 
-3D in desktop applications. There is enough memory that you don't have to worry about window and desktop size limits, even at 1280*1024 true color resolution.
+3D in desktop applications. There is enough memory that you don't have to worry about window and desktop size limits, even at 1280\*1024 true color resolution.
 
 Better OpenGL ICD. 3dfx will probably do something about that, though.
 
@@ -908,7 +908,7 @@ This is the shape of 3D boards to come. Professional graphics level rendering qu
 
 We will be releasing preliminary QuakeArena benchmarks on all the new boards in a few weeks. Quake 2 is still a very good benchmark for moderate polygon counts, so our test scenes for QA involve very high polygon counts, which stresses driver quality a lot more. There are a few surprises in the current timings..
 
--
+---
 
 A few of us took a couple days off in vegas this weekend. After about ten hours at the tables over friday and saturday, I got a tap on the shoulder..
 
@@ -918,11 +918,11 @@ Ah well, I guess my blackjack days are over. I was actually down a bit for the d
 
 I knew I would get kicked out sooner or later, because I don't play "safely". I sit at the same table for several hours, and I range my bets around 10 to 1.
 
-### John Carmack's .plan for Sep 10, 1998
+## John Carmack's .plan for Sep 10, 1998
 
 I recently set out to start implementing the dual-processor acceleration for QA, which I have been planning for a while. The idea is to have one processor doing all the game processing, database traversal, and lighting, while the other processor does absolutely nothing but issue OpenGL calls.
 
-This effectively treats the second processor as a dedicated geometry accelerator for the 3D card. This can only improve performance if the card isn't the bottleneck, but voodoo2 and TNT cards aren't hitting their limits at 640*480 on even very fast processors right now.
+This effectively treats the second processor as a dedicated geometry accelerator for the 3D card. This can only improve performance if the card isn't the bottleneck, but voodoo2 and TNT cards aren't hitting their limits at 640\*480 on even very fast processors right now.
 
 For single player games where there is a lot of cpu time spent running the server, there could conceivably be up to an 80% speed improvement, but for network games and timedemos a more realistic goal is a 40% or so speed increase. I will be very satisfied if I can makes a dual pentium-pro 200 system perform like a pII-300.
 
@@ -960,7 +960,7 @@ Too much effort for what looks like a reletively minor speedup. I'm giving up on
 
 Oh well. It was amusing work, and I learned a few things along the way.
 
-### John Carmack's .plan for Oct 14, 1998
+## John Carmack's .plan for Oct 14, 1998
 
 It has been difficult to write .plan updates lately. Every time I start writing something, I realize that I'm not going to be able to cover it satisfactorily in the time I can spend on it. I have found that terse little comments either get misinterpreted, or I get deluged by email from people wanting me to expand upon it.
 
@@ -968,7 +968,7 @@ I wanted to do a .plan about my evolving thoughts on code quality and lessons le
 
 Since DOOM, our games have been defined with portability in mind. Porting to a new platform involves having a way to display output, and having the platform tell you about the various relevant inputs. There are four principle inputs to a game: keystrokes, mouse moves, network packets, and time. (If you don't consider time an input value, think about it until you do - it is an important concept)
 
-These inputs were taken in separate places, as seemed logical at the time. A function named Sys_SendKeyEvents() was called once a frame that would rummage through whatever it needed to on a system level, and call back into game functions like Key_Event( key, down ) and IN_MouseMoved( dx, dy ). The network system dropped into system specific code to check for the arrival of packets. Calls to Sys_Milliseconds() were littered all over the code for various reasons.
+These inputs were taken in separate places, as seemed logical at the time. A function named `Sys_SendKeyEvents()` was called once a frame that would rummage through whatever it needed to on a system level, and call back into game functions like `Key_Event( key, down )` and `IN_MouseMoved( dx, dy )`. The network system dropped into system specific code to check for the arrival of packets. Calls to `Sys_Milliseconds()` were littered all over the code for various reasons.
 
 I felt that I had slipped a bit on the portability front with Q2 because I had been developing natively on windows NT instead of cross developing from NEXTSTEP, so I was reevaluating all of the system interfaces for Q3.
 
@@ -990,7 +990,7 @@ In fact, I was probably blinded to the obvious because of one of my very first s
 
 Its nice to see a problem clearly in its entirety for the first time, and know exactly how to address it.
 
-### John Carmack's .plan for Nov 03, 1998
+## John Carmack's .plan for Nov 03, 1998
 
 This was the most significant thing I talked about at The Frag, so here it is for everyone else.
 
@@ -1030,11 +1030,11 @@ There is also the amusing avenue of writing hand tuned virtual assembly assembly
 
 I think this is The Right Thing.
 
-### John Carmack's .plan for Nov 04, 1998
+## John Carmack's .plan for Nov 04, 1998
 
 More extensive comments on the interpreted-C decision later, but a quick note: the plan is to still allow binary dll loading so debuggers can be used, but it should be interchangable with the interpreted code. Client modules can only be debugged if the server is set to allow cheating, but it would be possible to just use the binary interface for server modules if you wanted to sacrifice portability. Most mods will be able to be implemented with just the interpreter, but some mods that want to do extensive file access or out of band network communications could still be implemented just as they are in Q2. I will not endorse any use of binary client modules, though.
 
-### John Carmack's .plan for Dec 29, 1998
+## John Carmack's .plan for Dec 29, 1998
 
 I am considering taking a shortcut with my virtual machine implementation that would make the integration a bit easier, but I'm not sure that it doesn't compromise the integrity of the base system.
 
@@ -1046,7 +1046,7 @@ This would allow full speed (well, full interpreted speed) access to variables s
 
 For most things, this is just a convenience that will cut some development time. Most of the shared accesses could be recast as "get" system calls, and it is certainly arguable that that would be a more robust programming style.
 
-The most prevelent change this would prevent is all the cvar_t uses. Things could stay in the same style as Q2, where cvar accesses are free and transparantly updated. If the interpreter lives only in its own address space, then cvar access would have to be like Q1, where looking up a variable is a potentially time consuming operation, and you wind up adding lots of little cvar caches that are updated every from or restart.
+The most prevelent change this would prevent is all the `cvar_t` uses. Things could stay in the same style as Q2, where cvar accesses are free and transparantly updated. If the interpreter lives only in its own address space, then cvar access would have to be like Q1, where looking up a variable is a potentially time consuming operation, and you wind up adding lots of little cvar caches that are updated every from or restart.
 
 On the negative side:
 
@@ -1054,7 +1054,7 @@ A client game module with a bug could cause a bus error, which would not be poss
 
 I can't think of any exploitable security problems that read only access to the entire address space opens, but if anyone thinks of something, let me know.
 
-### John Carmack's .plan for Dec 30, 1998
+## John Carmack's .plan for Dec 30, 1998
 
 I got several vague comments about being able to read "stuff" from shared memory, but no concrete examples of security problems.
 

@@ -1,8 +1,10 @@
-### John Carmack's .plan for Nov 02, 2007
+# 2007
+
+## John Carmack's .plan for Nov 02, 2007
 
 Technology and Games
 
-Source: http://blogs.ign.com/OrcsandElves/2007/11/02/70591/
+Source: <http://blogs.ign.com/OrcsandElves/2007/11/02/70591/>
 
 Most of my time lately is spent working on Rage, id Software's Id Tech 5 based game that runs on PCs, Macs, 360s, and PS3s. A modern high-end game is a really breathtaking consumer of computation and storage resources for anyone that has been around computers for any length of time. Our target platforms have at least 512 mb of ram, almost 20 gb of media storage, and many tens of gflops of computation, but the development environment involves an even more massive deployment, with a terabyte of raw data being generated before the final culling and compression is done. It is easy to be a little nonchalant about the continuous pace of improvement with computing, but I still take the time to feel a sense of awe about it all.
 
@@ -32,11 +34,11 @@ Once the decision was made to go for it, it was my job to figure out what we cou
 Up next: all the technical details
 
 
-### John Carmack's .plan for Nov 08, 2007
+## John Carmack's .plan for Nov 08, 2007
 
 DS Technology
 
-Source: http://blogs.ign.com/OrcsandElves/2007/11/08/71156/
+Source: <http://blogs.ign.com/OrcsandElves/2007/11/08/71156/>
 
 The actual implementation decisions for Orcs&Elves DS were driven by the hardware, the development timeline, and the budget. With a five person team, we had six months to bring it all together on a new platform. I wrote the code for the hardware accelerated 3D renderer and for the remainder of the project, I was technical advisor.
 

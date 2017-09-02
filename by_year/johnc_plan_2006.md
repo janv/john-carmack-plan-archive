@@ -1,4 +1,6 @@
-### John Carmack's .plan for May 02, 2006
+# 2006
+
+## John Carmack's .plan for May 02, 2006
 
 Orcs & Elves
 

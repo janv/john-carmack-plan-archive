@@ -1,8 +1,10 @@
-### John Carmack's .plan for Mar 26, 2009
+# 2009
+
+## John Carmack's .plan for Mar 26, 2009
 
 iPhone development: Wolfenstein 3D Classic
 
-Source: http://www.idsoftware.com/wolfenstein3dclassic/wolfdevelopment.htm
+Source: <http://www.idsoftware.com/wolfenstein3dclassic/wolfdevelopment.htm>
 
 I had been frustrated for over a year with the fact that we didn't have any iPhone development projects going internally at Id.  I love my iPhone, and I think the App Store is an extremely important model for the software business.  Unfortunately, things have conspired against us being out early on the platform.
 
@@ -30,7 +32,7 @@ It was nice and simple to download, extract data from a commercial copy of Wolfe
 
 I sent an email to the Wolf 3D Redux project maintainer to see if he might be interested in working on an iPhone project with us, but it had been over a year since the last update, and he must have moved on to other things.  I thought about it a bit, and decided that I would go ahead and do the project myself.  The "big projects" at Id are always top priority, but the systems programming work in Rage is largely completed, and the team hasn't been gated on me for anything in a while.  There is going to be memory and framerate optimization  work going on until it ships, but I decided that I could spend a couple weeks away from Rage to work on the iPhone exclusively.  Cass continued to help with iPhone system issues, I drafted Eric Will to create the few new art assets, and Christian Antkow did the audio work, but this was the first time I had taken full responsibility for an entire product in a very long time.
 
-@Design notes@
+### Design notes
 
 The big question was how "classic" should we leave the game?  I have bought various incarnations of Super Mario Bros on at least four Nintendo platforms, so I think there is something to be said for the classics, but there were so many options for improvement.  The walls and sprites in the game were originally all 64 x 64 x 8 bit color, and the sound effects were either 8khz / 8 bit mono or (sometimes truly awful) FM synth sounds.  Changing these would be trivial from a coding standpoint.  In the end, I decided to leave the game media pretty much unchanged, but tweak the game play a little bit, and build a new user framework around the core play experience.  This decision was made a lot easier by the fact that we were right around the 10 meg over-the-air app download limit with the converted media.  This would probably be the only Id project to ever be within hailing distance of that mark, so we should try to fit it in.
 
@@ -76,7 +78,7 @@ When I was first thinking about the project I sort of assumed that we wouldn't b
 
 The game is definitely simplistic by modern standards, but it still has its moments.  Getting the drop on a brown shirt just as he is pulling his pistol from the holster.  Making an SS do the "twitchy dance" with your machine gun.  Rounding a corner and unloading your weapon on ... a potted plant.  Simplistic plays well on the iPhone. 
 
-@Programming notes@
+### Programming notes
 
 Cass and I got the game running on the iPhone very quickly, but I was a little disappointed that various issues around the graphics driver, the input processing, and the process scheduling meant that doing a locked-at-60-hz game on the iPhone wasn't really possible.  I hope to take these up with Apple at some point in the future, but it meant that Wolf would be a roughly two tick game.  It is only "roughly" because there is no swapinterval support, and the timer scheduling has a lot of variability in it.  It doesn't seem to matter all that much, the play is still smooth and fun, but I would have liked to at least contrast it with the perfect limit case.
 
@@ -86,7 +88,8 @@ Wolfenstein (and Doom) originally drew the characters as sparse stretched column
 
 The other problem was CPU related.  Wolf3d Redux used the original ray casting scheme to find out which walls were visible, then called a routine to draw each wall tile with OpenGL calls.  The code looked something like this:
 
-[code]DrawWall( int wallNum ) {
+```
+DrawWall( int wallNum ) {
    char   name[128];
    texture_t   *tex;
    sprintf( name, "walls/%d.tga", wallNum );
@@ -101,14 +104,17 @@ texture_t FindTexture( const char *name ) {
       }
    }
    ...
-} [/code]
+}
+```
 
 I winced when I saw that at the top of the instruments profile, but again, you could play all the early levels that only had twenty or thirty visible tiles at a time without it actually being a problem.  However, some later levels with huge open areas could have over a hundred visible tiles, and that led to 20hz again.  The solution was a trivial change to something resembling:
 
-[code]DrawWall( int wallNum ) {
+```
+DrawWall( int wallNum ) {
    texture_t   *tex = wallTextures[wallNum];
    ...
-} [/code]
+}
+```
 
 Wolf3D Redux included a utility that extracted the variously packed media from the original games and turned them into cleaner files with modern formats.  Unfortunately, an attempt at increasing the quality of the original art assets by using hq2x graphics scaling to turn the 64x64 art into better filtered 128x128 arts was causing lots of sprites to have fringes around them due to incorrect handling of alpha borders.  It wasn't possible to fix it up at load time, so I had to do the proper outline-with-color-but-0-alpha operations in a modified version of the extractor.  I also decided to do all the format conversion and mip generation there, so there was no significant CPU time spent during texture loading, helping to keep the load time down.  I experimented with the PVRTC formats, but while it would have been ok for the walls, unlike with DXT you can't get a lossless alpha mask out of it, so it wouldn't have worked for the sprites.  Besides, you really don't want to mess with the carefully chosen pixels in a 64x64 block very much when you scale it larger than the screen on occasion.
 
@@ -116,9 +122,11 @@ I also had to make one last minute hack change to the original media -- the Red 
 
 User interface code was the first thing I started making other programmers do at Id when I no longer had to write every line of code in a project, because I usually find it tedious and unrewarding.  This was such a small project that I went ahead and did it myself, and I learned an interesting little thing.  Traditionally, UI code has separate drawing and input processing code, but on a touchscreen device, it often works well to do a combined "immediate mode interface", with code like this: 
 
-[code]if ( DrawPicWithTouch( x, y, w, h, name ) ) {
+```
+if ( DrawPicWithTouch( x, y, w, h, name ) ) {
 	menuState = newState;
-} [/code]
+}
+```
 
 Doing that for the floating user gameplay input controls would introduce a frame of response latency, but for menus and such, it works very well.
 
@@ -126,9 +134,10 @@ One of the worst moments during the development was when I was getting ready to 
 
 I seriously considered going back to the virgin codebase and reimplementing the OpenGL rendering from scratch.  The other thing that bothered me about the Redux codebase was that it was basically a graft of the Wolf3D code into the middle of a gutted Quake 2 codebase.  This was cool in some ways, because it gave us a console, cvars, and the system / OpenGL portable framework, and it was clear the original intention was to move towards multiplayer functionality, but it was a lot of bloat.  The original wolf code was only a few dozen C files, while the framework around it here was several times that.
 
-Looking through the original code brought back some memories.  I stopped signing code files years ago, but the top of WL_MAIN.C made me smile:
+Looking through the original code brought back some memories.  I stopped signing code files years ago, but the top of `WL_MAIN.C` made me smile:
 
-[code]/*
+```
+/*
 =============================================================================
 
 WOLFENSTEIN 3-D
@@ -138,7 +147,8 @@ An Id Software production
 by John Carmack
 
 =============================================================================
-*/ [/code]
+*/
+```
 
 It wasn't dated, but that would have been in 1991.
 
@@ -154,11 +164,11 @@ I'm going back to Rage for a while, but I do expect Classic Doom to come fairly 
 
 
 
-### John Carmack's .plan for May 27, 2009
+## John Carmack's .plan for May 27, 2009
 
 iPhone development: Doom Classic Progress Report
 
-Source: http://www.idsoftware.com/iphone-doom-classic-progress/
+Source: <http://www.idsoftware.com/iphone-doom-classic-progress/>
 
 I have been spending the majority of my time working on iPhone Doom Classic for several weeks now, and the first beta build went out to some external testers a couple days ago. I am moving back on to Rage for a while, but I expect to be able to finish it up for submission to the App Store next month.
 
@@ -194,11 +204,11 @@ I will probably have another update later with more technical details about the 
 
 
 
-### John Carmack's .plan for Nov 03, 2009
+## John Carmack's .plan for Nov 03, 2009
 
 iPhone development: Doom Classic
 
-Source: http://www.idsoftware.com/doom-classic/doomdevelopment.htm
+Source: <http://www.idsoftware.com/doom-classic/doomdevelopment.htm>
 
 Way back in March when I released the source for Wolfenstein 3D Classic, I said that Doom Classic would be coming "real soon", and on April 27, I gave a progress report: http://www.idsoftware.com/iphone-doom-classic-progress/
 
@@ -208,11 +218,11 @@ However, we were finishing up the big iPhone Doom Resurrection project with Esca
 
 I really thought I was going to go back and finish things up in September, but I got crushingly busy on other fronts.  In an odd little bit of serendipity, after re-immersing myself in the original Doom for the iPhone, I am now working downstairs at Id with the Doom 4 team.  I'm calling my time a 50/50 split between Rage and Doom 4, but the stress doesn't divide.  September was also the month that Armadillo Aerospace flew the level 2 Lunar Lander Challenge:
 
-http://www.armadilloaerospace.com/n.x/Armadillo/Home/News?news_id=368
+<http://www.armadilloaerospace.com/n.x/Armadillo/Home/News?news_id=368>
 
 Finally, in October I SWORE I would finish it, and we aimed for a Halloween release.  We got it submitted in plenty of time, but we ran into a couple approval hiccups that caused it to run to the very last minute.  The first was someone incorrectly thinking that the "Demos" button that played back recorded demos from the game, was somehow providing demo content for other commercial products, which is prohibited.  The second issue was the use of an iPhone image in the multiplayer button, which we had to make a last minute patch for.
 
-@Release notes@
+### Release notes
 
 Ok, the game is finally out (the GPL source code is being packaged up for release today).  Based on some review comments, there are a couple clarifications to be made:
 
@@ -230,7 +240,7 @@ In hindsight, I should have had a nice obvious button on the main options screen
 
 It was a lot of fun to do this project, working on it essentially alone, as a contrast to the big teams on the major internal projects.  I was still quite pleased with how the look and feel of the game holds up after so long, especially the "base style" levels.  The "hell levels" show their age a lot more, where the designers were really reaching beyond what the technology could effectively provide.
 
-@Future iPhone work@
+### Future iPhone work
 
 We do read all the reviews in the App store, and we do plan on supporting Doom Classic with updates.  Everything is still an experiment for us on the iPhone, and we are learning lessons with each product.  At this point, we do not plan on making free lite versions of future products, since we didn't notice anything worth the effort with Wolfenstein, and other developers have reported similar findings.
 
@@ -242,7 +252,7 @@ The idMobile team is finishing up the last of the BREW versions of Doom 2 RPG, a
 
 I want to work on a Rage themed game to coincide with Rage's release, but we don't have a firm direction or team chosen for it.  I was very excited about doing a really-designed-for-the-iPhone first person shooter, but at this point I am positive that I don't have the time available for it.
 
-@Networking techie stuff@
+### Networking techie stuff
 
 I doubt one customer in ten will actually play a network game of Doom Classic, but it was interesting working on it.
 

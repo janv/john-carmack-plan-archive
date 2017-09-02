@@ -1,4 +1,6 @@
-### John Carmack's .plan for May 27, 2005
+# 2005
+
+## John Carmack's .plan for May 27, 2005
 
 Cell phone adventures
 

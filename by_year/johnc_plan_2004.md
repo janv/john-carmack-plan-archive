@@ -1,4 +1,6 @@
-### John Carmack's .plan for Dec 31, 2004
+# 2004
+
+## John Carmack's .plan for Dec 31, 2004
 
 Welcome
 
@@ -12,13 +14,13 @@ The Armadillo work has been very rewarding from a learning-lots-of-new-stuff per
 
  If you really, really want to email me, add a "[JC]" in the subject header so the mail gets filtered to a mailbox that isn't clogged with spam. I can't respond to most of the email I get, but I do read everything that doesn't immediately scan as spam. Unfortunately, the probability of getting an answer from me doesn't have a lot of correlation with the quality of the question, because what I am doing at the instant I read it is more dominant, and there is even a negative correlation for "deep" questions that I don't want to make an off-the-cuff response to.
 
-   Quake 3 Source
+### Quake 3 Source
 
 I intended to release the Q3 source under the GPL by the end of 2004, but we had another large technology licensing deal go through, and it would be poor form to make the source public a few months after a company paid hundreds of thousands of dollars for full rights to it. True, being public under the GPL isn't the same as having a royalty free license without the need to disclose the source, but I'm pretty sure there would be some hard feelings.
 
  Previous source code releases were held up until the last commercial license of the technology shipped, but with the evolving nature of game engines today, it is a lot less clear. There are still bits of early Quake code in Half Life 2, and the remaining licensees of Q3 technology intend to continue their internal developments along similar lines, so there probably won't be nearly as sharp a cutoff as before. I am still committed to making as much source public as I can, and I won't wait until the titles from the latest deal have actually shipped, but it is still going to be a little while before I feel comfortable doing the release.
 
-   Random Graphics Thoughts
+### Random Graphics Thoughts
 
 Years ago, when I first heard about the inclusion of derivative instructions in fragment programs, I couldn't think of anything off hand that I wanted them for. As I start working on a new generation of rendering code, uses for them come up a lot more often than I expected.
 

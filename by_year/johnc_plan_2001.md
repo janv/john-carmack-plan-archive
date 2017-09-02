@@ -1,4 +1,6 @@
-### John Carmack's .plan for Feb 22, 2001
+# 2001
+
+## John Carmack's .plan for Feb 22, 2001
 
 GeForce 3 Overview
 
@@ -75,7 +77,7 @@ The market may have shrunk to just ATI and Nvidia as significant players. Matrox
 I think I would be a little more comfortable if there was a third major player competing, but I can't fault Nvidia's path to success.
 
 
-### John Carmack's .plan for Nov 16, 2001
+## John Carmack's .plan for Nov 16, 2001
 
 Driver optimizations have been discussed a lot lately because of the quake3 name checking in ATI's recent drivers, so I am going to lay out my position on the subject.
 
@@ -110,11 +112,11 @@ I'm not fanatical on any of this, because the overriding purpose of software is 
 Also, excessive optimization is the cause of quite a bit of ill user experience with computers. Byzantine code paths extract costs as long as they exist, not just as they are written.
 
 
-### John Carmack's .plan for Dec 21, 2001
+## John Carmack's .plan for Dec 21, 2001
 
 The Quake 2 source code is now available for download, licensed under the GPL.
 
-ftp://ftp.idsoftware.com/idstuff/source/quake2.zip
+<ftp://ftp.idsoftware.com/idstuff/source/quake2.zip>
 
 As with previous source code releases, the game data remains under the original copyright and license, and cannot be freely distributed. If you create a true total conversion, you can give (or sell) a complete package away, as long as you abide by the GPL source code license. If your projects use the original Quake 2 media, the media must come from a normal, purchased copy of the game.
 

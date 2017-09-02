@@ -1,4 +1,6 @@
-### John Carmack's .plan for Jan 29, 2003
+# 2003
+
+## John Carmack's .plan for Jan 29, 2003
 
 NV30 vs R300, current developments, etc
 
@@ -22,15 +24,15 @@ As always, better cards are coming soon.
 
 -----
 
-Doom has dropped support for vendor-specific vertex programs (NV_vertex_program and EXT_vertex_shader), in favor of using ARB_vertex_program for all rendering paths.  This has been a pleasant thing to do, and both ATI and Nvidia supported the move.  The standardization process for ARB_vertex_program was pretty drawn out and arduous, but in the end, it is a just-plain-better API than either of the vendor specific ones that it replaced.  I fretted for a while over whether I should leave in support for the older APIs for broader driver compatibility, but the final decision was that we are going to require a modern driver for the game to run in the advanced modes.  Older drivers can still fall back to either the ARB or NV10 paths.
+Doom has dropped support for vendor-specific vertex programs (`NV_vertex_program` and `EXT_vertex_shader`), in favor of using `ARB_vertex_program` for all rendering paths.  This has been a pleasant thing to do, and both ATI and Nvidia supported the move.  The standardization process for `ARB_vertex_program` was pretty drawn out and arduous, but in the end, it is a just-plain-better API than either of the vendor specific ones that it replaced.  I fretted for a while over whether I should leave in support for the older APIs for broader driver compatibility, but the final decision was that we are going to require a modern driver for the game to run in the advanced modes.  Older drivers can still fall back to either the ARB or NV10 paths.
 
-The newly-ratified ARB_vertex_buffer_object extension will probably let me do the same thing for NV_vertex_array_range and ATI_vertex_array_object.
+The newly-ratified `ARB_vertex_buffer_object` extension will probably let me do the same thing for `NV_vertex_array_range` and `ATI_vertex_array_object`.
 
 Reasonable arguments can be made for and against the OpenGL or Direct-X style of API evolution.  With vendor extensions, you get immediate access to new functionality, but then there is often a period of squabbling about exact feature support from different vendors before an industry standard settles down.  With central planning, you can have "phasing problems" between hardware and software releases, and there is a real danger of bad decisions hampering the entire industry, but enforced commonality does make life easier for developers.  Trying to keep boneheaded-ideas-that-will-haunt-us-for-years out of Direct-X is the primary reason I have been attending the Windows Graphics Summit for the past three years, even though I still code for OpenGL.
 
-The most significant functionality in the new crop of cards is the truly flexible fragment programming, as exposed with ARB_fragment_program.  Moving from the "switches and dials" style of discrete functional graphics programming to generally flexible programming with indirection and high precision is what is going to enable the next major step in graphics engines.
+The most significant functionality in the new crop of cards is the truly flexible fragment programming, as exposed with `ARB_fragment_program`.  Moving from the "switches and dials" style of discrete functional graphics programming to generally flexible programming with indirection and high precision is what is going to enable the next major step in graphics engines.
 
-It is going to require fairly deep, non-backwards-compatible modifications to an engine to take real advantage of the new features, but working with ARB_fragment_program is really a lot of fun, so I have added a few little tweaks to the current codebase on the ARB2 path:
+It is going to require fairly deep, non-backwards-compatible modifications to an engine to take real advantage of the new features, but working with `ARB_fragment_program` is really a lot of fun, so I have added a few little tweaks to the current codebase on the ARB2 path:
 
 High dynamic color ranges are supported internally, rather than with post-blending.  This gives a few more bits of color precision in the final image, but it isn't something that you really notice.
 
@@ -55,9 +57,9 @@ Floating point framebuffers and complex fragment shaders will also allow much be
 John Carmack
 
 
-### John Carmack's .plan for Feb 07, 2003
+## John Carmack's .plan for Feb 07, 2003
 
-The machinima music video that Fountainhead Entertainment (my wife's company) produced with Quake based tools is available for viewing and voting on at: http://www.mtv.com/music/viewers_pick/ ("In the waiting line")
+The machinima music video that Fountainhead Entertainment (my wife's company) produced with Quake based tools is available for viewing and voting on at: <http://www.mtv.com/music/viewers_pick/> ("In the waiting line")
 
 I thought they did an excellent job of catering to the strengths of the medium, and not attempting to make a game engine compete (poorly) as a general purpose renderer.  In watching the video, I did beat myself up a bit over the visible popping artifacts on the environment mapping, which are a direct result of the normal vector quantization in the md3 format.  While it isn't the same issue (normals are full floating point already in Doom), it was the final factor that pushed me to do the per-pixel environment mapping for the new cards in the current engine.
 

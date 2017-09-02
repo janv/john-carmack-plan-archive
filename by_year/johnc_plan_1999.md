@@ -1,4 +1,6 @@
-### John Carmack's .plan for Jan 10, 1999
+# 1999
+
+## John Carmack's .plan for Jan 10, 1999
 
 Ok, many of you have probably heard that I spoke at the macworld keynote on tuesday. Some information is probably going to get distorted in the spinning and retelling, so here is an info dump straight from me:
 
@@ -32,7 +34,7 @@ Firewire is cool.
 
 Its a simple thing, but the aspect of the new G3 systems that struck me the most was the new case design. Not the flashy plastic exterior, but the functional structure of it. The side of the system just pops open, even with the power on, and lays the motherboard and cards down flat while the disks and power supply stay in the encloser. It really is a great design, and the benefits were driven home yesterday when I had to scavenge some ram out of old wintel systems yesterday - most case designs suck really bad.
 
--
+---
 
 I could gripe a bit about the story of our (lack of) involvement with Apple over the last four years or so, but I'm calling that water under the bridge now.
 
@@ -99,7 +101,7 @@ MacOS X nails all these problems, but thats still a ways away.
 I did figure one thing out - I was always a little curious why the early BeOS advocates were so enthusiastic. Coming from a NEXTSTEP background, BeOS looked to me like a fairly interesting little system, but nothing special. To a mac developer, it must have looked like the promised land..
 
 
-### John Carmack's .plan for Jan 29, 1999
+## John Carmack's .plan for Jan 29, 1999
 
 The issue of the 8192 unit map dimension limit had been nagging at me for a long time now. The reason for the limit is that coordinates are communicated over the network in 16 bit shorts divided as a sign bit, twelve unit bits, and three fractional bits. There was also another side to the representation problem, but it was rarely visible: if you timescale down, you can actually tell the fractional bit granularity in position and velocity.
 
@@ -126,7 +128,7 @@ The other thing I am investigating is sub-byte delta encoding of floating point 
 So, the bottom line is that the bandwidth won't move much (it might even go down if I cut the integral bits below 15), the maps become unbounded in size to the point of single precision roundoff, and the client doesn't have to care about position jittering (which was visible in Q3 code that will be released).
 
 
-### John Carmack's .plan for Mar 03, 1999
+## John Carmack's .plan for Mar 03, 1999
 
 On the issue of railgun firing rates -- we played with it for a while at the slower speed, but it has been put back to exactly Q2's rate of fire.
 
@@ -139,7 +141,7 @@ Quake 1 had really bad characteristics that way -- Thresh can play extremely tal
 Eliminating health items is probably the clearest way to prevent blowout games, but that has never been popular. Still, we should try to avoid weapon decisions that allow the hyper-skilled to pull even farther away from the rest of the crowd. They will still win, no matter what the weapons are, just not by as wide a margin.
 
 
-### John Carmack's .plan for Mar 17, 1999
+## John Carmack's .plan for Mar 17, 1999
 
 First impressions of the SGI visual workstation 320:
 
@@ -161,7 +163,7 @@ For single pass, top quality rendering (32 bit framebuffer, 32 bit depth buffer,
 
 If your application can take advantage of multitexture, a TNT or rage128 will deliver slightly greater fill performance. It is likely that the next speed bump of both chips will be just plain faster than the SGI on all fill modes.
 
-A serious flaw is that the LCD display can't support ANY other resolutions except the native 1600*1024. The game chunks along at ten to fifteen fps at that resolution (but it looks cool!). They desperately need to support a pixel doubled 800*512 mode to make any kind of full screen work possible. I expect they will address this.
+A serious flaw is that the LCD display can't support ANY other resolutions except the native 1600\*1024. The game chunks along at ten to fifteen fps at that resolution (but it looks cool!). They desperately need to support a pixel doubled 800\*512 mode to make any kind of full screen work possible. I expect they will address this.
 
 Vsync disable is implemented wrong. Disabling sync causes it to continue rendering, but the flip still doesn't happen until the next frame. This gives repeatable (and faster) benchmark numbers, but with a flashing screen that is unusable. The right way is to just cause the flip to happen on the next scan line, like several consumer cards do, or blit. It gives tearing artifacts, but it is still completely usable, and avoids temporal nyquist issues between 30 and 60 hz. I expect they will address this.
 
@@ -182,7 +184,7 @@ I was very happy with the previous two generations of intergraph workstations, b
 For developers that don't have tons of money, the decision right now is an absolute no-brainer -- buy a TNT and stick it in a cheap system. Its a better "professional" 3D accelerator than you could buy at any price not too long ago.
 
 
-### John Carmack's .plan for Apr 24, 1999
+## John Carmack's .plan for Apr 24, 1999
 
 We are finally closing in on the first release of Q3test.
 
@@ -233,7 +235,7 @@ Gaming is not a reason to buy a mac, but Apple is taking steps so that it may no
 MacOS still sucks.
 
 
-### John Carmack's .plan for Apr 25, 1999
+## John Carmack's .plan for Apr 25, 1999
 
 Some people seem to think that I just make up these performance comparison numbers. I don't. I measure things, and I understand control conditions.
 
@@ -245,7 +247,7 @@ A better comparison is an identical app on both platforms.
 
 Photoshop is often faster on macos than wintel. There is certainly a lot of common code, but individual filters are optimized for each platform. Some of these hand optimized operations are significantly faster on the mac.
 
-Quake1 was the counterpoint to that. Quake1 had significant amounts of hand tuned asm code for intel, and the PPC version never got as much attention. The PPC version was noticeably slower (you would have to time at 640*480 to avoid unfairly penalizing the mac for lack of low res modes).
+Quake1 was the counterpoint to that. Quake1 had significant amounts of hand tuned asm code for intel, and the PPC version never got as much attention. The PPC version was noticeably slower (you would have to time at 640\*480 to avoid unfairly penalizing the mac for lack of low res modes).
 
 So, clearly, hand tuned asm code can make either platform pull ahead. It also shows that the two platforms are at least fairly close in performance. I never said macs were SLOW, just not quite as fast as the best intel systems.
 
@@ -268,7 +270,7 @@ I will be very happy if Apple can produce a desktop system that is faster than a
 My twin turbo F50 can still be outrun at the dragstrip by much cheaper race cars. Many ferrari owners would not dare set foot at a drag strip, because they fear objective measurements that may not show their important possession in the best light. I would rather have the facts, so I can base future decisions on logical grounds.
 
 
-### John Carmack's .plan for Apr 26, 1999
+## John Carmack's .plan for Apr 26, 1999
 
 Interpreting the lagometer (the graph in the lower right corner):
 
@@ -296,35 +298,35 @@ Note that the optimal rate will be somewhat lower than a rate for QW or Q2, beca
 
 You can ask for a different number of snapshots by changing the "snaps" variable, but there isn't a lot of benefit to that. Dedicated servers run at 40hz, so stick to divisors of that: 40, 20 (default), 10. A snaps of 40 will usually just cause you to hit your rate limit a lot faster. It may be usefull for tuning rate, if nothing else.
 
-You can adjust the local timing point with "cg_timenudge ", which effectively adds local lag to try to make sure you interpolate instead of extrapolate. If you really want to play on a server that is dropping a ton of packets, a timenudge of 100 or so might make the game smoother.
+You can adjust the local timing point with `cg_timenudge`, which effectively adds local lag to try to make sure you interpolate instead of extrapolate. If you really want to play on a server that is dropping a ton of packets, a timenudge of 100 or so might make the game smoother.
 
 ------ 
 One more addition to net cvars:
-"cl_maxpackets" will restrict the maximum number of outgoing packets to prevent client to server rate problems. This does not limit the client framerate. This defaults to 20, which might actually be a bit low. You might try experimenting with raising this to 40.
+`cl_maxpackets` will restrict the maximum number of outgoing packets to prevent client to server rate problems. This does not limit the client framerate. This defaults to 20, which might actually be a bit low. You might try experimenting with raising this to 40.
 
-"cl_maxfps" still exists, but it will never need to be used for networking reasons.
+`cl_maxfps` still exists, but it will never need to be used for networking reasons.
 
 
 
 ------- 
 * converted cvar allocation to indexes to allow range checking
-* cgame converted over to use vmCvar_t instead of cvar_t needed for interpreted cgame
+* cgame converted over to use `vmCvar_t` instead of `cvar_t` needed for interpreted cgame
 * fixed server crashing string bug
 * adjusted scoreboard for 8 players
 * show hostname on connection screen
 * fixed null model warning on startup
 * more space for hostname on local servers screen
 * fixed mac Open Transport memory buffer bug, this was causing most of the mac crashes
-* made Info_ValueForKey() case insensitive
-* sv_privateClients, sv_privatePassword. this allows you to reserve slots on a public server for password access while allowing most to be freely available
+* made `Info_ValueForKey()` case insensitive
+* `sv_privateClients`, `sv_privatePassword`. this allows you to reserve slots on a public server for password access while allowing most to be freely available
 * "server is full" message on connect screen
 * archive handicap in config file
-* cheat protect r_nocurves
+* cheat protect `r_nocurves`
 * byte order independent zip checksum
-* removed cl_stereo, use glConfig.stereoEnabled
+* removed `cl_stereo`, use `glConfig.stereoEnabled`
 
 
-### John Carmack's .plan for Apr 27, 1999
+## John Carmack's .plan for Apr 27, 1999
 
 * cgame converted to use local buffer based lerpTag for interpretation
 * cgame converted to use local buffer based argv for interpretation
@@ -333,7 +335,7 @@ One more addition to net cvars:
 * fixed edge-of-bounce-pad misprediction error (server side)
 * remove broken weapon-stay dmflag
 * made menu gfx never picmip
-* cheat protect r_lightmap
+* cheat protect `r_lightmap`
 * clear sound buffer before any file IO
 * use GetOSEvent instead of WaitNextEvent on mac when fullscreen. removes hitches caused by other tasks and gives a performance boost
 * continuous scoreboard / ping update when tab is down
@@ -342,7 +344,7 @@ One more addition to net cvars:
 * dim out behind floating menus
 
 
-### John Carmack's .plan for Apr 28, 1999
+## John Carmack's .plan for Apr 28, 1999
 
 * converted sound positioning away from callback method
 * increased mac memory zone by 5 megs
@@ -352,7 +354,7 @@ One more addition to net cvars:
 * converted file references to handles and range checked
 
 
-### John Carmack's .plan for Apr 29, 1999
+## John Carmack's .plan for Apr 29, 1999
 
 * rework versioning for architecture tracking
 * use a seperate endpoint for address resolves on mac
@@ -367,18 +369,18 @@ Q3 can run networked player movement in either an asynchronous or synchronous ma
 
 The primary reason is to allow player movement to be predicted on the client side. The primary drawback is that while your movement is smooth, the other players that you see running around in the world move with a jerkiness that is relative to their framerate and network connection quality. It is NOT necessarily relative to their ping - a player on a fast system with a clean modem connection can move smoothly. If you see a player stuttering around, either they have a bad framerate, or the network connection between them and the server or you and the server is poor. The amount of stuttering is sort of the sum of the dropped or variable packets on BOTH connections.
 
-You can force Q3 to run all clients synchronously by setting "g_synchronousClients 1" on the server. This will make Q3 behave similar to Q1 for networking. All movement will be lagged except view angles, which are still short-circuited immediately.
+You can force Q3 to run all clients synchronously by setting `g_synchronousClients 1` on the server. This will make Q3 behave similar to Q1 for networking. All movement will be lagged except view angles, which are still short-circuited immediately.
 
 Some people claim to prefer synchronous movement when everyone had a very good ping, but I don't personally think it is ever a play benefit. It makes leading players a bit easier, but I think the crisp movement control of client side prediction is a much better tradeoff.
 
 However, there is still a reason for using it: recorded demos come out a LOT smoother looking when running with sync. Note that q3test does not allow demo recording and playback, so this is just for future reference...
 
 
-### John Carmack's .plan for Apr 30, 1999
+## John Carmack's .plan for Apr 30, 1999
 
 I put together a document on optimizing OpenGL drivers for Q3 that should be helpfull to the various linux 3D teams.
 
-http://www.quake3arena.com/news/glopt.html
+<http://www.quake3arena.com/news/glopt.html>
 
 
 -------
@@ -387,14 +389,14 @@ http://www.quake3arena.com/news/glopt.html
 * protected some potential div by 0 areas in cgame
 
 
-### John Carmack's .plan for May 04, 1999
+## John Carmack's .plan for May 04, 1999
 
 * seeded random numbers differently on tourney restarts
 * fixed events on initial snapshots
-* removed g_maxentities configuration, set by G_ENTITY_BITS
-* cl_motd 0 to allow never sending request packets
+* removed `g_maxentities` configuration, set by `G_ENTITY_BITS`
+* `cl_motd 0` to allow never sending request packets
 * fixed map cache clearing bug
-* cg_drawFPS 1 for running fps counter in corner
+* `cg_drawFPS 1` for running fps counter in corner
 * remove all teleport destination pads
 * moved checkmap out of cgame
 * moved time positioning out of cgame
@@ -404,33 +406,33 @@ http://www.quake3arena.com/news/glopt.html
 * use snapped origin from players for linking to prevent slight prediction errors during player collisions
 
 
-### John Carmack's .plan for May 05, 1999
+## John Carmack's .plan for May 05, 1999
 
 * client side predict item pickups. running over items was one of the few remaining locally perceived signs of lag
 * new pont-in-patch test code
 * fixed pathname errors when mac users had slashes in their paths: "B/W mac". sigh.
 
 
-### John Carmack's .plan for May 07, 1999
+## John Carmack's .plan for May 07, 1999
 
-* changed grabbed items to SVF_NOCLIENT instead of EF_NODRAW now that the pickup event is on the player
+* changed grabbed items to `SVF_NOCLIENT` instead of `EF_NODRAW` now that the pickup event is on the player
 * clear event flags with event on reset
 * move playerstate to netfield bit communication
 * fixed configstring delta sequencing issue after initial gamestate
 * extended the netgraph: short red lines are missing client to server packets (need to drop 3 in a row)
-* extended cg_debugevents
-* increased cl_maxpackets to 30
+* extended `cg_debugevents`
+* increased `cl_maxpackets` to 30
 * fixed bug with console field not getting drawwidth set
 * fastsky implies noportals
 * changed fastsky color
 * q3map now fixes tjunctions at fog boundaries
 * build optimized tree with visible hulls of sides
 * adjusted plane culling to avoid some cracks
-* r_facePlaneCull
+* `r_facePlaneCull`
 * fixed too-lax colinear collapse to avoid some cracks
 
 
-### John Carmack's .plan for May 08, 1999
+## John Carmack's .plan for May 08, 1999
 
 There is one must-fix issue and a couple smaller issues remaining before the release candidate build, then we have to do a lot of testing on it. I made a lot of significant changes in the last week, and I'm sure there are some things we still need to sort out before we inflict it on the general public.
 
@@ -443,7 +445,7 @@ The previous release delays for win32 were issues out of our control, but this r
 * fixed give item bug
 * new first snapshot timing
 * moved sun drawing outside of sky shader to fix showtris
-* r_drawSun
+* `r_drawSun`
 * handle all shader tesselations in q3map with tjunc fixups
 * different flatness epsilons for edge vs border grids
 * reorganize sound directories
@@ -454,7 +456,7 @@ The previous release delays for win32 were issues out of our control, but this r
 * don't fire jumppad events if upward velocity
 
 
-### John Carmack's .plan for May 09, 1999
+## John Carmack's .plan for May 09, 1999
 
 We would up making tweaks to both maps today, so the data didn't reach final form until a few hours ago.
 
@@ -473,19 +475,19 @@ The powerup item sounds aren't global across the entire world since I went to th
 
 There are some cases when a weapon that was picked up with a predicted item and immediately fired doesn't make a muzzle flash.
 
-* fixed fs_copyfiles after ospath split
+* fixed `fs_copyfiles` after ospath split
 * fixed look-at-killer
 * changed railgun impact to plasma dish
 * convert connect packet to infostring
 * put footsteps back in...
-* r_drawsun 0 by default to avoid probs for now
+* `r_drawsun 0` by default to avoid probs for now
 * fixed event clear overwrite problem
 * client side predict weapon switch on item pickup
 * changed sound fallbacks to "visor" from "male"
 * made turbulent texcoords based off of xyz instead of st
 
 
-### John Carmack's .plan for May 10, 1999
+## John Carmack's .plan for May 10, 1999
 
 A good day of work. I just finished a long test game with all three architectures, and everything looks solid.
 
@@ -497,7 +499,7 @@ Barring problems, we should start rolling the releases out tonight.
 
 * fixed crash case on fallback from an unsupported fullscreen
 * fixed overrun with very fast system connecting to a very lagged server
-* fixed bad Z_Free on sounds not found
+* fixed bad `Z_Free` on sounds not found
 * fixed autoswitch with sync clients
 * fixed losing console field on positive histories
 * fixed demo recording and playback with new net code
@@ -507,7 +509,7 @@ Barring problems, we should start rolling the releases out tonight.
 * reenabled corpses sinking into ground
 
 
-### John Carmack's .plan for May 11, 1999
+## John Carmack's .plan for May 11, 1999
 
 I am offering a bounty for server crashing bugs. Q2 had several releases forced out because of malicious attacks on all the public servers, so I want to try and flush out what I can during Q3's testing phase.
 
@@ -569,20 +571,20 @@ Do NOT send bug reports and game comments directly to me! If I have to filter th
 
 -------
 
-You can bias the level of detail lower than allowed in the menu with "r_lodbias 2", which will force all models to the lowest lod. The view weapon will look very ugly.
+You can bias the level of detail lower than allowed in the menu with `r_lodbias 2`, which will force all models to the lowest lod. The view weapon will look very ugly.
 
-Another little speedup option that isn't offered in the menus is: "cg_simpleitems 1" this removes the extra rings and spheres around some items.
+Another little speedup option that isn't offered in the menus is: `cg_simpleitems 1` this removes the extra rings and spheres around some items.
 
-You can also turn off all the gibs with "cg_gibs 0".
+You can also turn off all the gibs with `cg_gibs 0`.
 
 
 * clear game memory at init, which fixes the stuck-at-intermission problem on mac servers
-* fixed mismatched free / Z_Free in demo menu
+* fixed mismatched free / `Z_Free` in demo menu
 * removed unused reference to sprites/plama.md3
 * automatically get sounds from model name
 * scale sensitivity by zoom
 * immediately archive changes to latched cvars
-* cheat protect r_portalonly
+* cheat protect `r_portalonly`
 * don't print "XXX connected" on level restarts
 * fixed "give item" on levels where 0,0,0 is in solid
 * fixed timedemo
@@ -590,31 +592,31 @@ You can also turn off all the gibs with "cg_gibs 0".
 * fixed falling damage sound not snd specific
 * fixed crashtest 2
 * fixed crashtest 1
-* q3map_backshader
-* q3map_globaltexture
+* `q3map_backshader`
+* `q3map_globaltexture`
 
 
-### John Carmack's .plan for May 12, 1999
+## John Carmack's .plan for May 12, 1999
 
 We had to upgrade the crashtest machine to NT sp 5, because some people were attacking it with windows crashers. Those don't count.
 
 Crashtest #3 from [iBO]QWhAX0R was a combination of two problems:
 
-The symptom was disconnecting all clients with an illegible server message. This turned out to be caused by the fact that I was parsing strings out of my net buffers with a MSG_ReadChar() function, and I was checking for EOF as a negative one return value. I had to change this to a MSG_ReadByte() call, because -1 was showing up in the messages, which then caused a parse error because it wasn't really the end of the message.
+The symptom was disconnecting all clients with an illegible server message. This turned out to be caused by the fact that I was parsing strings out of my net buffers with a `MSG_ReadChar()` function, and I was checking for EOF as a negative one return value. I had to change this to a `MSG_ReadByte()` call, because -1 was showing up in the messages, which then caused a parse error because it wasn't really the end of the message.
 
 The actual root of that issue was code like this:
-[code]
+```
 {
 	char buffer[MAX_STRING_CHARS];
 	...
 	strncpy( buffer, input, sizeof(buffer) - 1 );
 	...
 }
-[/code]
+```
 
 No buffer overruns are possible, but buffer is not forced to be zero terminated if on the stack. I'm pretty sure this was a result of copy-and-paste code where buffer used to be a static with a guaranteed zero, but it made me find several other places where similar things were happening.
 
-I had started using a Q_strncpyz() function a while ago that guarantees a trailing zero and doesn't require the -1, but it turned out that between code I had written a long time ago, and code that either Cash or Brian had added, there were still a lot of normal strncpy calls around. A lot of them were wrong, too. Either missing the -1, or missing the dedicated 0 fill in.
+I had started using a `Q_strncpyz()` function a while ago that guarantees a trailing zero and doesn't require the -1, but it turned out that between code I had written a long time ago, and code that either Cash or Brian had added, there were still a lot of normal strncpy calls around. A lot of them were wrong, too. Either missing the -1, or missing the dedicated 0 fill in.
 
 Crashtest #4 from Jim Paris was a variation on the first part of #3.
 
@@ -630,7 +632,7 @@ I am off to E3 now for a bunch of PR silliness, so if crashtest goes down, it wo
 * precache grenade bounce sounds
 
 
-### John Carmack's .plan for May 19, 1999
+## John Carmack's .plan for May 19, 1999
 
 Now that all the E3 stuff is done with, I can get back to work...
 
@@ -661,13 +663,13 @@ True, only a tiny fraction of our players (probably less than 1%) will be able t
 The top of the benchmark chart should be an SMP system (assuming the NT drivers have all the optimizations of the '98 drivers), and it will also be possible to build a reletively cheap SMP system (say, dual 400's) that outperforms the best single processor system.
 
 
-### John Carmack's .plan for May 22, 1999
+## John Carmack's .plan for May 22, 1999
 
 The SMP support is solid enough to play with now. The only feature that is still broken is light flares.
 
 As a happy consequence, some of the cleanup work I did for SMP gave a couple percent speedup even when running without the separate thread.
 
-On my development system, a dual 300 mhz intergraph realizm II, the low res timedemo scores went from 27.8 to 37.8 with "r_smp 1". This is only a 35% average speedup, but at some times (lots of dynamic lights in complex scenes) the speedup is 90%+. Gameplay is noticably smoother.
+On my development system, a dual 300 mhz intergraph realizm II, the low res timedemo scores went from 27.8 to 37.8 with `r_smp 1`. This is only a 35% average speedup, but at some times (lots of dynamic lights in complex scenes) the speedup is 90%+. Gameplay is noticably smoother.
 
 The rendering thread is almost always the blocking factor, so the faster the card and OpenGL driver, the larger the speedup will be.
 
@@ -700,46 +702,46 @@ A good example of not-quite-in-sync issues in the windows mouse performance. A P
 They are also not terribly portable, and a pain in the ass to debug.
 
 
-### John Carmack's .plan for May 26, 1999
+## John Carmack's .plan for May 26, 1999
 
 * basic joystick controls, some work still needed for advanced controlers
-* r_dlightBacksides 0 option
-* forced cvar_restart when version changes
+* `r_dlightBacksides 0` option
+* forced `cvar_restart` when version changes
 * fixed some flare-in-fog problems
 * fixed skin color in menus
 * print obituary message even when you are the killer, so all kills get an entry in the logfile
 * fixed bugs in line token parsing when quotes or commands aren't white space separated
-* multiprocessor acceleration "r_smp 1"
+* multiprocessor acceleration `r_smp 1`
 * increase menu dimming
 * increased rocket damage radius from 120 to 150 units
 * check for running server in all server commands (dumpuser, etc)
 * new cvar cheat setup -- by default, only archived variables can be changed when not cheating
-* "cg_drawstatus 0" only removes status bar
-* "cg_draw2d 0" removes all 2d
+* `cg_drawstatus 0` only removes status bar
+* `cg_draw2d 0` removes all 2d
 
 
-### John Carmack's .plan for May 27, 1999
+## John Carmack's .plan for May 27, 1999
 
 * enable scissor test properly
-* archive r_lodBias
-* cg_draw3dIcons 0 option
+* archive `r_lodBias`
+* `cg_draw3dIcons 0` option
 * data cheating protection
 * userinfo renamed to clientinfo, added state and current server address
 * don't forward commands to a server when playing demos
 * fixed NULL extension on dir command
 * added one more shotgun pellet
-* added CG_Shutdown for cgame cleanup
+* added `CG_Shutdown` for cgame cleanup
 * fixed jitter in rising smoke
 * increase minimum time before reusing an entity slot
 * soundinfo reports current background streaming file
 * changed IPX separator to . from :, moved port processing to system independant code
-* auto port scan wasn't updating the net_port cvar
+* auto port scan wasn't updating the `net_port` cvar
 * attack button presses reset inactivity timer now
 * increased the forced respawn time from 10 to 20 seconds
 * show smp on gfxinfo, slight reformat
 
 
-### John Carmack's .plan for May 30, 1999
+## John Carmack's .plan for May 30, 1999
 
 For the past couple of weeks, I have been spending some development time on linux, and for the first time on a non-NEXTSTEP unix platform, I have actually been enjoying it.
 
@@ -774,20 +776,20 @@ Ever since noticing that glquake cleared the screen borders when the view is siz
 Now I know that I was just being an idiot about that for the last three years... With scissor enabled, most of the cards got a few percent faster.
 
 
-* dynamic curve level of detail. r_subdivisions determines the maximum level of detail, r_lodCurveError determines how quickly polygons are pulled out with distance
+* dynamic curve level of detail. `r_subdivisions` determines the maximum level of detail, `r_lodCurveError` determines how quickly polygons are pulled out with distance
 * devmap sets cheats 1, map sets cheats 0
 * change weapon item upscale to 1.5 instead of 2
 * always toss items forward, even if looking up or down
 * draw ammo in grey while weapons are reloading
 * change railgun shader while reloading
 * fixed head models not showing proper skin
-* skip all shell eject code when cg_brassTime 0
+* skip all shell eject code when `cg_brassTime 0`
 * fixed sound memory overallocation
 * profiling and rearrangement
 * fixed dead spectator bug
 
 
-### John Carmack's .plan for Jun 03, 1999
+## John Carmack's .plan for Jun 03, 1999
 
 Whee! Lots of hate mail from strafe-jupers!
 
@@ -804,32 +806,32 @@ My personal preference just counts a lot. :-)
 btw, here are the current weapon effects:
 
 
-gauntlet: 50 pts, 400 msec / punch
-machinegun: 10 pts, 100 msec / shot
-shotgun: 11 pellets of 10 each, 1000 msec / shot
-rocket launcher: 100 pts direct hit, or 100 pts splash damage falling off
-over 120 world units, 800 msec / shot
-plasma gun: 20 pts direct hit or 15 pts splash damage over 15 units,
-100 msec / shot
-railgun: 100 pts, 1500 msec / shot
-lightning gun: 8 pts, 33 msec / trace, max range 768 units
-grenade launcher: 100 pts direct hit, or 100 pts splash over 150 units,
-800 msec / shot.
-bfg: 40 pts instant splash damage over 100 units, 100 msec / shot
-flamethrower: to be determined, but short range / wide angle
+gauntlet: 50 pts, 400 msec / punch  
+machinegun: 10 pts, 100 msec / shot  
+shotgun: 11 pellets of 10 each, 1000 msec / shot  
+rocket launcher: 100 pts direct hit, or 100 pts splash damage falling off  
+over 120 world units, 800 msec / shot  
+plasma gun: 20 pts direct hit or 15 pts splash damage over 15 units,  
+100 msec / shot  
+railgun: 100 pts, 1500 msec / shot  
+lightning gun: 8 pts, 33 msec / trace, max range 768 units  
+grenade launcher: 100 pts direct hit, or 100 pts splash over 150 units,  
+800 msec / shot.  
+bfg: 40 pts instant splash damage over 100 units, 100 msec / shot  
+flamethrower: to be determined, but short range / wide angle  
 
 Splash damage is calculated from the edge of the player's box, unlike
 quake1, where it was calculated froom the player's origin.
 
 
-* ignore cl_maxpackets on LAN
-* changed cl_packetdup to 1 by default, and archived
-* defaulted com_maxfps to 100 and archived, automatically disabling during timedemo. It was possible to lag out some client connections on ultra fast systems even with cl_maxpackets set fairly low due to a huge number of individual commands being created
+* ignore `cl_maxpackets` on LAN
+* changed `cl_packetdup` to 1 by default, and archived
+* defaulted com_maxfps to 100 and archived, automatically disabling during timedemo. It was possible to lag out some client connections on ultra fast systems even with `cl_maxpackets` set fairly low due to a huge number of individual commands being created
 * 250 msec minimum time between landing and jumping again. I hate having players bouncing around all the time...
-* fixed bug with large r_picmip values (white shotgun sight bug)
+* fixed bug with large `r_picmip` values (white shotgun sight bug)
 * new lightning and rail beam drawing
 * player torso twitches with pain sounds
-* r_drawstrips changed to r_primitives and archived, with changes: default "0" uses glDrawElements if compiled vertex arrays are present, or strips of glArrayElement if not. "1" forces strips, "2" forces drawElements, "-1" skips drawing
+* `r_drawstrips` changed to `r_primitives` and archived, with changes: default "0" uses `glDrawElements` if compiled vertex arrays are present, or strips of `glArrayElement` if not. "1" forces strips, "2" forces drawElements, "-1" skips drawing
 * increased rocket speed to 900 from 800. decreased direct hit damage from 120 to 100. splash damage same as 1.05
 * removed sound-in-use dialog, auto skip after second try
 * made userinfo persistant on server across level changes
@@ -838,7 +840,7 @@ quake1, where it was calculated froom the player's origin.
 * removed neck length pivot to prevent view poking into low subdivided curves. Also make aiming when looking up or down more precise.
 
 
-### John Carmack's .plan for Jun 27, 1999
+## John Carmack's .plan for Jun 27, 1999
 
 For the past couple years when talking to chip makers about new 3D features, 3D texture maps would always come up, and I would have to mutter something like: "I think it is a good thing, but I can't give you a really awesome example of using it. 3D Noise functions. Stuff like that."
 
@@ -854,7 +856,7 @@ I knew it would have to be something with projecting a light spot texture onto t
 
 Recently, the 3D texture insight hit me.
 
-Create a 3D texture of, say, 32*32*32 texels and fill it with your light attenuation function, bright point in the center, fading off to black at the edge. Set it to clamp mode, so any values beyond the edges stay black. Set up a texture coordinate generation matrix to position the light relative to your models. Its a simple translate and scale. Set up lighting calculation to only generate a value based on the relative angles, ignoring attenuation. Use the resulting modulated texture mapping as your "lightmap" to modulate another texture pass, or add to a previous lighting pass.
+Create a 3D texture of, say, 32\*32\*32 texels and fill it with your light attenuation function, bright point in the center, fading off to black at the edge. Set it to clamp mode, so any values beyond the edges stay black. Set up a texture coordinate generation matrix to position the light relative to your models. Its a simple translate and scale. Set up lighting calculation to only generate a value based on the relative angles, ignoring attenuation. Use the resulting modulated texture mapping as your "lightmap" to modulate another texture pass, or add to a previous lighting pass.
 
 This has several important benefits:
 
@@ -895,39 +897,39 @@ The somewhat more obvious change to dynamic lighting that wasn't related to the 
 * remove smoke and blood puffs when you run through them
 * set cheats to 1 on disconnect
 * shader sort value is now floating point
-* new trajectory type "TR_INTERPOLATE", skip interpoaltion for other types
+* new trajectory type `TR_INTERPOLATE`, skip interpoaltion for other types
 * fixed door open timing
 * fixed bug with >8 portal areas
-* added area print to r_shwocluster
+* added area print to `r_shwocluster`
 * removed all the partial shader match cruft, fixing a crash-on-load
 * fixed bug with personal shadows not being setup properly
 * nomipmap shader parm split and expanded:
-nopicmip : ignores r_picmip so image will always be high res
+nopicmip : ignores `r_picmip` so image will always be high res
 nomipmap : forces a single level texture, used for console font
 * shrank sound mixing buffer for better caching
-* new shader option: q3map_lightsubdivide. larger values make q3map -light proceed faster
+* new shader option: `q3map_lightsubdivide`. larger values make q3map -light proceed faster
 * new vertex array interleaving
 * fixed bmodels not counting patches in bounds
 * fixed patch sphere culling on rotating entities
-* cg_simpleItems now draws sprite items
+* `cg_simpleItems` now draws sprite items
 * fixed serverid being 0 when map is started from cmdline
 * fixed UI on mode changes
-* replaced 1280*960 mode with 1280*1024
+* replaced 1280\*960 mode with 1280\*1024
 * test all rotated orders for tristrips from faces
-* fixed RB_SurfacePolychain to not duplicate vertexes
+* fixed `RB_SurfacePolychain` to not duplicate vertexes
 * changed planar face surface type from a convex polygon to a general collection of coplanar triangles
 * change renderer to use bmodel surface list instead of tree
 * changed areabits pointer to areamask array
 * fixed bad loop when client reliable message overflows
-* fixed swapinterval after vid_restart
+* fixed swapinterval after `vid_restart`
 * wall mark clipping moved out of cgame, extended for better wrapping over multiple brushes
 * picmip defaults to 1 under all cases now
 * automatic curve LOD grouping
-* duplicated SCR_ functions into cgame
+* duplicated `SCR_` functions into cgame
 * implemented Micahel Julier's optimization work
 * implimented Michael Gold's SMP patch
 * new reliable command transport
-* use ENTITYNUM_NONE and ENTITYNUM_WORLD constants, which are now in MAX_GENTITIES range for safe net transport
+* use `ENTITYNUM_NONE` and `ENTITYNUM_WORLD` constants, which are now in `MAX_GENTITIES` range for safe net transport
 * wait for attack released after respawning before firing
 * added a delay before moving everyone to intermission spot
 * fixed bug with regibbing of gibbed body ques
@@ -935,12 +937,12 @@ nomipmap : forces a single level texture, used for console font
 * changed localents over to trajectories
 * removed world as entity zero, clients are now 0 to MAXCLIENTS-1
 * changed game interface functions to use clientnums instead of pointers
-* removed speculative usercmd_t from user packets
+* removed speculative `usercmd_t` from user packets
 * new item pickup code, fixed silent item pickup on grazing hits, and expanded the pickup range by 20% without changing the physical bounding box
 * allow a single "quick jump" without delay
 
 
-### John Carmack's .plan for Jul 03, 1999
+## John Carmack's .plan for Jul 03, 1999
 
 AMD K7 cpus are very fast.
 
@@ -948,11 +950,11 @@ Some timedemo numbers (a new demo, not comparable to previous scores):
 
 Run at 640*480*16 bit color to emphasise the cpu/driver performance rather than the hardware fill rate.
 
-[code]
+```
                     K7-600  K7-550  PIII-500
 TNT2 ultra 16 bit     73.9    68.5      53.8
 Voodoo3 3000 16 bit    70.5   65.2      46.0
-[/code]
+```
 
 This is with K7 optimized drivers vs seperate PIII optimized drivers.
 
@@ -970,18 +972,18 @@ Architectural cleverness is all well and good, but if AMD can't keep the clock s
 
 
 
-* stabilized cg_showfps
+* stabilized `cg_showfps`
 * added append support to module file opening
 * automatic logging of game scores to games.log
 * fixed guantlet firing action
-* force a vid_restart on WM_DISPLAYCHANGE messages
+* force a `vid_restart` on `WM_DISPLAYCHANGE` messages
 * fixed sticking on stairs on very fast framerates
 * fixed sticking on stair when jumping
 * fixed sticking in corner while falling physics bug
 * fixed slide down steep slope physics bug
-* r_showimages texture use debugging tool
-* cg_freezeDemo cvar
-* cg_drawSnapshot cvar
+* `r_showimages` texture use debugging tool
+* `cg_freezeDemo` cvar
+* `cg_drawSnapshot` cvar
 * fixed warnings after demo playback
 * changed "stopdemo" to "stoprecord"
 * fixed phantom windows on task bar after exit
@@ -991,7 +993,7 @@ Architectural cleverness is all well and good, but if AMD can't keep the clock s
 * all pmove results as events for proper demo playback
 
 
-### John Carmack's .plan for Jul 24, 1999
+## John Carmack's .plan for Jul 24, 1999
 
 I was in San Jose for the past week. The original idea was to go into "hermit mode" holed up in a hotel room and get a lot of work done without any phone calls, email, or coworkers to distract me, but I wound up with meetings scheduled every day with various valley companies. Next time I want to try that, I'll pick some state like Montana... :-)
 
@@ -1032,7 +1034,7 @@ Load time compilation from bytecode to native code. This would bloat a lot, espe
 Deal with the performance cost and optimize the renderer some more to compensate.
 
 
-### John Carmack's .plan for Jul 29, 1999
+## John Carmack's .plan for Jul 29, 1999
 
 * log all client transitions, item pickups, and kills
 * changed joystick axis to act just like arrow keys so they can be bound in the controls menu for strafing. Yes, this does remove slow walking from joystick movement, but it makes everything a lot cleaner.
@@ -1045,16 +1047,16 @@ Deal with the performance cost and optimize the renderer some more to compensate
 * track dual eventParms on player state
 * draw crosshair and name in spectator mode
 * fixed rcon
-* r_colorMipLevels texture visualization tool
+* `r_colorMipLevels` texture visualization tool
 * don't allow weapon select and cycle when in follow mode
-* archive cl_yawspeed and cl_pitchspeed
+* archive `cl_yawspeed` and `cl_pitchspeed`
 * don't draw place line on scoreboard when spectating
 * fixed console chatting during intermission
 * better recursive error handling
 * fixed curve surface flags (no impact when landing on a curve bug)
 
 
-### John Carmack's .plan for Jul 30, 1999
+## John Carmack's .plan for Jul 30, 1999
 
 I apologize for not getting the Mac version released this last time.
 
@@ -1080,21 +1082,21 @@ We will be making proper new releases for all architectures monday night when he
 * release windows cursor when running windowed and the console is down
 
 
-### John Carmack's .plan for Aug 01, 1999
+## John Carmack's .plan for Aug 01, 1999
 
-* changed RF_PORTALSURFACE to an entity type
+* changed `RF_PORTALSURFACE` to an entity type
 * add sprite indexes in strip order
 * changed builtin models to refentity types
 * prevent respawn until resting on ground
 * fixed unecessary dlight shader checking
 * no splashe when lg hitting sky
-* removed cvar_restart on version change, caused problems with dedicated server startup
+* removed `cvar_restart` on version change, caused problems with dedicated server startup
 * fixed stupid error that made skies double render
 * fixed stupid error that made skies draw an uneeded bakground pass
 * support add-mode multitexture for skies
 
 
-### John Carmack's .plan for Aug 16, 1999
+## John Carmack's .plan for Aug 16, 1999
 
 As I mentioned at quakecon, I decided to go ahead and try a dynamic code generator to speed up the game interpreters. I was uneasy about it, but the current performance was far enough off of my targets that I didn't see any other way.
 
@@ -1104,7 +1106,7 @@ At first, I was surprised at how quickly it was going. The first day, I worked o
 
 The second day I just plowed through opcode translations, tediously generating a lot of code like this:
 
-[code]
+```
 case OP_NEGI:
     EmitString( "F7 1F" );      // neg dword ptr [edi]
     break;
@@ -1128,7 +1130,7 @@ case OP_DIVI:
     EmitString( "89 47 FC" );  // mov dword ptr [edi-4],eax
     EmitString( "83 EF 04" );  // sub edi,4
     break;
-[/code]
+```
 
 (yes, I could save a few bytes in those opcodes by moving the sub edi, but I am trying to leave the subs at the bottom and the adds at the top, in case I want to add a peephole optimizer)
 
@@ -1152,7 +1154,7 @@ Now, I am pretty confident that it is correct.
 
 The generated code is pretty grim if you look at it, in part due to the security measures (mask and add for each load/store), and in part due to the fact that it is a straight bytecode translation:
 
-[code]
+```
 06214DD0 83 C7 04             add         edi,4
 06214DD3 C7 07 00 4D 0A 00    mov         dword ptr [edi],0A4D00h
 06214DD9 8B 1F                mov         ebx,dword ptr [edi]
@@ -1173,12 +1175,13 @@ The generated code is pretty grim if you look at it, in part due to the security
 06214E0F 83 EF 04             sub         edi,4
 06214E12 83 C7 04             add         edi,4
 06214E15 C7 07 40 00 00 00    mov         dword ptr [edi],40h
-[/code]
+```
 
 Code bulk is also up there, at about 5x the bytecode version. There is definately some savings to be had with better opcode selection, but no more than 30% or so at best.
 
 Performance is within my tolerance now:
 
+```
 Q3demo1 dll: 52.9
 Compiled: 50.2
 Interpreted: 43.9
@@ -1186,6 +1189,7 @@ Interpreted: 43.9
 Q3demo2 dll: 50.1
 Compiled: 46.5
 Interpreted: 38.7
+```
 
 
 I will probably work a bit more on performance, but that is the ballpark that it will be in. 5% speed hit in most levels, somewhat more in the big open arenas. Next week I will be getting the other modules set up for running in the virtual machine and see how their performance is.
@@ -1203,7 +1207,7 @@ I am curious to see how the RISC code bulk turns out. The instructions are going
 I don't think I am going to be in any hurry to do MIPS/ALPHA/SPARC code generators. One or two code generators and execution environments is educational, but that will be more than enough for me. If we do port to other architectures, they can still run with the interpreter or binary modules until someone else gets up the inclination to do a code generator.
 
 
-### John Carmack's .plan for Aug 26, 1999
+## John Carmack's .plan for Aug 26, 1999
 
 The current plan is that we will have another test release around the middle of next month. This version will be running game/cgame/ui with the virtual machine, and will include single player play against bots. No new maps.
 
@@ -1256,7 +1260,7 @@ A prudent person might choose to put ALL addons into a separate directory and le
 Other stuff that has been done lately:
 
 * don't clamp dedicated server or client times until much later -- prevents time resets under ordinary conditions
-* fixed CG_ProcessSnapshots: cg.snap->serverTime
+* fixed `CG_ProcessSnapshots:` `cg.snap->serverTime`
 * only drift time on receipt of packets with a steady ping -- improve catchup after drops
 * fixed players getting stuck together
 * new pak file support
@@ -1266,27 +1270,27 @@ Other stuff that has been done lately:
 * show ping and netgraph for spectators
 * fixed timescale off by one problem
 * tracked down player count wrong on server list
-* info_spectator_start entity
+* `info_spectator_start` entity
 * shader language change: clampTexCoord removed, added clampmap
-* r_debugSort cvar for working on transparency sorting problems
-* changed minimum cl_maxpackets to 15
+* `r_debugSort` cvar for working on transparency sorting problems
+* changed minimum `cl_maxpackets` to 15
 * fixed can't-respawn-when-someone-is-on-your-body
 * fixed dlighting over alpha tested surfaces
-* z_stats lists all blocks >= given size
+* `z_stats` lists all blocks >= given size
 * fixed wasted model slots
-* increased com_hunkmegs
-* com_buildScript cvar to force loading all media and quit on errors
+* increased `com_hunkmegs`
+* `com_buildScript` cvar to force loading all media and quit on errors
 * fixed bad playerstate interpolation across teleporters
-* converted local sounds to sfxHandle_t
+* converted local sounds to `sfxHandle_t`
 * new fog code doesn't require subdivisions
 * fixed sun positioning problem
 * added fogging of triangle objects
 * fixed devmap issue
-* make g_log a filename instead of a 0/1
-* g_logsync option to force a flush after each write must be set at time of log file creation
+* make `g_log` a filename instead of a 0/1
+* `g_logsync` option to force a flush after each write must be set at time of log file creation
 
 
-### John Carmack's .plan for Aug 28, 1999
+## John Carmack's .plan for Aug 28, 1999
 
 * spinning machinegun barrel
 * changed q3data -origin option to -offset, defaulted to 0 0 24 for all player grabs
@@ -1294,7 +1298,7 @@ Other stuff that has been done lately:
 * fixed 0 ping on last player killed before fraglimit
 * better ping calculation right after transitions
 * add time back to scoreboard
-* sv_maxRate option to force all clients to play with a max rate. This can be used to limit the advantage of LPB, or to cap bandwidth utilization for a server. Note that rate is ignored for clients that are on the same LAN.
+* `sv_maxRate` option to force all clients to play with a max rate. This can be used to limit the advantage of LPB, or to cap bandwidth utilization for a server. Note that rate is ignored for clients that are on the same LAN.
 * fixed bad name vs name in tourney after first player left
 * added hitch warning messages to server console
 * new time clamping rules for net play
@@ -1304,12 +1308,12 @@ Other stuff that has been done lately:
 * use nextSnap for player prediction when available
 * removed teleport dest invisible objects
 * reduced client to server bandwidth by 35%
-* changed logging for chats to guarantee parsing properly with names that conflict with commands: 
-from: G_LogPrintf( "%s say: %s"
-to: G_LogPrintf( "say: %s: %s"
+* changed logging for chats to guarantee parsing properly with names that conflict with commands:  
+  from: `G_LogPrintf( "%s say: %s"`
+  to: `G_LogPrintf( "say: %s: %s"`
 
 
-### John Carmack's .plan for Sep 01, 1999
+## John Carmack's .plan for Sep 01, 1999
 
 I have been working on our memory footprint for the past couple days. There are two types of paging that occur:
 
@@ -1347,7 +1351,7 @@ I got my task done, so now I just need to force myself to write little perl prog
 
 
 
-### John Carmack's .plan for Sep 02, 1999
+## John Carmack's .plan for Sep 02, 1999
 
 I have been getting a lot of requests for commentary on two subjects lately:
 
@@ -1361,14 +1365,17 @@ For max framerates in OpenGL games, this card is going to be very hard to beat.
 
 Q3's target of about 10,000 triangles a frame doesn't stress this card at all. If you want more polygons out of Q3, you can do:
 
+```
 r_lodBias -2 // don't use lower detail models 
 r_subdivisions 1 // lots more triangles in curves 
 r_lodCurveError 10000 // don't drop curve rows for a long time
+```
 
 I haven't looked at the stencil shadow stuff in a long time, but it gives the largest increase in triangle use (and a lot of fill rate as well):
 
+```
 cg_shadows 2 // turn on stencil shadows (if you have a stencil buffer)
-
+```
 
 
 Apple's new G4 systems.
@@ -1382,7 +1389,7 @@ After Apple gets all their driver tuning done, it will be interesting to try run
 On a purely technical note, AltiVec is more flexible for computation than intel or AMD's extensions (trinary ops), but intel style write combining is better for filling command buffers than the G4's memory streaming operations.
 
 
-### John Carmack's .plan for Sep 06, 1999
+## John Carmack's .plan for Sep 06, 1999
 
 It looks like we are going to go to a skeletal model system. Jim Dose of Ritual had already started on an exporter from character studio, so we decided to just meet in the middle.
 
@@ -1411,7 +1418,7 @@ Does anyone know if there is an existing msdev syntax coloring file for perl? (n
 * surfaceparm alphashadow - This causes q3map -light to check individual texture pixels on transparant surfaces for light shadowing instead of making the entire surface either cast or not cast shadows
 
 
-### John Carmack's .plan for Sep 28, 1999
+## John Carmack's .plan for Sep 28, 1999
 
 Ok, obviously we didn't get a release out in the middle of the month...
 
@@ -1431,18 +1438,18 @@ We are still hashing out the single player game, so it still isn't immediately i
 * fixed lower body twitch when copytobodyque with a motion
 * always show your score in second box if not in first
 * sarge as default model
-* com_blood 0 option for no gibs and no blood on hits
+* `com_blood 0` option for no gibs and no blood on hits
 * mouse click aborts cinematic
 * show tourney scores in all games, add fraglimit
 * removed tripple bunny-hop protection, it was too arbitrary and didn't accomplish it's goal
 * pump event loop during level loading
 * added pass count to shaderlist
-* default to CGEN_IDENTITY / CGEN_IDENTITY_LIGHTING based on blendSrc
+* default to `CGEN_IDENTITY` / `CGEN_IDENTITY_LIGHTING` based on blendSrc
 * optional simplified blendfuncs: blendfunc
 * new shader command: deformVertexes normal
 * new shader command: tcgen vector ( ) ( )
 * fixed fog on alpha tested surfaces
-* reduced com_maxfps to 85
+* reduced `com_maxfps` to 85
 * defined shaders for menu and console backgrounds
 * reset players on clientinfo transitions
 * windows icons
@@ -1451,24 +1458,26 @@ We are still hashing out the single player game, so it still isn't immediately i
 * fixed lightning bolt drawing too far
 * removed color clamping from entity lighting
 * moved all 2D drawing to shader pipeline
-* r_printShaders tool
+* `r_printShaders` tool
 * moved dlighting into world node descent
 * pause when menu is up in single player
-* fixed double EV_FIRE_WEAPON
-* r_singleShader optimization tool
+* fixed double `EV_FIRE_WEAPON`
+* `r_singleShader` optimization tool
 * some renderer optimizations
 * better multitexture collapsing
 
 
-### John Carmack's .plan for Sep 29, 1999
+## John Carmack's .plan for Sep 29, 1999
 
 I wrote this in answer to a question on the mac opengl programming list, but it is of general enough interest to programmers that I am repeating it here.
 
+```
 >You also mentioned display lists... Can you explain what some of the
 >major things that should be rendered using a display list are? I see
 >the importance of using them for characters (animation) and objects, but
 >what about using them for the rest of the world, particles, and other
 >things that are nifty.
+```
 
 This is not yet a big issue, although even pure software OpenGL's could perform some optimizations with display lists that aren't possible with vertex arrays. With hardware geometry acceleration, it can be an honest 4x improvement in throughput.
 
@@ -1487,19 +1496,19 @@ My advice for display lists is to use them for just raw vertex/color/texcoord da
 You want to make the display lists as big as practical, but there is a tradeoff betwen culling tightness and display list size.
 
 
-### John Carmack's .plan for Oct 01, 1999
+## John Carmack's .plan for Oct 01, 1999
 
-* 10 crosshairs to select from (cg_drawCrosshair 1 - 10)
-* cg_crosshairx / cg_crosshairy adjustment. I'm not convinced these are a good thing, because the crosshair is accurate in Q3 at the default position (unlike Q2, which had an offset firing position)
+* 10 crosshairs to select from (`cg_drawCrosshair 1 - 10`)
+* `cg_crosshairx` / `cg_crosshairy` adjustment. I'm not convinced these are a good thing, because the crosshair is accurate in Q3 at the default position (unlike Q2, which had an offset firing position)
 * more packet encryption
 * join as spectator in all team games
-* cg_predictItems 0 option to not do local prediction of item pickup
+* `cg_predictItems 0` option to not do local prediction of item pickup
 * rank players counting ties, so the third player when the lead is tied is third place, not second
 * properly stack all status elements in upper right and lower right corners so they can all be visible
 * faced q3map problem giving black corners in vertex light
 * fixed +button4 not causing footsteps
 * fixed bad groundplane clipping on angled jumppads
-* show "snc" on lagometer when g_syncronousClients
+* show "snc" on lagometer when `g_syncronousClients`
 * new shader command: rgbgen const ( )
 * new shader command: agen const
 * snap dropped item positions
@@ -1509,34 +1518,34 @@ You want to make the display lists as big as practical, but there is a tradeoff 
 * fixed q3map vertex lighting bug after alphashadows
 * do personal pain sounds on health transitions so they can never be missed
 * timeout clear player events
-* fixed hang in UI_ProportionalStringWidth
+* fixed hang in `UI_ProportionalStringWidth`
 * quad event implicit on weapon fire
 * fixed gamestate not retransmitting bug
 * fixed timeout issue when paused
-* subdivide command times if <15fps, fixing low com_maxfps physics exploits
+* subdivide command times if <15fps, fixing low `com_maxfps` physics exploits
 * fixed footsteps playing when walking backwards
 * new options at start of animation.cfg file: footsteps, headoffset
 
 
-### John Carmack's .plan for Oct 04, 1999
+## John Carmack's .plan for Oct 04, 1999
 
-* allow cg_thirdPerson and cg_thirdPersonRange in games
+* allow `cg_thirdPerson` and `cg_thirdPersonRange` in games
 * added execed .cfg files to journal file
 * single pass plasma explosion effect to save overdraw
 * rescaled and sized gib and mark blood to save a lot of overdraw
-* fixed cg.time < snapshot time on vid_restart
-* cl_showSend network debugging tool
+* fixed cg.time < snapshot time on `vid_restart`
+* `cl_showSend` network debugging tool
 * back to requiring a before commands on the console to distinguish them from chat messages. Tab completion automatically adds the slash.
 * new tab command completion with complete to longest common, multiple match listing, complete first token, etc
 * separate version check for game/cgame in addition to system
-* show r_finish in gfxinfo
+* show `r_finish` in gfxinfo
 * never show self as attacker icon
 * callvote vote - Caller automatically votes yes vote has a 30 second timeout each client can only call 3 votes a level vote is displayed on screen with totals
-* renamed cg_gun to cg_drawGun
+* renamed `cg_gun` to `cg_drawGun`
 * box cull triangle soup models
 
 
-### John Carmack's .plan for Oct 05, 1999
+## John Carmack's .plan for Oct 05, 1999
 
 * fixed steady snapshot test
 * fixed incorrect 0 ping if past client messages
@@ -1548,47 +1557,47 @@ You want to make the display lists as big as practical, but there is a tradeoff 
 * print client names on loading screen
 
 
-### John Carmack's .plan for Oct 07, 1999
+## John Carmack's .plan for Oct 07, 1999
 
-* r_primitives 3 path for non-vertex array testing
+* `r_primitives 3` path for non-vertex array testing
 * specify sex in model animation.cfg file
 * proper dropping of failed bot inits
 * removed identical pain sounds
 * serverTime strictly increasing across levels
-* added GL_DECAL multitexture collapse
+* added `GL_DECAL` multitexture collapse
 * windowed mouse on mac
 * fixed byte order issue with curve clipping on mac
-* made com_defaultextension buffer safe
+* made `com_defaultextension` buffer safe
 * fixed levelshot and added antialiasing to image
 * don't clear bot names before kick message
 * made servercommand sequences strictly increasing across level changes
-* unpause on vid_restart
+* unpause on `vid_restart`
 
 
-### John Carmack's .plan for Oct 11, 1999
+## John Carmack's .plan for Oct 11, 1999
 
 * handle window close events properly
-* enable r_displayRefresh selection and feedback on mac
-* avoid AGEN_IDENTITY when CGEN_DIFFUSE_LIGHTING
+* enable `r_displayRefresh` selection and feedback on mac
+* avoid `AGEN_IDENTITY` when `CGEN_DIFFUSE_LIGHTING`
 * colorized railgun muzzle flash, impact flash, and mark
 * exactly synced animating textures with waveforms and collapsed all explosion sequences into single shaders
 * removed unneeded black pass on hell skies
 * fixed grenades sticking to steep slopes
 * scan for next highest fullscreen resolution when exact mode fails (fixes SGI flat panel failing to init)
-* all cgame cvars now have a cg_ prefix (crosshair, fov, etc)
+* all cgame cvars now have a `cg_` prefix (crosshair, fov, etc)
 * clear clientinfo before parsing configstring
 * make all feedback voiceovers share the same channel
 * fixed nodraw curves
 * fixed obits from shooter entities
 * fixed chat char issue
-* separate gentity_t fields into sharedEntity_t
-* reintegrated q_mathsys with q_math
-* cg_forcemodel also forces player sounds
+* separate `gentity_t` fields into `sharedEntity_t`
+* reintegrated `q_mathsys` with `q_math`
+* `cg_forcemodel` also forces player sounds
 * unknown cmd commands don't chat
 * fixed strip order on text quads
 
 
-### John Carmack's .plan for Oct 14, 1999
+## John Carmack's .plan for Oct 14, 1999
 
 * make sure video is shutfown for errors on startup
 * automatic fallback to vm if dll load fails
@@ -1598,23 +1607,25 @@ You want to make the display lists as big as practical, but there is a tradeoff 
 * "quake3 safe" will run the game without loading q3config.cfg
 * ignore network packets when in single player mode
 * dedicated server memory optimizations. Tips:
-com_hunkMegs 4
-sv_maxclients 3
-bot_enable 0
+  ```
+  com_hunkMegs 4
+  sv_maxclients 3
+  bot_enable 0
+  ```
 * fixed logfile on mac
 * new time drifting code
 * fixed file handle leak with compressed pk3 files
 * q3data changed to remove shader references from player models
 * throw a fatal error if drop errors are streaming in
-* fixed com_hunkMegs as command line parm
-* spawn spectators at intermission point (info_spectator_start has been removed)
+* fixed `com_hunkMegs` as command line parm
+* spawn spectators at intermission point (`info_spectator_start` has been removed)
 * new sound channel for local sounds
 * fixed follow toggle on bots
 * don't write to games.log in single player
-* fixed improper case sensitivity in S_FindName
+* fixed improper case sensitivity in `S_FindName`
 
 
-### John Carmack's .plan for Oct 17, 1999
+## John Carmack's .plan for Oct 17, 1999
 
 The next release will be the full "demo" release for quake 3. It will include bots and a new, simple level that is suitable for complete beginners to play, as well as the existing q3test maps.
 
@@ -1624,7 +1635,7 @@ We plan on releasing the demo after code freeze, when the entire game is in fina
 
 No, I don't have an actual date when that will be.
 
--
+---
 
 I got an iBook in on friday. It is sort of neat (I need to go buy an AirPort, then it will definately be neat), but it is currently way too slow to play Q3 on.
 
@@ -1649,7 +1660,7 @@ Another issue with the Apple systems is that Apple 16 bit color is actually 15 b
 * convert all joystick axis to button events (twist is now bindable)
 
 
-### John Carmack's .plan for Oct 23, 1999
+## John Carmack's .plan for Oct 23, 1999
 
 An announcement:
 
@@ -1667,10 +1678,10 @@ It is time for a re-think of the relationships between editor, utilities, and ga
 
 All of that added up to more than I was going to be able to do in the time left after the various research, graphics, and networking things I want to pursue.
 
-* added r_speeds timing info to cinematic texture uploads
+* added `r_speeds` timing info to cinematic texture uploads
 * fixed loop sounds on movers
 * new bfg sound
-* "sv_pure 1" as default, requires clients to only get data from pk3 files the server is using
+* `sv_pure 1` as default, requires clients to only get data from pk3 files the server is using
 * fixed fog pass on inside of textured fog surfaces
 * properly fog sprites
 * graphics for scoreboard headers
@@ -1686,14 +1697,14 @@ All of that added up to more than I was going to be able to do in the time left 
 * fog after dlight
 * removed fogged stages from shader, dynamically generate
 * removed fogonly shader keyword, infer from surfaceparm
-* removed uneeded reinit of shader system on vid_restart
+* removed uneeded reinit of shader system on `vid_restart`
 
 
-### John Carmack's .plan for Nov 01, 1999
+## John Carmack's .plan for Nov 01, 1999
 
 * play chat sound during votes
-* draw 2D icon for ammo if cg_draw3dicons 0
-* fixed losing input on menu vid_restart
+* draw 2D icon for ammo if `cg_draw3dicons 0`
+* fixed losing input on menu `vid_restart`
 * made "vote" and "callvote" completable
 * remove mac about dialog
 * fixed demos skipping inital time due to loading
@@ -1717,7 +1728,7 @@ All of that added up to more than I was going to be able to do in the time left 
 * fixed items riding on bobbers
 
 
-### John Carmack's .plan for Nov 02, 1999
+## John Carmack's .plan for Nov 02, 1999
 
 * remove grapple from give all
 * fixed pick-up-two-healths-even-if-you-don't-need-the-second bug
@@ -1728,14 +1739,14 @@ All of that added up to more than I was going to be able to do in the time left 
 less MG damage (5 instead of 7)
 weapons always have a full load of ammo
 don't drop powerups
-* changed low detail r_subdivisions to 25 to prevent poke through
+* changed low detail `r_subdivisions` to 25 to prevent poke through
 * removed warning on empty servercommand when systeminfo changes
-* g_debugDamage
+* `g_debugDamage`
 * when a vote is tied with all votes in, immediately fail it
 * haste smoke puffs
 
 
-### John Carmack's .plan for Nov 03, 1999
+## John Carmack's .plan for Nov 03, 1999
 
 * cd check in single player
 * removed drop shadow on console input line
@@ -1747,26 +1758,26 @@ don't drop powerups
 * draw reward medals during gameplay
 * added "humiliation" feedback for gauntlet kills
 * spread respawn times to prevent pattern running:
-[code]
-#define RESPAWN_ARMOR 25
-#define RESPAWN_TEAM_WEAPON 30
-#define RESPAWN_HEALTH 35
-#define RESPAWN_AMMO 40
-#define RESPAWN_HOLDABLE 60
-#define RESPAWN_MEGAHEALTH 120
-#define RESPAWN_POWERUP 120
-[/code]
+  ```
+  #define RESPAWN_ARMOR 25
+  #define RESPAWN_TEAM_WEAPON 30
+  #define RESPAWN_HEALTH 35
+  #define RESPAWN_AMMO 40
+  #define RESPAWN_HOLDABLE 60
+  #define RESPAWN_MEGAHEALTH 120
+  #define RESPAWN_POWERUP 120
+  ```
 
 
-### John Carmack's .plan for Nov 05, 1999
+## John Carmack's .plan for Nov 05, 1999
 
 * check for bad weapon number in non-3d ammo icon on death
 * fixed plane catagorization
-* error command does an ERR_DROP if given a parm
-* don't load high LOD models if r_lodbias
+* error command does an `ERR_DROP` if given a parm
+* don't load high LOD models if `r_lodbias`
 * nobots/nohumans options for player spawn spots
 * prevent voice rewards on frag that enters intermission
-* dissallow native dll loading if sv_pure
+* dissallow native dll loading if `sv_pure`
 * loaddefered cgame command, issued on addbot
 * drop the weapon you are changing TO if you only had a MG or gauntlet
 * fixed bounce pad event prediction for all angles
@@ -1776,20 +1787,20 @@ don't drop powerups
 * fixed pain echo sound after predicted falling damage
 * move sound to hunk
 * move vm to hunk
-* restart game vm in place for map_restarts
+* restart game vm in place for `map_restarts`
 * avoid all lightmaps entirely when using vertex light
 * pretouch all images after registration
 * pretouch all known in-use memory before starting a game
 * on error, shutdown client before server, to be more likely to get out of fullscreen before a recursive error
 * new pre-allocated memmory manager to crutch up mac
-* meminfo command replaces hunk_stats and z_stats
+* meminfo command replaces `hunk_stats` and `z_stats`
 * adjusted scoreboard titles
 * no guantlet reward on corpses
-* fixed snd_restart when paused
-* PRE_RELEASE_DEMO hack
+* fixed `snd_restart` when paused
+* `PRE_RELEASE_DEMO` hack
 
 
-### John Carmack's .plan for Nov 09, 1999
+## John Carmack's .plan for Nov 09, 1999
 
 * fixed spinning barrel on respawn issue
 * clear eflags before intermission
@@ -1798,34 +1809,34 @@ don't drop powerups
 * fixed jpeg loading alpha channel
 * try for not-nearest spawn twice instead of once
 * made unzoomed exactly identity mouse modifier
-* cl_debugmove [1/2]
-* m_filter
+* `cl_debugmove [1/2]`
+* `m_filter`
 * fixed time warnings
 * allow timelimits to hit with only a single player
 * filter local games with different protocol versions
 * fixed bad arg 0 after sysinfo configstring
-* removed unneeded svc_servercommand at start of command strings
+* removed unneeded `svc_servercommand` at start of command strings
 * fixed redundantly loaded level bug
 * fixed journal playback from demo build
 * removed background image from viewlog window
 
 
-### John Carmack's .plan for Nov 11, 1999
+## John Carmack's .plan for Nov 11, 1999
 
 * teamplay menu comment
 * shrank and moved "RECORDING demo:" text
 * identified and worked around Apple input queue issue
-* properly send configstring resets on map_restart
+* properly send configstring resets on `map_restart`
 * don't clip sound buffer on file writes
 * don't draw scoreboard during warmup
 * auto load added bots in single player
-* swapped order of map_restart and warmup configstring
+* swapped order of `map_restart` and warmup configstring
 * disable dynamic lights on riva128 due to lack of blend mode
 * put frags left warning back in all gametypes
 * removed joystick button debug prints
 
 
-### John Carmack's .plan for Nov 13, 1999
+## John Carmack's .plan for Nov 13, 1999
 
 * graphic for defer
 * don't set any systeminfo vars from demos
@@ -1843,22 +1854,22 @@ don't drop powerups
 * fixed global powerup announcements
 
 
-### John Carmack's .plan for Nov 14, 1999
+## John Carmack's .plan for Nov 14, 1999
 
 The demo test is built. It should go up in a couple hours if nothing explodes.
 
 Mac and linux builds won't be out tonight.
 
-* clear SVF_BOT when exiting follow mode
+* clear `SVF_BOT` when exiting follow mode
 * render temp memory
 * new mac GL initialization code
 * no zone memory use in music thread
 * added check for trash past zone block
 * explicitly flush journal data file after a write
-* added FS_Flush
+* added `FS_Flush`
 
 
-### John Carmack's .plan for Nov 15, 1999
+## John Carmack's .plan for Nov 15, 1999
 
 The way vertex lighting is working in the existing demos is that only two pass shaders (lightmap * texture) were collapsed to a single pass, all other shaders stayed the same.
 
@@ -1866,7 +1877,7 @@ Xian added some chrome and energy effects to parts of q3tourney2, which changed 
 
 Today I wrote new code to address that, and improve on top of it.
 
-Now when r_vertexlight is on, I force every single shader to a single pass. In the cases where it isn't a simple light*texture case, I try and intelligently pick the most representative pass and do some fixups on the shader modulations.
+Now when `r_vertexlight` is on, I force every single shader to a single pass. In the cases where it isn't a simple light\*texture case, I try and intelligently pick the most representative pass and do some fixups on the shader modulations.
 
 This works our great, and brings the graphics load down to the minimum we can do with the data sets.
 
@@ -1875,7 +1886,7 @@ Performance is still going to be down a couple msec a frame due to using dynamic
 I am still investigating the high idle dedicated server cpu utilization and a few other issues. The server cpu time will definately be higher than 1.08 due to the dynamic compiler, but again, that is an intentional tradeoff.
 
 A set of go-fast-and-look-ugly options:
-[code]
+```
 r_mode 2
 r_colorbits 16
 r_texturemode GL_LINEAR_MIPMAP_NEAREST
@@ -1889,13 +1900,13 @@ cg_marks 0
 cg_shadows 0
 cg_simpleitems 1
 cg_drawAttacker 0
-[/code]
+```
 
 * icons for bot skills on scoreboard
-* r_vertexlight is now "force single pass" for all shaders
+* `r_vertexlight` is now "force single pass" for all shaders
 * modified cd key check to be fire and forget on the client
 * file handle debugging info in path command
-* network address type of NA_BAD for failed resolves
+* network address type of `NA_BAD` for failed resolves
 * better command line variable overriding
 * cache scoreboard for two seconds
 * sync sound system before starting cinematics
@@ -1903,7 +1914,7 @@ cg_drawAttacker 0
 * fixed shotgun pellets underwater expending all temp entities
 
 
-### John Carmack's .plan for Nov 16, 1999
+## John Carmack's .plan for Nov 16, 1999
 
 The demo servers have general purpose flood-protection that has caused some confusion.
 
@@ -1926,17 +1937,17 @@ The point is: you died BEFORE it hitched, not as a result of the hitch.
 The scoreboard header is up, but it is still a bit easy to miss.
 
 * fixed high server idle cpu usage (it was spinning in place until maxfps was used!)
-* fixed g_password, which is crashing in the demo
+* fixed `g_password`, which is crashing in the demo
 * moved svs.snapshotEntities to the hunk
 * enable lagometer whenever running a non-local game
-* cg_drawTeamOverlay cvar, set to 0 by default
+* `cg_drawTeamOverlay` cvar, set to 0 by default
 * finished authorize work
 * better reporting of unused highwater memory
 
 
-### John Carmack's .plan for Nov 18, 1999
+## John Carmack's .plan for Nov 18, 1999
 
-The mac version is out. Go to www.quake3arena.com for links.
+The mac version is out. Go to <www.quake3arena.com> for links.
 
 The mac version going out has the executable fixes that we have made in the last couple days, but most of the fixes have been in code that runs in the virtual machine, and we can't update that without making it incomptable with the pc version.
 
@@ -1950,11 +1961,11 @@ The G3 systems run fine, but a little slower than a pc of equal mhz
 
 The rage128 cards in the G3s are only clocked at 75mhz, so you can't run too high of a resolution, but you can get very nice image quality. I usually play with these settings: 
 
-[code]
+```
 r_mode 2 // 512*284 res 
 r_colorbits 32 // 32 bit color 
 r_texturemode gl_linear_mipmap_linear // trilinear filtering
-[/code]
+```
 
 I haven't played on one of the new iMacs or G4's but they both use the rage128 driver, which is fairly high quality now, so they should perform well.
 
@@ -1985,16 +1996,16 @@ Its all the same to Id (I like hybrid CD's), and our continued support of linux 
 * fixed occasional telefrag at start of skirmish game
 * fix not being able to ready at intermission if you were following a bot
 * never timelimit during tourney warmup
-* fixed local timer on map_restart
+* fixed local timer on `map_restart`
 * offset sorlag's head model for status bar
-* added g_gametype to the votable commands: map, map_restart, kick, g_gametype
+* added `g_gametype` to the votable commands: `map`, `map_restart`, `kick`, `g_gametype`
 * changed sound registration sequence to fix losing default sound
-* "sv_floodProtect 0" to turn off flood protection
+* `sv_floodProtect 0` to turn off flood protection
 * converted sequenced messages to static arrays
 * fixed custom skin reassignment on all LOD
 
 
-### John Carmack's .plan for Nov 19, 1999
+## John Carmack's .plan for Nov 19, 1999
 
 Linux version isn't going to make it tonight. We got too busy with other things. Sorry. Tomorrow.
 
@@ -2005,25 +2016,25 @@ Linux version isn't going to make it tonight. We got too busy with other things.
 * fixed major slowdown in team games with large numbers of players and location markers
 
 
-### John Carmack's .plan for Nov 21, 1999
+## John Carmack's .plan for Nov 21, 1999
 
 * fixed not-telefragging bug
 * disabled flood protection with local clients
 * fixed headoffset and gender on some model changes
-* init cg_autoswitch cvars in cl
+* init `cg_autoswitch` cvars in cl
 * fixed clearing of vm bss on restart
 * fixed hang when looped part of song isn't found
 * fixed two NAT clients connecting to same server
 * fixed warning on random once only triggers
-* added "g_allowVote 0"
+* added `g_allowVote 0`
 * added developer background sound underrun warning
 * move sound loading before clients so low memory defer works across maps
 * changed cgame load failure to a drop
 
 
-### John Carmack's .plan for Nov 22, 1999
+## John Carmack's .plan for Nov 22, 1999
 
-d:>mkdir research
+`d:>mkdir research`
 
 Ahhhh...
 
@@ -2046,7 +2057,7 @@ I am going to explore some possibilities with generalizing 3D game engines into 
 I am going to spend more time on some Free Software projects. I have been stealing a few hours here and there to work on the matrox glx project for a while now, and it has been pretty rewarding. People with an interest in the guts of a 3D driver might want to look at the project archives at http://glx.on.openprojects.net/. The web pages aren't very up to date, but the mailing list covers some good techie information.
 
 
-### John Carmack's .plan for Dec 12, 1999
+## John Carmack's .plan for Dec 12, 1999
 
 WANTED: Independant OpenGL conformance nazi
 
@@ -2072,20 +2083,20 @@ Conformance would be my primary interest, but characterizing the performance of 
 
 On linux right now, we have:
 
-The traditional fullscreen 3dfx mesa driver 
-The DRI-GLX based banshee/voodoo3 driver 
-The utah-GLX matrox G200/G400 driver 
-The temporary utah-GLX nvidia driver 
+The traditional fullscreen 3dfx mesa driver  
+The DRI-GLX based banshee/voodoo3 driver  
+The utah-GLX matrox G200/G400 driver  
+The temporary utah-GLX nvidia driver  
 The newly born utah-GLX ATI Rage Pro driver
 
-If anyone is interested, join the developer list off of: http://glx.on.openprojects.net/
+If anyone is interested, join the developer list off of: <http://glx.on.openprojects.net/>
 
 Doing a proper job would require a really good knowledge of the OpenGL specification, and a meticulous style, but it wouldn't require hardcore registers-and-dma driver writing skills, only basic glut programming.
 
 If someone does wind up developing a good suite of tools and procedures and gives one of the drivers a really good set of feedback, I would be happy to provide extra video cards so they could beat up all the implementations.
 
 
-### John Carmack's .plan for Dec 15, 1999
+## John Carmack's .plan for Dec 15, 1999
 
 Anna Kang left Id a couple weeks ago to found her own company - Fountainhead Entertainment.
 
@@ -2096,18 +2107,18 @@ Now that Q3A has shipped, the official winner of her Id Software figurine chess 
 An honorable mention goes to Reine Hogberg and Peder Hardings for their Q3A Blair Witch Project. They will receive silver Q3A medallions.
 
 
-### John Carmack's .plan for Dec 21, 1999
+## John Carmack's .plan for Dec 21, 1999
 
 The Q3 game source code is getting pushed back a bit because we had to do some rearranging in the current codebase to facilitate the release, and we don't want to release in-progress code before the official binary point release.
 
 We still have a Christmas present for the coders, though:
 
-http://www.idsoftware.com/q1source/
+<http://www.idsoftware.com/q1source/>
 
 Happy holidays!
 
 
-### John Carmack's .plan for Dec 25, 1999
+## John Carmack's .plan for Dec 25, 1999
 
 There are a number of people upset about the Quake 1 source code release, because it is allowing cheating in existing games.
 
@@ -2115,7 +2126,7 @@ There will be a sorting out period as people figure out what directions the Quak
 
 Here's what needs to be done:
 
-You have to assume the server is trusted. Because of the way quake mods work, It has always been possible to have server side cheats along the lines of "if name == mine, scale damage by 75%". You have to trust the server operator.
+You have to assume the server is trusted. Because of the way quake mods work, It has always been possible to have server side cheats along the lines of `if name == mine, scale damage by 75%`. You have to trust the server operator.
 
 So, the problem then becomes a matter of making sure the clients are all playing with an acceptable version before allowing them to connect to the server. You obviously can't just ask the client, because if it is hacked it can just tell you what you want to hear. Because of the nature of the GPL, you can't just have a hidden part of the code to do verification.
 
@@ -2130,7 +2141,7 @@ Nothing in online games is cheat-proof (there is allways the device driver level
 People can start working on this immediately. There is some prior art in various unix games that would probably be helpfull. It would also be a good idea to find some crypto hackers to review proposed proxy communication strategies.
 
 
-### John Carmack's .plan for Dec 29, 1999
+## John Carmack's .plan for Dec 29, 1999
 
 I have been playing a lot of Q3 on a 28.8 modem for the last several days.
 
@@ -2150,13 +2161,13 @@ Don't play on madhouse levels with tons of players. None of the normal Q3 maps w
 
 Don't play in the wide open maps unless there are only a couple other players. Four very active players in a wide open area are enough to bog down a modem connection.
 
-I just implemented "sv_minPing" / "sv_maxPing" options so servers can restrict themselves to only low ping or high ping players. This is done based on the ping of the challenge response packet, rather than any in-game pings. There are a few issues with that - a LPB may occasionally get into a HPB server if they happen to get a network hiccup at just the right time, and the number used as a gate will be closer to the number shown in the server list, rather than the number seen in gameplay. I would reccomend "sv_minPing 200" as a reasonable breakpoint.
+I just implemented `sv_minPing` / `sv_maxPing` options so servers can restrict themselves to only low ping or high ping players. This is done based on the ping of the challenge response packet, rather than any in-game pings. There are a few issues with that - a LPB may occasionally get into a HPB server if they happen to get a network hiccup at just the right time, and the number used as a gate will be closer to the number shown in the server list, rather than the number seen in gameplay. I would reccomend `sv_minPing 200` as a reasonable breakpoint.
 
 
-### John Carmack's .plan for Dec 30, 1999
+## John Carmack's .plan for Dec 30, 1999
 
 Several people have mentioned an existing anti-cheat QW proxy that should also be applicable to modified versions:
 
-http://www.students.tut.fi/~zibbo/qizmo/
+<http://www.students.tut.fi/~zibbo/qizmo/>
 
 

@@ -1,4 +1,4 @@
-# 1998
+# 1997
 
 ## John Carmack's .plan for Jan 12, 1997
 

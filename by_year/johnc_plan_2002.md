@@ -1,4 +1,6 @@
-### John Carmack's .plan for Feb 11, 2002
+# 2002
+
+## John Carmack's .plan for Feb 11, 2002
 
 Last month I wrote the Radeon 8500 support for Doom.
 
@@ -16,7 +18,7 @@ The vertex program extensions provide almost the same functionality. The ATI har
 
 I have mixed feelings about the vertex object / vertex array range extensions. ATI's extension seems more "right" in that it automatically handles synchronization by default, and could be implemented as a wire protocol, but there are advantages to the VAR extension being simply a hint. It is easy to have a VAR program just fall back to normal virtual memory by not setting the hint and using malloc, but ATI's extension requires different function calls for using vertex objects and normal vertex arrays.
 
-The fragment level processing is clearly way better on the 8500 than on the Nvidia products, including the latest GF4. You have six individual textures, but you can access the textures twice, giving up to eleven possible texture accesses in a single pass, and the dependent texture operation is much more sensible. This wound up being a perfect fit for Doom, because the standard path could be implemented with six unique textures, but required one texture (a normalization cube map) to be accessed twice. The vast majority of Doom light / surface interaction rendering will be a single pass on the 8500, in contrast to two or three passes, depending on the number of color components in a light, for GF3/GF4 (*note GF4 bitching later on).
+The fragment level processing is clearly way better on the 8500 than on the Nvidia products, including the latest GF4. You have six individual textures, but you can access the textures twice, giving up to eleven possible texture accesses in a single pass, and the dependent texture operation is much more sensible. This wound up being a perfect fit for Doom, because the standard path could be implemented with six unique textures, but required one texture (a normalization cube map) to be accessed twice. The vast majority of Doom light / surface interaction rendering will be a single pass on the 8500, in contrast to two or three passes, depending on the number of color components in a light, for GF3/GF4 (\*note GF4 bitching later on).
 
 Initial performance testing was interesting. I set up three extreme cases to exercise different characteristics:
 
@@ -41,14 +43,14 @@ As usual, there will be better cards available from both Nvidia and ATI by the t
 8:50 pm addendum: Mark Kilgard at Nvidia said that the current drivers already support the vertex program option to be invarint with the fixed function path, and that it turned out to be one instruction FASTER, not slower.
 
 
-### John Carmack's .plan for Mar 15, 2002
+## John Carmack's .plan for Mar 15, 2002
 
 Mark Kilgard and Cass Everitt at Nvidia have released a paper on shadow volume rendering with several interesting bits in it. They also include a small document that I wrote a couple years ago about my discovery process during the development of some of the early Doom technology.
 
-http://developer.nvidia.com/view.asp?IO=robust_shadow_volumes
+<http://developer.nvidia.com/view.asp?IO=robust_shadow_volumes>
 
 
-### John Carmack's .plan for Jun 25, 2002
+## John Carmack's .plan for Jun 25, 2002
 
 The Matrox Parhelia Report:
 
@@ -69,7 +71,7 @@ Anti aliasing features are nice, but it isn't all that fast in minimum feature m
 Displacement mapping. Sigh. I am disappointed that the industry is still pursuing any quad based approaches. Haven't we learned from the stellar success of 3DO, Saturn, and NV1 that quads really suck? In any case, we can't use any geometry amplification scheme (including ATI's truform) in conjunction with stencil shadow volumes.
 
 
-### John Carmack's .plan for Jun 27, 2002
+## John Carmack's .plan for Jun 27, 2002
 
 More graphics card notes:
 
@@ -77,11 +79,11 @@ I need to apologize to Matrox - their implementation of hardware displacement ma
 
 I got a 3Dlabs P10 card in last week, and yesterday I put it through its paces. Because my time is fairly over committed, first impressions often determine how much work I devote to a given card. I didn't speak to ATI for months after they gave me a beta 8500 board last year with drivers that rendered the console incorrectly. :)
 
-I was duly impressed when the P10 just popped right up with full functional support for both the fallback ARB_ extension path (without specular highlights), and the NV10 NVidia register combiners path. I only saw two issues that were at all incorrect in any of our data, and one of them is debatable. They don't support NV_vertex_program_1_1, which I use for the NV20 path, and when I hacked my programs back to 1.0 support for testing, an issue did show up, but still, this is the best showing from a new board from any company other than Nvidia.
+I was duly impressed when the P10 just popped right up with full functional support for both the fallback `ARB_` extension path (without specular highlights), and the NV10 NVidia register combiners path. I only saw two issues that were at all incorrect in any of our data, and one of them is debatable. They don't support `NV_vertex_program_1_1`, which I use for the NV20 path, and when I hacked my programs back to 1.0 support for testing, an issue did show up, but still, this is the best showing from a new board from any company other than Nvidia.
 
 It is too early to tell what the performance is going to be like, because they don't yet support a vertex object extension, so the CPU is hand feeding all the vertex data to the card at the moment. It was faster than I expected for those circumstances.
 
-Given the good first impression, I was willing to go ahead and write a new back end that would let the card do the entire Doom interaction rendering in a single pass. The most expedient sounding option was to just use the Nvidia extensions that they implement, NV_vertex_program and NV_register_combiners, with seven texture units instead of the four available on GF3/GF4. Instead, I decided to try using the prototype OpenGL 2.0 extensions they provide.
+Given the good first impression, I was willing to go ahead and write a new back end that would let the card do the entire Doom interaction rendering in a single pass. The most expedient sounding option was to just use the Nvidia extensions that they implement, `NV_vertex_program` and `NV_register_combiners`, with seven texture units instead of the four available on GF3/GF4. Instead, I decided to try using the prototype OpenGL 2.0 extensions they provide.
 
 The implementation went very smoothly, but I did run into the limits of their current prototype compiler before the full feature set could be implemented. I like it a lot. I am really looking forward to doing research work with this programming model after the compiler matures a bit. While the shading languages are the most critical aspects, and can be broken out as extensions to current OpenGL, there are a lot of other subtle-but-important things that are addressed in the full OpenGL 2.0 proposal.
 
